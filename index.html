@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Stock Ideas">
+<meta name="theme-color" content="#f6f5f1" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121416" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" href="icons/icon-192.png">
+<title>Daily Stock Ideas</title>
+<style>
+  :root{
+    --bg:#f6f5f1; --card:#ffffff; --ink:#1b1d1f; --muted:#62676d; --line:#e3e1da;
+    --accent:#0f5a47; --accent-soft:#e3efe9; --pos:#11795a; --neg:#b3382c;
+    --r-low:#2e7d5b; --r-mid:#b7791f; --r-high:#b3382c;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#121416; --card:#1b1e21; --ink:#e9eaeb; --muted:#9aa0a6; --line:#2c3034;
+      --accent:#5fc3a1; --accent-soft:#1d332c; --pos:#5fc3a1; --neg:#ef7b6e;
+      --r-low:#5fc3a1; --r-mid:#e0b25a; --r-high:#ef7b6e; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+  .wrap{max-width:860px;margin:0 auto;padding:calc(20px + env(safe-area-inset-top)) calc(16px + env(safe-area-inset-right)) calc(64px + env(safe-area-inset-bottom)) calc(16px + env(safe-area-inset-left))}
+  .refresh{margin-left:8px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:2px 10px;font-size:12px;cursor:pointer}
+  header h1{font-size:22px;margin:0 0 2px;letter-spacing:-.01em}
+  header .sub{color:var(--muted);font-size:13px}
+  nav{display:flex;gap:6px;margin:18px 0 16px;overflow-x:auto}
+  nav a{padding:7px 14px;border-radius:999px;border:1px solid var(--line);color:var(--ink);
+    text-decoration:none;font-size:14px;white-space:nowrap;background:var(--card)}
+  nav a.on{background:var(--accent);border-color:var(--accent);color:#fff}
+  @media (prefers-color-scheme: dark){ nav a.on{color:#0d1512} }
+  section{display:none} section.on{display:block}
+  .box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin-bottom:14px}
+  .box h2{font-size:15px;margin:0 0 8px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+  ul{margin:0;padding-left:18px} li{margin:3px 0}
+  .idea{background:var(--card);border:1px solid var(--line);border-radius:14px;margin-bottom:16px;overflow:hidden}
+  .idea-head{padding:16px 16px 12px;border-bottom:1px solid var(--line)}
+  .rank{font-size:12px;color:var(--muted);font-weight:600;letter-spacing:.05em}
+  .idea-head h3{margin:2px 0 6px;font-size:19px}
+  .idea-head h3 .tk{color:var(--muted);font-weight:500;font-size:14px;margin-left:6px}
+  .tags{display:flex;flex-wrap:wrap;gap:6px}
+  .tag{font-size:12px;padding:2px 9px;border-radius:999px;background:var(--accent-soft);color:var(--accent);font-weight:600}
+  .tag.risk-niedrig{background:transparent;border:1px solid var(--r-low);color:var(--r-low)}
+  .tag.risk-mittel{background:transparent;border:1px solid var(--r-mid);color:var(--r-mid)}
+  .tag.risk-hoch{background:transparent;border:1px solid var(--r-high);color:var(--r-high)}
+  .px{display:flex;flex-wrap:wrap;gap:18px;padding:12px 16px;border-bottom:1px solid var(--line)}
+  .px div{min-width:110px}
+  .px .l{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+  .px .v{font-size:17px;font-weight:650}
+  .px .v.pos{color:var(--pos)}
+  .body{padding:14px 16px}
+  .body h4{margin:14px 0 6px;font-size:13px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+  .body h4:first-child{margin-top:0}
+  .metrics{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px}
+  .metric{border:1px solid var(--line);border-radius:10px;padding:7px 10px}
+  .metric .l{font-size:11px;color:var(--muted)} .metric .v{font-weight:600;font-size:14px}
+  .bb{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  @media (max-width:560px){.bb{grid-template-columns:1fr}}
+  .bb div{border-radius:10px;padding:10px 12px;font-size:14px}
+  .bull{background:color-mix(in srgb,var(--pos) 10%,transparent)}
+  .bear{background:color-mix(in srgb,var(--neg) 10%,transparent)}
+  .bb b{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:3px}
+  .cat{border-left:3px solid var(--accent);padding:4px 10px;font-size:14px}
+  .src{font-size:12.5px;color:var(--muted)} .src a{color:var(--accent)}
+  .fvnote{font-size:12.5px;color:var(--muted);margin-top:4px}
+  table{width:100%;border-collapse:collapse;font-size:14px}
+  th,td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:600}
+  td.num,th.num{text-align:right;white-space:nowrap}
+  .pos{color:var(--pos)} .neg{color:var(--neg)}
+  .status{font-size:12px;font-weight:600}
+  .scroll{overflow-x:auto}
+  @media (max-width:480px){ table{font-size:12.5px} th,td{padding:7px 3px} th{font-size:10px;letter-spacing:.02em} }
+  details{border-top:1px solid var(--line);padding:10px 0}
+  details summary{cursor:pointer;font-weight:600}
+  .empty{color:var(--muted);font-style:italic}
+  footer{color:var(--muted);font-size:12px;margin-top:24px;line-height:1.55}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Daily Stock Ideas</h1>
+    <div class="sub"><span id="sub"></span><button class="refresh" onclick="load()">Aktualisieren</button></div>
+  </header>
+  <nav>
+    <a href="#heute" data-v="heute">Heute</a>
+    <a href="#watchlist" data-v="watchlist">Watchlist</a>
+    <a href="#archiv" data-v="archiv">Archiv</a>
+    <a href="#methodik" data-v="methodik">Methodik</a>
+  </nav>
+
+  <section id="v-heute"></section>
+  <section id="v-watchlist"></section>
+  <section id="v-archiv"></section>
+  <section id="v-methodik">
+    <div class="box">
+      <h2>Auswahlkriterien</h2>
+      <ul>
+        <li><b>Universum:</b> weltweit, Small bis Large Caps (ab ca. 300 Mio. Marktkapitalisierung), keine Sektor-Ausschlüsse.</li>
+        <li><b>Ideentypen:</b> Deep Value, Wachstumsstory, GARP (Growth at a Reasonable Price).</li>
+        <li><b>Trigger:</b> Earnings/Guidance, Insiderkäufe und Buybacks, M&amp;A und Corporate Actions, Sektor- und Makro-Themen.</li>
+        <li><b>Horizont:</b> mittelfristig, 6–24 Monate.</li>
+        <li><b>Hürde:</b> hoch. Typisch 0–3 Ideen, maximal 5. Ein leerer Tag ist ein gültiges Ergebnis.</li>
+        <li><b>Andere Assets:</b> Anleihen, Edelmetalle, Rohstoffe und ETFs kommen nur rein, wenn das Setup besser ist als die beste Aktienidee.</li>
+        <li><b>Fair Value:</b> eigene Schätzung (Multiple auf Konsens- bzw. Guidance-EPS), Herleitung steht bei jeder Idee.</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h2>Risiko-Label</h2>
+      <ul>
+        <li><b>Niedrig:</b> profitabel, solide Bilanz, geringe Volatilität.</li>
+        <li><b>Mittel:</b> profitabel, aber zyklisch, mit Bewertungs- oder Umsetzungsrisiko.</li>
+        <li><b>Hoch:</b> hohe Volatilität (Beta &gt; 2), Verschuldung oder eine binäre These.</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    Research-Ideen aus öffentlich zugänglichen Quellen, keine Anlageberatung und keine Kauf- oder Verkaufsempfehlung.
+    Kurse und Kennzahlen können verzögert sein, Datenstand und Quellen stehen jeweils bei der Idee. Eigene Prüfung vor jeder Entscheidung.
+  </footer>
+</div>
+
+
+
+<script>
+function render(D){
+  var esc = function(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});};
+  var fmt = function(n,d){return Number(n).toLocaleString('de-DE',{minimumFractionDigits:d==null?2:d,maximumFractionDigits:d==null?2:d});};
+  var pct = function(a,b){return (b/a-1)*100;};
+  var sign = function(x){return (x>0?'+':'')+fmt(x,1)+' %';};
+  var dDE = function(iso){var p=iso.split('-');return p[2]+'.'+p[1]+'.'+p[0];};
+
+  var upd = new Date(D.updated);
+  document.getElementById('sub').textContent = 'Stand: ' + upd.toLocaleString('de-DE',{dateStyle:'medium',timeStyle:'short'}) + ' · Ideen, keine Anlageberatung';
+
+  function ideaHTML(it, i){
+    var upLo = pct(it.price, it.fairValueLow), upHi = pct(it.price, it.fairValueHigh);
+    var h = '<article class="idea"><div class="idea-head">';
+    h += '<div class="rank">IDEE ' + (i+1) + ' · ' + esc(it.exchange) + ' · ' + esc(it.country) + '</div>';
+    h += '<h3>' + esc(it.name) + '<span class="tk">' + esc(it.ticker) + '</span></h3>';
+    h += '<div class="tags"><span class="tag">' + esc(it.type) + '</span><span class="tag risk-' + esc(it.risk) + '">Risiko ' + esc(it.risk) + '</span><span class="tag">' + esc(it.horizon) + '</span><span class="tag">' + esc(it.sector) + '</span></div></div>';
+    h += '<div class="px"><div><div class="l">Kurs</div><div class="v">' + fmt(it.price) + ' ' + esc(it.currency) + '</div><div class="fvnote">' + esc(it.priceDate) + '</div></div>';
+    h += '<div><div class="l">Fair Value</div><div class="v">' + fmt(it.fairValueLow,0) + '–' + fmt(it.fairValueHigh,0) + ' ' + esc(it.currency) + '</div></div>';
+    h += '<div><div class="l">Upside</div><div class="v pos">' + sign(upLo) + ' bis ' + sign(upHi) + '</div></div>';
+    h += '<div><div class="l">Marktkap.</div><div class="v" style="font-size:14px">' + esc(it.marketCap) + '</div></div></div>';
+    h += '<div class="body"><h4>Warum jetzt</h4><ul>' + it.bullets.map(function(b){return '<li>'+esc(b)+'</li>';}).join('') + '</ul>';
+    h += '<h4>Kennzahlen</h4><div class="metrics">' + it.metrics.map(function(m){return '<div class="metric"><div class="l">'+esc(m.l)+'</div><div class="v">'+esc(m.v)+'</div></div>';}).join('') + '</div>';
+    h += '<div class="fvnote">Fair-Value-Herleitung: ' + esc(it.fairValueMethod) + '</div>';
+    h += '<h4>Bull / Bear</h4><div class="bb"><div class="bull"><b>Bull-Case</b>' + esc(it.bull) + '</div><div class="bear"><b>Bear-Case & Risiken</b>' + esc(it.bear) + '</div></div>';
+    h += '<h4>Nächster Katalysator</h4><div class="cat"><b>' + esc(it.catalyst.date) + '</b><br>' + esc(it.catalyst.event) + '</div>';
+    h += '<h4>Quellen</h4><div class="src">' + it.sources.map(function(s){return '<a href="'+esc(s.u)+'" target="_blank" rel="noopener">'+esc(s.t)+'</a>';}).join(' · ') + '</div>';
+    h += '</div></article>';
+    return h;
+  }
+
+  function editionHTML(e){
+    var h = '';
+    if (e.marketContext && e.marketContext.length){
+      h += '<div class="box"><h2>Markt-Kontext</h2><ul>' + e.marketContext.map(function(m){return '<li>'+esc(m)+'</li>';}).join('') + '</ul></div>';
+    }
+    if (e.ideas && e.ideas.length){
+      h += e.ideas.map(ideaHTML).join('');
+    } else {
+      h += '<div class="box"><h2>Top-Ideen</h2><p class="empty">' + esc(e.noIdeasNote || 'Heute erfüllt kein Setup die Qualitätshürde. Keine neue Idee.') + '</p></div>';
+    }
+    if (e.notPicked && e.notPicked.length){
+      h += '<div class="box"><h2>Geprüft, aber nicht aufgenommen</h2><ul>' + e.notPicked.map(function(m){return '<li>'+esc(m)+'</li>';}).join('') + '</ul></div>';
+    }
+    return h;
+  }
+
+  // Heute
+  var e0 = D.editions[0];
+  document.getElementById('v-heute').innerHTML =
+    '<div class="sub" style="margin:-4px 0 12px;color:var(--muted)">Ausgabe ' + dDE(e0.date) + (e0.label ? ' · ' + esc(e0.label) : '') + ' · ' + (e0.ideas.length) + ' Idee' + (e0.ideas.length===1?'':'n') + '</div>' + editionHTML(e0);
+
+  // Watchlist
+  var w = '<div class="box"><h2>Watchlist · Performance seit Nennung</h2><div class="scroll"><table><thead><tr><th>Titel</th><th class="num">Einstand</th><th class="num">Aktuell</th><th class="num">Perf.</th><th class="num">Bis FV (Mitte)</th><th>These</th></tr></thead><tbody>';
+  D.watchlist.forEach(function(x){
+    var p = pct(x.priceAdded, x.lastPrice), fv = pct(x.lastPrice, (x.fvLow + x.fvHigh)/2);
+    var cls = p>0.05?'pos':(p<-0.05?'neg':'');
+    var st = x.status==='intakt'?'pos':(x.status==='gebrochen'?'neg':'');
+    w += '<tr><td><b>' + esc(x.ticker) + '</b><br><span style="color:var(--muted);font-size:12px">' + esc(x.name) + '<br>seit ' + dDE(x.added) + '</span></td><td class="num">' + fmt(x.priceAdded) + '</td><td class="num">' + fmt(x.lastPrice) + '<br><span style="color:var(--muted);font-size:11px">' + dDE(x.lastDate) + '</span></td><td class="num ' + cls + '">' + sign(p) + '</td><td class="num">' + sign(fv) + '</td><td><span class="status ' + st + '">' + esc(x.status) + '</span><br><span style="font-size:12px;color:var(--muted)">' + esc(x.note) + '</span></td></tr>';
+  });
+  w += '</tbody></table></div></div>';
+  document.getElementById('v-watchlist').innerHTML = w;
+
+  // Archiv
+  var a = '<div class="box"><h2>Frühere Ausgaben</h2>';
+  if (D.editions.length < 2){ a += '<p class="empty">Noch keine früheren Ausgaben. Das Archiv füllt sich ab der nächsten Ausgabe.</p>'; }
+  D.editions.slice(1).forEach(function(e){
+    a += '<details><summary>' + dDE(e.date) + ' · ' + (e.ideas.length ? e.ideas.map(function(i){return esc(i.ticker);}).join(', ') : 'keine Idee') + '</summary>' + editionHTML(e) + '</details>';
+  });
+  a += '</div>';
+  document.getElementById('v-archiv').innerHTML = a;
+
+  // Routing
+  function show(){
+    var v = (location.hash || '#heute').slice(1);
+    if (!document.getElementById('v-'+v)) v = 'heute';
+    document.querySelectorAll('section').forEach(function(s){s.classList.toggle('on', s.id==='v-'+v);});
+    document.querySelectorAll('nav a').forEach(function(n){n.classList.toggle('on', n.dataset.v===v);});
+  }
+  window.removeEventListener('hashchange', show); window.addEventListener('hashchange', show); show();
+  window.__show = show;
+}
+function load(){
+  fetch('data.json?t=' + Date.now(), {cache:'no-store'})
+    .then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); })
+    .then(render)
+    .catch(function(){
+      document.getElementById('v-heute').innerHTML = '<div class="box"><p class="empty">Daten konnten nicht geladen werden. Bitte Verbindung prüfen und neu laden.</p></div>';
+      document.getElementById('v-heute').classList.add('on');
+    });
+}
+load();
+document.addEventListener('visibilitychange', function(){ if(document.visibilityState==='visible') load(); });
+if ('serviceWorker' in navigator) { navigator.serviceWorker.register('sw.js').catch(function(){}); }
+</script>
+</body>
+</html>

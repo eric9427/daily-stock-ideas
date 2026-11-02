@@ -1,0 +1,218 @@
+{
+  "updated": "2026-11-02T21:30:00+01:00",
+  "editions": [
+    {
+      "date": "2026-11-02",
+      "label": "Probeausgabe",
+      "marketContext": [
+        "Tech nach schwachem Oktober angeschlagen: Der Nasdaq verlor im Oktober 5,3 % (schwächster Monat seit März 2025), am Freitag allein 2,9 % nach Amazon- und Alphabet-Zahlen und wachsenden Zweifeln an der Rendite der AI-Investitionen. Heute versucht der Markt eine Erholung.",
+        "Öl fiel heute um rund 7 %, weil Gespräche zwischen den USA und Iran erwartet werden. Das entlastet die Inflationssorgen. Die 10-jährige US-Rendite steht bei ca. 4,94 %, nach einem 24-Jahres-Hoch von 5,36 % Anfang Oktober.",
+        "Termine der Woche: Apple-Zahlen heute nach US-Börsenschluss, US-Midterms am Dienstag, Arbeitsmarktbericht am Freitag. Erhöhte Volatilität ist wahrscheinlich.",
+        "Gold notiert bei ca. 3.976 $ und war Ende Oktober erstmals seit einem Jahr unter 4.000 $ gefallen."
+      ],
+      "ideas": [
+        {
+          "ticker": "TTMI",
+          "name": "TTM Technologies",
+          "exchange": "Nasdaq",
+          "country": "USA",
+          "sector": "Leiterplatten / AI-Hardware & Rüstung",
+          "type": "GARP",
+          "risk": "hoch",
+          "horizon": "6–18 Monate",
+          "price": 85.0,
+          "currency": "USD",
+          "priceDate": "02.11.2026 (intraday)",
+          "marketCap": "8,7 Mrd. $ (Mid Cap)",
+          "fairValueLow": 120,
+          "fairValueHigh": 135,
+          "fairValueMethod": "14–16x EPS 2027e (Mitte der Guidance: 8,50 $). Der Fünfjahresschnitt des Forward-KGV liegt bei ca. 16x.",
+          "metrics": [
+            {
+              "l": "Umsatz Q3/26",
+              "v": "1,20 Mrd. $ (+60 % y/y)"
+            },
+            {
+              "l": "Adj. EPS Q3/26",
+              "v": "1,46 $ (+118 %)"
+            },
+            {
+              "l": "EPS-Guide 2026",
+              "v": "4,97–5,03 $"
+            },
+            {
+              "l": "Erster Ausblick 2027",
+              "v": "Umsatz 6,5–6,75 Mrd. $ · EPS 8,10–8,90 $"
+            },
+            {
+              "l": "KGV 2027e",
+              "v": "ca. 10x"
+            },
+            {
+              "l": "Book-to-Bill Q3",
+              "v": "2,1"
+            },
+            {
+              "l": "Adj. EBITDA-Marge",
+              "v": "20,1 % (Rekord)"
+            },
+            {
+              "l": "EV",
+              "v": "ca. 9,6 Mrd. $ (Netto-Schulden ~0,9 Mrd. $)"
+            }
+          ],
+          "bullets": [
+            "Die Aktie fiel am 22.10. um 28 %, obwohl das Quartal ein Rekord war und über den Erwartungen lag. Auslöser war allein der Q4-Umsatzausblick (1,42–1,44 Mrd. $), der knapp unter dem Konsens lag, an einem schwachen Tag für AI-Hardware.",
+            "Der erste Ausblick auf 2027 liegt deutlich über dem Konsens: EPS 8,10–8,90 $ gegenüber ca. 7,24 $ erwartet. Damit handelt die Aktie bei rund 10x 2027e, vor dem Report waren es 15x.",
+            "Insider kaufen in der Schwäche: CEO Edwin Roks und Direktor Wajid Ali kauften am 28.10. zusammen für rund 1,34 Mio. $ bei 88–91 $, also über dem heutigen Kurs. Zuvor hatten Insider im Sommer bei über 200 $ verkauft.",
+            "Das Geschäft hat zwei Standbeine: Data Center & Networking macht 41 % des Umsatzes aus (+115 % y/y), Aerospace & Defense 34 % mit einem Rekord-Backlog von 2 Mrd. $ (Book-to-Bill 1,6).",
+            "Die Lücke im DC-Umsatz kommt laut Management von einem verschobenen Kundenprojekt (eins von drei), nicht von Nachfrage, Lieferkette oder Ausbeute. Der Ramp soll Ende Q4 beginnen, die volle Produktion in Q1 folgen."
+          ],
+          "bull": "Die 2027-Guidance wird erreicht und der Anteil margenstarker N+M-Produkte steigt wie geplant auf ca. 50 %. Dann expandieren die Margen um mehr als 200 bp, und ein Re-Rating auf 16x ergibt über 135 $.",
+          "bear": "Die Hyperscaler kürzen ihre AI-Capex, die Integration der drei Übernahmen läuft holprig oder Projekte verschieben sich erneut. Bei EPS 2027 von 7 $ und 10x läge der Kurs bei ca. 70 $ (−18 %). Die Beta von ca. 3 bedeutet heftige Schwankungen.",
+          "catalyst": {
+            "event": "Ramp des verschobenen DC-Programms; Q4-Zahlen mit finalem Ausblick 2027",
+            "date": "voraussichtlich Anfang Feb. 2027 (nicht bestätigt)"
+          },
+          "sources": [
+            {
+              "t": "TIKR: TTM sinks 28% despite quarterly records",
+              "u": "https://www.tikr.com/blog/ttm-technologies-sinks-28-despite-quarterly-records-as-q4-outlook-only-matches-estimates"
+            },
+            {
+              "t": "Benzinga: Q3-2026-Kennzahlen und Guidance",
+              "u": "https://kr.benzinga.com/quote/TTMI/financials"
+            },
+            {
+              "t": "Quiver Quant: Insiderkäufe 29.10.2026",
+              "u": "https://www.quiverquant.com/news/Insider+Stock+Purchases:+October+29,+2026"
+            },
+            {
+              "t": "Earnings Call Q3 2026 (Zusammenfassung)",
+              "u": "https://statementdog.com/analysis/TTMI/earnings_calls/321303"
+            },
+            {
+              "t": "Robinhood: Kurs 02.11.2026",
+              "u": "https://robinhood.com/us/en/stocks/TTMI/"
+            }
+          ]
+        },
+        {
+          "ticker": "EME",
+          "name": "EMCOR Group",
+          "exchange": "NYSE",
+          "country": "USA",
+          "sector": "Elektro- & Mechanik-Bau / Rechenzentren",
+          "type": "GARP",
+          "risk": "mittel",
+          "horizon": "6–24 Monate",
+          "price": 689.32,
+          "currency": "USD",
+          "priceDate": "Schluss 30.10.2026",
+          "marketCap": "ca. 30 Mrd. $ (Large Cap)",
+          "fairValueLow": 830,
+          "fairValueHigh": 900,
+          "fairValueMethod": "21–23x EPS 2027e von ca. 39–40 $. Das ist eine eigene Schätzung: Mitte der Guidance 2026 (35 $) plus ca. 12 % Wachstum, konservativ gegenüber dem Backlog-Wachstum. Analysten-Kursziele liegen bei 795–1.200 $.",
+          "metrics": [
+            {
+              "l": "Umsatz Q3/26",
+              "v": "5,54 Mrd. $ (+28,8 %, organisch +25,5 %)"
+            },
+            {
+              "l": "Adj. EPS Q3/26",
+              "v": "9,60 $ (+46 %) vs. 8,37 $ erw."
+            },
+            {
+              "l": "EPS-Guide 2026 (erhöht)",
+              "v": "34,50–35,50 $"
+            },
+            {
+              "l": "KGV 2026e",
+              "v": "ca. 19,7x"
+            },
+            {
+              "l": "Backlog (RPO)",
+              "v": "18,57 Mrd. $ (Rekord)"
+            },
+            {
+              "l": "Adj. operative Marge",
+              "v": "10,5 % (+110 bp)"
+            },
+            {
+              "l": "Abstand zum Hoch",
+              "v": "ca. −19 % seit 06.10."
+            }
+          ],
+          "bullets": [
+            "Das Q3 lag deutlich über den Erwartungen (EPS 9,60 $ gegenüber 8,37 $), und die Guidance wurde erneut angehoben. Trotzdem notiert die Aktie rund 19 % unter dem Hoch vom 6. Oktober, belastet von der allgemeinen Skepsis gegenüber Rechenzentrumswerten.",
+            "Der Rekord-Backlog von 18,57 Mrd. $ entspricht knapp einem Jahresumsatz (Guide 2026: 20,6–21,0 Mrd. $), der bereits vertraglich gesichert ist. Am stärksten wächst Network & Communications, wo Rechenzentren Strominfrastruktur und Kühlung brauchen.",
+            "Die Margen-Sorge wurde entkräftet: Electrical Construction kam auf 13,3 % operative Marge, die Konzernmarge stieg um 110 bp. Das gelang trotz eines höheren Anteils an Cost-Plus- und GMP-Verträgen im Mechanical-Segment.",
+            "Rund 20x 2026e für ca. 45 % EPS-Wachstum im Quartal: Das ist eine Picks-and-Shovels-Beteiligung am AI-Ausbau, ohne das Technologie- und Zyklusrisiko der Chiphersteller."
+          ],
+          "bull": "Der Backlog wird zügig in Umsatz umgewandelt und die Margen halten über 10 %. Dann liegt das EPS 2027 über 40 $, und ein Multiple von 24x ergibt mehr als 960 $.",
+          "bear": "Eine Pause bei den Rechenzentrums-Investitionen (die Debatte um die AI-Rendite läuft) würde treffen, ebenso weitere Margenverwässerung durch den Vertragsmix oder Übernahmen. Bei 16x 2026e läge der Kurs bei ca. 560 $ (−19 %).",
+          "catalyst": {
+            "event": "Q4/Gesamtjahreszahlen mit erster Guidance 2027",
+            "date": "voraussichtlich Ende Feb. 2027 (nicht bestätigt)"
+          },
+          "sources": [
+            {
+              "t": "Investing.com: EMCOR beat & raised guidance",
+              "u": "https://www.investing.com/news/earnings/emcor-group-stock-rises-2-on-earnings-beat-raised-guidance-93CH-4983114"
+            },
+            {
+              "t": "MarketBeat: Q3 Earnings Call Highlights",
+              "u": "https://www.marketbeat.com/instant-alerts/transcript-emcor-group-q3-earnings-call-highlights-2026-10-29/"
+            },
+            {
+              "t": "Earnings Whispers: Q3-Transcript & Kurs",
+              "u": "https://www.earningswhispers.com/transcript/EME/Q32026"
+            },
+            {
+              "t": "Trefis: EME −19 % seit 6.10.",
+              "u": "https://www.trefis.com/stock/eme/articles/620975/can-emcor-stock-rally-50-after-this-dip/2026-10-28"
+            },
+            {
+              "t": "Google Finance: Analysten-Kursziele",
+              "u": "https://www.google.com/finance/quote/EME:NYSE"
+            }
+          ]
+        }
+      ],
+      "notPicked": [
+        "Anleihen (US-Treasuries 7–10 J.): Die Rendite von ca. 4,9 % liegt nahe dem 24-Jahres-Hoch, und der Ölpreisrückgang ist ein möglicher Rückenwind. Bei einer Fed-Inflationsprojektion von 3,7 % (PCE 2026) bleibt die Realrendite aber dünn. Noch kein Top-Setup, ich beobachte es weiter.",
+        "Gold: Der Bruch unter 4.000 $ hat sich noch nicht stabilisiert, und hohe Realrenditen sind Gegenwind. Kein Pick.",
+        "Adobe (ADBE): Deep Value mit einem Forward-KGV um 10x, aber ohne neuen Katalysator vor den Dezember-Zahlen. Die AI-Disruptions-These ist ungelöst.",
+        "Coherent (COHR): Möglicher Profiteur des Marvell-Lumentum-Deals als unabhängiger Optik-Anbieter, nach einer Rally von über 300 % in zwölf Monaten aber kein Value mehr."
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "ticker": "TTMI",
+      "name": "TTM Technologies",
+      "added": "2026-11-02",
+      "priceAdded": 85.0,
+      "lastPrice": 85.0,
+      "lastDate": "2026-11-02",
+      "currency": "USD",
+      "fvLow": 120,
+      "fvHigh": 135,
+      "status": "intakt",
+      "note": "Neu aufgenommen"
+    },
+    {
+      "ticker": "EME",
+      "name": "EMCOR Group",
+      "added": "2026-11-02",
+      "priceAdded": 689.32,
+      "lastPrice": 689.32,
+      "lastDate": "2026-10-30",
+      "currency": "USD",
+      "fvLow": 830,
+      "fvHigh": 900,
+      "status": "intakt",
+      "note": "Neu aufgenommen"
+    }
+  ]
+}
