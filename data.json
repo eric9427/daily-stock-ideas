@@ -1,6 +1,108 @@
 {
-  "updated": "2026-11-02T21:30:00+01:00",
+  "updated": "2026-11-03T12:25:00+01:00",
   "editions": [
+    {
+      "date": "2026-11-03",
+      "marketContext": [
+        "US-Midterms heute: Die Märkte handeln vorsichtig. Wettmärkte sehen laut ING die Demokraten mit 70–72 % vorn, und zwar in beiden Kammern. Ergebnisse kommen in der Nacht auf Mittwoch.",
+        "Tech bleibt unter Druck: Die Nasdaq fiel gestern um 1,1 %. Apple notiert vorbörslich mehr als 3 % schwächer, weil teure Speicherchips den Margenausblick belasten. In Europa fallen SAP und Nemetschek, und TeamViewer bricht nach einer Prognosesenkung um rund 25 % ein. Der DAX steht bei ca. 25.800 (−0,6 %).",
+        "Öl schwankt mit den Iran-Nachrichten: Brent fiel gestern um 7,6 % auf ca. 105 $ und stieg heute nach einem US-Angriff auf die Insel Qeshm wieder leicht. Gold steht bei ca. 3.940 $, nahe dem Jahrestief von 3.870 $."
+      ],
+      "ideas": [
+        {
+          "ticker": "RDDT",
+          "name": "Reddit",
+          "exchange": "NYSE",
+          "country": "USA",
+          "sector": "Internet / Social Media & Werbung",
+          "type": "Wachstumsstory",
+          "risk": "hoch",
+          "horizon": "6–24 Monate",
+          "price": 93.55,
+          "currency": "USD",
+          "priceDate": "02.11.2026 (intraday)",
+          "marketCap": "ca. 18–19 Mrd. $ (Large Cap; aus FCF-Rendite und ca. 200 Mio. verwässerten Aktien abgeleitet, Quellen nennen bis 25 Mrd. $)",
+          "fairValueLow": 120,
+          "fairValueHigh": 140,
+          "fairValueMethod": "14–17x EV/FCF auf eine eigene FCF-Schätzung 2027 von ca. 1,5 Mrd. $ (Q3-Run-Rate 1,45 Mrd. $ bei nur moderatem Wachstum), plus ca. 3 Mrd. $ Netto-Cash, geteilt durch ca. 200 Mio. verwässerte Aktien. Die Schätzung ist bewusst konservativ wegen des Traffic-Risikos.",
+          "metrics": [
+            {
+              "l": "Umsatz Q3/26",
+              "v": "895 Mio. $ (+53 % y/y) vs. 877 Mio. $ erw."
+            },
+            {
+              "l": "Net Income Q3/26",
+              "v": "283 Mio. $ (32 % Marge), EPS verw. 1,40 $"
+            },
+            {
+              "l": "Adj. EBITDA-Marge",
+              "v": "45 % (EBITDA +70 % y/y)"
+            },
+            {
+              "l": "FCF Q3 / TTM",
+              "v": "363 Mio. $ (41 % Marge) / ca. 1,2 Mrd. $"
+            },
+            {
+              "l": "FCF-Rendite (TTM)",
+              "v": "ca. 6,8 %"
+            },
+            {
+              "l": "Q4-Guide",
+              "v": "Umsatz 1,00–1,03 Mrd. $ (+38–42 %), adj. EBITDA 480–510 Mio. $"
+            },
+            {
+              "l": "Bilanz",
+              "v": "3,03 Mrd. $ Cash, 31 Mio. $ Schulden"
+            },
+            {
+              "l": "Abstand zum Hoch",
+              "v": "ca. −65 % (ATH 13.01.2026)"
+            }
+          ],
+          "bullets": [
+            "Der Kurs fiel am 30.10. um 29 %, der schlechteste Tag der Firmengeschichte. Dabei lag das Quartal über den Erwartungen: Umsatz +53 %, 32 % Nettomarge, Rekord-FCF von 363 Mio. $. Auslöser war allein ein Q4-Guide knapp unter dem Konsens (Umsatz 1,015 Mrd. $ zur Mitte vs. 1,04 Mrd. $ erwartet).",
+            "Bewertung nach dem Crash: Bei ca. 6,8 % TTM-FCF-Rendite und rund 3 Mrd. $ Netto-Cash zahlt man für ein Geschäft, das noch um ca. 40 % wächst, weniger als 15x FCF. Auf Basis der Q4-EBITDA-Run-Rate (ca. 2 Mrd. $) liegt der EV/EBITDA bei nur ca. 8x (eigene Rechnung).",
+            "Das Kernproblem ist quantifizierbar: Google AI Overviews kosten Logged-out-Traffic, und die DAUq könnten in Q4 zweistellig sinken. Über 80 % der Monetarisierung kommt aber von eingeloggten und App-Nutzern, und diese Gruppe wuchs sequenziell. Der ARPU stieg um 36 %.",
+            "Optionalität aus Data Licensing: Neue Verhandlungen mit AI-Firmen laufen. Gerade weil AI-Antworten Reddit-Inhalte brauchen, aber keinen Traffic zurückschicken, steigt der Wert der Lizenz. Ein Deal ist nicht garantiert, das Management lässt sich ausdrücklich offen, keinen abzuschließen.",
+            "Kapitalallokation: In Q3 kaufte Reddit für ca. 100 Mio. $ eigene Aktien zu durchschnittlich knapp 150 $ zurück, also rund 60 % über dem heutigen Kurs. Es bleiben noch ca. 660 Mio. $ im Programm, was ca. 3,5 % der Marktkapitalisierung entspricht."
+          ],
+          "bull": "Die eingeloggte Nutzerbasis wächst weiter, Werbepreise und Ad-Load steigen, und ein neuer Lizenzdeal bringt zusätzlich mehrere hundert Mio. $ pro Jahr. Dann liegt der FCF 2027 bei über 1,8 Mrd. $, und 18x ergibt über 175 $.",
+          "bear": "Der Traffic-Verlust frisst sich in die eingeloggte Basis (weniger Neuanmeldungen über die Suche), das Umsatzwachstum fällt 2027 unter 20 % und ein Lizenzdeal bleibt aus. Bei 12x eines stagnierenden FCF von 1,2 Mrd. $ läge der Kurs bei ca. 85 $ (−10 %), bei einem Multiple-Kollaps auch bei 70 $. Hohe Volatilität, Momentum negativ (52-Wochen-Tief), Abhängigkeit von Google.",
+          "catalyst": {
+            "event": "Q4-Zahlen mit DAUq-Entwicklung und Ausblick 2027; mögliche Verlängerung der Data-Licensing-Verträge",
+            "date": "Q4-Zahlen voraussichtlich Anfang Feb. 2027 (nicht bestätigt); Lizenzdeal ohne Termin"
+          },
+          "sources": [
+            {
+              "t": "Yahoo Finance: Q3 2026 Earnings Call Highlights",
+              "u": "https://finance.yahoo.com/markets/stocks/articles/reddit-inc-rddt-q3-2026-031222789.html"
+            },
+            {
+              "t": "Yahoo Finance/StockStory: Q3 deep dive (Guidance vs. Konsens)",
+              "u": "https://finance.yahoo.com/markets/stocks/articles/rddt-q3-deep-dive-search-233336517.html"
+            },
+            {
+              "t": "Yahoo Finance/Motley Fool: Should you buy Reddit for its cash? (FCF-Rendite, Bilanz)",
+              "u": "https://finance.yahoo.com/markets/stocks/articles/buy-reddit-stock-cash-070401765.html"
+            },
+            {
+              "t": "CNBC: Reddit plunges 29%, worst day ever",
+              "u": "https://www.cnbc.com/2026/10/30/reddit-stock-q3-earnings.html"
+            },
+            {
+              "t": "24/7 Wall St.: Kurs 02.11.2026",
+              "u": "https://247wallst.com/investing/2026/11/02/trump-media-rises-6-ahead-of-midterms-with-no-clear-catalyst-rumble-slides-3-reddit-gains-3/"
+            }
+          ]
+        }
+      ],
+      "notPicked": [
+        "Twilio (TWLO): Das Quartal lag über den Erwartungen, der Ausblick wurde angehoben (FY-Organic-Growth 15 %, FCF ca. 1,2 Mrd. $), trotzdem fiel die Aktie um ca. 20 % auf ca. 206 $. Bei rund 26x FCF, einer organischen Verlangsamung auf 11–12 % in Q4 und großen Insiderverkäufen im Sommer ist das aber noch kein Schnäppchen.",
+        "Accenture (ACN): Die CEO kaufte am 26.10. für 3,0 Mio. $ bei ca. 246 $ (erster Kauf, kein 10b5-1-Plan), ein starkes Signal. Die Aktie ist allerdings schon um ca. 75 % in drei Monaten gestiegen und notiert bei ca. 17–18x des EPS-Guides für FY27 (14,39–14,81 $) mit nur 3–6 % Wachstum. Das Value-Fenster ist zu.",
+        "TeamViewer (TMV): Die Aktie fällt nach der Prognosesenkung um ca. 25 % auf ca. 5,40 €, bei einem KGV um 6–8x. Das Wachstum ist aber gestoppt, der Churn im SMB-Geschäft hoch und die Verschuldung nach dem 1E-Deal spürbar. Das ist eine Value-Falle, solange keine Stabilisierung sichtbar ist.",
+        "Gold: Mit ca. 3.940 $ nahe dem Jahrestief, der Bruch von 4.000 $ ist nicht zurückerobert. Ich warte auf eine Bodenbildung, kein Setup besser als RDDT."
+      ]
+    },
     {
       "date": "2026-11-02",
       "label": "Probeausgabe",
@@ -193,24 +295,37 @@
       "name": "TTM Technologies",
       "added": "2026-11-02",
       "priceAdded": 85.0,
-      "lastPrice": 85.0,
-      "lastDate": "2026-11-02",
+      "lastPrice": 81.61,
+      "lastDate": "2026-11-03",
       "currency": "USD",
       "fvLow": 120,
       "fvHigh": 135,
       "status": "intakt",
-      "note": "Neu aufgenommen"
+      "note": "−4 % seit Aufnahme, weil der AI-Hardware-Sektor schwach ist (Nasdaq −1,1 % am 02.11.). Keine neuen Firmendaten, die These bleibt intakt."
     },
     {
       "ticker": "EME",
       "name": "EMCOR Group",
       "added": "2026-11-02",
       "priceAdded": 689.32,
-      "lastPrice": 689.32,
-      "lastDate": "2026-10-30",
+      "lastPrice": 682.76,
+      "lastDate": "2026-11-03",
       "currency": "USD",
       "fvLow": 830,
       "fvHigh": 900,
+      "status": "intakt",
+      "note": "Leicht schwächer im Sog der Rechenzentrums-Skepsis. Hochtief/Turner meldet heute starke AI-DC-Nachfrage (Backlog 84,8 Mrd. €), das stützt die These."
+    },
+    {
+      "ticker": "RDDT",
+      "name": "Reddit",
+      "added": "2026-11-03",
+      "priceAdded": 93.55,
+      "lastPrice": 93.55,
+      "lastDate": "2026-11-02",
+      "currency": "USD",
+      "fvLow": 120,
+      "fvHigh": 140,
       "status": "intakt",
       "note": "Neu aufgenommen"
     }
