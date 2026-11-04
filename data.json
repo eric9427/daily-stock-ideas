@@ -1,6 +1,112 @@
 {
-  "updated": "2026-11-03T12:25:00+01:00",
+  "updated": "2026-11-04T12:45:00+01:00",
   "editions": [
+    {
+      "date": "2026-11-04",
+      "marketContext": [
+        "Demokraten gewinnen beide Kammern des Kongresses. US-Futures legen zu (S&P +0,9 %, Dow +1,3 %, Nasdaq 100 +0,9 % gegen 11:25 MEZ). Gewinner: Erneuerbare und Healthcare, Verlierer: Rüstung (auch in Europa). Diskutiert wird eine strengere Regulierung von Rechenzentren (Strombedarf).",
+        "Die 10-jährige US-Rendite fällt auf 4,92 %. Brent bei ca. 103 $ (−0,8 %), WTI bei ca. 96 $, weiter getrieben von den Bemühungen um ein Ende des Iran-Kriegs.",
+        "Earnings: AMD meldet ein Rekordquartal (Umsatz 13,4 Mrd. $, +45 %) und steigt nachbörslich um ca. 5–7 %. Amdocs bricht um über 40 % ein, Novo Nordisk hebt den Ausblick an. Der DAX tritt bei ca. 25.850 auf der Stelle, Asien ist gemischt (Nikkei −1,4 %, Shanghai +2,2 %)."
+      ],
+      "ideas": [
+        {
+          "ticker": "IT",
+          "name": "Gartner",
+          "exchange": "NYSE",
+          "country": "USA",
+          "sector": "IT-Research & Advisory",
+          "type": "Deep Value",
+          "risk": "mittel",
+          "horizon": "6–24 Monate",
+          "price": 202.92,
+          "currency": "USD",
+          "priceDate": "03.11.2026 (Schluss, laut Digrin; bitte gegenprüfen)",
+          "marketCap": "ca. 13 Mrd. $ (Large Cap; ca. 64 Mio. Aktien × Kurs, eigene Rechnung)",
+          "fairValueLow": 245,
+          "fairValueHigh": 275,
+          "fairValueMethod": "15–17x auf den Konsens-EPS 2027 von ca. 16,40 $ (Stand vor Q3, eher nach oben zu revidieren). Das liegt weit unter dem historischen Multiple von über 30x und berücksichtigt bewusst das niedrige organische Wachstum. Gegencheck: 9–10 % FCF-Rendite bei 1,235 Mrd. $ FCF-Guide.",
+          "metrics": [
+            {
+              "l": "KGV 2026e / 2027e",
+              "v": "ca. 13,9x (Guide ≥14,65 $) / ca. 12,4x (Konsens 16,39 $)"
+            },
+            {
+              "l": "FCF-Guide 2026 / Rendite",
+              "v": "≥1,235 Mrd. $ / ca. 9,5 %"
+            },
+            {
+              "l": "Contract Value Q3",
+              "v": "5,3 Mrd. $, +2,5 % y/y (dritte Beschleunigung in Folge, +80 bp vs. Q2)"
+            },
+            {
+              "l": "Adj. EPS Q3",
+              "v": "3,59 $ (+30 %) vs. 2,84 $ erw."
+            },
+            {
+              "l": "Adj. EBITDA-Guide 2026",
+              "v": "≥1,615 Mrd. $ (+45 Mio. $ angehoben), Marge ca. 25 %"
+            },
+            {
+              "l": "Buyback",
+              "v": "1,7 Mrd. $ in 4 Quartalen, Aktienzahl −15 % y/y; noch ca. 1,1 Mrd. $ genehmigt"
+            },
+            {
+              "l": "Wallet Retention",
+              "v": "GTS 98 % (verbessert), GBS 99 %"
+            },
+            {
+              "l": "Kursreaktion",
+              "v": "−13 % am 03.11. (intraday fast −20 %); 52W-Spanne 124–261 $"
+            }
+          ],
+          "bullets": [
+            "Beat-and-Raise mit Abverkauf: EPS 3,59 $ vs. 2,84 $ erwartet, EPS-Guide 2026 auf ≥14,65 $ (von 14,00 $) und FCF-Guide angehoben. Die Aktie fiel trotzdem um 13 %, weil das Management den Ex-Federal-CV-Wachstumspfad von 4 % bis Jahresende abräumte.",
+            "Der wichtigste KPI dreht: Contract Value wächst das dritte Quartal in Folge schneller (+2,5 %, GBS +3,7 %), die Wallet Retention verbessert sich. Das Gegenteil des AI-Disruptions-Narrativs, das die Aktie seit 2025 von über 500 $ halbiert hat.",
+            "Bewertung wie ein Value-Titel: ca. 14x 2026er Guide, ca. 12x Konsens 2027 und rund 9,5 % FCF-Rendite für ein Abo-Geschäft mit 98–99 % Retention und kaum Kapitalbedarf (Capex 95 Mio. $).",
+            "Buyback als EPS-Motor: Die Aktienzahl sank in einem Jahr um ca. 15 %. Bei dieser FCF-Rendite können selbst 2–3 % Umsatzwachstum zweistelliges EPS-Wachstum tragen.",
+            "Ironie des AI-Themas: Laut CEO Hall kommen Kunden zurück, weil es „viel schwerer als gedacht“ ist, Nutzen aus AI zu ziehen. AI ist das meistgefragte Thema der Kunden."
+          ],
+          "bull": "CV-Wachstum beschleunigt 2027 auf 4–6 %, die Preiserhöhung (ca. 3 %) greift und der Buyback läuft weiter. Dann sind 2027 über 17 $ EPS möglich, und eine Re-Rating auf 18x ergibt über 300 $.",
+          "bear": "AI-Tools ersetzen Research-Seats doch strukturell, Tech-Layoffs (Kerngruppe der Kunden) drücken die Seat-Zahl, und das CV-Wachstum fällt zurück auf 0–2 %. Bei 11x eines stagnierenden EPS von ca. 15 $ läge der Kurs bei ca. 165 $ (−19 %). Weitere Risiken: Hebel aus dem fremdfinanzierten Buyback (Nettoverschuldung nicht verifiziert), Konsens 'Hold' mit Durchschnittsziel ca. 190 $, und die Aktie war im Oktober bereits um ca. 27 % gestiegen.",
+          "catalyst": {
+            "event": "Q4-Zahlen mit CV-Wachstum Jahresende und Guidance 2027; Effekt der Preiserhöhung vom 02.11.",
+            "date": "Q4-Zahlen voraussichtlich Anfang Feb. 2027 (nicht bestätigt)"
+          },
+          "sources": [
+            {
+              "t": "BigGo Finance: Gartner Q3 2026 Earnings Call (CV, Guidance, Buyback)",
+              "u": "https://finance.biggo.com/news/US_IT_2026-11-03"
+            },
+            {
+              "t": "Motley Fool: Gartner stock crashed despite raised guidance",
+              "u": "https://www.fool.com/investing/2026/11/03/gartner-stock-crashed-despite-raised-guidance-here-s-what-spooked-investors/"
+            },
+            {
+              "t": "Goldesel: Prognose steigt, Kurs bricht ein (EPS vs. Konsens)",
+              "u": "https://goldesel.de/aktien/news/gartner-aktie-prognose-steigt-doch-der-kurs-bricht-nach-starken-q3-zahlen-ein"
+            },
+            {
+              "t": "Yahoo Finance: Gartner Q3 Earnings Call Highlights (AI-Kommentar)",
+              "u": "https://finance.yahoo.com/markets/stocks/articles/gartner-q3-earnings-call-highlights-041410467.html"
+            },
+            {
+              "t": "StockAnalysis: Konsens-EPS 2026/2027, Kursziele",
+              "u": "https://stockanalysis.com/stocks/it/forecast/"
+            },
+            {
+              "t": "Digrin: Kurs Gartner",
+              "u": "https://www.digrin.com/stocks/detail/IT/price"
+            }
+          ]
+        }
+      ],
+      "notPicked": [
+        "Amdocs (DOX): Die Aktie fällt nachbörslich um ca. 43 % auf ca. 36 $. Optisch ist sie spottbillig (FCF-Guide FY27 440–500 Mio. $, also über 12 % FCF-Rendite). Beide Seiten haben sich aber gegenseitig Vertragsbruch mit Kündigungsdrohung vorgeworfen, und das Management beziffert das T-Mobile-Exposure nicht. Solange unklar ist, ob der Guide der Boden ist, ist das ein binäres Setup. Ich beobachte es.",
+        "Novo Nordisk (NOVO B): Q3 über den Erwartungen und Ausblick erneut angehoben, aber der Guide impliziert für 2026 weiterhin −6 % bis 0 % bei Umsatz und EBIT. Der Preisdruck bei GLP-1 hält an, kein klarer Wendepunkt.",
+        "Fortinet (FTNT): Beat-and-Raise mit Kurseinbruch auf ca. 128 $, Daiwa stuft auf 'Buy' hoch. Bei ca. 36x des EPS-Guides (3,54–3,58 $) und schwächerer Produkt-Visibility ist das aber kein Value-Einstieg.",
+        "dsm-firmenich (DSFIR): −8 % trotz angehobenem organischem Wachstum (ca. 5 %). Die Margen- und FCF-Ziele wurden aber nur bestätigt und die Anhebung war eingepreist. Zu wenig Abschlag für eine neue Idee."
+      ]
+    },
     {
       "date": "2026-11-03",
       "marketContext": [
@@ -295,13 +401,13 @@
       "name": "TTM Technologies",
       "added": "2026-11-02",
       "priceAdded": 85.0,
-      "lastPrice": 81.61,
+      "lastPrice": 82.29,
       "lastDate": "2026-11-03",
       "currency": "USD",
       "fvLow": 120,
       "fvHigh": 135,
       "status": "intakt",
-      "note": "−4 % seit Aufnahme, weil der AI-Hardware-Sektor schwach ist (Nasdaq −1,1 % am 02.11.). Keine neuen Firmendaten, die These bleibt intakt."
+      "note": "−3 % seit Aufnahme. Die Chip-Erholung am 03.11. hat TTMI noch nicht erfasst, keine neuen Firmendaten. These intakt. Achtung: Die Demokraten-Mehrheit bringt eine mögliche Regulierung von Rechenzentren ins Gespräch, das ist ein Sentiment-Risiko für AI-Hardware."
     },
     {
       "ticker": "EME",
@@ -314,7 +420,7 @@
       "fvLow": 830,
       "fvHigh": 900,
       "status": "intakt",
-      "note": "Leicht schwächer im Sog der Rechenzentrums-Skepsis. Hochtief/Turner meldet heute starke AI-DC-Nachfrage (Backlog 84,8 Mrd. €), das stützt die These."
+      "note": "Kein verifizierter neuer Schlusskurs (letzter Stand 682,76 $). Eine mögliche strengere Regulierung von Rechenzentren unter dem neuen demokratischen Kongress ist ein Sentiment-Risiko, der Backlog ist breit diversifiziert. These intakt."
     },
     {
       "ticker": "RDDT",
@@ -326,6 +432,19 @@
       "currency": "USD",
       "fvLow": 120,
       "fvHigh": 140,
+      "status": "intakt",
+      "note": "Kein verifizierter Schlusskurs für 03.11. gefunden, letzter Stand 02.11. Keine neuen Firmendaten, These intakt."
+    },
+    {
+      "ticker": "IT",
+      "name": "Gartner",
+      "added": "2026-11-04",
+      "priceAdded": 202.92,
+      "lastPrice": 202.92,
+      "lastDate": "2026-11-03",
+      "currency": "USD",
+      "fvLow": 245,
+      "fvHigh": 275,
       "status": "intakt",
       "note": "Neu aufgenommen"
     }
