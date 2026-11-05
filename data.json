@@ -1,6 +1,113 @@
 {
-  "updated": "2026-11-04T12:45:00+01:00",
+  "updated": "2026-11-05T12:40:00+01:00",
   "editions": [
+    {
+      "date": "2026-11-05",
+      "marketContext": [
+        "Nach der Wahl-Rally (Dow +3,0 % auf 53.356, S&P 500 +1,6 % auf 7.689 am 04.11.) kühlt die Stimmung ab: Dow-Futures +0,4 %, Nasdaq-100-Futures −0,7 %. Big Tech stieg am Vortag um ca. 5–6 %.",
+        "AI-Data-Center-Werte brechen ein (Modine −24 %, Sterling −21 %, Comfort Systems −16 %, Vertiv −13 %, GE Vernova −11 %). Die künftige Gouverneurin in Texas (ca. 27 % der geplanten US-Kapazität) will ein Moratorium, Goldman sieht 45 % der geplanten Kapazität in Staaten mit möglichen Restriktionen.",
+        "Die 10-jährige US-Rendite fällt auf ca. 4,89 %, Brent auf ca. 94 $ (WTI ca. 88 $) wegen Hoffnungen auf ein Ende des Iran-Kriegs. Gold +1,6 % auf ca. 4.137 $, VIX 17.",
+        "Nachbörslich: AppLovin +19 % (Guide über Konsens), Qualcomm −6 % (Q1-Guide unter Konsens), Zillow −15 %, Snap −9 %. Heute berichten u. a. Toyota, Sony, ConocoPhillips, Airbnb, Cloudflare, Lumentum."
+      ],
+      "ideas": [
+        {
+          "ticker": "CVS",
+          "name": "CVS Health",
+          "exchange": "NYSE",
+          "country": "USA",
+          "sector": "Healthcare (Versicherung, PBM, Apotheken)",
+          "type": "Deep Value",
+          "risk": "mittel",
+          "horizon": "6–24 Monate",
+          "price": 79.9,
+          "currency": "USD",
+          "priceDate": "04.11.2026 (Schluss, laut MarketBeat; nachbörslich ca. 80,38 $)",
+          "marketCap": "ca. 102 Mrd. $ (Large Cap)",
+          "fairValueLow": 95,
+          "fairValueHigh": 110,
+          "fairValueMethod": "11–12,5x auf den 2027er Guide von mindestens 8,65 $ EPS (= 95–108 $). Das entspricht etwa dem 5-Jahres-Schnitt (ca. 10–11x) plus moderatem Aufschlag für die Margen-Erholung bei Aetna, liegt aber weit unter UnitedHealth (ca. 18x). Gegencheck: Der Konsens-Kursziel liegt bei ca. 110 $ (24 Analysten, 21 Buy).",
+          "metrics": [
+            {
+              "l": "KGV 2026e / 2027e",
+              "v": "ca. 9,7x (Guide ≥8,20 $) / ca. 9,2x (Guide ≥8,65 $)"
+            },
+            {
+              "l": "Adj. EPS Q3",
+              "v": "2,09 $ vs. 1,65 $ erw. (+31 % y/y), sechster Beat in Folge"
+            },
+            {
+              "l": "Umsatz Q3",
+              "v": "108,4 Mrd. $ (+5,4 %) vs. 104,7 Mrd. $ erw."
+            },
+            {
+              "l": "Health Care Benefits (Aetna) Adj. OI",
+              "v": "912 Mio. $ vs. 314 Mio. $ im Vorjahr; MBR 91,3 % (−150 bp)"
+            },
+            {
+              "l": "Operating Cashflow-Guide 2026",
+              "v": "≥15,5 Mrd. $ (von ≥11,5 Mrd. $), also ca. 15 % der Marktkap."
+            },
+            {
+              "l": "Verschuldung",
+              "v": "Gesamtschulden ca. 60,7 Mrd. $, Cash 11,7 Mrd. $; 4,1 Mrd. $ Schulden in 9M getilgt"
+            },
+            {
+              "l": "Dividendenrendite",
+              "v": "ca. 3,3 % (2,66 $ p. a.)"
+            },
+            {
+              "l": "Kursreaktion",
+              "v": "−12,6 % am 04.11.; 52W-Spanne 69,51–110,68 $"
+            }
+          ],
+          "bullets": [
+            "Beat-and-Raise mit Abverkauf: EPS 2,09 $ vs. 1,65 $ erwartet, EPS-Guide 2026 auf ≥8,20 $ (von 7,90–8,10 $) und Operating-Cashflow-Guide um 4 Mrd. $ auf ≥15,5 Mrd. $ angehoben. Die Aktie fiel trotzdem um 12,6 %, weil der Markt die überraschende Aufspaltung abstraft.",
+            "Aetna-Turnaround läuft vor Plan: Das operative Ergebnis der Versicherungssparte hat sich fast verdreifacht, die MBR sank im Q3 um 150 bp und in 9M um 220 bp. Der wichtigste Werttreiber kommt also, unabhängig vom Split.",
+            "Bewertung auf Value-Niveau: ca. 9–10x Gewinn für einen Konzern mit über 420 Mrd. $ Umsatz und starkem Cashflow. Damit liegt CVS wieder am unteren Ende der 5-Jahres-Spanne, nachdem der Juli-Höchststand bei ca. 15x lag.",
+            "Corporate Action als mittelfristiger Katalysator: Aufspaltung bis H1 2028 in CVS Health (Aetna, Caremark, Specialty, Oak Street, Signify) und CVS Pharmacy (ca. 9.000 Filialen, MinuteClinic). Laut Management sind die Trennungskosten bereits in der Guidance enthalten, die Dis-Synergien seien beherrschbar.",
+            "Bilanz wird gesünder: 4,1 Mrd. $ Schulden in neun Monaten getilgt. Der höhere Cashflow schafft Raum für weiteren Schuldenabbau und später Buybacks."
+          ],
+          "bull": "Die MBR normalisiert sich 2027 weiter, Medicare-Advantage-Raten und Star Ratings helfen, und das EPS übertrifft den vorsichtigen 2027er Guide (≥8,65 $) mit über 9,50 $. Mit Vorlage der Split-Financials (Form 10) erhält der Markt eine Sum-of-the-Parts-Sicht, und ein Re-Rating auf 12x ergibt über 115 $.",
+          "bear": "Die Medical Cost Trends bleiben erhöht (das Management bleibt für Q4 'vorsichtig'), der PBM-Druck (FTC, Reformgesetze unter dem neuen demokratischen Kongress) trifft Caremark, und die Aufspaltung bringt Dis-Synergien, Trennungskosten und zwei Jahre Unsicherheit. Die Apothekensparte könnte als Standalone mit hoher Verschuldung kaum bewertet werden (vgl. Walgreens). Bei 8x eines stagnierenden EPS von ca. 8,20 $ läge der Kurs bei ca. 66 $ (−17 %). Hinweis: Den 2027er Konsens vor dem Guide konnte ich nicht verifizieren. Ein Guide unter dem Konsens wäre ein weiterer Grund für den Abverkauf.",
+          "catalyst": {
+            "event": "Investor Day bzw. Form-10-Filing mit Split-Details und Segment-Financials; Q4-Zahlen mit dem endgültigen 2027er Guide; finale Medicare-Advantage-Raten 2028 (Anfang April)",
+            "date": "Q4-Zahlen voraussichtlich Anfang Feb. 2027 (nicht bestätigt); Split bis H1 2028"
+          },
+          "sources": [
+            {
+              "t": "CVS Health: Q3 2026 Earnings Release (Guidance, Segmente, Schulden)",
+              "u": "https://www.cvshealth.com/content/dam/enterprise/cvs-enterprise/pdfs/2026/Q3-2026-EarningsRelease.pdf"
+            },
+            {
+              "t": "TIKR: CVS sinkt 12 % nach Aufspaltungsplan (2027er Guide, Bewertung vs. Peers)",
+              "u": "https://www.tikr.com/blog/cvs-health-sinks-12-on-historic-breakup-plan-one-great-company-and-making-it-two"
+            },
+            {
+              "t": "Yahoo Finance: CVS kündigt Aufspaltung in zwei Unternehmen an",
+              "u": "https://finance.yahoo.com/markets/article/cvs-announces-plan-to-split-into-2-companies-separating-pharmacy-from-insurance-124251282.html"
+            },
+            {
+              "t": "24/7 Wall St.: Q3-Zahlen vs. Konsens",
+              "u": "https://247wallst.com/cards/cvs-health-q3-2026-earnings-cvs-01m6k5f04826s9mm2y63w9c7m8"
+            },
+            {
+              "t": "MarketBeat: Kurs, Marktkap., Analystenkonsens",
+              "u": "https://www.marketbeat.com/stocks/NYSE/CVS/"
+            },
+            {
+              "t": "Cappnotes: Closing Look 04.11.2026",
+              "u": "https://cappnotes.substack.com/p/closing-look-wednesday-november-4"
+            }
+          ]
+        }
+      ],
+      "notPicked": [
+        "Sterling Infrastructure (STRL): −21 % nach Beat-and-Raise (Umsatz +127 %, Backlog +78 % auf 6,1 Mrd. $). Die Book-to-Bill lag in Q3 aber knapp unter 1, und das Texas-Moratorium trifft genau das E-Infrastructure-Geschäft. Mit EME ist das Thema bereits in der Watchlist, ich warte auf mehr Klarheit zur Regulierung.",
+        "Everus Construction (ECG): −29 % trotz Beat (EPS 1,79 $ vs. 1,31 $, Umsatz +40 %) und angehobenem Ausblick, KGV ca. 16x. Derselbe Data-Center-Policy-Abverkauf wie bei STRL, als Small Cap mit Beta über 2 mit noch höherem Risiko. Ich beobachte es.",
+        "FIS (FIS): −24 % nach erneuter Senkung des EPS-Guides (5,82–5,89 $ von 6,15–6,24 $), damit optisch ca. 9x KGV. Das ist aber die zweite Senkung in drei Monaten, kein Beat-and-Raise und kein Nachweis, dass der Guide der Boden ist.",
+        "Gold: +1,6 % auf ca. 4.137 $, die 4.000-$-Marke ist zurückerobert. Bei fallenden Renditen ist das Setup besser als letzte Woche, aber nicht besser als CVS."
+      ]
+    },
     {
       "date": "2026-11-04",
       "marketContext": [
@@ -406,21 +513,21 @@
       "currency": "USD",
       "fvLow": 120,
       "fvHigh": 135,
-      "status": "intakt",
-      "note": "−3 % seit Aufnahme. Die Chip-Erholung am 03.11. hat TTMI noch nicht erfasst, keine neuen Firmendaten. These intakt. Achtung: Die Demokraten-Mehrheit bringt eine mögliche Regulierung von Rechenzentren ins Gespräch, das ist ein Sentiment-Risiko für AI-Hardware."
+      "status": "beobachten",
+      "note": "Kein verifizierter Schlusskurs für 04.11. gefunden (letzter Stand 03.11.). Die AI-Hardware-Werte wurden am 04.11. nach dem Demokraten-Sieg breit abverkauft (Texas-Moratorium, laut Goldman 45 % der geplanten Kapazität in Staaten mit möglichen Restriktionen). Auch Rüstung war schwach. Die Firmenthese ist unverändert, das Sentiment-Risiko aber gestiegen. Status: beobachten."
     },
     {
       "ticker": "EME",
       "name": "EMCOR Group",
       "added": "2026-11-02",
       "priceAdded": 689.32,
-      "lastPrice": 682.76,
-      "lastDate": "2026-11-03",
+      "lastPrice": 638.07,
+      "lastDate": "2026-11-04",
       "currency": "USD",
       "fvLow": 830,
       "fvHigh": 900,
-      "status": "intakt",
-      "note": "Kein verifizierter neuer Schlusskurs (letzter Stand 682,76 $). Eine mögliche strengere Regulierung von Rechenzentren unter dem neuen demokratischen Kongress ist ein Sentiment-Risiko, der Backlog ist breit diversifiziert. These intakt."
+      "status": "beobachten",
+      "note": "Intraday-Kurs 04.11. (ca. −9,8 %, Schlusskurs nicht verifiziert), −7 % seit Aufnahme. Data-Center-Abverkauf nach der Wahl (Texas-Moratorium, Restriktionen in weiteren Staaten möglich). UBS senkt das Ziel auf 925 $ (Buy). Projekte ohne Baustart würden zuerst bei neuen Orders ab 2027 sichtbar. Der Backlog ist breit diversifiziert, aber der Policy-Gegenwind ist real. Status: beobachten."
     },
     {
       "ticker": "RDDT",
@@ -433,18 +540,31 @@
       "fvLow": 120,
       "fvHigh": 140,
       "status": "intakt",
-      "note": "Kein verifizierter Schlusskurs für 03.11. gefunden, letzter Stand 02.11. Keine neuen Firmendaten, These intakt."
+      "note": "Kein verifizierter Schlusskurs für 03./04.11. gefunden. Die Aktie notierte am 03.11. bei ca. 18,7x trailing KGV (Trefis). Am 04.11. legte sie laut Benzinga deutlich zu (Höhe nicht verifiziert). Keine neuen Firmendaten, These intakt."
     },
     {
       "ticker": "IT",
       "name": "Gartner",
       "added": "2026-11-04",
       "priceAdded": 202.92,
-      "lastPrice": 202.92,
-      "lastDate": "2026-11-03",
+      "lastPrice": 207.19,
+      "lastDate": "2026-11-04",
       "currency": "USD",
       "fvLow": 245,
       "fvHigh": 275,
+      "status": "intakt",
+      "note": "+2,1 % seit Aufnahme. Truist stuft nach den Q3-Zahlen ab (Wachstumserholung weiter entfernt), UBS und Morgan Stanley erhöhen dagegen ihre Ziele. Die These (CV-Beschleunigung, FCF-Rendite) bleibt intakt."
+    },
+    {
+      "ticker": "CVS",
+      "name": "CVS Health",
+      "added": "2026-11-05",
+      "priceAdded": 79.9,
+      "lastPrice": 79.9,
+      "lastDate": "2026-11-04",
+      "currency": "USD",
+      "fvLow": 95,
+      "fvHigh": 110,
       "status": "intakt",
       "note": "Neu aufgenommen"
     }
