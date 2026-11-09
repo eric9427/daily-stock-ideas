@@ -1,6 +1,23 @@
 {
-  "updated": "2026-11-05T12:40:00+01:00",
+  "updated": "2026-11-09T12:27:16+01:00",
   "editions": [
+    {
+      "date": "2026-11-09",
+      "marketContext": [
+        "Schwache Vorwoche: S&P 500 −2,7 %, Nasdaq −3,4 % (Schluss 06.11.: S&P 7.377, Nasdaq 24.579). Der AI-Abverkauf traf Chips, Speicher und Data-Center-Werte, am Freitag folgte eine teilweise Erholung (AMD +11 %, Lam Research +8 % nach 25-Mrd.-$-Buyback).",
+        "Asien zog nach: Der Nikkei fiel am 06.11. um 5,96 % auf 57.435 (fünfter Verlusttag in Folge, ca. −11 % seit 29.10.). Heute erholen sich Nikkei und Kospi um jeweils über 1 %.",
+        "Vorbörslich heute: Nvidia ca. −4 %, weil der Verwaltungsrat nach Medienberichten mit Spionage-Bezug gegen CEO Jensen Huang ermittelt. Die Index-Futures liegen trotzdem leicht im Plus (S&P ca. +0,2 %, Dow ca. +0,6 %), der VIX steht bei ca. 24.",
+        "Makro: Die 10-jährige US-Rendite liegt bei ca. 4,86 %. Nach dem starken Oktober-Arbeitsmarktbericht wird über eine Fed-Zinserhöhung diskutiert, deshalb sind die US-Inflationsdaten diese Woche der wichtigste Termin. WTI ca. 90 $ (−13 % in der Vorwoche), Gold ca. 4.100 $."
+      ],
+      "ideas": [],
+      "noIdeasNote": "Der AI-Abverkauf hat viele Kurse gedrückt, doch die geprüften Kandidaten fielen entweder aus fundamentalen Gründen (Guidance-Senkungen, Margendruck) oder sind nach dem Rücksetzer noch nicht günstig genug. Keiner schafft die Qualitätshürde.",
+      "notPicked": [
+        "Caris Life Sciences (CAI): −21,6 % am 05.11. trotz Umsatz +27 % und leicht angehobenem 2026-Guide (1,04–1,05 Mrd. $). Die Operating-Marge halbierte sich aber auf 7 % (Opex +42 %), das adj. EBITDA sank, und bei ca. 7,2 Mrd. $ Marktkap. (25,23 $) ist das Wachstum nicht billig genug. Es fehlt Visibilität bei den Margen.",
+        "Rheinmetall (RHM): Zweite Prognosesenkung 2026 (Umsatz ca. 13,2 Mrd. € statt 13,7–14,2 Mrd. €, Cash Conversion nur knapp über 0 %), Nettoverschuldung 2,9 Mrd. €, Aktie −47 % YTD (ca. 816 €). Backlog 78 Mrd. € und CEO-Kauf (nur ca. 0,2 Mio. €) sprechen dafür, aber ohne Klarheit zu Arminius und Cashflow lieber den Kapitalmarkttag am 27.11. abwarten.",
+        "Toyota Motor (7203): Operating-Profit-Guide um 0,5 Bio. ¥ auf 3,9 Bio. ¥ angehoben, Buyback auf 1,3 Bio. ¥ erhöht, KGV ca. 10x. Der neue Netto-Guide (3,57 Bio. ¥) liegt aber noch unter dem Konsens (ca. 3,79 Bio. ¥), es gibt also kein echtes Upgrade. Solide, aber kein Trigger mit Fehlbewertung.",
+        "Globus Medical (GMED): −12,8 % am 06.11. Umsatz-Guide 2026 auf 3,09 Mrd. $ gesenkt (zuvor 3,18–3,22 Mrd. $), Umsatz im Kerngeschäft rückläufig. Die Margenausweitung und der zusätzliche 500-Mio.-$-Buyback gleichen das schwache Wachstum nicht aus."
+      ]
+    },
     {
       "date": "2026-11-05",
       "marketContext": [
@@ -508,65 +525,65 @@
       "name": "TTM Technologies",
       "added": "2026-11-02",
       "priceAdded": 85.0,
-      "lastPrice": 82.29,
-      "lastDate": "2026-11-03",
+      "lastPrice": 66.51,
+      "lastDate": "2026-11-06",
       "currency": "USD",
       "fvLow": 120,
       "fvHigh": 135,
       "status": "beobachten",
-      "note": "Kein verifizierter Schlusskurs für 04.11. gefunden (letzter Stand 03.11.). Die AI-Hardware-Werte wurden am 04.11. nach dem Demokraten-Sieg breit abverkauft (Texas-Moratorium, laut Goldman 45 % der geplanten Kapazität in Staaten mit möglichen Restriktionen). Auch Rüstung war schwach. Die Firmenthese ist unverändert, das Sentiment-Risiko aber gestiegen. Status: beobachten."
+      "note": "Schluss 06.11. ca. 66,51 $ (+6,9 % am Tag, laut GuruFocus), −22 % seit Aufnahme und ca. −50 % in einem Monat. Der breite AI-Hardware-Abverkauf (Chips, Data Center, Nikkei −6 %) dominiert, firmenspezifisch gibt es nichts Neues. Der 2027er Umsatz-Guide (6,5–6,75 Mrd. $) steht weiter. These unverändert, Sentiment klar negativ. Status: beobachten."
     },
     {
       "ticker": "EME",
       "name": "EMCOR Group",
       "added": "2026-11-02",
       "priceAdded": 689.32,
-      "lastPrice": 638.07,
-      "lastDate": "2026-11-04",
+      "lastPrice": 608.45,
+      "lastDate": "2026-11-06",
       "currency": "USD",
       "fvLow": 830,
       "fvHigh": 900,
       "status": "beobachten",
-      "note": "Intraday-Kurs 04.11. (ca. −9,8 %, Schlusskurs nicht verifiziert), −7 % seit Aufnahme. Data-Center-Abverkauf nach der Wahl (Texas-Moratorium, Restriktionen in weiteren Staaten möglich). UBS senkt das Ziel auf 925 $ (Buy). Projekte ohne Baustart würden zuerst bei neuen Orders ab 2027 sichtbar. Der Backlog ist breit diversifiziert, aber der Policy-Gegenwind ist real. Status: beobachten."
+      "note": "Schluss 06.11.: 608,45 $ (laut Motley Fool), −11,7 % seit Aufnahme. Der Data-Center-Druck nach der Wahl (mögliche Moratorien) und der AI-Abverkauf belasten weiter. Firmenspezifisch nichts Neues, der Backlog ist breit diversifiziert. Status: beobachten."
     },
     {
       "ticker": "RDDT",
       "name": "Reddit",
       "added": "2026-11-03",
       "priceAdded": 93.55,
-      "lastPrice": 93.55,
-      "lastDate": "2026-11-02",
+      "lastPrice": 94.06,
+      "lastDate": "2026-11-05",
       "currency": "USD",
       "fvLow": 120,
       "fvHigh": 140,
-      "status": "intakt",
-      "note": "Kein verifizierter Schlusskurs für 03./04.11. gefunden. Die Aktie notierte am 03.11. bei ca. 18,7x trailing KGV (Trefis). Am 04.11. legte sie laut Benzinga deutlich zu (Höhe nicht verifiziert). Keine neuen Firmendaten, These intakt."
+      "status": "beobachten",
+      "note": "ca. 94,06 $ nach −7,6 % (laut Morningstar, Datum vermutlich 05.11., nicht verifiziert). Belastung durch den Tech-Abverkauf und schwache Snap-Werbezahlen. Die Sorge um Search-Traffic (Google AI Mode) bleibt der Kernpunkt der Bären. Kursreaktion und Sektorstimmung rechtfertigen genauere Beobachtung. Status: beobachten."
     },
     {
       "ticker": "IT",
       "name": "Gartner",
       "added": "2026-11-04",
       "priceAdded": 202.92,
-      "lastPrice": 207.19,
-      "lastDate": "2026-11-04",
+      "lastPrice": 190.1,
+      "lastDate": "2026-11-06",
       "currency": "USD",
       "fvLow": 245,
       "fvHigh": 275,
-      "status": "intakt",
-      "note": "+2,1 % seit Aufnahme. Truist stuft nach den Q3-Zahlen ab (Wachstumserholung weiter entfernt), UBS und Morgan Stanley erhöhen dagegen ihre Ziele. Die These (CV-Beschleunigung, FCF-Rendite) bleibt intakt."
+      "status": "beobachten",
+      "note": "Schluss 06.11.: 190,10 $ (laut Motley Fool), −6,3 % seit Aufnahme. Keine neuen Firmendaten. Der Abverkauf bei Software und Informationsdiensten (AI-Disruptionssorgen) überlagert die starken Q3-Zahlen. These (CV-Beschleunigung, FCF) formal intakt, aber der Kurs reagiert nicht. Status: beobachten."
     },
     {
       "ticker": "CVS",
       "name": "CVS Health",
       "added": "2026-11-05",
       "priceAdded": 79.9,
-      "lastPrice": 79.9,
-      "lastDate": "2026-11-04",
+      "lastPrice": 83.85,
+      "lastDate": "2026-11-06",
       "currency": "USD",
       "fvLow": 95,
       "fvHigh": 110,
       "status": "intakt",
-      "note": "Neu aufgenommen"
+      "note": "Schluss 06.11.: 83,85 $ (+3,1 % am Tag, laut Gotrade), +4,9 % seit Aufnahme. Erholung nach dem Split-Abverkauf, keine neuen Firmendaten. These intakt."
     }
   ]
 }
