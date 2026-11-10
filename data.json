@@ -1,6 +1,104 @@
 {
-  "updated": "2026-11-09T12:27:16+01:00",
+  "updated": "2026-11-10T12:25:00+01:00",
   "editions": [
+    {
+      "date": "2026-11-10",
+      "marketContext": [
+        "Starke Erholung am Montag (09.11.): S&P 500 +2,4 % auf 7.550 (bester Tag seit April), Nasdaq 100 +3,4 %, Dow +2,2 %. AMD +13 %, Broadcom +9 %, Nvidia −4,3 % wegen der Board-Untersuchung zu CEO Jensen Huang. Der VIX fiel um 22 % auf 19,9.",
+        "Asien und Europa ziehen heute nach: Nikkei +2,9 % über 60.000, Kospi ca. +4 %, Taiex ca. +3 %. Der DAX eröffnete +1,2 % bei 26.580, knapp unter dem Rekordhoch. Infineon steigt nach dem FY27-Umsatzausblick von ca. 20 Mrd. € um über 6 %.",
+        "Öl fällt weiter: Brent unter 92 $ (ca. −22 % vom Oktober-Hoch über 117 $), nachdem Trump weitere Angriffe auf den Iran als „highly unlikely“ bezeichnet hat. Gold ca. 4.170 $.",
+        "Heute um 14:30 MEZ kommen die US-Verbraucherpreise für Oktober (Konsens: +0,3 % m/m, Kern +0,2 %). Die 10-jährige Rendite liegt bei ca. 4,88 %, der Markt preist ca. 84 % Wahrscheinlichkeit für eine Fed-Zinserhöhung am 09.12. ein."
+      ],
+      "ideas": [
+        {
+          "ticker": "SANM",
+          "name": "Sanmina",
+          "exchange": "NASDAQ",
+          "country": "USA",
+          "sector": "Electronics Manufacturing Services / AI-Infrastruktur",
+          "type": "GARP",
+          "risk": "hoch",
+          "horizon": "12–18 Monate",
+          "price": 179.1,
+          "currency": "USD",
+          "priceDate": "2026-11-10 (vorbörslich, +19,5 % ggü. Schluss 149,82 $)",
+          "marketCap": "ca. 9,6–9,9 Mrd. $",
+          "fairValueLow": 200,
+          "fairValueHigh": 230,
+          "fairValueMethod": "12–14x KGV auf die FY27-Guidance-Mitte von 16,50 $ Non-GAAP-EPS ergibt ca. 198–231 $, gerundet 200–230 $. Abschlag zu EMS-/AI-Peers wegen niedriger Marge, Kundenkonzentration und H2-Lastigkeit der Guidance. Zum Vergleich: Konsens-Kursziel ca. 198 $, JPMorgan 230 $ (gesenkt von 270 $).",
+          "metrics": [
+            {
+              "l": "KGV FY27e (Guide-Mitte)",
+              "v": "ca. 10,9x"
+            },
+            {
+              "l": "Non-GAAP-EPS FY26 → FY27e",
+              "v": "13,28 $ → 15,50–17,50 $ (+17–32 %)"
+            },
+            {
+              "l": "Umsatz FY26 / Guide FY27",
+              "v": "14,53 Mrd. $ / 17,5–19,5 Mrd. $ (+20–34 %)"
+            },
+            {
+              "l": "Non-GAAP-Op.-Marge",
+              "v": "FY26 7,4 % (Q4 9,0 %), Guide 7,0–7,5 %"
+            },
+            {
+              "l": "FCF FY26 / FCF-Rendite",
+              "v": "541 Mio. $ / ca. 5,5 %"
+            },
+            {
+              "l": "Nettoverschuldung",
+              "v": "ca. 0,4 Mrd. $ (0,33x), Ziel 1,0–2,0x"
+            },
+            {
+              "l": "Book-to-Bill Q4",
+              "v": "1,22"
+            }
+          ],
+          "bullets": [
+            "Beat & Raise: Q4 FY26 mit Umsatz 3,86 Mrd. $ (+84 % y/y) und Non-GAAP-EPS 4,43 $. Der erste FY27-Guide (EPS 15,50–17,50 $) impliziert ca. 24 % EPS-Wachstum.",
+            "Auch nach dem +20 %-Sprung nur ca. 11x Forward-EPS. Im FY26 kaufte Sanmina eigene Aktien im Schnitt zu ca. 164 $ zurück (393 Mio. $), weitere 446 Mio. $ sind autorisiert.",
+            "Wachstumstreiber ist Cloud & AI Systems (ehemals ZT Systems) mit 7,5–9,0 Mrd. $ FY27-Umsatz, vor allem durch den Rack-Scale-Ramp von AMD Helios. Eine zweite Compute-Plattform ist im Guide enthalten, eine dritte nicht (Upside).",
+            "Das Kerngeschäft soll zweistellig wachsen. Ab Januar startet die Produktion von Mittelspannungs-Transformatoren (Energie/Netze), das diversifiziert über AI hinaus.",
+            "Die Bilanz ist nach dem Refinancing solide: Liquidität 3,83 Mrd. $, Laufzeiten bis 2031."
+          ],
+          "bull": "Der Helios-Ramp läuft planmäßig, die dritte Plattform kommt hinzu, und Sanmina landet am oberen Ende des Guides (17,50 $ EPS). Bei einer Re-Rating auf 14–15x wären 245–260 $ möglich.",
+          "bear": "Die Guidance ist stark H2-lastig, Q1 liegt mit 3,50–3,85 $ EPS deutlich unter Q4 (Q4 enthielt ca. 30 Mio. $ einmalige Zollrückerstattungen). Risiken: hohe Abhängigkeit von AMD bzw. wenigen Großkunden, Verzögerungen bei Helios, Working-Capital-Aufbau (Vorräte +131 % y/y), steigende Verschuldung, niedrige EMS-Margen und ein abrupter Rückgang der AI-Capex. Nach dem Kurssprung ist eine Gap-Schließung möglich, gestaffelter Einstieg sinnvoll.",
+          "catalyst": {
+            "event": "Q1-FY27-Zahlen (Helios-Volumen, Marge); vorher Updates von AMD zum MI450/Helios-Ramp",
+            "date": "Ende Januar 2027 (geschätzt, Termin unbestätigt)"
+          },
+          "sources": [
+            {
+              "t": "SEC 8-K: Sanmina Q4/FY2026 Results (Ex. 99.1)",
+              "u": "https://www.sec.gov/Archives/edgar/data/0000897723/000089772326000044/sanmina_exx991xoctober32026.htm"
+            },
+            {
+              "t": "Motley Fool: Sanmina Q4 2026 Earnings Call Transcript",
+              "u": "https://www.fool.com/earnings/call-transcripts/2026/11/10/sanmina-sanm-q4-2026-earnings-call-transcript/"
+            },
+            {
+              "t": "Kraken: SANM Kurs (vorbörslich)",
+              "u": "https://www.kraken.com/stocks/sanm"
+            },
+            {
+              "t": "Rallies.ai: JPMorgan senkt Kursziel auf 230 $",
+              "u": "https://rallies.ai/news/sanmina-corporation-jpmorgan-cuts-target-price-to-230-from-270-56b989bef20e309f"
+            },
+            {
+              "t": "StockTitan: Stock Market Today, 09.11.2026",
+              "u": "https://www.stocktitan.net/articles/stock-market-today-live-november-9-2026"
+            }
+          ]
+        }
+      ],
+      "notPicked": [
+        "The Trade Desk (TTD): Q3-Umsatz 736 Mio. $ (−0,5 % y/y, erster Rückgang seit dem IPO), Q4-Guide mindestens 755 Mio. $ (ca. −11 % y/y), EBITDA ca. −30 %. Netto-Cash 1,65 Mrd. $ und ein auf 1 Mrd. $ aufgestocktes Buyback reichen nicht, solange das Kerngeschäft schrumpft. Value-Trap-Risiko.",
+        "Infineon (IFX): FY27-Umsatzguide ca. 20 Mrd. € (über Konsens), Data-Center-Power-Umsatz soll von 2,2 Mrd. € auf fast 4 Mrd. € steigen. Der FCF-Guide (ca. 1,8 Mrd. € vs. 2,26 Mrd. € erwartet) enttäuscht aber, und nach +6 % heute ist die gute Nachricht eingepreist. Keine Fehlbewertung.",
+        "Rheinmetall (RHM): CEO Papperger kauft laut Schlagzeilen Aktien für ca. 0,7 Mio. € (Details nicht verifiziert), die Aktie steigt um ca. 3 % auf 870 €. Das Signal ist stärker als letzte Woche, an der Prognosesenkung und der schwachen Cash Conversion ändert es aber nichts. Weiter den Kapitalmarkttag am 27.11. abwarten."
+      ]
+    },
     {
       "date": "2026-11-09",
       "marketContext": [
@@ -525,13 +623,13 @@
       "name": "TTM Technologies",
       "added": "2026-11-02",
       "priceAdded": 85.0,
-      "lastPrice": 66.51,
-      "lastDate": "2026-11-06",
+      "lastPrice": 75.28,
+      "lastDate": "2026-11-09",
       "currency": "USD",
       "fvLow": 120,
       "fvHigh": 135,
       "status": "beobachten",
-      "note": "Schluss 06.11. ca. 66,51 $ (+6,9 % am Tag, laut GuruFocus), −22 % seit Aufnahme und ca. −50 % in einem Monat. Der breite AI-Hardware-Abverkauf (Chips, Data Center, Nikkei −6 %) dominiert, firmenspezifisch gibt es nichts Neues. Der 2027er Umsatz-Guide (6,5–6,75 Mrd. $) steht weiter. These unverändert, Sentiment klar negativ. Status: beobachten."
+      "note": "Intraday 09.11. ca. 75,28 $ (+13,2 %, laut DailyPolitical/MarketBeat), −11 % seit Aufnahme. Insider-Cluster: Die Direktoren Franklin (309.600 $ zu 61,92 $) und Ali (631.500 $ zu 63,15 $) kauften am 05.11. Rückenwind durch die AI-Hardware-Erholung und Sanminas starken FY27-Ausblick. These intakt, Status bleibt bis zur Stabilisierung „beobachten“."
     },
     {
       "ticker": "EME",
@@ -544,20 +642,20 @@
       "fvLow": 830,
       "fvHigh": 900,
       "status": "beobachten",
-      "note": "Schluss 06.11.: 608,45 $ (laut Motley Fool), −11,7 % seit Aufnahme. Der Data-Center-Druck nach der Wahl (mögliche Moratorien) und der AI-Abverkauf belasten weiter. Firmenspezifisch nichts Neues, der Backlog ist breit diversifiziert. Status: beobachten."
+      "note": "Kein verifizierter Kurs für 09.11. gefunden, letzter bestätigter Schluss ist 608,45 $ (06.11.). Die breite Rally am Montag dürfte geholfen haben, firmenspezifisch nichts Neues. Status: beobachten."
     },
     {
       "ticker": "RDDT",
       "name": "Reddit",
       "added": "2026-11-03",
       "priceAdded": 93.55,
-      "lastPrice": 94.06,
-      "lastDate": "2026-11-05",
+      "lastPrice": 95.13,
+      "lastDate": "2026-11-09",
       "currency": "USD",
       "fvLow": 120,
       "fvHigh": 140,
       "status": "beobachten",
-      "note": "ca. 94,06 $ nach −7,6 % (laut Morningstar, Datum vermutlich 05.11., nicht verifiziert). Belastung durch den Tech-Abverkauf und schwache Snap-Werbezahlen. Die Sorge um Search-Traffic (Google AI Mode) bleibt der Kernpunkt der Bären. Kursreaktion und Sektorstimmung rechtfertigen genauere Beobachtung. Status: beobachten."
+      "note": "ca. 95,13 $ (indikativ, tokenisierter Kurs, 09.11. 16:00 UTC). Nach dem Q3-Bericht senkten mehrere Analysten ihre Ziele: Evercore 120 $ (In-Line), Loop 100 $ (Hold), DA Davidson 125 $ (Buy). RSI ca. 28, also überverkauft. Die Sorge um Google-Referral-Traffic bleibt der Kernpunkt. Status: beobachten."
     },
     {
       "ticker": "IT",
@@ -570,20 +668,33 @@
       "fvLow": 245,
       "fvHigh": 275,
       "status": "beobachten",
-      "note": "Schluss 06.11.: 190,10 $ (laut Motley Fool), −6,3 % seit Aufnahme. Keine neuen Firmendaten. Der Abverkauf bei Software und Informationsdiensten (AI-Disruptionssorgen) überlagert die starken Q3-Zahlen. These (CV-Beschleunigung, FCF) formal intakt, aber der Kurs reagiert nicht. Status: beobachten."
+      "note": "Kein verifizierter Kurs für 09.11. gefunden, letzter Schluss ist 190,10 $ (06.11.). Keine neuen Firmendaten, die Sorgen um AI-Disruption bei Informationsdiensten bleiben. These formal intakt. Status: beobachten."
     },
     {
       "ticker": "CVS",
       "name": "CVS Health",
       "added": "2026-11-05",
       "priceAdded": 79.9,
-      "lastPrice": 83.85,
-      "lastDate": "2026-11-06",
+      "lastPrice": 84.97,
+      "lastDate": "2026-11-09",
       "currency": "USD",
       "fvLow": 95,
       "fvHigh": 110,
       "status": "intakt",
-      "note": "Schluss 06.11.: 83,85 $ (+3,1 % am Tag, laut Gotrade), +4,9 % seit Aufnahme. Erholung nach dem Split-Abverkauf, keine neuen Firmendaten. These intakt."
+      "note": "Intraday 09.11. 84,97 $ (+1,3 %, laut Fox Business), +6,3 % seit Aufnahme. Keine neuen Firmendaten. These intakt."
+    },
+    {
+      "ticker": "SANM",
+      "name": "Sanmina",
+      "added": "2026-11-10",
+      "priceAdded": 179.1,
+      "lastPrice": 179.1,
+      "lastDate": "2026-11-10",
+      "currency": "USD",
+      "fvLow": 200,
+      "fvHigh": 230,
+      "status": "intakt",
+      "note": "Aufgenommen vorbörslich nach Beat & Raise (FY27-EPS-Guide 15,50–17,50 $). Prüfstein ist der Helios-Ramp im H2 FY27."
     }
   ]
 }
