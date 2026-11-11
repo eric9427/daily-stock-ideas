@@ -1,6 +1,112 @@
 {
-  "updated": "2026-11-10T12:25:00+01:00",
+  "updated": "2026-11-11T12:40:00+01:00",
   "editions": [
+    {
+      "date": "2026-11-11",
+      "marketContext": [
+        "Heißer CPI am Dienstag (10.11.): Oktober-Gesamtindex +0,4 % m/m, Kern +0,3 % (dritter Monat in Folge). Die 10-jährige US-Rendite stieg zeitweise wieder über 5 %. Fed-Gouverneur Waller tendiert zu einer Zinserhöhung um 25 bp am 09.12. und bringt sogar 50 bp ins Spiel, Logan hält zwei weitere Erhöhungen für nötig.",
+        "Wall Street schloss leichter: S&P 500 −0,4 %, Nasdaq −0,7 %, Dow −0,3 %. Hauptbremse war Nvidia (−5,5 % auf 168,80 $) wegen des Spionage-Skandals um CEO Jensen Huang. Nachbörslich hellte CoreWeave (Q3-Umsatz +168 %, Backlog 132,5 Mrd. $) die Stimmung auf, Nasdaq-100-Futures zuletzt ca. +1,7 %.",
+        "Europa: Der DAX notiert mittags bei ca. 26.500 (+0,5 %), knapp unter dem Rekordhoch von 26.692. Siemens Energy steigt nach den Jahreszahlen um ca. 7 % auf knapp 130 €. CSG fällt nach der Senkung des EBIT-Ziels um ca. 20 % auf ein Rekordtief.",
+        "Öl zieht wieder an: Brent ca. 93,50 $, nachdem iranische Medien von Tankern berichten, die in der Straße von Hormus auf Seeminen gelaufen seien. Gold liegt bei ca. 4.050 $."
+      ],
+      "ideas": [
+        {
+          "ticker": "NVDA",
+          "name": "NVIDIA",
+          "exchange": "NASDAQ",
+          "country": "USA",
+          "sector": "Halbleiter / AI-Infrastruktur",
+          "type": "GARP",
+          "risk": "hoch",
+          "horizon": "6–18 Monate",
+          "price": 168.8,
+          "currency": "USD",
+          "priceDate": "2026-11-10 (Schluss; vorbörslich 11.11. ca. +3–5 %)",
+          "marketCap": "ca. 4,1–4,3 Bio. $",
+          "fairValueLow": 240,
+          "fairValueHigh": 270,
+          "fairValueMethod": "15–17x Konsens-EPS FY28 (Jahr bis Jan. 2028) von 15,93 $ ergibt ca. 239–271 $, gerundet 240–270 $. Gegenprobe: ca. 20–22x NTM-EPS (12,10 $) ergibt 242–266 $. Bewusster Abschlag zum 5-Jahres-Schnitt (ca. 36x) wegen Governance-, Regulierungs- und Zyklusrisiko. Zum Vergleich: Konsens-Kursziel ca. 327 $, Citi 285 $, Wells Fargo 300 $, Bernstein 400 $.",
+          "metrics": [
+            {
+              "l": "KGV NTM (Schluss 10.11.)",
+              "v": "ca. 14x (5-J.-Schnitt ca. 36x)"
+            },
+            {
+              "l": "KGV FY28e (Konsens-EPS 15,93 $)",
+              "v": "ca. 10,6x"
+            },
+            {
+              "l": "Umsatz Q2 FY27 / Guide Q3",
+              "v": "96,2 Mrd. $ (+106 % y/y) / 108 Mrd. $ ±2 % (ohne China-DC)"
+            },
+            {
+              "l": "Data-Center-Umsatz Q2",
+              "v": "89,0 Mrd. $ (+117 % y/y)"
+            },
+            {
+              "l": "Bruttomarge",
+              "v": "75,0 % (Guide Q3: 74,0 % ±0,5 Pp.)"
+            },
+            {
+              "l": "Liquidität vs. Schulden (26.07.)",
+              "v": "56,5 Mrd. $ Cash/Anleihen + 42,8 Mrd. $ Beteiligungen vs. 33,4 Mrd. $ Debt"
+            },
+            {
+              "l": "Kapitalrückgabe",
+              "v": "26 Mrd. $ in Q2, ca. 99 Mrd. $ Buyback-Rahmen offen"
+            },
+            {
+              "l": "Abstand zum Hoch",
+              "v": "−29 % vs. Schlusshoch 06.10."
+            }
+          ],
+          "bullets": [
+            "Übertriebener Abverkauf: Seit Anfang Oktober sind ca. 1,7 Bio. $ Börsenwert verloren gegangen, davon −9,5 % in nur zwei Tagen (09./10.11.) wegen des Skandals um Jensen Huang und eine mutmaßliche chinesische Agentin. Das Forward-KGV fiel auf ca. 14x, den tiefsten Wert seit fünf Jahren.",
+            "Die Fundamentaldaten sind unberührt: Q2 FY27 mit 96,2 Mrd. $ Umsatz (+106 %) und 75 % Bruttomarge, Q3-Guide 108 Mrd. $. Das Management stellt für FY28 ca. 70 % Umsatzwachstum in Aussicht, die FY28-EPS-Schätzung stieg binnen drei Monaten von 12,84 $ auf 15,93 $.",
+            "Kurzfristiger harter Katalysator: Die Q3-Zahlen kommen am 17.11. Ein erneuter Beat-and-Raise würde die These „Geschäft intakt“ belegen. Die Branche liefert Rückenwind: CoreWeave (Backlog 132,5 Mrd. $) sieht „keinen Grund“ für Änderungen an der Nvidia-Partnerschaft, Südkoreas Chipexporte steigen in den ersten zehn Novembertagen um +331 %.",
+            "Der Board hat eine unabhängige Untersuchung eingeleitet und spricht Huang das Vertrauen aus. Bernstein, BofA, RBC und Citi bestätigen Buy. Mit ca. 99 Mrd. $ offenem Buyback-Rahmen kann Nvidia den Kursrückgang aktiv nutzen."
+          ],
+          "bull": "Die Untersuchung entlastet Huang weitgehend oder es gibt eine geordnete Lösung, und die Q3-Zahlen am 17.11. bestätigen den Guide über 108 Mrd. $ samt starkem Q4-Ausblick. Dann normalisiert sich das Multiple auf 18–20x FY28-EPS, das ergibt 290–320 $.",
+          "bear": "Das ist ein binäres Event-Setup. Laut The Information soll die Affäre mindestens 7,5 Mrd. $ an Chiplieferungen an chinesische Firmen trotz Exportkontrollen ermöglicht haben, und Nvidias General Counsel soll in eine BIS-Untersuchung zu Megaspeed eingegriffen haben (unbestätigt). Mögliche Folgen: Strafen, strengere Exportauflagen, Rücktritt des CEO, Sammelklage (eingereicht 09.11.) und Anhörungen im ab Januar demokratisch kontrollierten Kongress (House-Briefing am 18.11.). Dazu kommt das Zyklusrisiko: steigende Zinsen (10-J. über 5 %, Fed-Erhöhung erwartet) und eine mögliche Abkühlung der AI-Capex. Klumpenrisiko: TTMI, SANM und EME in der Watchlist hängen am selben AI-Infra-Zyklus. Positionsgröße klein halten, gestaffelt einsteigen.",
+          "catalyst": {
+            "event": "Q3-FY27-Zahlen (nach US-Börsenschluss), danach House-Briefing zum Huang-Komplex",
+            "date": "17.11.2026 bzw. 18.11.2026"
+          },
+          "sources": [
+            {
+              "t": "Yahoo Finance: Nvidia keeps sliding – Bernstein sieht 137 % Upside (10.11.2026)",
+              "u": "https://finance.yahoo.com/markets/stocks/articles/nvidia-keeps-sliding-why-bernstein-030736508.html"
+            },
+            {
+              "t": "Motley Fool: Stock Market Today, Nov. 10 – Nvidia −5,5 %",
+              "u": "https://www.fool.com/coverage/stock-market-today/2026/11/10/stock-market-today-nov-10-nvidia-stock-plunges-5-5-as-ceo-scandal-overshadows-its-upcoming-earnings-report/"
+            },
+            {
+              "t": "SEC 8-K: NVIDIA Q2 FY2027 Results",
+              "u": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000073/q2fy27pr.htm"
+            },
+            {
+              "t": "Yahoo Finance: Nvidia under pressure – what actually matters",
+              "u": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-under-pressure-jensen-175632649.html"
+            },
+            {
+              "t": "Gizmodo: Nvidia intervened in US government probe (Report)",
+              "u": "https://gizmodo.com/nvidia-intervened-in-us-government-probe-report-2000837829"
+            },
+            {
+              "t": "TipRanks: Chip-Aktien vorbörslich fester (11.11.2026)",
+              "u": "https://www.tipranks.com/news/why-are-ai-chip-stocks-nvidia-micron-and-sk-hynix-surging-in-premarket-today-november-11"
+            }
+          ]
+        }
+      ],
+      "notPicked": [
+        "Caterpillar (CAT): Ein Direktor kaufte für 620.000 $ zu 620,39 $, der Backlog liegt mit 78 Mrd. $ auf Rekord (+96 % y/y), und die Aktie notiert ca. 40 % unter dem Hoch (ca. 600 $). Das trailing KGV von ca. 23x ist aber nur Durchschnitt, die Margen liegen am unteren Zielrand (Zölle ca. 2,2 Mrd. $), und bei Fed-Zinserhöhungen ist das Zyklusrisiko hoch. Mit EME ist das Power-/Data-Center-Thema bereits besetzt.",
+        "Intel (INTC): Der CEO kaufte für 9,7 Mio. $ zu ca. 64,7 $, die Aktie hat sich seit dem Juni-Hoch mehr als halbiert (ca. 58 $). Der Q4-Guide (25 Cent EPS) und der erwartete PC-Markt-Rückgang von ca. 10–12 % lassen aber selbst nach dem Crash keine günstige Bewertung zu. Das Signal ist stark, der Value fehlt.",
+        "Digital Turbine (APPS): −36 % trotz Umsatz +27 % und neuem FY27-Guide (EBITDA 145–155 Mio. $). Die Berichtsverschiebung zur „Überprüfung“, eine Korrektur der Vorperiode und der Hinweis auf eine mögliche Material Weakness sind aber Bilanzqualitäts-Warnsignale. Dazu ca. 350 Mio. $ Schulden. Finger weg, bis das Testat sauber ist.",
+        "CSG (Czechoslovak Group): −20 % auf ein Rekordtief (ca. 11 €, −64 % YTD) nach schwachem Q3 und gesenktem EBIT-Ziel durch einen ungünstigen Munitions-Mix. Nach dem Hunterbrook-Shortreport und der zweiten Enttäuschung fehlt Vertrauen in die Zahlen. Ein fallendes Messer, auch Rheinmetall bleibt bis zum Kapitalmarkttag am 27.11. auf Beobachten."
+      ]
+    },
     {
       "date": "2026-11-10",
       "marketContext": [
@@ -623,78 +729,78 @@
       "name": "TTM Technologies",
       "added": "2026-11-02",
       "priceAdded": 85.0,
-      "lastPrice": 75.28,
-      "lastDate": "2026-11-09",
+      "lastPrice": 75.33,
+      "lastDate": "2026-11-10",
       "currency": "USD",
       "fvLow": 120,
       "fvHigh": 135,
       "status": "beobachten",
-      "note": "Intraday 09.11. ca. 75,28 $ (+13,2 %, laut DailyPolitical/MarketBeat), −11 % seit Aufnahme. Insider-Cluster: Die Direktoren Franklin (309.600 $ zu 61,92 $) und Ali (631.500 $ zu 63,15 $) kauften am 05.11. Rückenwind durch die AI-Hardware-Erholung und Sanminas starken FY27-Ausblick. These intakt, Status bleibt bis zur Stabilisierung „beobachten“."
+      "note": "Schluss 10.11. 75,33 $ (−4,1 %, laut Fox Business), −11 % seit Aufnahme. Belastung durch den heißen CPI und die Nvidia-Schwäche, vorbörslich erholen sich AI-Hardware-Werte nach CoreWeave. Der Insider-Cluster vom 05.11. (ca. 62–63 $) stützt die These. Status bleibt „beobachten“."
     },
     {
       "ticker": "EME",
       "name": "EMCOR Group",
       "added": "2026-11-02",
       "priceAdded": 689.32,
-      "lastPrice": 608.45,
-      "lastDate": "2026-11-06",
+      "lastPrice": 645.53,
+      "lastDate": "2026-11-10",
       "currency": "USD",
       "fvLow": 830,
       "fvHigh": 900,
       "status": "beobachten",
-      "note": "Kein verifizierter Kurs für 09.11. gefunden, letzter bestätigter Schluss ist 608,45 $ (06.11.). Die breite Rally am Montag dürfte geholfen haben, firmenspezifisch nichts Neues. Status: beobachten."
+      "note": "Schluss 10.11. ca. 645,53 $ (−1,1 %, laut Fox Business), damit +6 % seit dem 06.11., aber −6 % seit Aufnahme. Firmenspezifisch nichts Neues. Der CoreWeave-Backlog von 132,5 Mrd. $ stützt die Data-Center-Nachfrage. These intakt, Status beobachten, bis der Aufnahmekurs zurückerobert ist."
     },
     {
       "ticker": "RDDT",
       "name": "Reddit",
       "added": "2026-11-03",
       "priceAdded": 93.55,
-      "lastPrice": 95.13,
-      "lastDate": "2026-11-09",
+      "lastPrice": 98.46,
+      "lastDate": "2026-11-10",
       "currency": "USD",
       "fvLow": 120,
       "fvHigh": 140,
       "status": "beobachten",
-      "note": "ca. 95,13 $ (indikativ, tokenisierter Kurs, 09.11. 16:00 UTC). Nach dem Q3-Bericht senkten mehrere Analysten ihre Ziele: Evercore 120 $ (In-Line), Loop 100 $ (Hold), DA Davidson 125 $ (Buy). RSI ca. 28, also überverkauft. Die Sorge um Google-Referral-Traffic bleibt der Kernpunkt. Status: beobachten."
+      "note": "ca. 98,46 $ am 10.11. (−2,3 %, laut Motley Fool, indikativ), Schluss 09.11. 100,79 $. +5 % seit Aufnahme. Direktorin Mary Porter Gale verkaufte 4.000 Aktien (klein, vermutlich planmäßig). Die Google-Traffic-Sorge bleibt der Kernpunkt. Status beobachten."
     },
     {
       "ticker": "IT",
       "name": "Gartner",
       "added": "2026-11-04",
       "priceAdded": 202.92,
-      "lastPrice": 190.1,
-      "lastDate": "2026-11-06",
+      "lastPrice": 188.65,
+      "lastDate": "2026-11-10",
       "currency": "USD",
       "fvLow": 245,
       "fvHigh": 275,
       "status": "beobachten",
-      "note": "Kein verifizierter Kurs für 09.11. gefunden, letzter Schluss ist 190,10 $ (06.11.). Keine neuen Firmendaten, die Sorgen um AI-Disruption bei Informationsdiensten bleiben. These formal intakt. Status: beobachten."
+      "note": "ca. 188,65 $ am 10.11. (−1,2 %, laut Motley Fool), −7 % seit Aufnahme. Ein Investing.com-Screen vom 10.11. führt Gartner mit KGV 13,6x und ca. 66 % Modell-Upside als eine der fünf am stärksten unterbewerteten US-Large-Caps. Analysten sehen nur ca. 5 % Upside. Keine neuen Firmendaten. Status beobachten."
     },
     {
       "ticker": "CVS",
       "name": "CVS Health",
       "added": "2026-11-05",
       "priceAdded": 79.9,
-      "lastPrice": 84.97,
-      "lastDate": "2026-11-09",
+      "lastPrice": 89.01,
+      "lastDate": "2026-11-10",
       "currency": "USD",
       "fvLow": 95,
       "fvHigh": 110,
       "status": "intakt",
-      "note": "Intraday 09.11. 84,97 $ (+1,3 %, laut Fox Business), +6,3 % seit Aufnahme. Keine neuen Firmendaten. These intakt."
+      "note": "Schluss 10.11. 89,01 $ (+4,4 %, laut Motley Fool), +11,4 % seit Aufnahme. Der Markt verdaut den angekündigten Split (2028: Aetna/Caremark vs. Retail). These intakt."
     },
     {
       "ticker": "SANM",
       "name": "Sanmina",
       "added": "2026-11-10",
       "priceAdded": 179.1,
-      "lastPrice": 179.1,
+      "lastPrice": 155.43,
       "lastDate": "2026-11-10",
       "currency": "USD",
       "fvLow": 200,
       "fvHigh": 230,
-      "status": "intakt",
-      "note": "Aufgenommen vorbörslich nach Beat & Raise (FY27-EPS-Guide 15,50–17,50 $). Prüfstein ist der Helios-Ramp im H2 FY27."
+      "status": "beobachten",
+      "note": "Schluss 10.11. 155,43 $ (laut StockMarketWatch, nachbörslich ca. 156,8 $). Die Aktie eröffnete bei 164,95 $ und gab das Gap großteils ab (Vortagesschluss 149,64 $). Damit −13 % gegenüber dem vorbörslichen Aufnahmekurs von 179,10 $. Fundamental unverändert, FY27-EPS-Guide 15,50–17,50 $ entspricht jetzt ca. 9,4x der Mitte. Status „beobachten“ wegen der Kursreaktion, die These selbst ist intakt."
     }
   ]
 }
