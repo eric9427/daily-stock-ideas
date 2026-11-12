@@ -1,6 +1,117 @@
 {
-  "updated": "2026-11-11T12:40:00+01:00",
+  "updated": "2026-11-12T12:32:04+01:00",
   "editions": [
+    {
+      "date": "2026-11-12",
+      "marketContext": [
+        "Wall Street am 11.11. kräftig erholt: S&P 500 +1,3 %, Nasdaq +1,6 %, Dow +0,5 %. Treiber war CoreWeave (+25 % nach Beat-and-Raise, 2026er Umsatzziel 13,0–13,3 Mrd. $).",
+        "Nachbörslich und vorbörslich fällt Nvidia um ca. 8–9 % (ca. 159 $ nach 173,73 $ Schluss). Laut WSJ bereitet der Board die Absetzung von CEO Jensen Huang vor, Reuters bestätigt eine Board-Sitzung am Mittwochabend. Einen Nachfolger gibt es noch nicht, im Gespräch ist ein Interims-CEO. Die Q3-Zahlen kommen am 17.11.",
+        "Fed: Laut CME FedWatch liegt die Wahrscheinlichkeit einer Zinserhöhung im Dezember bei ca. 90 %. Die 10-jährige US-Rendite notiert bei ca. 4,98 %, nachdem sie am Dienstag über 5 % lag. Gold gab am 11.11. um 1,2 % auf ca. 3.983 $ nach, Brent stand intraday bei ca. 93,60 $.",
+        "Europa: Der DAX erreicht ein Rekordhoch knapp unter 27.000 Punkten (+1,2 % zur Eröffnung). Siemens steigt um ca. 4,8 % (Rekordjahr, Auftragseingang über 100 Mrd. €, höhere Mittelfristziele), Merck KGaA hebt die Prognose zum dritten Mal an. Signale der USA, dass kein Angriff auf Iran unmittelbar bevorsteht, drücken den Ölpreis."
+      ],
+      "ideas": [
+        {
+          "ticker": "FUN",
+          "name": "Six Flags Entertainment",
+          "exchange": "NYSE",
+          "country": "USA",
+          "sector": "Freizeitparks / Konsum",
+          "type": "Deep Value",
+          "risk": "hoch",
+          "horizon": "12–24 Monate",
+          "price": 11.15,
+          "currency": "USD",
+          "priceDate": "2026-11-11 (letzter Kurs, +ca. 9,7 %)",
+          "marketCap": "ca. 1,14 Mrd. $ (EV ca. 5,8 Mrd. $)",
+          "fairValueLow": 14,
+          "fairValueHigh": 20,
+          "fairValueMethod": "EV/EBITDA 8,0–9,0x auf eine eigene Schätzung des 2027er adj. EBITDA von ca. 800 Mio. $ (TTM 779 Mio. $, es gibt keine 2027-Guidance). Das ergibt einen EV von 6,4–7,2 Mrd. $. Davon abgezogen werden ca. 5,0 Mrd. $ Net Debt inkl. einer möglichen Zahlung von ca. 0,37 Mrd. $ für die Partnerschaftsanteile an Six Flags Over Georgia. Es bleiben 1,4–2,2 Mrd. $ Equity bei ca. 102 Mio. Aktien, also ca. 14–21 $, gerundet 14–20 $. Zum Vergleich: Konsens-Kursziel 14,85 $ (Spanne von 5 $ bei Mizuho bis 18 $ bei UBS).",
+          "metrics": [
+            {
+              "l": "EV/EBITDA (TTM 779 Mio. $)",
+              "v": "ca. 7,4x"
+            },
+            {
+              "l": "Net Debt / Net Leverage",
+              "v": "4,66 Mrd. $ / 5,8x (Vorquartal 6,1x, Ziel ca. 4x)"
+            },
+            {
+              "l": "Free Cashflow 9M 2026",
+              "v": "257 Mio. $ (ca. +300 Mio. $ vs. Vorjahr), Capex 241 Mio. $ statt 408 Mio. $"
+            },
+            {
+              "l": "Same-Park adj. EBITDA 9M / Q3",
+              "v": "+10,7 % / +1,1 %"
+            },
+            {
+              "l": "Guide Q4 Same-Park adj. EBITDA",
+              "v": "140–150 Mio. $ (Vorjahr 167 Mio. $)"
+            },
+            {
+              "l": "Liquidität",
+              "v": "1,06 Mrd. $ (Revolver ungenutzt), ca. 70 % der Schulden fix verzinst"
+            },
+            {
+              "l": "Short Interest",
+              "v": "27,7 % des Free Float (10.11.)"
+            },
+            {
+              "l": "Abstand zum 200-Tage-Schnitt",
+              "v": "−33 % (200-T.: 16,62 $)"
+            }
+          ],
+          "bullets": [
+            "Insider-Cluster: Direktor Rehan Jaffer (H Partners) kaufte vom 06.–10.11. 1,45 Mio. Aktien für ca. 14,9 Mio. $ zu 10,00–10,86 $. Executive Chairman Richard Haddrill und Chief Legal Officer Christopher Bennett kauften ebenfalls. Insgesamt ca. 15,1 Mio. $ in 90 Tagen, das ist eines der größten Kaufsignale im US-Small-/Mid-Cap-Bereich.",
+            "Der Aktivist Jana Partners fordert seit September öffentlich einen Verkaufsprozess (Bank mandatieren, Review of Strategic Alternatives). Mit ca. 7,4x EV/EBITDA liegt die Aktie deutlich unter dem Niveau, zu dem Freizeitpark-Assets historisch den Besitzer wechseln.",
+            "Die Cash-Wende ist sichtbar: 9M-FCF von 257 Mio. $ statt ca. −40 Mio. $ im Vorjahr, Schulden um 275 Mio. $ abgebaut, die Net Leverage sinkt von 6,1x auf 5,8x. Weitere Parkverkäufe (Richmond, Maryland) sollen in die Schuldentilgung fließen.",
+            "Der Abverkauf hat Gründe, die zum Teil temporär sind: Der Oktober (Attendance −9 %) litt je zur Hälfte unter dem Wetter und dem tödlichen Unfall in Georgia. Same-Park lag das 9M-EBITDA bei +10,7 %, Kosteneinsparungen von 70–80 Mio. $ brutto laufen.",
+            "Asymmetrie durch Hebel: Jede 50 Mio. $ mehr EBITDA bei 8,5x entsprechen ca. 4 $ je Aktie, also über 35 % des Kurses. Der Short Interest von fast 28 % kann Bewegungen verstärken."
+          ],
+          "bull": "Ein Verkaufsprozess oder ein Teilverkauf von Parks zu 9–10x EBITDA, dazu stabiles EBITDA 2027 von ca. 800–850 Mio. $ und weiter sinkende Leverage. Damit wären 20–25 $ je Aktie möglich, der Short-Squeeze beschleunigt die Bewegung.",
+          "bear": "Hohe Verschuldung (5,8x, negatives Eigenkapital) bei steigenden Zinsen: Die Fed könnte im Dezember erhöhen, und eine Refinanzierung würde teurer. Der Q4-Guide liegt unter dem Vorjahr, der Passholder-Start 2027 ist nur flach, und der Unfall in Georgia kann der Reputation und der Attendance dauerhaft schaden. Bis Januar können ca. 370 Mio. $ für die Georgia-Partnerschaftsanteile fällig werden. Analysten sind gespalten (Goldman 9 $, Mizuho 5 $). Ohne Deal und bei weiter schwacher Attendance droht eine Value Trap, ein schlechtes Jahr kann das Equity stark treffen. Nur kleine Position.",
+          "catalyst": {
+            "event": "Fälligkeit der Zahlung für die Georgia-Partnerschaftsanteile, danach Q4-/FY-Zahlen mit erstem 2027-Ausblick. Möglich ist auch ein Strategic Review auf Druck von Jana.",
+            "date": "Januar 2027 bzw. ca. Feb./März 2027 (Termin unbestätigt)"
+          },
+          "sources": [
+            {
+              "t": "SEC 8-K: Six Flags Q3 2026 Results (05.11.2026)",
+              "u": "https://www.sec.gov/Archives/edgar/data/0001999001/000199900126000103/sixflags-exh991xq32026.htm"
+            },
+            {
+              "t": "TradingKey: Six Flags Q3 2026 Earnings Call (Leverage, Asset Sales, Georgia-Zahlung)",
+              "u": "https://www.tradingkey.com/news/transcripts/262288821-"
+            },
+            {
+              "t": "Investing.com: Director Rehan Jaffer buys $14.9M in shares",
+              "u": "https://uk.investing.com/news/stock-market-news/six-flags-entertainment-director-rehan-jaffer-buys-149m-in-shares-93CH-4973286"
+            },
+            {
+              "t": "Finwire: Six Flags director adds $15M stake (06.–10.11.)",
+              "u": "https://finwire.io/news/stock-markets-news/tuesdays-insider-buys-and-sells-six-flags-director-adds-15m-stake"
+            },
+            {
+              "t": "DailyPolitical/MarketBeat: FUN über 50-Tage-Linie, Analystenziele (12.11.2026)",
+              "u": "https://www.dailypolitical.com/2026/11/12/six-flags-entertainment-nysefun-shares-cross-above-fifty-day-moving-average-whats-next.html"
+            },
+            {
+              "t": "ORTEX: Short Sellers Pile In (11.11.2026)",
+              "u": "https://ortex.news/articles/212895/six-flags-short-sellers-pile-in-after-earnings-rout"
+            },
+            {
+              "t": "TipRanks: Jana Partners calls for a sale",
+              "u": "https://www.tipranks.com/news/six-flags-stock-jumps-after-hours-as-jana-partners-calls-for-a-sale"
+            }
+          ]
+        }
+      ],
+      "notPicked": [
+        "Ottobock (OBCK): Die Aktie fällt trotz Umsatz-Beat in Q3 (Kernumsatz +9 %, Marge 27,7 %) und bestätigtem Guide um ca. 8 % auf ein Rekordtief von ca. 43,50 €, das sind ca. 13x KGV 2027e und ca. 7x EV/EBITDA. Patient Care wächst aber nur 1,7 %, der Erstattungsgegenwind hält in Q4 an, und die Vorwürfe aus dem Grizzly-Shortreport (Bilanzierung, Russland, Schulden des Großaktionärs) sind nicht ausgeräumt. Auf Beobachten, Kandidat für die nächsten Wochen.",
+        "Boyd Group (BGSI): −12,8 % nach Q3. Der Umsatz stieg dank Zukäufen um 28 % auf über 1 Mrd. $, der Nettogewinn brach aber auf 0,1 Mio. $ ein, und das EPS lag unter dem Konsens. Das ist kein Beat-and-Raise, die Margenfrage ist ungelöst.",
+        "Patrizia (PAT): +20 % auf ca. 7,60 € nach dem Übernahmeangebot des Mehrheitsaktionärs First Capital Partner zu 8,20 €. Es bleibt nur ein Restspread von ca. 8 % ohne Aussicht auf eine Gegenofferte, da der Bieter bereits die Mehrheit hält.",
+        "Nvidia (NVDA): Das Unternehmen steht bereits seit gestern in der Watchlist, deshalb keine erneute Aufnahme trotz des vorbörslichen Rückgangs um weitere 8 %. Siehe Watchlist-Notiz."
+      ]
+    },
     {
       "date": "2026-11-11",
       "marketContext": [
@@ -729,78 +840,91 @@
       "name": "TTM Technologies",
       "added": "2026-11-02",
       "priceAdded": 85.0,
-      "lastPrice": 75.33,
-      "lastDate": "2026-11-10",
+      "lastPrice": 78.7,
+      "lastDate": "2026-11-11",
       "currency": "USD",
       "fvLow": 120,
       "fvHigh": 135,
       "status": "beobachten",
-      "note": "Schluss 10.11. 75,33 $ (−4,1 %, laut Fox Business), −11 % seit Aufnahme. Belastung durch den heißen CPI und die Nvidia-Schwäche, vorbörslich erholen sich AI-Hardware-Werte nach CoreWeave. Der Insider-Cluster vom 05.11. (ca. 62–63 $) stützt die These. Status bleibt „beobachten“."
+      "note": "Schluss 11.11. 78,70 $ (laut Motley Fool), +4,5 % gegenüber dem 10.11. Erholung mit der AI-Hardware-Rally nach CoreWeave, aber −7 % seit Aufnahme. Belastung heute durch den Nvidia-CEO-Schock. These intakt (Insider-Cluster vom 05.11. bei ca. 62–63 $), Status bleibt beobachten."
     },
     {
       "ticker": "EME",
       "name": "EMCOR Group",
       "added": "2026-11-02",
       "priceAdded": 689.32,
-      "lastPrice": 645.53,
-      "lastDate": "2026-11-10",
+      "lastPrice": 666.74,
+      "lastDate": "2026-11-11",
       "currency": "USD",
       "fvLow": 830,
       "fvHigh": 900,
       "status": "beobachten",
-      "note": "Schluss 10.11. ca. 645,53 $ (−1,1 %, laut Fox Business), damit +6 % seit dem 06.11., aber −6 % seit Aufnahme. Firmenspezifisch nichts Neues. Der CoreWeave-Backlog von 132,5 Mrd. $ stützt die Data-Center-Nachfrage. These intakt, Status beobachten, bis der Aufnahmekurs zurückerobert ist."
+      "note": "Schluss 11.11. 666,74 $ (laut Motley Fool), +3,3 %, damit nur noch −3 % seit Aufnahme. Rückenwind durch den CoreWeave-Backlog und den Ausbau von Data-Center-Power. Firmenspezifisch nichts Neues. Status beobachten, bis der Aufnahmekurs zurückerobert ist."
     },
     {
       "ticker": "RDDT",
       "name": "Reddit",
       "added": "2026-11-03",
       "priceAdded": 93.55,
-      "lastPrice": 98.46,
-      "lastDate": "2026-11-10",
+      "lastPrice": 105.66,
+      "lastDate": "2026-11-11",
       "currency": "USD",
       "fvLow": 120,
       "fvHigh": 140,
-      "status": "beobachten",
-      "note": "ca. 98,46 $ am 10.11. (−2,3 %, laut Motley Fool, indikativ), Schluss 09.11. 100,79 $. +5 % seit Aufnahme. Direktorin Mary Porter Gale verkaufte 4.000 Aktien (klein, vermutlich planmäßig). Die Google-Traffic-Sorge bleibt der Kernpunkt. Status beobachten."
+      "status": "intakt",
+      "note": "Schluss 11.11. 105,66 $ (laut Motley Fool, ca. +7 %), +13 % seit Aufnahme. Kein firmenspezifischer Trigger, die Bewegung kommt mit der breiten Tech-Erholung. Die Google-Traffic-Sorge bleibt das Kernrisiko. Status von beobachten zurück auf intakt."
     },
     {
       "ticker": "IT",
       "name": "Gartner",
       "added": "2026-11-04",
       "priceAdded": 202.92,
-      "lastPrice": 188.65,
-      "lastDate": "2026-11-10",
+      "lastPrice": 193.0,
+      "lastDate": "2026-11-11",
       "currency": "USD",
       "fvLow": 245,
       "fvHigh": 275,
       "status": "beobachten",
-      "note": "ca. 188,65 $ am 10.11. (−1,2 %, laut Motley Fool), −7 % seit Aufnahme. Ein Investing.com-Screen vom 10.11. führt Gartner mit KGV 13,6x und ca. 66 % Modell-Upside als eine der fünf am stärksten unterbewerteten US-Large-Caps. Analysten sehen nur ca. 5 % Upside. Keine neuen Firmendaten. Status beobachten."
+      "note": "Schluss 11.11. 193,00 $ (+2,2 %, laut Motley Fool), −5 % seit Aufnahme. Keine neuen Firmendaten. Status beobachten."
     },
     {
       "ticker": "CVS",
       "name": "CVS Health",
       "added": "2026-11-05",
       "priceAdded": 79.9,
-      "lastPrice": 89.01,
-      "lastDate": "2026-11-10",
+      "lastPrice": 89.52,
+      "lastDate": "2026-11-11",
       "currency": "USD",
       "fvLow": 95,
       "fvHigh": 110,
       "status": "intakt",
-      "note": "Schluss 10.11. 89,01 $ (+4,4 %, laut Motley Fool), +11,4 % seit Aufnahme. Der Markt verdaut den angekündigten Split (2028: Aetna/Caremark vs. Retail). These intakt."
+      "note": "Schluss 11.11. 89,52 $ (+0,6 %, laut Motley Fool), +12 % seit Aufnahme. Der Markt verdaut weiter den Split-Plan für 2028. These intakt."
     },
     {
       "ticker": "SANM",
       "name": "Sanmina",
       "added": "2026-11-10",
       "priceAdded": 179.1,
-      "lastPrice": 155.43,
-      "lastDate": "2026-11-10",
+      "lastPrice": 159.25,
+      "lastDate": "2026-11-11",
       "currency": "USD",
       "fvLow": 200,
       "fvHigh": 230,
       "status": "beobachten",
-      "note": "Schluss 10.11. 155,43 $ (laut StockMarketWatch, nachbörslich ca. 156,8 $). Die Aktie eröffnete bei 164,95 $ und gab das Gap großteils ab (Vortagesschluss 149,64 $). Damit −13 % gegenüber dem vorbörslichen Aufnahmekurs von 179,10 $. Fundamental unverändert, FY27-EPS-Guide 15,50–17,50 $ entspricht jetzt ca. 9,4x der Mitte. Status „beobachten“ wegen der Kursreaktion, die These selbst ist intakt."
+      "note": "Schluss 11.11. 159,25 $ (+2,5 %, laut Motley Fool, nachbörslich ca. 158 $), −11 % gegenüber dem vorbörslichen Aufnahmekurs von 179,10 $. Fundamental unverändert (FY27-EPS-Guide 15,50–17,50 $, ca. 9,6x der Mitte). Die Nvidia-Führungskrise belastet heute den AI-Hardware-Komplex. Status beobachten."
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "added": "2026-11-11",
+      "priceAdded": 168.8,
+      "lastPrice": 173.73,
+      "lastDate": "2026-11-11",
+      "currency": "USD",
+      "fvLow": 240,
+      "fvHigh": 270,
+      "status": "beobachten",
+      "note": "Schluss 11.11. 173,73 $ (+2,9 %), nachbörslich und vorbörslich am 12.11. ca. −8 bis −9 % auf ca. 159 $, also ca. −6 % gegenüber dem Aufnahmekurs. Laut WSJ/Reuters bereitet der Board die Absetzung Jensen Huangs vor, ein Interims-CEO wird erwogen, einen designierten Nachfolger gibt es nicht. Damit materialisiert sich das Governance-Risiko aus der Bear-These. Die Bewertungsthese (ca. 13x NTM-EPS) bleibt, Schlüsselpersonen- und Execution-Risiko steigen deutlich. Status beobachten bis zu den Q3-Zahlen am 17.11. Gebrochen nur bei schwächerem Guide oder Kundenabwanderung. (Nachtrag: Der Eintrag fehlte gestern versehentlich in der Watchlist.)"
     }
   ]
 }
