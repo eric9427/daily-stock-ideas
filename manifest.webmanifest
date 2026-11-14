@@ -1,6 +1,6 @@
 {
-  "name": "Daily Stock Ideas",
-  "short_name": "Stock Ideas",
+  "name": "Market Update",
+  "short_name": "Market Update",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

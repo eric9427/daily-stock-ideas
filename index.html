@@ -6,13 +6,13 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="apple-mobile-web-app-title" content="Stock Ideas">
+<meta name="apple-mobile-web-app-title" content="Market Update">
 <meta name="theme-color" content="#f6f5f1" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#121416" media="(prefers-color-scheme: dark)">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <link rel="icon" href="icons/icon-192.png">
-<title>Daily Stock Ideas</title>
+<title>Market Update</title>
 <style>
   :root{
     --bg:#f6f5f1; --card:#ffffff; --ink:#1b1d1f; --muted:#62676d; --line:#e3e1da;
@@ -82,135 +82,214 @@
   details summary{cursor:pointer;font-weight:600}
   .empty{color:var(--muted);font-style:italic}
   footer{color:var(--muted);font-size:12px;margin-top:24px;line-height:1.55}
+  .lead{font-size:16px;line-height:1.55;margin:0}
+  .hl{counter-reset:hl;list-style:none;padding:0}
+  .hl li{counter-increment:hl;position:relative;padding-left:30px;margin:8px 0}
+  .hl li:before{content:counter(hl);position:absolute;left:0;top:1px;width:21px;height:21px;border-radius:50%;background:var(--accent);color:var(--card);font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center}
+  .drv{border-top:1px solid var(--line);padding:8px 0}
+  .drv:first-of-type{border-top:0;padding-top:0}
+  .drv .sc{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+  .drv .mk{font-size:13px;color:var(--muted)}
+  .mtab td:first-child{font-weight:600}
+  .note{font-size:12.5px;color:var(--muted)}
+  .news{margin-top:10px}
+  .plain{background:var(--accent-soft);border-radius:10px;padding:10px 12px;font-size:15px}
+  .metric .x{font-size:12px;color:var(--muted);margin-top:2px;line-height:1.4}
+  dl.gl{margin:0} dl.gl dt{font-weight:650;margin-top:8px} dl.gl dd{margin:0;color:var(--muted);font-size:14px}
+  .body p{margin:6px 0}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <h1>Daily Stock Ideas</h1>
+    <h1>Market Update</h1>
     <div class="sub"><span id="sub"></span><button class="refresh" onclick="load()">Aktualisieren</button></div>
   </header>
   <nav>
     <a href="#heute" data-v="heute">Heute</a>
+    <a href="#picks" data-v="picks">Top Picks</a>
     <a href="#watchlist" data-v="watchlist">Watchlist</a>
     <a href="#archiv" data-v="archiv">Archiv</a>
     <a href="#methodik" data-v="methodik">Methodik</a>
   </nav>
 
   <section id="v-heute"></section>
+  <section id="v-picks"></section>
   <section id="v-watchlist"></section>
   <section id="v-archiv"></section>
   <section id="v-methodik">
     <div class="box">
-      <h2>Auswahlkriterien</h2>
+      <h2>Market Update (Mo–Fr, ca. 18 Uhr)</h2>
       <ul>
-        <li><b>Universum:</b> weltweit, Small bis Large Caps (ab ca. 300 Mio. Marktkapitalisierung), keine Sektor-Ausschlüsse.</li>
-        <li><b>Ideentypen:</b> Deep Value, Wachstumsstory, GARP (Growth at a Reasonable Price).</li>
-        <li><b>Trigger:</b> Earnings/Guidance, Insiderkäufe und Buybacks, M&amp;A und Corporate Actions, Sektor- und Makro-Themen.</li>
-        <li><b>Horizont:</b> mittelfristig, 6–24 Monate.</li>
-        <li><b>Hürde:</b> hoch. Typisch 0–3 Ideen, maximal 5. Ein leerer Tag ist ein gültiges Ergebnis.</li>
-        <li><b>Andere Assets:</b> Anleihen, Edelmetalle, Rohstoffe und ETFs kommen nur rein, wenn das Setup besser ist als die beste Aktienidee.</li>
-        <li><b>Fair Value:</b> eigene Schätzung (Multiple auf Konsens- bzw. Guidance-EPS), Herleitung steht bei jeder Idee.</li>
+        <li>Kurzfazit, Top 3 Highlights, Treiber (🌐 global oder 📍 punktuell, mit betroffenen Märkten).</li>
+        <li>Europa (DAX, MDAX, EuroStoxx 50 und Länder), Asien (Japan, China, weitere), USA (S&amp;P 500, Nasdaq 100 als Zwischenstand plus Vortagesschluss).</li>
+        <li>Anleihen ausführlich, Rohstoffe und Devisen, Termine für morgen.</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h2>Top Picks (einmal pro Woche)</h2>
+      <ul>
+        <li><b>Genau 3 Picks</b>, sehr selektiv. Möglich sind Aktien, ETFs, Hebelprodukte und Edelmetalle.</li>
+        <li><b>Einfache Sprache:</b> jede Idee wird so erklärt, dass man sie ohne Fachwissen versteht. Fachbegriffe und Kennzahlen stehen im Glossar der Idee.</li>
+        <li><b>Inhalt:</b> wichtige Kennzahlen mit Erklärung, aktuelle News, qualitative Aspekte (Geschäftsmodell, Management, Wettbewerb) und quantitative Aspekte (Bewertung, Wachstum, Bilanz).</li>
+        <li><b>Horizont:</b> mittelfristig, 6–24 Monate. Bei Hebelprodukten steht der Hebel und das Knock-out-Risiko immer dabei.</li>
+        <li><b>Fair Value:</b> eigene Schätzung, die Herleitung steht bei jeder Idee.</li>
       </ul>
     </div>
     <div class="box">
       <h2>Risiko-Label</h2>
       <ul>
-        <li><b>Niedrig:</b> profitabel, solide Bilanz, geringe Volatilität.</li>
-        <li><b>Mittel:</b> profitabel, aber zyklisch, mit Bewertungs- oder Umsetzungsrisiko.</li>
-        <li><b>Hoch:</b> hohe Volatilität (Beta &gt; 2), Verschuldung oder eine binäre These.</li>
+        <li><b>Niedrig:</b> profitabel, solide Bilanz, geringe Schwankungen.</li>
+        <li><b>Mittel:</b> profitabel, aber konjunkturabhängig, mit Bewertungs- oder Umsetzungsrisiko.</li>
+        <li><b>Hoch:</b> starke Schwankungen, Schulden, Hebel oder eine Alles-oder-nichts-These.</li>
       </ul>
     </div>
   </section>
 
   <footer>
-    Research-Ideen aus öffentlich zugänglichen Quellen, keine Anlageberatung und keine Kauf- oder Verkaufsempfehlung.
-    Kurse und Kennzahlen können verzögert sein, Datenstand und Quellen stehen jeweils bei der Idee. Eigene Prüfung vor jeder Entscheidung.
+    Informationen und Research-Ideen aus öffentlich zugänglichen Quellen, keine Anlageberatung und keine Kauf- oder Verkaufsempfehlung.
+    Kurse und Kennzahlen können verzögert sein, Datenstand und Quellen stehen jeweils dabei. Eigene Prüfung vor jeder Entscheidung.
   </footer>
 </div>
 
-
-
 <script>
 function render(D){
-  var esc = function(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});};
+  var esc = function(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});};
   var fmt = function(n,d){return Number(n).toLocaleString('de-DE',{minimumFractionDigits:d==null?2:d,maximumFractionDigits:d==null?2:d});};
   var pct = function(a,b){return (b/a-1)*100;};
   var sign = function(x){return (x>0?'+':'')+fmt(x,1)+' %';};
   var dDE = function(iso){var p=iso.split('-');return p[2]+'.'+p[1]+'.'+p[0];};
+  var li = function(arr){return (arr||[]).map(function(m){return '<li>'+esc(m)+'</li>';}).join('');};
+  var chgCls = function(c){c=String(c||'').trim();var nz=/[1-9]/.test((c.match(/^[+\-−–]?\s*[\d.,]+/)||[''])[0]);return !nz?'':(/^[+]/.test(c)?'pos':(/^[-−–]/.test(c)?'neg':''));};
+  var srcs = function(arr){return (arr||[]).map(function(s){return '<a href="'+esc(s.u)+'" target="_blank" rel="noopener">'+esc(s.t)+'</a>';}).join(' · ');};
+  var ideas = function(e){return e.ideas||[];};
 
   var upd = new Date(D.updated);
-  document.getElementById('sub').textContent = 'Stand: ' + upd.toLocaleString('de-DE',{dateStyle:'medium',timeStyle:'short'}) + ' · Ideen, keine Anlageberatung';
+  document.getElementById('sub').textContent = 'Stand: ' + upd.toLocaleString('de-DE',{dateStyle:'medium',timeStyle:'short'}) + ' · keine Anlageberatung';
+
+  function tableHTML(rows, cols){
+    if(!rows||!rows.length) return '';
+    var h='<div class="scroll"><table class="mtab"><thead><tr><th>'+cols[0]+'</th><th class="num">'+cols[1]+'</th><th class="num">'+cols[2]+'</th></tr></thead><tbody>';
+    rows.forEach(function(r){
+      h+='<tr><td>'+esc(r.n)+(r.note?'<div class="note">'+esc(r.note)+'</div>':'')+'</td><td class="num">'+esc(r.v)+'</td><td class="num '+chgCls(r.c)+'">'+esc(r.c)+'</td></tr>';
+    });
+    return h+'</tbody></table></div>';
+  }
+
+  function marketHTML(m){
+    var h='';
+    if(m.summary) h+='<div class="box"><h2>Kurzfazit</h2><p class="lead">'+esc(m.summary)+'</p></div>';
+    if(m.highlights&&m.highlights.length) h+='<div class="box"><h2>Top 3 Highlights</h2><ol class="hl">'+li(m.highlights)+'</ol></div>';
+    if(m.drivers&&m.drivers.length){
+      h+='<div class="box"><h2>Treiber</h2>';
+      m.drivers.forEach(function(d){
+        var g=d.scope==='global';
+        h+='<div class="drv"><div class="sc">'+(g?'🌐 global':'📍 punktuell')+'</div><div>'+esc(d.text)+'</div>'+(d.markets?'<div class="mk">→ '+esc(d.markets)+'</div>':'')+'</div>';
+      });
+      h+='</div>';
+    }
+    (m.regions||[]).forEach(function(r){
+      h+='<div class="box"><h2>'+esc(r.name)+'</h2>'+tableHTML(r.indices,['Index','Stand','Tag'])+(r.note?'<div class="note" style="margin-top:6px">'+esc(r.note)+'</div>':'')+(r.news&&r.news.length?'<ul class="news">'+li(r.news)+'</ul>':'')+'</div>';
+    });
+    if(m.bonds){
+      h+='<div class="box"><h2>Anleihen</h2>'+tableHTML(m.bonds.rows,['Laufzeit','Rendite','Δ Tag'])+(m.bonds.comment&&m.bonds.comment.length?'<ul class="news">'+li(m.bonds.comment)+'</ul>':'')+'</div>';
+    }
+    if((m.commodities&&m.commodities.length)||(m.fx&&m.fx.length)){
+      h+='<div class="box"><h2>Rohstoffe &amp; Devisen</h2>'+tableHTML((m.commodities||[]).concat(m.fx||[]),['','Stand','Tag'])+(m.cfNews&&m.cfNews.length?'<ul class="news">'+li(m.cfNews)+'</ul>':'')+'</div>';
+    }
+    if(m.tomorrow&&m.tomorrow.length) h+='<div class="box"><h2>Was morgen wichtig wird</h2><ul>'+li(m.tomorrow)+'</ul></div>';
+    if(m.sources&&m.sources.length) h+='<div class="src" style="margin:-4px 2px 14px">Quellen: '+srcs(m.sources)+'</div>';
+    return h;
+  }
 
   function ideaHTML(it, i){
-    var upLo = pct(it.price, it.fairValueLow), upHi = pct(it.price, it.fairValueHigh);
+    var hasFV = it.fairValueLow!=null && it.fairValueHigh!=null && it.price!=null;
     var h = '<article class="idea"><div class="idea-head">';
-    h += '<div class="rank">IDEE ' + (i+1) + ' · ' + esc(it.exchange) + ' · ' + esc(it.country) + '</div>';
+    h += '<div class="rank">PICK ' + (i+1) + ' · ' + esc(it.exchange) + (it.country?' · ' + esc(it.country):'') + '</div>';
     h += '<h3>' + esc(it.name) + '<span class="tk">' + esc(it.ticker) + '</span></h3>';
-    h += '<div class="tags"><span class="tag">' + esc(it.type) + '</span><span class="tag risk-' + esc(it.risk) + '">Risiko ' + esc(it.risk) + '</span><span class="tag">' + esc(it.horizon) + '</span><span class="tag">' + esc(it.sector) + '</span></div></div>';
-    h += '<div class="px"><div><div class="l">Kurs</div><div class="v">' + fmt(it.price) + ' ' + esc(it.currency) + '</div><div class="fvnote">' + esc(it.priceDate) + '</div></div>';
-    h += '<div><div class="l">Fair Value</div><div class="v">' + fmt(it.fairValueLow,0) + '–' + fmt(it.fairValueHigh,0) + ' ' + esc(it.currency) + '</div></div>';
-    h += '<div><div class="l">Upside</div><div class="v pos">' + sign(upLo) + ' bis ' + sign(upHi) + '</div></div>';
-    h += '<div><div class="l">Marktkap.</div><div class="v" style="font-size:14px">' + esc(it.marketCap) + '</div></div></div>';
-    h += '<div class="body"><h4>Warum jetzt</h4><ul>' + it.bullets.map(function(b){return '<li>'+esc(b)+'</li>';}).join('') + '</ul>';
-    h += '<h4>Kennzahlen</h4><div class="metrics">' + it.metrics.map(function(m){return '<div class="metric"><div class="l">'+esc(m.l)+'</div><div class="v">'+esc(m.v)+'</div></div>';}).join('') + '</div>';
-    h += '<div class="fvnote">Fair-Value-Herleitung: ' + esc(it.fairValueMethod) + '</div>';
-    h += '<h4>Bull / Bear</h4><div class="bb"><div class="bull"><b>Bull-Case</b>' + esc(it.bull) + '</div><div class="bear"><b>Bear-Case & Risiken</b>' + esc(it.bear) + '</div></div>';
-    h += '<h4>Nächster Katalysator</h4><div class="cat"><b>' + esc(it.catalyst.date) + '</b><br>' + esc(it.catalyst.event) + '</div>';
-    h += '<h4>Quellen</h4><div class="src">' + it.sources.map(function(s){return '<a href="'+esc(s.u)+'" target="_blank" rel="noopener">'+esc(s.t)+'</a>';}).join(' · ') + '</div>';
+    h += '<div class="tags"><span class="tag">' + esc(it.type) + '</span><span class="tag risk-' + esc(it.risk) + '">Risiko ' + esc(it.risk) + '</span><span class="tag">' + esc(it.horizon) + '</span>' + (it.sector?'<span class="tag">' + esc(it.sector) + '</span>':'') + '</div></div>';
+    h += '<div class="px">';
+    if(it.price!=null) h += '<div><div class="l">Kurs</div><div class="v">' + fmt(it.price) + ' ' + esc(it.currency) + '</div><div class="fvnote">' + esc(it.priceDate) + '</div></div>';
+    if(hasFV){
+      h += '<div><div class="l">Fair Value</div><div class="v">' + fmt(it.fairValueLow,0) + '–' + fmt(it.fairValueHigh,0) + ' ' + esc(it.currency) + '</div></div>';
+      h += '<div><div class="l">Potenzial</div><div class="v pos">' + sign(pct(it.price, it.fairValueLow)) + ' bis ' + sign(pct(it.price, it.fairValueHigh)) + '</div></div>';
+    }
+    if(it.marketCap) h += '<div><div class="l">Größe</div><div class="v" style="font-size:14px">' + esc(it.marketCap) + '</div></div>';
+    h += '</div><div class="body">';
+    if(it.summary) h += '<h4>In einem Satz</h4><div class="plain">' + esc(it.summary) + '</div>';
+    if(it.explanation&&it.explanation.length) h += '<h4>Die Idee einfach erklärt</h4>' + it.explanation.map(function(p){return '<p>'+esc(p)+'</p>';}).join('');
+    if(it.bullets&&it.bullets.length) h += '<h4>Warum jetzt</h4><ul>' + li(it.bullets) + '</ul>';
+    if(it.news&&it.news.length) h += '<h4>Aktuelle News</h4><ul>' + li(it.news) + '</ul>';
+    if(it.metrics&&it.metrics.length){
+      h += '<h4>Kennzahlen</h4><div class="metrics">' + it.metrics.map(function(m){return '<div class="metric"><div class="l">'+esc(m.l)+'</div><div class="v">'+esc(m.v)+'</div>'+(m.x?'<div class="x">'+esc(m.x)+'</div>':'')+'</div>';}).join('') + '</div>';
+    }
+    if(it.fairValueMethod) h += '<div class="fvnote">Fair-Value-Herleitung: ' + esc(it.fairValueMethod) + '</div>';
+    if(it.qualitative&&it.qualitative.length) h += '<h4>Qualitativ: Geschäft, Management, Wettbewerb</h4><ul>' + li(it.qualitative) + '</ul>';
+    if(it.quantitative&&it.quantitative.length) h += '<h4>Quantitativ: Bewertung, Wachstum, Bilanz</h4><ul>' + li(it.quantitative) + '</ul>';
+    if(it.bull||it.bear) h += '<h4>Chancen / Risiken</h4><div class="bb"><div class="bull"><b>Wenn es gut läuft</b>' + esc(it.bull) + '</div><div class="bear"><b>Was schiefgehen kann</b>' + esc(it.bear) + '</div></div>';
+    if(it.catalyst) h += '<h4>Nächster Katalysator</h4><div class="cat"><b>' + esc(it.catalyst.date) + '</b><br>' + esc(it.catalyst.event) + '</div>';
+    if(it.glossary&&it.glossary.length) h += '<details><summary>Begriffe erklärt (' + it.glossary.length + ')</summary><dl class="gl">' + it.glossary.map(function(g){return '<dt>'+esc(g.term)+'</dt><dd>'+esc(g.def)+'</dd>';}).join('') + '</dl></details>';
+    if(it.sources&&it.sources.length) h += '<h4>Quellen</h4><div class="src">' + srcs(it.sources) + '</div>';
     h += '</div></article>';
     return h;
   }
 
-  function editionHTML(e){
-    var h = '';
-    if (e.marketContext && e.marketContext.length){
-      h += '<div class="box"><h2>Markt-Kontext</h2><ul>' + e.marketContext.map(function(m){return '<li>'+esc(m)+'</li>';}).join('') + '</ul></div>';
+  function picksHTML(e){
+    var h='';
+    if (e.marketContext && e.marketContext.length && !e.marketUpdate){
+      h += '<div class="box"><h2>Markt-Kontext</h2><ul>' + li(e.marketContext) + '</ul></div>';
     }
-    if (e.ideas && e.ideas.length){
-      h += e.ideas.map(ideaHTML).join('');
-    } else {
-      h += '<div class="box"><h2>Top-Ideen</h2><p class="empty">' + esc(e.noIdeasNote || 'Heute erfüllt kein Setup die Qualitätshürde. Keine neue Idee.') + '</p></div>';
-    }
+    if (ideas(e).length){ h += ideas(e).map(ideaHTML).join(''); }
+    else { h += '<div class="box"><h2>Top Picks</h2><p class="empty">' + esc(e.noIdeasNote || 'Diese Woche erfüllt kein Setup die Qualitätshürde.') + '</p></div>'; }
     if (e.notPicked && e.notPicked.length){
-      h += '<div class="box"><h2>Geprüft, aber nicht aufgenommen</h2><ul>' + e.notPicked.map(function(m){return '<li>'+esc(m)+'</li>';}).join('') + '</ul></div>';
+      h += '<div class="box"><h2>Geprüft, aber nicht aufgenommen</h2><ul>' + li(e.notPicked) + '</ul></div>';
     }
     return h;
   }
+  var isPicks = function(e){return e.weeklyPicks || (!e.marketUpdate && e.ideas);};
 
   // Heute
   var e0 = D.editions[0];
-  document.getElementById('v-heute').innerHTML =
-    '<div class="sub" style="margin:-4px 0 12px;color:var(--muted)">Ausgabe ' + dDE(e0.date) + (e0.label ? ' · ' + esc(e0.label) : '') + ' · ' + (e0.ideas.length) + ' Idee' + (e0.ideas.length===1?'':'n') + '</div>' + editionHTML(e0);
+  var hh = '<div class="sub" style="margin:-4px 0 12px;color:var(--muted)">Ausgabe ' + dDE(e0.date) + (isPicks(e0)&&e0.marketUpdate ? ' · mit Top Picks der Woche' : '') + '</div>';
+  if (e0.marketUpdate) hh += marketHTML(e0.marketUpdate);
+  if (isPicks(e0) && ideas(e0).length) hh += '<div class="box"><h2>Top Picks der Woche</h2><p style="margin:0">' + ideas(e0).map(function(i){return '<b>'+esc(i.ticker)+'</b> '+esc(i.name);}).join(' · ') + '</p><p style="margin:6px 0 0"><a href="#picks" style="color:var(--accent)">Zu den Picks →</a></p></div>';
+  if (!e0.marketUpdate) hh += picksHTML(e0);
+  document.getElementById('v-heute').innerHTML = hh;
+
+  // Top Picks: jüngste Picks-Ausgabe
+  var pe = D.editions.filter(isPicks)[0];
+  document.getElementById('v-picks').innerHTML = pe ? '<div class="sub" style="margin:-4px 0 12px;color:var(--muted)">Picks vom ' + dDE(pe.date) + ' · ' + ideas(pe).length + ' Pick' + (ideas(pe).length===1?'':'s') + '</div>' + picksHTML(pe) : '<div class="box"><p class="empty">Noch keine Picks.</p></div>';
 
   // Watchlist
   var w = '<div class="box"><h2>Watchlist · Performance seit Nennung</h2><div class="scroll"><table><thead><tr><th>Titel</th><th class="num">Einstand</th><th class="num">Aktuell</th><th class="num">Perf.</th><th class="num">Bis FV (Mitte)</th><th>These</th></tr></thead><tbody>';
-  D.watchlist.forEach(function(x){
-    var p = pct(x.priceAdded, x.lastPrice), fv = pct(x.lastPrice, (x.fvLow + x.fvHigh)/2);
+  (D.watchlist||[]).forEach(function(x){
+    var p = pct(x.priceAdded, x.lastPrice), fv = (x.fvLow!=null&&x.fvHigh!=null)?sign(pct(x.lastPrice, (x.fvLow + x.fvHigh)/2)):'n. v.';
     var cls = p>0.05?'pos':(p<-0.05?'neg':'');
     var st = x.status==='intakt'?'pos':(x.status==='gebrochen'?'neg':'');
-    w += '<tr><td><b>' + esc(x.ticker) + '</b><br><span style="color:var(--muted);font-size:12px">' + esc(x.name) + '<br>seit ' + dDE(x.added) + '</span></td><td class="num">' + fmt(x.priceAdded) + '</td><td class="num">' + fmt(x.lastPrice) + '<br><span style="color:var(--muted);font-size:11px">' + dDE(x.lastDate) + '</span></td><td class="num ' + cls + '">' + sign(p) + '</td><td class="num">' + sign(fv) + '</td><td><span class="status ' + st + '">' + esc(x.status) + '</span><br><span style="font-size:12px;color:var(--muted)">' + esc(x.note) + '</span></td></tr>';
+    w += '<tr><td><b>' + esc(x.ticker) + '</b><br><span style="color:var(--muted);font-size:12px">' + esc(x.name) + '<br>seit ' + dDE(x.added) + '</span></td><td class="num">' + fmt(x.priceAdded) + '</td><td class="num">' + fmt(x.lastPrice) + '<br><span style="color:var(--muted);font-size:11px">' + dDE(x.lastDate) + '</span></td><td class="num ' + cls + '">' + sign(p) + '</td><td class="num">' + fv + '</td><td><span class="status ' + st + '">' + esc(x.status) + '</span><br><span style="font-size:12px;color:var(--muted)">' + esc(x.note) + '</span></td></tr>';
   });
   w += '</tbody></table></div></div>';
   document.getElementById('v-watchlist').innerHTML = w;
 
   // Archiv
   var a = '<div class="box"><h2>Frühere Ausgaben</h2>';
-  if (D.editions.length < 2){ a += '<p class="empty">Noch keine früheren Ausgaben. Das Archiv füllt sich ab der nächsten Ausgabe.</p>'; }
+  if (D.editions.length < 2){ a += '<p class="empty">Noch keine früheren Ausgaben.</p>'; }
   D.editions.slice(1).forEach(function(e){
-    a += '<details><summary>' + dDE(e.date) + ' · ' + (e.ideas.length ? e.ideas.map(function(i){return esc(i.ticker);}).join(', ') : 'keine Idee') + '</summary>' + editionHTML(e) + '</details>';
+    var parts=[]; if(e.marketUpdate) parts.push('Market Update');
+    if(isPicks(e)) parts.push(ideas(e).length ? 'Picks: ' + ideas(e).map(function(i){return esc(i.ticker);}).join(', ') : 'keine Idee');
+    a += '<details><summary>' + dDE(e.date) + ' · ' + parts.join(' · ') + '</summary>' + (e.marketUpdate?marketHTML(e.marketUpdate):'') + (isPicks(e)?picksHTML(e):'') + '</details>';
   });
   a += '</div>';
   document.getElementById('v-archiv').innerHTML = a;
 
-  // Routing
   function show(){
     var v = (location.hash || '#heute').slice(1);
     if (!document.getElementById('v-'+v)) v = 'heute';
     document.querySelectorAll('section').forEach(function(s){s.classList.toggle('on', s.id==='v-'+v);});
     document.querySelectorAll('nav a').forEach(function(n){n.classList.toggle('on', n.dataset.v===v);});
+    window.scrollTo(0,0);
   }
-  window.removeEventListener('hashchange', show); window.addEventListener('hashchange', show); show();
+  window.removeEventListener('hashchange', window.__show||show); window.addEventListener('hashchange', show); show();
   window.__show = show;
 }
 function load(){

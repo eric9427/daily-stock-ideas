@@ -1,18 +1,19 @@
-# Daily Stock Ideas
+# Market Update
 
-Installierbare Web-App (PWA) für tägliche Aktien-Research-Ideen. Mo–Fr gegen 12:30 Uhr (Europe/Berlin) erscheint eine neue Ausgabe.
+Installierbare Web-App (PWA) für Erics Market Update. Mo–Fr gegen 18 Uhr (Europe/Berlin) erscheint das tägliche Marktupdate, montags zusätzlich die 3 Top Picks der Woche.
 
-**Keine Anlageberatung.** Ideen aus öffentlich zugänglichen Quellen, Kurse können verzögert sein.
+**Keine Anlageberatung.** Informationen aus öffentlich zugänglichen Quellen, Kurse können verzögert sein.
 
 ## Aufbau
-- `index.html`: App-Oberfläche, rendert `data.json`
-- `data.json`: einzige Datei, die das tägliche Update ändert
+- `index.html`: App-Oberfläche, rendert `data.json` (Tabs: Heute, Top Picks, Watchlist, Archiv, Methodik)
+- `data.json`: einzige Datei, die die tägliche Routine ändert
 - `manifest.webmanifest`, `sw.js`, `icons/`: Homescreen-Installation und Offline-Cache
 
 ## Datenformat (`data.json`)
 - `updated`: ISO-Zeitstempel der letzten Aktualisierung
-- `editions[]`: neueste Ausgabe zuerst. Felder: `date`, `marketContext[]` (leer bzw. weglassen, wenn nicht relevant), `ideas[]` (0–5), `notPicked[]`, optional `noIdeasNote`
-- `ideas[]`: `ticker`, `name`, `exchange`, `country`, `sector`, `type` (Deep Value | Wachstumsstory | GARP | Anleihe | Edelmetall | Rohstoff | ETF), `risk` (niedrig | mittel | hoch), `horizon`, `price`, `currency`, `priceDate`, `marketCap`, `fairValueLow`, `fairValueHigh`, `fairValueMethod`, `metrics[{l,v}]`, `bullets[]` (3–5), `bull`, `bear`, `catalyst{event,date}`, `sources[{t,u}]`
+- `editions[]`: neueste Ausgabe zuerst. Felder: `date`, `marketUpdate` (täglich), `weeklyPicks` (true nur bei der wöchentlichen Picks-Ausgabe), `ideas[]` (genau 3, nur bei `weeklyPicks`), `notPicked[]`, optional `noIdeasNote`. Ältere Ausgaben bis 12.11.2026 haben stattdessen `marketContext[]` und tägliche `ideas[]`.
+- `marketUpdate`: `summary` (2 Zeilen), `highlights[]` (3), `drivers[{scope: global|punktuell, text, markets}]`, `regions[{name, indices[{n,v,c,note?}], note?, news[]}]` (Europa, Asien, USA), `bonds{rows[{n,v,c,note?}], comment[]}`, `commodities[{n,v,c}]`, `fx[{n,v,c}]`, `cfNews[]`, `tomorrow[]`, `sources[{t,u}]`. `c` ist ein Text wie "+0,8 %" oder "−3 bp"; das Vorzeichen steuert die Farbe.
+- `ideas[]`: `ticker`, `name`, `exchange`, `country`, `sector`, `type` (Aktie: Deep Value | Wachstumsstory | GARP; sonst ETF | Hebelprodukt | Edelmetall | Rohstoff | Anleihe), `risk` (niedrig | mittel | hoch), `horizon`, `price`, `currency`, `priceDate`, `marketCap`, `fairValueLow`, `fairValueHigh`, `fairValueMethod`, `summary` (ein Satz, einfache Sprache), `explanation[]` (Absätze, einfache Sprache), `bullets[]` (Warum jetzt), `news[]`, `metrics[{l,v,x}]` (`x` = Erklärung der Kennzahl in einfacher Sprache), `qualitative[]`, `quantitative[]`, `bull`, `bear`, `catalyst{event,date}`, `glossary[{term,def}]`, `sources[{t,u}]`. Fair-Value-Felder dürfen bei ETFs/Edelmetallen/Hebelprodukten fehlen.
 - `watchlist[]`: `ticker`, `name`, `added`, `priceAdded`, `lastPrice`, `lastDate`, `currency`, `fvLow`, `fvHigh`, `status` (intakt | beobachten | gebrochen), `note`
 
 ## Installation auf dem iPhone
