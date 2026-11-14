@@ -129,7 +129,8 @@
     <div class="box">
       <h2>Top Picks (einmal pro Woche)</h2>
       <ul>
-        <li><b>Genau 3 Picks</b>, sehr selektiv. Möglich sind Aktien, ETFs, Hebelprodukte und Edelmetalle.</li>
+        <li><b>Höchstens 3 Picks</b>, ausgesiebt aus 12–15 Kandidaten in 6 Stufen: harte Ausschlüsse (Verschuldung, Cashflow, offene Skandale, keine Käufe direkt nach Kurssprüngen, nur verifizierte Daten), Punktekarte (Bewertung, Qualität, Momentum &amp; Revisionen, Katalysator; mindestens 70/100), Szenarien mit Wahrscheinlichkeiten (Erwartungswert ≥ 15 %, Chance-Risiko ≥ 2:1), maximal ein Pick pro Branche und Thema, Pre-Mortem und Kauftest mit eigenem Geld.</li>
+        <li>Möglich sind Aktien, ETFs, Hebelprodukte und Edelmetalle.</li>
         <li><b>Einfache Sprache:</b> jede Idee wird so erklärt, dass man sie ohne Fachwissen versteht. Fachbegriffe und Kennzahlen stehen im Glossar der Idee.</li>
         <li><b>Inhalt:</b> wichtige Kennzahlen mit Erklärung, aktuelle News, qualitative Aspekte (Geschäftsmodell, Management, Wettbewerb) und quantitative Aspekte (Bewertung, Wachstum, Bilanz).</li>
         <li><b>Horizont:</b> mittelfristig, 6–24 Monate. Bei Hebelprodukten steht der Hebel und das Knock-out-Risiko immer dabei.</li>
@@ -226,6 +227,16 @@ function render(D){
     if(it.fairValueMethod) h += '<div class="fvnote">Fair-Value-Herleitung: ' + esc(it.fairValueMethod) + '</div>';
     if(it.qualitative&&it.qualitative.length) h += '<h4>Qualitativ: Geschäft, Management, Wettbewerb</h4><ul>' + li(it.qualitative) + '</ul>';
     if(it.quantitative&&it.quantitative.length) h += '<h4>Quantitativ: Bewertung, Wachstum, Bilanz</h4><ul>' + li(it.quantitative) + '</ul>';
+    if(it.score){
+      var sc=it.score, f=[['Bewertung',sc.value],['Qualität',sc.quality],['Momentum & Revisionen',sc.momentum],['Katalysator',sc.catalyst]];
+      h += '<h4>Punktekarte · ' + esc(sc.total) + '/100</h4><div class="metrics">' + f.map(function(x){return '<div class="metric"><div class="l">'+x[0]+'</div><div class="v">'+esc(x[1])+'/25</div></div>';}).join('') + '</div>' + (sc.note?'<div class="fvnote">'+esc(sc.note)+'</div>':'');
+    }
+    if(it.scenarios&&it.scenarios.length){
+      h += '<h4>Szenarien (12 Monate)</h4><div class="scroll"><table><thead><tr><th>Szenario</th><th class="num">Wahrsch.</th><th class="num">Kursziel</th><th class="num">Ertrag</th></tr></thead><tbody>' + it.scenarios.map(function(x){var r=it.price?pct(it.price,x.price):null;return '<tr><td><b>'+esc(x.name)+'</b><div class="note">'+esc(x.why)+'</div></td><td class="num">'+esc(x.prob)+' %</td><td class="num">'+fmt(x.price)+'</td><td class="num '+(r>0?'pos':'neg')+'">'+(r==null?'':sign(r))+'</td></tr>';}).join('') + '</tbody></table></div>';
+      if(it.expectedReturn) h += '<div class="fvnote">Erwartungswert: <b>' + esc(it.expectedReturn) + '</b>' + (it.riskReward?' · Chance-Risiko: '+esc(it.riskReward):'') + (it.impliedGrowth?' · Eingepreist: '+esc(it.impliedGrowth):'') + '</div>';
+    }
+    if(it.premortem) h += '<h4>Pre-Mortem</h4><p>' + esc(it.premortem) + '</p>';
+    if(it.kill) h += '<h4>Die These ist falsch, wenn …</h4><div class="cat">' + esc(it.kill) + '</div>';
     if(it.bull||it.bear) h += '<h4>Chancen / Risiken</h4><div class="bb"><div class="bull"><b>Wenn es gut läuft</b>' + esc(it.bull) + '</div><div class="bear"><b>Was schiefgehen kann</b>' + esc(it.bear) + '</div></div>';
     if(it.catalyst) h += '<h4>Nächster Katalysator</h4><div class="cat"><b>' + esc(it.catalyst.date) + '</b><br>' + esc(it.catalyst.event) + '</div>';
     if(it.glossary&&it.glossary.length) h += '<details><summary>Begriffe erklärt (' + it.glossary.length + ')</summary><dl class="gl">' + it.glossary.map(function(g){return '<dt>'+esc(g.term)+'</dt><dd>'+esc(g.def)+'</dd>';}).join('') + '</dl></details>';
@@ -238,6 +249,10 @@ function render(D){
     var h='';
     if (e.marketContext && e.marketContext.length && !e.marketUpdate){
       h += '<div class="box"><h2>Markt-Kontext</h2><ul>' + li(e.marketContext) + '</ul></div>';
+    }
+    if (e.trackRecord){
+      var t=e.trackRecord;
+      h += '<div class="box"><h2>Erfolgsbilanz bisheriger Picks</h2>' + (t.summary?'<p style="margin:0 0 8px">'+esc(t.summary)+'</p>':'') + (t.rows&&t.rows.length?'<div class="scroll"><table class="mtab"><thead><tr><th>Pick</th><th class="num">Seit Aufnahme</th><th class="num">vs. Markt</th></tr></thead><tbody>' + t.rows.map(function(r){return '<tr><td>'+esc(r.n)+(r.note?'<div class="note">'+esc(r.note)+'</div>':'')+'</td><td class="num '+chgCls(r.v)+'">'+esc(r.v)+'</td><td class="num '+chgCls(r.c)+'">'+esc(r.c)+'</td></tr>';}).join('') + '</tbody></table></div>':'') + '</div>';
     }
     if (ideas(e).length){ h += ideas(e).map(ideaHTML).join(''); }
     else { h += '<div class="box"><h2>Top Picks</h2><p class="empty">' + esc(e.noIdeasNote || 'Diese Woche erfüllt kein Setup die Qualitätshürde.') + '</p></div>'; }
