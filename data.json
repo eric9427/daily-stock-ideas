@@ -1,6 +1,462 @@
 {
-  "updated": "2026-11-12T12:32:04+01:00",
+  "updated": "2026-11-16T18:03:48+01:00",
   "editions": [
+    {
+      "date": "2026-11-16",
+      "marketUpdate": {
+        "summary": "Tech-Ausverkauf vor den Nvidia-Zahlen: Asien bricht ein (Taiwan −6 %, Kospi −3,6 %), der Nasdaq 100 verliert gegen 17:20 Uhr ca. 1,8 %, der DAX schließt 0,6 % tiefer bei 26.599 Punkten. Defensive Werte und Rüstung halten dagegen, Gold und Silber fallen auf Jahrestiefs, weil die Fed im Dezember fast sicher die Zinsen erhöht.",
+        "highlights": [
+          "AI-Crash in Asien: Taiwans Leitindex Taiex fällt um ca. 6 %, der Kospi um 3,6 % auf 5.100 Punkte, der Nikkei um 2,4 %. Auslöser sind der Rücktritt von Nvidia-Chef Jensen Huang (12.11.) und Zweifel an den KI-Investitionen. In China fällt der Netzwerk-Zulieferer Zhongji Innolight um 12,3 %.",
+          "Nvidia bleibt das Thema: Die Aktie verliert im US-Handel weitere ca. 2 % (−13 % in fünf Tagen). Laut Financial Times verhandeln Huang und Verbündete über seine Rückkehr, Trump nennt das „sicher keine schlechte Idee“. Die Q3-Zahlen kommen morgen um 22:20 Uhr MEZ (Umsatzausblick ca. 108 Mrd. $).",
+          "Rüstung gegen den Trend: Rheinmetall ist mit bis zu +2,9 % bester DAX-Wert (Schluss ca. +1,2 %), weil der Bundeshaushalt 2027 die Verteidigungsausgaben von 139 Mrd. € bestätigt. Im MDAX führen TKMS, Hensoldt und Renk."
+        ],
+        "drivers": [
+          {
+            "scope": "global",
+            "text": "Nvidia-Führungskrise und Zweifel an den KI-Investitionen: Nach Huangs Rücktritt, einer FBI-Ermittlung und der Frage nach Exportregeln für China fragen Anleger, wie lange der KI-Boom trägt. Folge: Abverkauf bei Chips, KI-Hardware und Rechenzentrums-Zulieferern, Geld fließt in defensive Branchen.",
+            "markets": "Halbleiter, Nasdaq, Taiwan, Korea, Japan, KI-Zulieferer (Infineon, Aixtron, Siltronic)"
+          },
+          {
+            "scope": "global",
+            "text": "Fed vor Zinserhöhung: Die Erzeugerpreise lagen im Oktober 6,5 % über dem Vorjahr (höchster Wert seit Nov. 2022). Laut CME FedWatch liegt die Chance auf eine Erhöhung im Dezember bei ca. 92–93 %. Hohe Renditen belasten teure Wachstumsaktien, Gold, Silber und Bitcoin; der Dollar ist stark.",
+            "markets": "US-Anleihen, Wachstumsaktien, Edelmetalle, Bitcoin, Dollar"
+          },
+          {
+            "scope": "global",
+            "text": "Anthropic-Börsengang: Preisfestsetzung am Mittwoch, erster Handelstag am Donnerstag an der Nasdaq (Kürzel ANT), Spanne 70–78 $, Bewertung bis ca. 1,4 Bio. $, laut XTB ca. sechsfach überzeichnet. Der Börsengang bindet Liquidität und gilt als Stimmungstest für KI-Werte.",
+            "markets": "KI- und Softwarewerte, Nasdaq"
+          },
+          {
+            "scope": "punktuell",
+            "text": "Nahost: Der Iran hat laut Yahoo Finance eine US-Hubschrauberbasis in Bahrain ins Visier genommen. Trotzdem fällt Öl, weil sich das Angebot aus dem Golf erholt; europäisches Gas (TTF) fällt um ca. 7 %.",
+            "markets": "Öl, Gas, Energiewerte, Airlines, Chemie"
+          },
+          {
+            "scope": "punktuell",
+            "text": "Schwache Konjunkturdaten: Japans Wirtschaft ist im letzten Quartal geschrumpft, Chinas Industrie und Einzelhandel enttäuschen, der New Yorker Industrieindex (Empire State) fällt auf 7,8 Punkte (erwartet 16,7).",
+            "markets": "Nikkei, China-Aktien, US-Zykliker"
+          },
+          {
+            "scope": "punktuell",
+            "text": "Bundeshaushalt 2027 mit 139 Mrd. € Verteidigung beschlossen: Rüstungswerte erholen sich.",
+            "markets": "Europäische Rüstung (Rheinmetall, Hensoldt, Renk, TKMS)"
+          }
+        ],
+        "regions": [
+          {
+            "name": "Europa",
+            "note": "DAX/MDAX: Schluss laut onvista. SMI: Stand 17:31 Uhr (finanzen.ch). EuroStoxx 50, CAC 40, FTSE 100, FTSE MIB, IBEX 35: Spätstand laut Trading Economics (CFD-basiert), offizielle Schlusskurse können leicht abweichen.",
+            "indices": [
+              {
+                "n": "DAX",
+                "v": "26.599",
+                "c": "−0,57 %"
+              },
+              {
+                "n": "MDAX",
+                "v": "30.528",
+                "c": "−0,56 %"
+              },
+              {
+                "n": "EuroStoxx 50",
+                "v": "6.362",
+                "c": "−0,39 %"
+              },
+              {
+                "n": "CAC 40",
+                "v": "8.373",
+                "c": "+0,05 %"
+              },
+              {
+                "n": "FTSE 100",
+                "v": "10.912",
+                "c": "+0,08 %"
+              },
+              {
+                "n": "SMI",
+                "v": "15.192,58",
+                "c": "+0,57 %"
+              },
+              {
+                "n": "FTSE MIB",
+                "v": "51.644",
+                "c": "−0,41 %"
+              },
+              {
+                "n": "IBEX 35",
+                "v": "19.995",
+                "c": "−0,13 %"
+              }
+            ],
+            "news": [
+              "DAX schließt auf Tagestief: Chipwerte (Infineon −2,2 %, Aixtron, Siltronic) und Siemens Energy belasten, die 27.000er-Marke bleibt außer Reichweite.",
+              "Gewinner: Rheinmetall und MDAX-Rüstungswerte nach dem Haushaltsbeschluss; Wacker Chemie nach Barclays-Hochstufung. Verlierer: RWE (−1,2 %, laut Bloomberg aus dem Uniper-Bieterverfahren ausgeschieden), Brenntag (DZ-Bank-Abstufung), Symrise.",
+              "Schweiz fester: Richemont (+3,6 %), Novartis, Roche und Alcon ziehen den SMI nach oben, defensive Werte sind gefragt."
+            ]
+          },
+          {
+            "name": "Asien",
+            "note": "Schlussstände laut AP (KSAT); CSI 300 und Taiex nur Prozentwerte verfügbar.",
+            "indices": [
+              {
+                "n": "Nikkei 225",
+                "v": "59.662,02",
+                "c": "−2,4 %"
+              },
+              {
+                "n": "Shanghai Composite",
+                "v": "3.598,75",
+                "c": "−1,0 %"
+              },
+              {
+                "n": "CSI 300",
+                "v": "n. v.",
+                "c": "−0,9 %"
+              },
+              {
+                "n": "Hang Seng",
+                "v": "23.759,37",
+                "c": "+0,5 %"
+              },
+              {
+                "n": "KOSPI",
+                "v": "5.100,25",
+                "c": "−3,6 %"
+              },
+              {
+                "n": "Taiex",
+                "v": "n. v.",
+                "c": "−6,0 %"
+              },
+              {
+                "n": "S&P/ASX 200",
+                "v": "9.044,70",
+                "c": "−0,4 %"
+              },
+              {
+                "n": "Sensex",
+                "v": "n. v.",
+                "c": "+0,6 %"
+              }
+            ],
+            "news": [
+              "KI-Hardware im freien Fall: Taiwan und Korea verlieren am stärksten, Japan zusätzlich belastet durch ein schrumpfendes BIP.",
+              "China nahe 16-Monats-Tief: 5G-Index −7,5 %, Zhongji Innolight −12,3 %; Finanzwerte (+1,5 %) und Basiskonsum stützen. Hongkong leicht im Plus."
+            ]
+          },
+          {
+            "name": "USA",
+            "note": "Zwischenstand gegen 17:47 Uhr MEZ (11:47 Uhr New York) laut Yahoo Finance; Nasdaq 100 Stand 17:19 Uhr MEZ laut wallstreet-online. Vortagesschluss (Fr., 13.11.) laut CappNotes: S&P 500 7.561,67 (−0,40 %), Nasdaq 100 27.943,74 (−1,22 %), Dow 52.347,55 (+0,10 %).",
+            "indices": [
+              {
+                "n": "S&P 500 (17:47 MEZ)",
+                "v": "7.475,04",
+                "c": "−1,15 %"
+              },
+              {
+                "n": "Nasdaq 100 (17:19 MEZ)",
+                "v": "27.453,07",
+                "c": "−1,76 %"
+              },
+              {
+                "n": "Nasdaq Composite (17:47 MEZ)",
+                "v": "24.734,24",
+                "c": "−1,60 %"
+              },
+              {
+                "n": "Dow Jones (17:47 MEZ)",
+                "v": "51.971,45",
+                "c": "−0,72 %"
+              },
+              {
+                "n": "S&P 500 Schluss Fr.",
+                "v": "7.561,67",
+                "c": "−0,40 %"
+              },
+              {
+                "n": "Nasdaq 100 Schluss Fr.",
+                "v": "27.943,74",
+                "c": "−1,22 %"
+              }
+            ],
+            "news": [
+              "Dritter Verlusttag in Folge für den S&P 500, Tech trägt den Abverkauf; der Angstindex VIX steigt um 8 % auf ca. 20,9.",
+              "Einzelwerte: Nebius −6 % trotz starker Zahlen, Summit Therapeutics −12 % (Zulassung abgelehnt), Telus +12 % (Übernahmeangebot von Québecor), Tyson Foods +10 % nach Zahlen, Take-Two +2 % (gute GTA-VI-Vorbestellungen laut Jefferies)."
+            ]
+          }
+        ],
+        "bonds": {
+          "rows": [
+            {
+              "n": "Bund 2J",
+              "v": "3,14 %",
+              "c": "+2 bp",
+              "note": "nahe Monatshoch"
+            },
+            {
+              "n": "Bund 10J",
+              "v": "3,39 %",
+              "c": "+1 bp"
+            },
+            {
+              "n": "US 2J",
+              "v": "4,87 %",
+              "c": "−1 bp",
+              "note": "vs. Fr.-Schluss 4,88 %"
+            },
+            {
+              "n": "US 10J",
+              "v": "5,14 %",
+              "c": "−1 bp",
+              "note": "17:47 MEZ; Fr. 5,15 %, Vorwoche +30 bp"
+            },
+            {
+              "n": "US 30J",
+              "v": "5,48 %",
+              "c": "+1 bp",
+              "note": "Fr. 5,47 %"
+            },
+            {
+              "n": "Spread BTP–Bund 10J",
+              "v": "ca. 107 bp",
+              "c": "+1 bp",
+              "note": "berechnet: Italien 4,46 % minus Bund 3,39 %"
+            },
+            {
+              "n": "JGB 10J",
+              "v": "2,89 %",
+              "c": "+3 bp"
+            },
+            {
+              "n": "UK Gilt 10J",
+              "v": "5,37 %",
+              "c": "+3 bp"
+            }
+          ],
+          "comment": [
+            "US-Kurve: 2 Jahre 4,87 %, 10 Jahre 5,14 %, also ca. 27 bp Abstand. Der Markt preist eine Fed-Erhöhung im Dezember zu ca. 92–93 % ein, eine 50-bp-Erhöhung nur zu ca. 6 %. Die Fed-Protokolle am Mittwoch sind der nächste Test.",
+            "Die 10-jährige US-Rendite stieg letzte Woche um ca. 30 bp; heute Verschnaufpause trotz Risikoscheu. Anleihen sind also kein sicherer Hafen, solange die Inflation (Erzeugerpreise +6,5 %) hoch bleibt.",
+            "Euroraum ruhig: Bund 10J bei ca. 3,39 %, die zweijährige Rendite nahe Monatshoch. Sinkendes Öl stützt Bundesanleihen leicht (Bund-Future +0,09 % am Morgen).",
+            "Japan und Großbritannien mit steigenden Renditen (+3 bp), trotz schwacher japanischer BIP-Daten. Quelle der Länderrenditen: Trading Economics, Werte intraday."
+          ]
+        },
+        "commodities": [
+          {
+            "n": "Brent ($/Barrel)",
+            "v": "93,72",
+            "c": "−2,2 %"
+          },
+          {
+            "n": "WTI ($/Barrel)",
+            "v": "86,81",
+            "c": "−2,0 %"
+          },
+          {
+            "n": "Gold ($/Unze)",
+            "v": "3.861",
+            "c": "−0,5 %"
+          },
+          {
+            "n": "Silber ($/Unze)",
+            "v": "46,78",
+            "c": "−4,0 %"
+          },
+          {
+            "n": "Kupfer ($/lb)",
+            "v": "6,05",
+            "c": "−0,5 %"
+          },
+          {
+            "n": "Erdgas US ($/MMBtu)",
+            "v": "3,14",
+            "c": "−2,9 %"
+          },
+          {
+            "n": "Erdgas TTF (€/MWh)",
+            "v": "84,55",
+            "c": "−7,0 %"
+          }
+        ],
+        "fx": [
+          {
+            "n": "EUR/USD",
+            "v": "1,1005",
+            "c": "−0,16 %"
+          },
+          {
+            "n": "USD/JPY",
+            "v": "159,58",
+            "c": "−0,08 %"
+          },
+          {
+            "n": "USD/CNY",
+            "v": "6,664",
+            "c": "−0,16 %"
+          },
+          {
+            "n": "Bitcoin ($)",
+            "v": "64.495",
+            "c": "−1,2 %"
+          }
+        ],
+        "cfNews": [
+          "Gold und Silber auf Jahrestiefs: Spot-Gold fiel zeitweise auf ca. 3.840 $ (tiefster Stand seit Okt. 2025), Silber auf ca. 47 $. Gründe: starker Dollar, US-Renditen über 5 % und die fast sichere Fed-Erhöhung. Öl gibt trotz Iran-Spannungen nach, weil das Golf-Angebot zurückkommt.",
+          "Der Yen bleibt nahe 160 je Dollar schwach; Bitcoin rutscht unter 65.000 $ (Freitag noch ca. 68.200 $). Stände: Trading Economics, intraday."
+        ],
+        "tomorrow": [
+          "00:50 Japan: Handelsbilanz Oktober",
+          "07:30 Alstom (Halbjahr), 08:00 Imperial Brands (Jahr), RTL (Q3); 09:00 Bertelsmann (Q3)",
+          "08:00 Großbritannien: Arbeitsmarktdaten",
+          "11:00 Deutschland: ZEW-Konjunkturerwartungen November",
+          "12:00 Home Depot (Q3), 12:45 Walt Disney (Q4)",
+          "14:00 Ungarn: Zinsentscheid",
+          "14:30 USA: Einzelhandelsumsätze Oktober sowie Import-/Exportpreise; 15:15 Industrieproduktion; 16:00 NAHB-Hausmarktindex",
+          "22:20 Nvidia: Q3-Zahlen (Umsatzausblick ca. 108 Mrd. $) – der wichtigste Termin der Woche, erstmals ohne Jensen Huang als CEO",
+          "Außerdem: Microsoft-Entwicklerkonferenz Ignite (bis 20.11.). Ausblick: Mi. Fed-Protokolle und Preisfestsetzung Anthropic, Do. erster Handelstag Anthropic und Treffen Trump–Xi–Putin am Rande des APEC-Gipfels in Shenzhen"
+        ],
+        "sources": [
+          {
+            "t": "onvista: Leitindex schließt im Minus (16.11.)",
+            "u": "https://www.onvista.de/news/2026/11-16-leitindex-schliesst-im-minus-unsicherheit-vor-nvidia-zahlen-41121301-19-26576960"
+          },
+          {
+            "t": "ariva/dpa-AFX: Dax behält trotz Tech-Schwäche seinen Rekord in Reichweite",
+            "u": "https://www.ariva.de/news/aktien-frankfurt-dax-behaelt-trotz-tech-schwaeche-seinen-12208821"
+          },
+          {
+            "t": "wallstreet-online: Aktien Frankfurt Schluss",
+            "u": "https://www.wallstreet-online.de/nachricht/21700992-aktien-frankfurt-schluss-dax-schwung-technologieaktien-belasten-zinsaengste-bremsen"
+          },
+          {
+            "t": "finanzen.ch: SMI am Nachmittag",
+            "u": "https://www.finanzen.ch/nachrichten/aktien/boerse-zuerich-in-gruen-smi-klettert-am-nachmittag-1036769140"
+          },
+          {
+            "t": "Trading Economics: DAX und Weltindizes",
+            "u": "https://tradingeconomics.com/germany/stock-market"
+          },
+          {
+            "t": "AP/KSAT: Stocks decline in Asia as concerns over the Nvidia fallout persist",
+            "u": "https://www.ksat.com/business/2026/11/16/stocks-decline-in-asia-as-concerns-over-the-nvidia-fallout-persist/"
+          },
+          {
+            "t": "Newsbytes: CSI300 and Shanghai Composite drop 0.9%",
+            "u": "https://www.newsbytesapp.com/news/business/csi300-and-shanghai-composite-drop-09-on-ai-doubts/tldr"
+          },
+          {
+            "t": "Yahoo Finance: Stock market today, 16.11. (live)",
+            "u": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-16-dow-sp-500-nasdaq-nvidia-oil-091631084.html"
+          },
+          {
+            "t": "CappNotes: Closing Look, 13.11.2026",
+            "u": "https://cappnotes.substack.com/p/closing-look-friday-november-13-2026"
+          },
+          {
+            "t": "StockTitan: Stock Market Today Live, 16.11.",
+            "u": "https://www.stocktitan.net/articles/stock-market-today-live-november-16-2026"
+          },
+          {
+            "t": "XTB: US Open – Tech selloff continues",
+            "u": "https://www.xtb.com/int/market-analysis/news-and-research/us-open-tech-selloff-continues-ahead-of-nvidia-earnings-and-anthropic-s-debut"
+          },
+          {
+            "t": "Trading Economics: US-Renditen und Länderrenditen",
+            "u": "https://tradingeconomics.com/united-states/government-bond-yield"
+          },
+          {
+            "t": "Trading Economics: Deutschland 2J",
+            "u": "https://tradingeconomics.com/germany/2-year-note-yield"
+          },
+          {
+            "t": "onvista: Deutsche Anleihen (16.11.)",
+            "u": "https://www.onvista.de/news/2026/11-16-deutsche-anleihen-leichte-kursgewinne-0-10-26576742"
+          },
+          {
+            "t": "Yahoo UK: Eurozone Bond Yields Hold Steady",
+            "u": "https://uk.finance.yahoo.com/news/eurozone-bond-yields-hold-steady-094754826.html"
+          },
+          {
+            "t": "Trading Economics: Rohstoffe und Devisen",
+            "u": "https://tradingeconomics.com/commodity/copper"
+          },
+          {
+            "t": "KuCoin News: Gold and Silver hit one-year lows",
+            "u": "https://www.kucoin.com/news/flash/gold-and-silver-prices-hit-one-year-lows-wiping-out-nearly-400-billion-in-value"
+          },
+          {
+            "t": "Yahoo Finance: Gold prices today, 16.11.",
+            "u": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-november-16-2026-gold-prices-hit-lowest-levels-in-over-a-year-heres-why-123541464.html"
+          },
+          {
+            "t": "finanzen.net: Tagesvorschau 17.11.2026",
+            "u": "https://www.finanzen.net/nachricht/aktien/tagesvorschau-termine-am-17-november-2026-16068774"
+          }
+        ]
+      },
+      "weeklyPicks": true,
+      "ideas": [],
+      "noIdeasNote": "Diese Woche schafft kein Pick die Hürde. Bewusst null statt einem schwachen Pick: Die Woche ist voller Ja-/Nein-Ereignisse (Nvidia-Zahlen am Dienstag, Fed-Protokolle am Mittwoch, Anthropic-Börsengang und Trump–Xi–Putin am Donnerstag), die US-Notenbank dürfte im Dezember die Zinsen erhöhen und die 10-jährige US-Rendite liegt über 5 %. Die geprüften Qualitätswerte (Munich Re, Siemens) sind bereits teuer, die günstigen Kandidaten scheitern an Daten, Schulden oder offenen Ereignissen. Gesammelt wurden ca. 12 Kandidaten (Zahlen der Vorwoche, Insiderkäufe, Prognoseanhebungen, Rüstung, Edelmetalle). Die Erfolgsbilanz unten zeigt außerdem, dass die alten Picks im AI-Hardware-Thema geklumpt haben; das wird jetzt nicht wiederholt.",
+      "notPicked": [
+        "Munich Re (MUV2): Stufe 4, Erwartungswert zu niedrig. Starke Zahlen (Gewinnziel 2026 auf 6,6 Mrd. € erhöht, Solvenzquote 301 %, Primärquelle Munich Re), aber der Kurs (ca. 594 €) liegt schon nahe am 52-Wochen-Hoch von 602,80 € und über dem mittleren Analysten-Fair-Value von ca. 554 €. Die Rückversicherungspreise fallen (laut Moody's-Umfrage erwarten 86 % weiter sinkende Preise 2027). Mit realistischem Schlecht-Szenario (ca. −26 %) bleibt der gewichtete Erwartungswert inklusive Dividende unter +15 %.",
+        "Siemens (SIE): Stufe 3, Bewertung. Rekordjahr (Aufträge 108,2 Mrd. €, Free Cashflow 12,1 Mrd. €, höhere Mittelfristziele), aber der Kurs steht nahe dem Rekordhoch, der Value-Faktor erreicht keine 10 Punkte. Außerdem hängt ein Teil der Story am Rechenzentrums- und KI-Ausbau, der gerade wackelt. Kandidat bei einem Rücksetzer.",
+        "Merck KGaA (MRK): Stufe 2, Daten und offenes Ereignis. Dritte Prognoseanhebung in Folge, aber die knapp 10 Mrd. € schwere Bio-Techne-Übernahme soll erst im Dezember abschließen; die Verschuldung danach ist nicht aus Primärquelle verifiziert. Dazu bricht der Umsatz mit dem MS-Mittel Mavenclad durch Generika weg.",
+        "Gold (z. B. Xetra-Gold): Stufe 3, Momentum. Gold notiert auf dem tiefsten Stand seit über einem Jahr, Trend klar negativ. Der Makro-Gegenwind (Fed-Erhöhung, Renditen über 5 %, starker Dollar) hält an; ein Katalysator für die Wende in 3–6 Monaten ist nicht in Sicht.",
+        "Take-Two (TTWO), Telus (TU), Tyson Foods (TSN), Home Depot (HD): Stufe 2. Take-Two hängt an einem Einzelereignis (GTA VI), Telus und Tyson sind heute um ca. 10–12 % gesprungen (Übernahmeangebot bzw. Zahlen), Home Depot legt morgen Zahlen vor."
+      ],
+      "trackRecord": {
+        "rows": [
+          {
+            "n": "TTMI (TTM Technologies), seit 02.11.",
+            "v": "−18,3 %",
+            "c": "−18,6 pp",
+            "note": "S&P 500 im selben Zeitraum +0,3 %. Status: beobachten."
+          },
+          {
+            "n": "EME (EMCOR Group), seit 02.11.",
+            "v": "−4,4 %",
+            "c": "−4,7 pp",
+            "note": "S&P 500 im selben Zeitraum +0,3 %. Status: beobachten."
+          },
+          {
+            "n": "RDDT (Reddit), seit 03.11.",
+            "v": "+5,2 %",
+            "c": "+5,3 pp",
+            "note": "S&P 500 im selben Zeitraum −0,1 %. Status: intakt."
+          },
+          {
+            "n": "IT (Gartner), seit 04.11.",
+            "v": "−6,3 %",
+            "c": "−4,7 pp",
+            "note": "S&P 500 im selben Zeitraum −1,7 %. Status: beobachten."
+          },
+          {
+            "n": "CVS (CVS Health), seit 05.11.",
+            "v": "+10,5 %",
+            "c": "+7,6 pp",
+            "note": "S&P 500 im selben Zeitraum +2,8 %. Status: intakt."
+          },
+          {
+            "n": "SANM (Sanmina), seit 10.11.",
+            "v": "−11,6 %",
+            "c": "−12,1 pp",
+            "note": "S&P 500 im selben Zeitraum +0,5 %. Status: beobachten."
+          },
+          {
+            "n": "NVDA (NVIDIA), seit 11.11.",
+            "v": "−3,5 %",
+            "c": "−2,8 pp",
+            "note": "S&P 500 im selben Zeitraum −0,8 %. Status: beobachten."
+          },
+          {
+            "n": "FUN (Six Flags Entertainment), seit 12.11.",
+            "v": "n. v.",
+            "c": "n. v.",
+            "note": "Letzter verifizierter Kurs 11,15 $ (11.11.) = Aufnahmekurs; aktueller Kurs n. v. Status: beobachten."
+          }
+        ],
+        "summary": "2 von 7 bewertbaren Picks liegen vor dem S&P 500 (Trefferquote 29 %). Durchschnitt seit Aufnahme −4,1 %, relativ zum S&P 500 −4,3 Prozentpunkte. Ehrlich: Das ist schwach. Die vier AI-Hardware-nahen Picks (TTMI, SANM, EME, NVDA) verlieren gemeinsam, genau der Klumpen, den das Review vom 14.11. bemängelt hat. Basis: Schlusskurse 13.11. laut Motley Fool, S&P 500 Schluss 13.11. 7.561,67 gegen den Schluss am Aufnahmetag (Picks wurden teils vorbörslich aufgenommen, daher leichte Unschärfe). FUN ohne aktuellen Kurs."
+      }
+    },
     {
       "date": "2026-11-12",
       "marketContext": [
@@ -840,91 +1296,104 @@
       "name": "TTM Technologies",
       "added": "2026-11-02",
       "priceAdded": 85.0,
-      "lastPrice": 78.7,
-      "lastDate": "2026-11-11",
+      "lastPrice": 69.45,
+      "lastDate": "2026-11-13",
       "currency": "USD",
       "fvLow": 120,
       "fvHigh": 135,
       "status": "beobachten",
-      "note": "Schluss 11.11. 78,70 $ (laut Motley Fool), +4,5 % gegenüber dem 10.11. Erholung mit der AI-Hardware-Rally nach CoreWeave, aber −7 % seit Aufnahme. Belastung heute durch den Nvidia-CEO-Schock. These intakt (Insider-Cluster vom 05.11. bei ca. 62–63 $), Status bleibt beobachten."
+      "note": "Schluss 13.11. ca. 69,45 $ (Motley Fool), −18 % seit Aufnahme. Der AI-Hardware-Ausverkauf nach dem Nvidia-CEO-Rücktritt trifft Leiterplatten-Zulieferer hart, heute fällt Taiwan um 6 %. Firmenspezifisch nichts Neues; das Insider-Cluster bei ca. 62–63 $ ist die nächste Marke. Nach den neuen Regeln (Review 14.11.: keine Klumpen in einem Thema) wäre TTMI zusammen mit SANM/NVDA/EME nicht mehr aufgenommen worden."
     },
     {
       "ticker": "EME",
       "name": "EMCOR Group",
       "added": "2026-11-02",
       "priceAdded": 689.32,
-      "lastPrice": 666.74,
-      "lastDate": "2026-11-11",
+      "lastPrice": 659.08,
+      "lastDate": "2026-11-13",
       "currency": "USD",
       "fvLow": 830,
       "fvHigh": 900,
       "status": "beobachten",
-      "note": "Schluss 11.11. 666,74 $ (laut Motley Fool), +3,3 %, damit nur noch −3 % seit Aufnahme. Rückenwind durch den CoreWeave-Backlog und den Ausbau von Data-Center-Power. Firmenspezifisch nichts Neues. Status beobachten, bis der Aufnahmekurs zurückerobert ist."
+      "note": "Schluss 13.11. 659,08 $ (Motley Fool, nachbörslich ca. 649 $), −4 % seit Aufnahme. Hängt am Data-Center-Ausbau, der wegen der AI-Capex-Zweifel unter Druck steht. Kein firmenspezifischer Bruch."
     },
     {
       "ticker": "RDDT",
       "name": "Reddit",
       "added": "2026-11-03",
       "priceAdded": 93.55,
-      "lastPrice": 105.66,
-      "lastDate": "2026-11-11",
+      "lastPrice": 98.46,
+      "lastDate": "2026-11-13",
       "currency": "USD",
       "fvLow": 120,
       "fvHigh": 140,
       "status": "intakt",
-      "note": "Schluss 11.11. 105,66 $ (laut Motley Fool, ca. +7 %), +13 % seit Aufnahme. Kein firmenspezifischer Trigger, die Bewegung kommt mit der breiten Tech-Erholung. Die Google-Traffic-Sorge bleibt das Kernrisiko. Status von beobachten zurück auf intakt."
+      "note": "Letzter Kurs ca. 98,46 $ (Motley Fool, Datum der Seite uneinheitlich), +5 % seit Aufnahme. Die Tech-Schwäche kostet einen Teil des Vorsprungs. These intakt."
     },
     {
       "ticker": "IT",
       "name": "Gartner",
       "added": "2026-11-04",
       "priceAdded": 202.92,
-      "lastPrice": 193.0,
-      "lastDate": "2026-11-11",
+      "lastPrice": 190.04,
+      "lastDate": "2026-11-13",
       "currency": "USD",
       "fvLow": 245,
       "fvHigh": 275,
       "status": "beobachten",
-      "note": "Schluss 11.11. 193,00 $ (+2,2 %, laut Motley Fool), −5 % seit Aufnahme. Keine neuen Firmendaten. Status beobachten."
+      "note": "Schluss 13.11. 190,04 $ (Motley Fool), −6 % seit Aufnahme. Keine neuen Firmendaten; Software/Beratung leidet unter der KI-Disruptionssorge."
     },
     {
       "ticker": "CVS",
       "name": "CVS Health",
       "added": "2026-11-05",
       "priceAdded": 79.9,
-      "lastPrice": 89.52,
-      "lastDate": "2026-11-11",
+      "lastPrice": 88.27,
+      "lastDate": "2026-11-13",
       "currency": "USD",
       "fvLow": 95,
       "fvHigh": 110,
       "status": "intakt",
-      "note": "Schluss 11.11. 89,52 $ (+0,6 %, laut Motley Fool), +12 % seit Aufnahme. Der Markt verdaut weiter den Split-Plan für 2028. These intakt."
+      "note": "Schluss 13.11. 88,27 $ (Motley Fool), +10 % seit Aufnahme und damit klar besser als der Markt. Defensive Gesundheitswerte sind gefragt. These intakt."
     },
     {
       "ticker": "SANM",
       "name": "Sanmina",
       "added": "2026-11-10",
       "priceAdded": 179.1,
-      "lastPrice": 159.25,
-      "lastDate": "2026-11-11",
+      "lastPrice": 158.31,
+      "lastDate": "2026-11-13",
       "currency": "USD",
       "fvLow": 200,
       "fvHigh": 230,
       "status": "beobachten",
-      "note": "Schluss 11.11. 159,25 $ (+2,5 %, laut Motley Fool, nachbörslich ca. 158 $), −11 % gegenüber dem vorbörslichen Aufnahmekurs von 179,10 $. Fundamental unverändert (FY27-EPS-Guide 15,50–17,50 $, ca. 9,6x der Mitte). Die Nvidia-Führungskrise belastet heute den AI-Hardware-Komplex. Status beobachten."
+      "note": "Schluss 13.11. 158,31 $ (−3,8 %, Motley Fool), −12 % seit dem vorbörslichen Aufnahmekurs. Fundamental unverändert (FY27-EPS-Guide 15,50–17,50 $), aber voll im AI-Hardware-Sog. Bricht der Kurs nach den Nvidia-Zahlen weiter ein, wird der Status überprüft."
     },
     {
       "ticker": "NVDA",
       "name": "NVIDIA",
       "added": "2026-11-11",
       "priceAdded": 168.8,
-      "lastPrice": 173.73,
-      "lastDate": "2026-11-11",
+      "lastPrice": 162.85,
+      "lastDate": "2026-11-13",
       "currency": "USD",
       "fvLow": 240,
       "fvHigh": 270,
       "status": "beobachten",
-      "note": "Schluss 11.11. 173,73 $ (+2,9 %), nachbörslich und vorbörslich am 12.11. ca. −8 bis −9 % auf ca. 159 $, also ca. −6 % gegenüber dem Aufnahmekurs. Laut WSJ/Reuters bereitet der Board die Absetzung Jensen Huangs vor, ein Interims-CEO wird erwogen, einen designierten Nachfolger gibt es nicht. Damit materialisiert sich das Governance-Risiko aus der Bear-These. Die Bewertungsthese (ca. 13x NTM-EPS) bleibt, Schlüsselpersonen- und Execution-Risiko steigen deutlich. Status beobachten bis zu den Q3-Zahlen am 17.11. Gebrochen nur bei schwächerem Guide oder Kundenabwanderung. (Nachtrag: Der Eintrag fehlte gestern versehentlich in der Watchlist.)"
+      "note": "Schluss 13.11. 162,85 $ (Motley Fool), −4 % seit Aufnahme; heute im US-Handel ca. −2 %. Jensen Huang ist am 12.11. als CEO zurückgetreten, CFO Colette Kress führt kommissarisch, laut FT wird über eine Rückkehr Huangs gesprochen, das FBI ermittelt. Genau so ein offenes binäres Ereignis schließen die neuen Regeln aus. Entscheidung über den Status nach den Q3-Zahlen am 17.11. (22:20 MEZ): schwächerer Ausblick oder Kundenabwanderung = gebrochen."
+    },
+    {
+      "ticker": "FUN",
+      "name": "Six Flags Entertainment",
+      "added": "2026-11-12",
+      "priceAdded": 11.15,
+      "lastPrice": 11.15,
+      "lastDate": "2026-11-11",
+      "currency": "USD",
+      "fvLow": 14,
+      "fvHigh": 20,
+      "status": "beobachten",
+      "note": "Nachgetragen: Der Pick vom 12.11. fehlte in der Watchlist. Aufnahmekurs 11,15 $ (Kurs vom 11.11.). Ein aktueller, sauber datierter Kurs war heute nicht verfügbar (n. v.). Hinweis: Mit ca. 1,0 Mrd. $ Marktwert (Motley Fool) und hoher Verschuldung würde FUN die neuen harten Ausschlüsse (Marktwert < 2 Mrd. $) nicht bestehen. Der Direktor Rehan Jaffer kaufte vom 6. bis 10.11. für ca. 14,9 Mio. $ Aktien."
     }
   ]
 }
