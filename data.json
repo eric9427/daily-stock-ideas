@@ -1,6 +1,398 @@
 {
-  "updated": "2026-11-16T18:03:48+01:00",
+  "updated": "2026-11-17T18:06:30+01:00",
   "editions": [
+    {
+      "date": "2026-11-17",
+      "marketUpdate": {
+        "summary": "Risk-off vor den Nvidia-Zahlen (22:20 Uhr): Der DAX fällt um 2,1 % auf 26.045 Punkte, belastet von Chipwerten, neuen US-Chipregeln und einem Datenleck bei der Deutschen Bank. Auch Wall Street (S&P 500 ca. −1 %), Kospi (unter 5.000) und Nikkei geben nach; Anleihen sind leicht gefragt, Öl und Gold erholen sich.",
+        "highlights": [
+          "DAX mit dem größten Tagesverlust seit Wochen: −2,08 % auf 26.045 Punkte, dritter Verlusttag in Folge, gut 950 Punkte unter dem Rekord über 27.000 vom Donnerstag. Die Deutsche Bank fiel zeitweise um 6,2 % auf 30,88 €, nachdem Medien (FT, Spiegel, ZDF frontal) über ein Leck mit ca. 15 Mio. internen Dokumenten zu früheren Kunden (u. a. Russland-Geschäft, Epstein) berichteten. Die Bank erwartet keine wesentlichen finanziellen Folgen.",
+          "Nvidia legt heute um 22:20 Uhr MEZ die Q3-Zahlen vor, erstmals mit Interims-Chefin Colette Kress. Erwartet: Gewinn je Aktie ca. 2,47 $, Umsatz ca. 108,9–109,2 Mrd. $. Der Optionsmarkt preist laut Newsquawk eine Kursbewegung von ca. 8,5 % ein (Schnitt der letzten acht Quartale: ca. 4 %). Die Aktie hat in einem Monat rund 28 % verloren.",
+          "Korea unter 5.000: Der Kospi fällt um 2,6 % auf 4.968 Punkte, erstmals seit Februar unter 5.000 und auf ein Sechsmonatstief (Samsung −3,1 %, SK Hynix −1,8 %). In Tokio verlieren SoftBank (−3,9 %, über −33 % in einem Monat) und Advantest (−4,4 %)."
+        ],
+        "drivers": [
+          {
+            "scope": "global",
+            "text": "Neue US-Chipregeln: Das Handelsministerium verschärft per Übergangsregel den Fernzugriff auf moderne KI-Chips über Rechenzentren in Drittländern (u. a. Singapur, Malaysia). Zusätzlich will Washington laut Yahoo Finance den Import chinesischer Rechenzentrums-Technik (optische Transceiver) beschränken. Wirkung: Chipwerte weltweit unter Druck, Europas Tech-Sektor zeitweise −2,2 % (ASML −3,1 %, Infineon −2,2 % am Vormittag).",
+            "markets": "Halbleiter, Nasdaq, Korea, Japan, Taiwan, KI-Zulieferer, optische Netzwerkwerte"
+          },
+          {
+            "scope": "global",
+            "text": "Nvidia-Zahlen und KI-Zweifel: Nach dem Rücktritt von Jensen Huang und dem Kurssturz der Aktie ist die heutige Bilanz ein Test für den ganzen KI-Handel. Anleger reduzieren vorher Risiko, Geld fließt in Basiskonsum und Versorger.",
+            "markets": "Tech-Aktien weltweit, DAX, Nasdaq, Asien"
+          },
+          {
+            "scope": "global",
+            "text": "Fed bleibt auf Erhöhungskurs: St.-Louis-Fed-Chef Musalem hält bis zum Frühjahr mehrere weitere Zinserhöhungen für nötig (Leitzins ca. 4,75–5 %), die Inflation sei hoch und breit. Der Markt preist laut Trading Economics eine Erhöhung im Dezember zu ca. 95 % ein. Robuste Einzelhandelsumsätze (Okt. +0,2 %, Kerngruppe +0,6 % statt +0,4 %) und stark steigende Importpreise (+1,1 %) stützen das; die Industrieproduktion fiel dagegen um 0,4 %.",
+            "markets": "US-Anleihen, Wachstumsaktien, Dollar, Gold, Bitcoin"
+          },
+          {
+            "scope": "punktuell",
+            "text": "Bankenschwäche in Europa: Das Deutsche-Bank-Leck belastet den Sektor; in London fallen HSBC, Lloyds und Barclays um ca. 2 %, Standard Chartered um über 3 %, UBS um ca. 2 %.",
+            "markets": "Europäische Banken, DAX, FTSE 100"
+          },
+          {
+            "scope": "punktuell",
+            "text": "ZEW besser als erwartet: Die Konjunkturerwartungen für Deutschland steigen auf 35,6 Punkte (erwartet 29,0), die Lagebewertung verbessert sich auf −33,2. Das konnte die Tech-Schwäche aber nicht ausgleichen.",
+            "markets": "DAX, Euro, Bundesanleihen"
+          },
+          {
+            "scope": "global",
+            "text": "Anthropic-Börsengang: Laut Bloomberg peilt Anthropic einen Ausgabepreis am oberen Ende der Spanne von 70–78 $ oder darüber an. Preisfestsetzung am Mittwoch, erster Handelstag Donnerstag. Der Börsengang bindet Liquidität und gilt als Stimmungstest für KI-Werte.",
+            "markets": "KI- und Softwarewerte, Nasdaq"
+          }
+        ],
+        "regions": [
+          {
+            "name": "Europa",
+            "note": "DAX/MDAX: Xetra-Schluss laut dpa-AFX (finanzen.net). CAC 40, FTSE 100, FTSE MIB, IBEX 35, SMI: Spätstand laut Trading Economics (CFD-basiert); offizielle Schlusskurse können abweichen. EuroStoxx 50: kein verlässlicher Schlussstand gefunden (mittags ca. −0,8 %).",
+            "indices": [
+              {
+                "n": "DAX",
+                "v": "26.045,37",
+                "c": "−2,08 %"
+              },
+              {
+                "n": "MDAX",
+                "v": "30.147,34",
+                "c": "−1,25 %"
+              },
+              {
+                "n": "EuroStoxx 50",
+                "v": "n. v.",
+                "c": "n. v."
+              },
+              {
+                "n": "CAC 40",
+                "v": "8.226",
+                "c": "−1,51 %"
+              },
+              {
+                "n": "FTSE 100",
+                "v": "10.697,72",
+                "c": "−1,69 %"
+              },
+              {
+                "n": "SMI",
+                "v": "15.021,10",
+                "c": "−1,13 %"
+              },
+              {
+                "n": "FTSE MIB",
+                "v": "50.811",
+                "c": "−1,38 %"
+              },
+              {
+                "n": "IBEX 35",
+                "v": "19.607",
+                "c": "−1,71 %"
+              }
+            ],
+            "news": [
+              "Breiter Abverkauf, alle Sektoren im Minus; Tech am schwächsten, Energie hält sich dank höherem Ölpreis besser. Stoxx 600 am Vormittag −0,9 %, Bergbauwerte auf Achtmonatstief.",
+              "Deutschland: Deutsche Bank (zeitweise −6,2 %) größter DAX-Verlierer; GEA zeitweise −3 % nach Ausgabe einer Wandelanleihe über 300 Mio. €; RTL senkt die Jahresprognose (schwacher TV-Werbemarkt), dreht aber ins Plus.",
+              "London: Banken, Pharma (AstraZeneca, GSK), BAE Systems und BAT (−3,5 %) belasten; Goldminen (Fresnillo, Endeavour) steigen. Italien: Raumfahrtwert Avio +16,6 % nach Übernahmeangebot zu 41 € je Aktie."
+            ]
+          },
+          {
+            "name": "Asien",
+            "note": "Schlussstände laut AP (KSAT); Taiex, Sensex nur Prozentwerte; CSI 300 nicht gefunden.",
+            "indices": [
+              {
+                "n": "Nikkei 225",
+                "v": "58.860,43",
+                "c": "−1,3 %"
+              },
+              {
+                "n": "Shanghai Composite",
+                "v": "3.580,70",
+                "c": "−0,6 %"
+              },
+              {
+                "n": "CSI 300",
+                "v": "n. v.",
+                "c": "n. v."
+              },
+              {
+                "n": "Hang Seng",
+                "v": "23.539,97",
+                "c": "−0,9 %"
+              },
+              {
+                "n": "KOSPI",
+                "v": "4.968,48",
+                "c": "−2,6 %"
+              },
+              {
+                "n": "Taiex",
+                "v": "n. v.",
+                "c": "−2,3 %"
+              },
+              {
+                "n": "S&P/ASX 200",
+                "v": "8.883,20",
+                "c": "−1,8 %"
+              },
+              {
+                "n": "Sensex",
+                "v": "n. v.",
+                "c": "+0,4 %"
+              }
+            ],
+            "news": [
+              "KI-Hardware erneut unter Druck nach den US-Chipregeln und den Wall-Street-Verlusten: Kospi vierter Verlusttag, Kioxia −5 %, Advantest −4,4 %, SoftBank −3,9 %.",
+              "Japan zusätzlich belastet durch das schrumpfende BIP im 3. Quartal; China mit kleineren Verlusten, Hang-Seng-Tech −1,1 %. Indien leicht im Plus."
+            ]
+          },
+          {
+            "name": "USA",
+            "note": "Zwischenstand gegen 17:02 Uhr MEZ (11:02 Uhr New York) laut Yahoo Finance; Nasdaq 100 intraday nicht verfügbar. Vortagesschluss (Mo., 16.11.): S&P 500 7.416,59 (−1,92 %), Nasdaq 100 27.197,15 (−2,67 %), Dow 51.608,17 (−1,41 %), Quellen: moomoo/dpa-AFX.",
+            "indices": [
+              {
+                "n": "S&P 500 (17:02 MEZ)",
+                "v": "7.341,01",
+                "c": "−1,02 %"
+              },
+              {
+                "n": "Nasdaq 100 (intraday)",
+                "v": "n. v.",
+                "c": "n. v."
+              },
+              {
+                "n": "Nasdaq Composite (17:02 MEZ)",
+                "v": "24.240,99",
+                "c": "−1,10 %"
+              },
+              {
+                "n": "Dow Jones (17:02 MEZ)",
+                "v": "50.898,90",
+                "c": "−1,37 %"
+              },
+              {
+                "n": "S&P 500 Schluss Mo.",
+                "v": "7.416,59",
+                "c": "−1,92 %"
+              },
+              {
+                "n": "Nasdaq 100 Schluss Mo.",
+                "v": "27.197,15",
+                "c": "−2,67 %"
+              }
+            ],
+            "news": [
+              "Vierter Verlusttag für den S&P 500 in Folge; der Angstindex VIX steigt um ca. 14 % auf ca. 26. Montag fielen Chipwerte stark (Micron −7,6 %, Intel −7,0 %, AMD −5,6 %).",
+              "Zahlen: Home Depot übertrifft die Umsatzerwartung (43,4 Mrd. $), Finanzchef McPhail wird am 23.11. CEO; Disney schlägt die Erwartungen (Gewinn je Aktie 1,77 $ statt 1,68 $). Optische Netzwerkwerte (Lumentum, Corning) drehen nach Berichten über Importbeschränkungen ins Minus."
+            ]
+          }
+        ],
+        "bonds": {
+          "rows": [
+            {
+              "n": "Bund 2J",
+              "v": "ca. 3,10 %",
+              "c": "n. v.",
+              "note": "Durchschnittsrendite der Schatz-Auktion (2028); nur 3,8 von 5 Mrd. € zugeteilt, Bid-to-cover 1,8"
+            },
+            {
+              "n": "Bund 10J",
+              "v": "3,38 %",
+              "c": "−1 bp"
+            },
+            {
+              "n": "US 2J",
+              "v": "4,80 %",
+              "c": "−4 bp"
+            },
+            {
+              "n": "US 10J",
+              "v": "5,10 %",
+              "c": "−4 bp",
+              "note": "intraday; Mo. ca. 5,14 %"
+            },
+            {
+              "n": "US 30J",
+              "v": "5,46 %",
+              "c": "−2 bp"
+            },
+            {
+              "n": "Spread BTP–Bund 10J",
+              "v": "ca. 106 bp",
+              "c": "−2 bp",
+              "note": "berechnet: Italien 4,44 % minus Bund 3,38 %"
+            },
+            {
+              "n": "OAT 10J",
+              "v": "4,90 %",
+              "c": "−5 bp",
+              "note": "laut Trading Economics"
+            },
+            {
+              "n": "JGB 10J",
+              "v": "2,88 %",
+              "c": "−1 bp"
+            },
+            {
+              "n": "UK Gilt 10J",
+              "v": "5,38 %",
+              "c": "+2 bp"
+            }
+          ],
+          "comment": [
+            "Leichte Flucht in Anleihen: Die Risikoscheu drückt die US-Renditen um 2–4 bp, die 10-jährige liegt aber weiter über 5 %. Abstand 2 zu 10 Jahren ca. 30 bp (normale Kurve).",
+            "Fed-Erwartung: Eine Erhöhung im Dezember ist zu ca. 95 % eingepreist, weitere im Januar und April. Musalem spricht von bis zu vier Schritten. Das begrenzt den Spielraum für fallende Renditen; morgen um 20:00 Uhr kommen die Fed-Protokolle.",
+            "Euroraum ruhig: Bund 10J kaum verändert bei ca. 3,38 %. Die Schatz-Auktion war schwach (Ziel 5 Mrd. €, zugeteilt 3,8 Mrd. €). Italien-Spread ca. 106 bp, also keine Stress-Signale.",
+            "Großbritannien: Arbeitslosenquote 4,6 % (erwartet 4,7 %), Löhne wachsen langsamer (3,5 %); Gilt-Auktion 2041 gut nachgefragt (3,3-fach überzeichnet, Rendite 5,59 %). Morgen 08:00 Uhr britische Inflation. Länderrenditen: Trading Economics, intraday."
+          ]
+        },
+        "commodities": [
+          {
+            "n": "Brent ($/Barrel)",
+            "v": "93,66",
+            "c": "+2,0 %"
+          },
+          {
+            "n": "WTI ($/Barrel)",
+            "v": "86,31",
+            "c": "+0,7 %"
+          },
+          {
+            "n": "Gold ($/Unze, Future)",
+            "v": "3.878,90",
+            "c": "+0,7 %"
+          },
+          {
+            "n": "Silber ($/Unze)",
+            "v": "46,84–48,01",
+            "c": "n. v."
+          },
+          {
+            "n": "Kupfer LME ($/t)",
+            "v": "13.145–13.281",
+            "c": "n. v."
+          },
+          {
+            "n": "Erdgas TTF (€/MWh)",
+            "v": "83,75–86,92",
+            "c": "n. v."
+          }
+        ],
+        "fx": [
+          {
+            "n": "EUR/USD",
+            "v": "1,1007",
+            "c": "+0,1 %"
+          },
+          {
+            "n": "USD/JPY",
+            "v": "159,22",
+            "c": "−0,2 %"
+          },
+          {
+            "n": "Dollar-Index (DXY)",
+            "v": "103,4–103,8",
+            "c": "n. v."
+          },
+          {
+            "n": "Bitcoin ($)",
+            "v": "64.185",
+            "c": "−1,0 %"
+          }
+        ],
+        "cfNews": [
+          "Öl erholt sich von Zweieinhalb-Monats-Tiefs (Brent zeitweise über 94 $), Gold steigt nach dem Tief seit Ende Sept. 2025 wieder Richtung 3.880 $, Silber pendelt um 47–48 $. Kupfer leidet unter Sorgen um geringere KI-Investitionen und schwache China-Daten. Spannen = Tageshoch/-tief laut Newsquawk (bis 16:21 Uhr MEZ).",
+          "Dollar und Yen kaum verändert, der Yen bleibt nahe 160 je Dollar schwach; Bitcoin rutscht weiter auf ca. 64.000 $. Stände: Brent und EUR/USD 12:27 Uhr (wallstreet-online), WTI, Gold, Bitcoin ca. 17:00 Uhr MEZ (Yahoo Finance)."
+        ],
+        "tomorrow": [
+          "Über Nacht: Nvidia-Zahlen (heute 22:20 Uhr MEZ) und Kursreaktion – bestimmen die Eröffnung in Asien und Europa",
+          "00:50 Japan: Handelsbilanz Oktober",
+          "08:00 Großbritannien: Verbraucher- und Erzeugerpreise Oktober; Deutschland: Baugenehmigungen September",
+          "10:00 EZB: Finanzstabilitätsbericht; Drägerwerk: Kapitalmarkttag",
+          "11:00 Eurozone: Verbraucherpreise Oktober (endgültig); 11:30 Auktion Bundesanleihe 2033 (3 Mrd. €)",
+          "13:00 Tencent: Q3-Zahlen",
+          "14:30 USA: Baubeginne und Baugenehmigungen Oktober; 15:25 Lagarde beim DealBook Summit; 16:30 EIA-Öllagerdaten",
+          "20:00 Fed: Protokoll der Sitzung vom 27./28. Oktober; Reden von Barr (19:35), Williams (20:30), Kashkari (22:15)",
+          "Ohne feste Uhrzeit: Preisfestsetzung des Anthropic-Börsengangs (erster Handelstag Do.); APEC-Gipfel in China (bis 19.11.) mit geplantem Treffen Trump–Xi–Putin"
+        ],
+        "sources": [
+          {
+            "t": "finanzen.net/dpa-AFX: Aktien Frankfurt Schluss (17.11.2026)",
+            "u": "https://www.finanzen.net/nachricht/aktien/aktien-frankfurt-schluss-klare-verluste-nervositaet-vor-nvidia-zahlen-16071405"
+          },
+          {
+            "t": "Handelsblatt: Dax schließt im Minus",
+            "u": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-im-minus-deutsche-bank-aktie-verliert-deutlich/100270429.html"
+          },
+          {
+            "t": "finanzen.net: Aktien Frankfurt mittags",
+            "u": "https://www.finanzen.net/nachricht/aktien/aktien-frankfurt-schwach-nervositaet-vor-nvidia-zahlen-am-spaeten-abend-16070462"
+          },
+          {
+            "t": "ZDFheute: Deutsche-Bank-Leak",
+            "u": "https://www.zdfheute.de/wirtschaft/unternehmen/deutsche-bank-leak-aktienkurs-100.html"
+          },
+          {
+            "t": "Newsquawk European Market Wrap 17.11.2026",
+            "u": "https://www.newsquawk.com/headlines/newsquawk-european-market-wrap---17th-november-2026"
+          },
+          {
+            "t": "JournalArta/Reuters: European shares fall",
+            "u": "https://journalarta.com/en/2026/11/17/european-shares-fall-deutsche-bank-tech-stocks-nvidia/"
+          },
+          {
+            "t": "Trading Economics: UK/Europa-Indizes",
+            "u": "https://tradingeconomics.com/united-kingdom/stock-market"
+          },
+          {
+            "t": "Trading Economics: SMI",
+            "u": "https://tradingeconomics.com/switzerland/stock-market"
+          },
+          {
+            "t": "Trading Economics: Anleiherenditen",
+            "u": "https://tradingeconomics.com/united-states/government-bond-yield"
+          },
+          {
+            "t": "AP via KSAT: Asian markets",
+            "u": "https://www.ksat.com/business/2026/11/17/asian-markets-mostly-drop-as-ai-stocks-remain-under-pressure/"
+          },
+          {
+            "t": "STL.News: Overseas markets",
+            "u": "https://www.stl.news/overseas-stock-market-today-stocks-nov-17-2026/"
+          },
+          {
+            "t": "Yahoo Finance: Stock market today (live)",
+            "u": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html"
+          },
+          {
+            "t": "moomoo: The Capital Breakdown 17.11.2026",
+            "u": "https://www.moomoo.com/community/feed/the-capital-breakdown-tuesday-november-17-2026-117631511494661"
+          },
+          {
+            "t": "ariva/dpa-AFX: Börsentag auf einen Blick",
+            "u": "https://www.ariva.de/news/dpa-afx-boersentag-auf-einen-blick-dax-bleibt-unter-druck-12209544"
+          },
+          {
+            "t": "TipRanks: Stock Market Today, Nov. 17",
+            "u": "https://www.tipranks.com/news/stock-market-today-nov-17-u-s-stocks-jittery-ahead-of-nvidia-results"
+          },
+          {
+            "t": "wallstreet-online: Aktien Frankfurt Schluss",
+            "u": "https://www.wallstreet-online.de/nachricht/21707475-aktien-frankfurt-schluss-dax-rutscht-us-techs-halt"
+          },
+          {
+            "t": "Yahoo Finance: Gold price today",
+            "u": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-tuesday-november-17-2026-gold-opens-at-lowest-price-since-september-29-2025-121421264.html"
+          },
+          {
+            "t": "Bloomberg: Anthropic guides IPO price",
+            "u": "https://www.bloomberg.com/news/articles/2026-11-17/anthropic-is-said-to-guide-ipo-price-to-top-of-range-or-above"
+          },
+          {
+            "t": "finanznachrichten.de: Tagesvorschau 18. November",
+            "u": "https://www.finanznachrichten.de/nachrichten-2026-11/70154530-tagesvorschau-mittwoch-18-november-vorlaeufige-fassung-015.htm"
+          }
+        ]
+      }
+    },
     {
       "date": "2026-11-16",
       "marketUpdate": {
