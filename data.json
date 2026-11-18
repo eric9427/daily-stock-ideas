@@ -1,6 +1,393 @@
 {
-  "updated": "2026-11-17T18:06:30+01:00",
+  "updated": "2026-11-18T17:56:01+01:00",
   "editions": [
+    {
+      "date": "2026-11-18",
+      "marketUpdate": {
+        "summary": "Starke Nvidia-Zahlen verpuffen: Der DAX fällt um ca. 1,1 % auf rund 25.757 Punkte und schließt erstmals seit Wochen unter 26.000. Grund sind Zinssorgen, denn Fed-Gouverneur Waller hält im Dezember eine Erhöhung um 0,5 Prozentpunkte für wahrscheinlich nötig. Gold fällt um ca. 3 % auf ein Jahrestief, Öl wird billiger, und Anleger halten sich vor dem Anthropic-Börsengang am Donnerstag zurück.",
+        "highlights": [
+          "Nvidia schlägt die Erwartungen, die Aktie fällt trotzdem: Der Umsatz im 3. Quartal liegt bei 115,8 Mrd. $ (+103 %, erwartet ca. 108,8 Mrd. $), der Gewinn je Aktie bei 2,68 $ (erwartet 2,47 $). Für das 4. Quartal erwartet Nvidia ca. 130 Mrd. $, ohne China-Geschäft mit Rechenzentrumschips. Nachbörslich stieg die Aktie um über 4 %, gegen 17 Uhr MEZ lag sie aber ca. 2 % im Minus. Der Verwaltungsrat will Jensen Huang nicht als CEO zurückholen und lässt den Skandal unabhängig untersuchen.",
+          "Gold auf dem tiefsten Stand seit über einem Jahr: Die Feinunze fällt um ca. 3,2 % auf ca. 3.740 $, rund 31 % unter dem Rekord vom Januar (ca. 5.500 $). Auslöser sind die Aussicht auf weiter steigende US-Zinsen und ein festerer Dollar. Goldman Sachs senkt das Jahresendziel 2026 von über 4.900 $ auf 4.150 $.",
+          "Deutz bricht ein: Nach einem kritischen Bericht des Leerverkäufers Ningi Research zur Übernahme von FFG fällt die Aktie zeitweise um ca. 14,7 %; Deutz will die Vorwürfe prüfen und beantworten. Gegenbewegung: Drägerwerk steigt um ca. 6–9 % nach neuen Zielen für 2030 (4,5 Mrd. € Umsatz, 10–12 % EBIT-Marge), Zalando legt nach Aktienkäufen des Großaktionärs Povlsen (ca. 5,2 Mio. €) zu."
+        ],
+        "drivers": [
+          {
+            "scope": "global",
+            "text": "Fed-Gouverneur Waller sagt im CNBC-Interview, eine Zinserhöhung um 0,5 Prozentpunkte bei der Sitzung am 8./9. Dezember sei wahrscheinlich nötig. New-York-Fed-Chef Williams hält dagegen keinen großen Schritt für nötig. Laut finanzen.at preist der Markt eine kleine Erhöhung um 0,25 Prozentpunkte zu ca. 97 % ein. Die Zinssorge drückt auf Gold, Silber und breite Aktienindizes. Heute Abend (20 Uhr MEZ) kommt das Protokoll der letzten Fed-Sitzung.",
+            "markets": "US-Anleihen (kurze Laufzeiten), Gold, Silber, Dollar, Wachstumsaktien, Bitcoin"
+          },
+          {
+            "scope": "global",
+            "text": "Die Nvidia-Zahlen beruhigen den KI-Handel nur kurz. Chipwerte in Asien und Europa steigen (Kospi +2 %, ASML zeitweise +3,6 %, Infineon +3 %, Siltronic ca. +5 %). In den USA verpuffen die Gewinne bis zum späten Vormittag; auch KI-Cloudanbieter wie CoreWeave und Nebius geben ihre Gewinne ab. Belastend bleiben der Skandal um Ex-CEO Huang (Treffen mit US-Abgeordneten am 1. Dezember) und die verschärften US-Chipregeln gegenüber China.",
+            "markets": "Halbleiter, Nasdaq, Korea, Taiwan, Japan, europäische Tech-Werte"
+          },
+          {
+            "scope": "global",
+            "text": "Anthropic-Börsengang: Die Preisfestsetzung soll heute Abend erfolgen, der erste Handelstag an der Nasdaq (Kürzel ANT) ist für Donnerstag geplant. Die Spanne liegt bei 70–78 $, die Nachfrage soll laut Berichten rund sechsmal höher sein als das Angebot. Händler vermuten, dass Anleger andere Aktien verkaufen, um Platz im Depot zu schaffen. Amazon, Alphabet und Broadcom steigen vorab.",
+            "markets": "KI- und Softwarewerte, Nasdaq, Liquidität im Gesamtmarkt"
+          },
+          {
+            "scope": "global",
+            "text": "Öl wird billiger: Steigende US-Lagerbestände (API: +5,3 Mio. Barrel) und die von der IEA erwartete Überversorgung im 4. Quartal drücken den Preis. Brent fällt um ca. 1,7 % auf ca. 91,4 $; laut Yahoo Finance zeitweise unter 90 $, den tiefsten Stand seit Ende August. Angriffe in der Golfregion (Iran-Krieg, Huthi-Attacken auf eine saudische Pipeline) bremsen den Rückgang.",
+            "markets": "Energiewerte, FTSE 100, Inflationserwartungen, Airlines"
+          },
+          {
+            "scope": "punktuell",
+            "text": "Inflation in Europa: Die Eurozonen-Inflation für Oktober wurde mit 4,0 % bestätigt; die EZB dürfte im Dezember die Zinsen erhöhen. In Großbritannien steigt die Teuerung auf 3,6 % (Vormonat 3,5 %), liegt laut Reuters aber unter der Prognose der Bank of England. Das dämpft dort die Erwartungen an Zinserhöhungen, die Rendite britischer Staatsanleihen fällt deutlich.",
+            "markets": "Bundesanleihen, Gilts, Pfund, europäische Banken"
+          },
+          {
+            "scope": "punktuell",
+            "text": "US-Gesundheitswerte unter Druck: Ein Vorschlag der US-Behörde CMS gegen Abrechnungsbetrug belastet die Branche; UnitedHealth fällt um ca. 6 % und zieht den Dow Jones nach unten. Einzelhändler überzeugen dagegen: TJX ca. +10 %, Target ca. +5,6 % (Gewinn inkl. Zollrückerstattungen).",
+            "markets": "Dow Jones, US-Krankenversicherer, US-Einzelhandel"
+          }
+        ],
+        "regions": [
+          {
+            "name": "Europa",
+            "note": "DAX, EuroStoxx 50 und SMI: Schlussstände laut finanzen.ch; der DAX kann vom offiziellen Xetra-Schluss leicht abweichen (wallstreet-online meldete gegen 17:35 Uhr 25.740, −1,27 %). MDAX nur Nachmittagsstand (diebewertung.de). FTSE 100: Zwischenstand 12:18 Uhr MEZ (ad-hoc-news). Für CAC 40, FTSE MIB und IBEX 35 wurde kein verlässlicher Schlussstand gefunden. Stoxx 600 Vortag (17.11.): 650,72, −1,75 %.",
+            "indices": [
+              {
+                "n": "DAX",
+                "v": "25.757",
+                "c": "−1,1 %"
+              },
+              {
+                "n": "MDAX (Nachmittag)",
+                "v": "ca. 30.052",
+                "c": "−0,3 %"
+              },
+              {
+                "n": "EuroStoxx 50",
+                "v": "6.158",
+                "c": "−0,9 %"
+              },
+              {
+                "n": "CAC 40",
+                "v": "n. v.",
+                "c": "n. v."
+              },
+              {
+                "n": "FTSE 100 (12:18 MEZ)",
+                "v": "10.655,44",
+                "c": "−0,32 %"
+              },
+              {
+                "n": "SMI",
+                "v": "14.886",
+                "c": "−0,6 %"
+              },
+              {
+                "n": "FTSE MIB",
+                "v": "n. v.",
+                "c": "n. v."
+              },
+              {
+                "n": "IBEX 35",
+                "v": "n. v.",
+                "c": "n. v."
+              }
+            ],
+            "news": [
+              "Mittags lag Europa noch im Plus, der Tech-Sektor war der stärkste Sektor (+1,4 %). Am Nachmittag drehten die Indizes nach den Zinsaussagen von Waller ins Minus; der DAX schloss knapp am Tagestief und hat in dieser Woche gut 4 % verloren.",
+              "Deutschland: Deutz (zeitweise −14,7 %), Aurubis (ca. −5 %) und Carl Zeiss Meditec (ca. −6 %) schwach; SAP, Deutsche Bank und Commerzbank belasten den DAX. Gewinner: Siemens Energy (ca. +3,5 %, Spekulation über die Industriesparte), Zalando, Drägerwerk, Siltronic. Evonik leicht fester nach einem Bericht über ein mögliches BASF-Angebot.",
+              "Europa: Alstom fällt um ca. 7,6 % nach schwachen Zahlen, Prosus um ca. 6,8 % nach enttäuschenden Tencent-Zahlen; Generali hebt das Gewinnziel 2026 an (mehr als +14 % beim Gewinn je Aktie). In Zürich verlieren Banken (UBS −1,3 %, Julius Bär −2,0 %), Logitech steigt um ca. 2,9 %."
+            ]
+          },
+          {
+            "name": "Asien",
+            "note": "Schlussstände laut Trading Economics (CFD-basiert, teils widersprüchliche Angaben auf den Seiten); Hang Seng laut Bericht „nahe 23.295“. Taiex nur Richtung bekannt.",
+            "indices": [
+              {
+                "n": "Nikkei 225",
+                "v": "59.024",
+                "c": "+0,28 %"
+              },
+              {
+                "n": "Shanghai Composite",
+                "v": "3.587,83",
+                "c": "+0,09 %"
+              },
+              {
+                "n": "CSI 300",
+                "v": "3.983,77",
+                "c": "+0,18 %"
+              },
+              {
+                "n": "Hang Seng",
+                "v": "ca. 23.295",
+                "c": "−0,9 %"
+              },
+              {
+                "n": "KOSPI",
+                "v": "5.067,44",
+                "c": "+1,99 %"
+              },
+              {
+                "n": "Taiex",
+                "v": "n. v.",
+                "c": "n. v. (im Plus, TSMC fester)"
+              },
+              {
+                "n": "S&P/ASX 200",
+                "v": "ca. 8.772",
+                "c": "−1,25 %"
+              },
+              {
+                "n": "Sensex",
+                "v": "ca. 82.032",
+                "c": "−0,61 %"
+              }
+            ],
+            "news": [
+              "Korea erholt sich nach vier Verlusttagen dank Nvidia: Samsung +3,8 %, SK Hynix +6,0 %; der Kospi liegt wieder über 5.000. In Tokio führen Advantest (+4,6 %) und SoftBank die Gewinner an; der Nikkei beendet zwei Verlusttage.",
+              "Hongkong fällt wegen der US-Chipregeln (Alibaba, Baidu schwach) und enttäuschender Tencent-Zahlen (−0,5 %); JD Health −15 %. Australien, Singapur und Indien im Minus. Im Blick: APEC-Gipfel in Shenzhen (18.–19.11.)."
+            ]
+          },
+          {
+            "name": "USA",
+            "note": "Zwischenstand gegen 17:49 Uhr MEZ (11:49 Uhr New York) laut Yahoo Finance; Nasdaq 100 gegen ca. 17:35 Uhr MEZ laut wallstreet-online. Vortagesschluss (Di., 17.11.) laut MarketSpeaker: S&P 500 7.340,53 (−1,03 %, tiefster Schluss seit Ende Juli), Nasdaq Composite 24.328,38 (−0,74 %), Dow 50.759,42 (−1,64 %, −849 Punkte); Nasdaq 100 Vortag n. v.",
+            "indices": [
+              {
+                "n": "S&P 500 (17:49 MEZ)",
+                "v": "7.299,00",
+                "c": "−0,57 %"
+              },
+              {
+                "n": "Nasdaq 100 (ca. 17:35 MEZ)",
+                "v": "26.986,32",
+                "c": "+0,08 %"
+              },
+              {
+                "n": "Nasdaq Composite (17:49 MEZ)",
+                "v": "24.271,50",
+                "c": "−0,23 %"
+              },
+              {
+                "n": "Dow Jones (17:49 MEZ)",
+                "v": "50.154,45",
+                "c": "−1,19 %"
+              },
+              {
+                "n": "Russell 2000 (17:49 MEZ)",
+                "v": "2.716,27",
+                "c": "+0,53 %"
+              },
+              {
+                "n": "S&P 500 Schluss Di.",
+                "v": "7.340,53",
+                "c": "−1,03 %"
+              }
+            ],
+            "news": [
+              "Nvidia gibt den Gewinn aus dem Vorbörsenhandel ab (ca. −2 %), der Angstindex VIX sinkt leicht auf ca. 24,8. Am Dienstag hatten Berichte über einen Ausfall eines internen NSA-Netzes die Indizes kurzzeitig auf Tagestiefs gedrückt.",
+              "Bewegungen: UnitedHealth ca. −6 % (CMS-Regel), TJX ca. +10 %, Target ca. +5,6 %, Lowe's senkt den Margenausblick leicht; Applied Optoelectronics −12 % nach geplanter Kapitalerhöhung über 550 Mio. $. Nachbörslich: Palo Alto Networks."
+            ]
+          }
+        ],
+        "bonds": {
+          "rows": [
+            {
+              "n": "Bund 2J",
+              "v": "n. v.",
+              "c": "n. v.",
+              "note": "Kein aktueller Stand gefunden"
+            },
+            {
+              "n": "Bund 10J",
+              "v": "3,37 %",
+              "c": "−1 bp",
+              "note": "Stand 17:19 Uhr laut dpa-AFX/finanzen.at; Bund-Future 121,97 (−0,01 %)"
+            },
+            {
+              "n": "US 2J",
+              "v": "4,82 %",
+              "c": "±0 bp",
+              "note": "Trading Economics; laut CNBC steigt die 2J-Rendite nach Wallers Aussagen"
+            },
+            {
+              "n": "US 10J",
+              "v": "5,09 %",
+              "c": "−3 bp"
+            },
+            {
+              "n": "US 30J",
+              "v": "5,43 %",
+              "c": "−3 bp"
+            },
+            {
+              "n": "Italien-Spread (BTP–Bund)",
+              "v": "ca. 104 bp",
+              "c": "n. v.",
+              "note": "BTP 10J ca. 4,40–4,44 %; Spread am 2.11. noch 116 bp (QuiFinanza)"
+            },
+            {
+              "n": "JGB 10J",
+              "v": "2,88 %",
+              "c": "−1 bp"
+            },
+            {
+              "n": "UK Gilt 10J",
+              "v": "5,32 %",
+              "c": "−7 bp",
+              "note": "Nach Inflation unter BoE-Prognose"
+            }
+          ],
+          "comment": [
+            "US-Kurve flacht ab: Die kurzen Laufzeiten halten sich wegen der Erhöhungsfantasie (Waller: 0,5 Prozentpunkte im Dezember möglich), lange Renditen fallen leicht. Die 10-jährige bleibt über 5 %.",
+            "Bunds fast unverändert: Die EZB-Zinserhöhung im Dezember gilt als eingepreist; niedrigere Ölpreise dämpfen die Inflationserwartungen. Real (nach Abzug der Inflation von 4,0 %) bringt die 10-jährige Bundesanleihe rund −0,6 Prozentpunkte.",
+            "Peripherie und Frankreich gefragt: Der Italien-Aufschlag liegt nahe 104 bp; französische Renditen fallen nach den Rentenplänen von Marine Le Pen.",
+            "Gilts sind die Gewinner des Tages: Die britische Inflation von 3,6 % liegt unter der BoE-Prognose, das senkt die Erwartung weiterer Zinserhöhungen."
+          ]
+        },
+        "commodities": [
+          {
+            "n": "Brent",
+            "v": "91,44 $",
+            "c": "−1,7 %"
+          },
+          {
+            "n": "WTI (Dez.)",
+            "v": "82,62 $",
+            "c": "−2,4 %"
+          },
+          {
+            "n": "Gold",
+            "v": "3.740 $",
+            "c": "−3,2 %"
+          },
+          {
+            "n": "Silber",
+            "v": "n. v.",
+            "c": "n. v. (ebenfalls auf Jahrestief)"
+          }
+        ],
+        "fx": [
+          {
+            "n": "EUR/USD",
+            "v": "1,0967",
+            "c": "−0,3 %"
+          },
+          {
+            "n": "USD/JPY",
+            "v": "159,48",
+            "c": "+0,1 %"
+          },
+          {
+            "n": "Dollar-Index",
+            "v": "ca. 103,6",
+            "c": "n. v."
+          },
+          {
+            "n": "Bitcoin",
+            "v": "62.397 $",
+            "c": "−2,0 %"
+          }
+        ],
+        "cfNews": [
+          "Gold und Silber fallen auf Jahrestiefs: Steigende Zinsen machen zinslose Anlagen unattraktiver, der Dollar ist fester. Öl leidet unter der erwarteten Überversorgung, die Golfregion stützt nur begrenzt.",
+          "Der Euro gibt leicht nach (1,0967 $), der Yen bleibt nahe 160 je Dollar schwach. Bitcoin verliert ca. 2 %; aus Bitcoin-ETFs flossen diese Woche bisher ca. 232 Mio. $ ab (SoSoValue)."
+        ],
+        "tomorrow": [
+          "Heute Abend, 20:00 Uhr: Protokoll der letzten Fed-Sitzung; nachbörslich Zahlen von Palo Alto Networks; Preisfestsetzung beim Anthropic-Börsengang.",
+          "Donnerstag, ca. 13:00 Uhr: Walmart-Quartalszahlen (vor US-Börsenstart, erwarteter Gewinn je Aktie ca. 0,64 $).",
+          "Donnerstag, 14:30 Uhr: US-Erstanträge auf Arbeitslosenhilfe und Philly-Fed-Index (Industrie Region Philadelphia).",
+          "Donnerstag, ab US-Handelsstart (15:30 Uhr): geplanter erster Handelstag von Anthropic an der Nasdaq (Kürzel ANT); Stimmungstest für den KI-Sektor.",
+          "Donnerstag, nachbörslich (ca. 22:00 Uhr): Intuit und Ross Stores. Außerdem zweiter Tag des APEC-Gipfels in Shenzhen.",
+          "Ausblick Freitag: finales Michigan-Verbrauchervertrauen, Rede von Fed-Gouverneurin Lisa Cook."
+        ],
+        "sources": [
+          {
+            "t": "wallstreet-online/dpa-AFX: Aktien Frankfurt Schluss – DAX rutscht unter 26 000 Punkte",
+            "u": "https://www.wallstreet-online.de/nachricht/21713784-aktien-frankfurt-schluss-dax-rutscht-26-000-punkte-nervositaet-anthropic-boersengang"
+          },
+          {
+            "t": "finanzen.ch: Aktien Schweiz schliessen schwächer",
+            "u": "https://www.finanzen.ch/nachrichten/aktien/aktien-schweiz-schliessen-schwacher-bankenwerte-mit-abgaben-1036779854"
+          },
+          {
+            "t": "finanzen.net: XETRA-Handel – DAX schwächelt am Mittwochnachmittag",
+            "u": "https://www.finanzen.net/nachricht/aktien/xetra-handel-dax-schwaechelt-am-mittwochnachmittag-16073723"
+          },
+          {
+            "t": "finanzen.at/Dow Jones: Märkte Europa – Nvidia-Zahlen sorgen für Erleichterung",
+            "u": "https://www.finanzen.at/nachrichten/aktien/maerkte-europa-wenig-verandert-nvidia-zahlen-sorgen-fuer-erleichterung-im-techsektor-1036778726"
+          },
+          {
+            "t": "diebewertung.de: Frankfurter Börse am 18. November 2026",
+            "u": "https://www.diebewertung.de/frankfurter-boerse-am-18-november-2026-nvidia-begeistert-deutz-stuerzt-ab-anleger-erleben-einen-turbulenten-mittwoch/"
+          },
+          {
+            "t": "ARIVA/dpa-AFX: Aktien Europa – Technologiesektor erholt",
+            "u": "https://www.ariva.de/news/aktien-europa-abwartendes-geschaeft-technologiesektor-12211783"
+          },
+          {
+            "t": "ad-hoc-news: FTSE 100 falls 0.32% as miners weigh",
+            "u": "https://www.ad-hoc-news.de/boerse/news/marktberichte/ftse-100-falls-0-32-prozent-as-miners-weigh-on-london-stocks/70530794"
+          },
+          {
+            "t": "Trading Economics: South Korea Stock Market",
+            "u": "https://tradingeconomics.com/south-korea/stock-market"
+          },
+          {
+            "t": "Trading Economics: Japan Stock Market",
+            "u": "https://tradingeconomics.com/japan/stock-market"
+          },
+          {
+            "t": "Trading Economics: Hong Kong Stock Market",
+            "u": "https://tradingeconomics.com/hong-kong/stock-market"
+          },
+          {
+            "t": "Yahoo Finance: Stock market today, 18.11.2026",
+            "u": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html"
+          },
+          {
+            "t": "StockTitan: Stock Market Today Live, 18.11.2026",
+            "u": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
+          },
+          {
+            "t": "MarketSpeaker: Dow sinks 849 points (17.11.2026)",
+            "u": "https://marketspeaker.com/dow-sp500-nasdaq-close-nsa-outage-nvidia-november-17-2026/"
+          },
+          {
+            "t": "Kiplinger: Nvidia Earnings Live Updates",
+            "u": "https://www.kiplinger.com/news/live/nvidia-earnings-live-updates-and-commentary-november-2026"
+          },
+          {
+            "t": "Trading Economics: US 2-Year Note Yield",
+            "u": "https://tradingeconomics.com/united-states/2-year-note-yield"
+          },
+          {
+            "t": "finanzen.at/dpa-AFX: Deutsche Anleihen kaum verändert",
+            "u": "https://www.finanzen.at/nachrichten/anleihen/deutsche-anleihen-kaum-verandert-1036779785"
+          },
+          {
+            "t": "aktiencheck: Euro-Staatsanleihen – Italien-Spread 104 bp",
+            "u": "https://aktiencheck.de/artikel/euro-staatsanleihen-bund-bei-335-prozent-italien-spread-nur-noch-104-basispunkte"
+          },
+          {
+            "t": "Ecofin: Gold falls to lowest in more than a year",
+            "u": "https://www.ecofinagency.com/news-industry/1811-60924-gold-falls-to-lowest-in-more-than-a-year-as-fed-rate-bets-build"
+          },
+          {
+            "t": "Gulf News: Oil prices drop, 18.11.2026",
+            "u": "https://gulfnews.com/business/energy/oil-slips-in-asia-led-by-murban-brent-wti-what-to-know-on-nov-18-2026-1.500751476"
+          },
+          {
+            "t": "Nexo: Markets Today, 18.11.2026",
+            "u": "https://nexo.com/blog/markets-today-november-18"
+          },
+          {
+            "t": "Malay Mail/AFP: Asian stocks mixed as Nvidia earnings ease AI fears",
+            "u": "https://www.malaymail.com/news/money/2026/11/18/asian-stocks-mixed-as-nvidia-earnings-ease-ai-fears-amid-scandal/243748"
+          },
+          {
+            "t": "Gotrade: US Market Week Ahead",
+            "u": "https://www.heygotrade.com/en/news/weekly-economic-outlook-2026-11-16/"
+          }
+        ]
+      }
+    },
     {
       "date": "2026-11-17",
       "marketUpdate": {
