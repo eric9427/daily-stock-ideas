@@ -1,6 +1,391 @@
 {
-  "updated": "2026-11-18T17:56:01+01:00",
+  "updated": "2026-11-19T17:56:08+01:00",
   "editions": [
+    {
+      "date": "2026-11-19",
+      "marketUpdate": {
+        "summary": "Anthropic-Börsengang hebt Chipwerte, aber nicht den Gesamtmarkt: Der DAX fällt um ca. 0,9 % auf rund 25.500 Punkte, belastet von SAP, Evonik und defensiven Werten. In den USA steigt nur die Nasdaq leicht; schwache Konjunkturdaten und ein strenges Fed-Protokoll treiben die Renditen nach oben.",
+        "highlights": [
+          "Größter Börsengang der Geschichte: Anthropic wurde zu 83 $ je Aktie platziert (über der Spanne von 70–78 $), Bewertung ca. 1,5 Billionen $. Laut Yahoo Finance begann der Handel an der Nasdaq bei 111,50 $, rund 34 % über dem Ausgabepreis. Laut Yahoo Finance wurden ca. 81 Mrd. $ eingesammelt, die Nachfrage war ein Mehrfaches des Angebots. Chipwerte (Nvidia, Micron, CoreWeave, ASML, Infineon) profitieren, der breite Markt kaum. Hinweis: Dieses Update wird von Claude erstellt, einem Modell von Anthropic.",
+          "Evonik bricht ein: BASF beendet die Übernahmebemühungen, nachdem Evonik zwei Angebote abgelehnt hatte (zuletzt 24 € je Aktie). Die Übernahmeprämie ist weg, die Aktie fiel zeitweise um ca. 23 % und lag am Nachmittag ca. 16–18 % im Minus. BASF zeitweise leicht fester.",
+          "Chips gegen Software und Defensive: Soitec steigt nach starken Halbjahreszahlen und höherem Ausblick um ca. 18–20 %, Aixtron ca. +4,7 %, STMicro ca. +4,5 %, ASML ca. +4,1 %. SAP verliert ca. 3 % (vierter Verlusttag, KI-Sorgen um klassische Software), Novartis ca. −3 % nach gesenktem Wachstumsausblick. In den USA steigt Palo Alto ca. 8 % nach Zahlen; Walmart schlägt die Erwartungen und hebt die Prognose, fällt aber ca. 2,5 %."
+        ],
+        "drivers": [
+          {
+            "scope": "global",
+            "text": "Anthropic-Börsengang: Der Rekord-Börsengang gilt als Stimmungstest für den KI-Handel. Er stützt Halbleiter- und KI-Infrastrukturwerte weltweit. Gleichzeitig verkaufen Anleger andere Aktien, um Geld für die neuen Aktien frei zu machen. Klassische Software (SAP) und defensive Branchen leiden.",
+            "markets": "Halbleiter, Nasdaq, Europa-Tech, Japan (SoftBank +4,6 %), Software"
+          },
+          {
+            "scope": "global",
+            "text": "Strenge Fed und schwache Daten: Laut Protokoll der Oktober-Sitzung halten fast alle Fed-Mitglieder weitere Zinserhöhungen für wahrscheinlich nötig; einige würden im Dezember auch mehr als 0,25 Prozentpunkte erwägen. Gleichzeitig enttäuschen die US-Daten: Philly-Fed-Index (Industrie) nur 6,3 (erwartet ca. 20), Erstanträge auf Arbeitslosenhilfe 203.000 (erwartet 197.000). Der Preisindex der Philly Fed springt auf 58,2. Das schürt Sorgen vor Stagflation (schwaches Wachstum plus hohe Inflation).",
+            "markets": "US-Anleihen, Dollar, Dow Jones, Gold, zyklische Aktien"
+          },
+          {
+            "scope": "global",
+            "text": "Gipfel von Trump, Xi und Putin in Shenzhen: Anleger warten auf Signale zu Handel und Zöllen. Hongkonger Tech-Werte werden verkauft (Tencent ca. −7 %), der Hang Seng fällt um ca. 1,9 %.",
+            "markets": "China, Hongkong, Rohstoffe, Schwellenländer"
+          },
+          {
+            "scope": "punktuell",
+            "text": "Europa: EZB-Vertreter bestätigen die erwartete Zinserhöhung im Dezember. Frankreichs Notenbankchef Moulin nennt die Inflation von ca. 4 % doppelt so hoch wie das Ziel und mahnt Frankreich zur Haushaltsdisziplin. Französische Renditen steigen wieder (Regierung ohne Mehrheit).",
+            "markets": "Bundesanleihen, französische Anleihen (OAT), Euro, europäische Banken"
+          },
+          {
+            "scope": "punktuell",
+            "text": "Defensive Branchen unter Druck: Nahrungsmittel, Konsumgüter und Pharma (Nestlé, Unilever, Danone, Novartis, Henkel) werden verkauft. Kepler Cheuvreux stuft Henkel und Lanxess ab. Steigende Zinsen machen Aktien mit anleiheähnlichen Dividenden weniger attraktiv.",
+            "markets": "SMI, FTSE 100, Konsumgüter, Pharma"
+          },
+          {
+            "scope": "punktuell",
+            "text": "Rohstoffe erholen sich leicht: Nach dem Kupfer-Einbruch vom Vortag (−5 %, Siebenmonatstief) steigen Minenwerte (Anglo American ca. +2,9 %). Öl zieht wieder an, Gold fällt weiter.",
+            "markets": "Minenwerte, FTSE 100, Energiewerte"
+          }
+        ],
+        "regions": [
+          {
+            "name": "Europa",
+            "note": "DAX: letzter Kurs 17:30 Uhr laut finanzen.at (kann vom offiziellen Xetra-Schluss leicht abweichen). EuroStoxx 50: Stand 16:33 Uhr (finanzen.ch). MDAX, CAC 40 und SMI nur Mittagsstand (13:32 Uhr, Dow Jones/finanzen.at); MDAX lag am Nachmittag zeitweise fast 1 % im Minus. FTSE 100: 11:11 GMT (Reuters/Euronext). Für FTSE MIB und IBEX 35 kein verlässlicher Stand gefunden; der FTSE MIB lag laut Newsquawk über dem Durchschnitt. Stoxx 600 gegen 16:20 Uhr ca. −0,2 %.",
+            "indices": [
+              {
+                "n": "DAX (17:30)",
+                "v": "25.499",
+                "c": "−0,9 %"
+              },
+              {
+                "n": "MDAX (Mittag)",
+                "v": "29.962",
+                "c": "+0,3 %"
+              },
+              {
+                "n": "EuroStoxx 50 (16:33)",
+                "v": "6.142",
+                "c": "−0,2 %"
+              },
+              {
+                "n": "CAC 40 (Mittag)",
+                "v": "8.150",
+                "c": "±0,0 %"
+              },
+              {
+                "n": "FTSE 100 (12:11 MEZ)",
+                "v": "10.523",
+                "c": "−0,3 %"
+              },
+              {
+                "n": "SMI (Mittag)",
+                "v": "14.792",
+                "c": "−0,6 %"
+              },
+              {
+                "n": "FTSE MIB",
+                "v": "n. v.",
+                "c": "n. v."
+              },
+              {
+                "n": "IBEX 35",
+                "v": "n. v.",
+                "c": "n. v."
+              }
+            ],
+            "news": [
+              "Erholungsversuch ohne Kraft: Der DAX startete bis auf 25.945 Punkte, drehte aber am Nachmittag ins Minus. Er liegt rund 5 % unter seinem Rekord von 27.001 Punkten aus der Vorwoche.",
+              "Deutschland: Gewinner Infineon (ca. +2,6 %), Siemens Energy (ca. +2,5 %), Siemens, Deutsche Bank; im MDAX Aixtron, Suss, Elmos. Verlierer SAP (ca. −3 %), Henkel, Fresenius Medical Care, Fresenius, Rheinmetall (ca. −2 %, negativer Kommentar von Bernstein); Evonik bricht ein. Im SDAX steigen OHB (fast +10 %) und Medios (Aktienrückkauf).",
+              "Europa: Soitec ca. +18–20 %, Babcock ca. +7 % nach Zahlen; Alstom ca. −5,5 %, JD Sports ca. −4 % und Close Brothers ca. −7 % nach Ausblicken. Der FTSE 100 fällt auf ein Sechswochentief."
+            ]
+          },
+          {
+            "name": "Asien",
+            "note": "Nikkei: Schlussstand (ad-hoc-news). Übrige Werte nur prozentual (Anadolu, 247wallst, Saxo). Kospi: Quellen widersprechen sich (Anadolu −0,4 %, AP +1,4 %), daher n. v. Für CSI 300 kein Stand gefunden.",
+            "indices": [
+              {
+                "n": "Nikkei 225",
+                "v": "59.444",
+                "c": "+0,7 %"
+              },
+              {
+                "n": "Shanghai Composite",
+                "v": "n. v.",
+                "c": "−0,3 %"
+              },
+              {
+                "n": "CSI 300",
+                "v": "n. v.",
+                "c": "n. v."
+              },
+              {
+                "n": "Hang Seng",
+                "v": "n. v.",
+                "c": "−1,9 %"
+              },
+              {
+                "n": "KOSPI",
+                "v": "n. v.",
+                "c": "n. v."
+              },
+              {
+                "n": "ASX 200 (Australien)",
+                "v": "n. v.",
+                "c": "−1,0 %"
+              }
+            ],
+            "news": [
+              "Japan steigt mit KI-Werten vor dem Anthropic-Börsengang; SoftBank Group ca. +4,6 %. Die Nachfrage bei der Auktion 20-jähriger Staatsanleihen war deutlich schwächer als zuletzt.",
+              "Hongkong fällt den ganzen Tag, angeführt von Tech-Werten (Tencent ca. −7 %); Festlandchina bleibt ruhig. Australien leidet unter schwachen Arbeitsmarktdaten (Arbeitslosenquote 4,9 %)."
+            ]
+          },
+          {
+            "name": "USA",
+            "note": "Zwischenstand 11:31 Uhr Ortszeit (17:31 Uhr MEZ) laut Yahoo Finance; für den Nasdaq 100 lag kein Zwischenstand vor, angegeben ist der Nasdaq Composite. Zur Eröffnung lagen S&P 500 ca. +1,2 % und Nasdaq ca. +2 % im Plus (AP), die Gewinne schmolzen bis zum Handelsstart von Anthropic. Vortagesschluss (18.11.): S&P 500 7.323,63 (−0,23 %, fünfter Verlusttag in Folge), Nasdaq 100 27.116,25 (+0,42 %), Dow 50.198,17 (−1,11 %).",
+            "indices": [
+              {
+                "n": "S&P 500 (17:31 MEZ)",
+                "v": "7.306",
+                "c": "−0,2 %"
+              },
+              {
+                "n": "Nasdaq Composite (17:31 MEZ)",
+                "v": "24.495",
+                "c": "+0,3 %"
+              },
+              {
+                "n": "Dow Jones (17:31 MEZ)",
+                "v": "49.685",
+                "c": "−1,0 %"
+              },
+              {
+                "n": "S&P 500 (Schluss 18.11.)",
+                "v": "7.323,63",
+                "c": "−0,23 %"
+              },
+              {
+                "n": "Nasdaq 100 (Schluss 18.11.)",
+                "v": "27.116,25",
+                "c": "+0,42 %"
+              }
+            ],
+            "news": [
+              "Früher Schwung verpufft: Chip- und KI-Werte steigen (Micron ca. +6 %, Nvidia ca. +3,7 %, CoreWeave ca. +8 % zur Eröffnung), Palo Alto ca. +8 % nach Zahlen. Der Dow fällt unter 50.000 Punkte.",
+              "Walmart: Umsatz 188,8 Mrd. $ (erwartet 187,2 Mrd. $), Gewinn je Aktie 0,65 $ (erwartet 0,64 $), US-Umsatz auf vergleichbarer Fläche +2,9 %, Onlinehandel +17 %, Prognose angehoben. Die Aktie fällt trotzdem ca. 2,5 %; Williams-Sonoma ca. −6 %."
+            ]
+          }
+        ],
+        "bonds": {
+          "rows": [
+            {
+              "n": "Bund 2J",
+              "v": "3,15 %",
+              "c": "+3 bp",
+              "note": "Trading Economics"
+            },
+            {
+              "n": "Bund 10J",
+              "v": "3,40 %",
+              "c": "+2 bp",
+              "note": "Trading Economics; vormittags 3,37 % (dpa-AFX)"
+            },
+            {
+              "n": "US 2J",
+              "v": "4,85 %",
+              "c": "+4 bp"
+            },
+            {
+              "n": "US 10J",
+              "v": "5,10 %",
+              "c": "+2 bp"
+            },
+            {
+              "n": "US 30J",
+              "v": "5,44 %",
+              "c": "+2 bp"
+            },
+            {
+              "n": "Italien-Spread (BTP–Bund)",
+              "v": "ca. 107 bp",
+              "c": "±0 bp",
+              "note": "BTP 10J 4,47 % (+2 bp) minus Bund 3,40 % (+2 bp)"
+            },
+            {
+              "n": "OAT 10J (Frankreich)",
+              "v": "4,92 %",
+              "c": "+5 bp"
+            },
+            {
+              "n": "JGB 10J",
+              "v": "2,83 %",
+              "c": "n. v."
+            },
+            {
+              "n": "UK Gilt 10J",
+              "v": "5,33 %",
+              "c": "+3 bp"
+            }
+          ],
+          "comment": [
+            "US-Renditen steigen auf breiter Front, kurze Laufzeiten am stärksten: Das Fed-Protokoll stützt weitere Zinserhöhungen. Laut Saxo sind drei weitere Schritte bis Juni 2027 eingepreist (Leitzins dann 4,50–4,75 %). Die 10-jährige bleibt über 5 %.",
+            "Schwache Daten (Philly Fed, Arbeitslosenanträge) bremsen den Anstieg nicht, weil gleichzeitig der Preisindex der Philly Fed stark steigt. Das ist das Stagflationsmuster: weniger Wachstum, aber Preisdruck.",
+            "Europa: Die EZB-Erhöhung im Dezember gilt als sicher. Französische Anleihen sind die Schwachstelle (+5 bp, Haushalt und fehlende Mehrheit); der Abstand Frankreich–Bund liegt bei ca. 152 bp und damit deutlich über Italien. Frankreich platzierte 11,99 Mrd. € in vier Anleihen.",
+            "Japan: Die schwache Auktion 20-jähriger Anleihen zeigt geringere Nachfrage nach langen Laufzeiten; der Yen bleibt nahe 160 je Dollar schwach."
+          ]
+        },
+        "commodities": [
+          {
+            "n": "Brent",
+            "v": "93,27 $",
+            "c": "+1,4 %"
+          },
+          {
+            "n": "WTI",
+            "v": "83,43 $",
+            "c": "+1,4 %"
+          },
+          {
+            "n": "Gold",
+            "v": "3.683 $",
+            "c": "−1,6 %"
+          },
+          {
+            "n": "Silber (13:32)",
+            "v": "45,02 $",
+            "c": "±0,0 %"
+          },
+          {
+            "n": "Kupfer (LME, 3M)",
+            "v": "ca. 12.435–12.677 $/t",
+            "c": "n. v."
+          },
+          {
+            "n": "Erdgas (TTF)",
+            "v": "ca. 81–85 €/MWh",
+            "c": "n. v."
+          }
+        ],
+        "fx": [
+          {
+            "n": "EUR/USD (13:32)",
+            "v": "1,0986",
+            "c": "+0,1 %"
+          },
+          {
+            "n": "USD/JPY",
+            "v": "ca. 159,3–160,0",
+            "c": "n. v."
+          },
+          {
+            "n": "Dollar-Index",
+            "v": "ca. 103,6–104,0",
+            "c": "n. v."
+          },
+          {
+            "n": "Bitcoin",
+            "v": "63.029 $",
+            "c": "+0,5 %"
+          }
+        ],
+        "cfNews": [
+          "Gold fällt auf ein 15-Monats-Tief und zeitweise unter 3.700 $: Höhere Zinsen und ein starker Dollar (zeitweise höchster Stand seit April 2025) belasten. Öl erholt sich nach dem Rückgang vom Vortag; Brent stand am Mittwoch erstmals seit Ende August unter 90 $.",
+          "Der Euro hält sich knapp unter 1,10 $ nach einem 19-Monats-Tief am Mittwoch; der Yen bleibt schwach. Bitcoin stabilisiert sich um 63.000 $."
+        ],
+        "tomorrow": [
+          "Heute Abend: Reden der Fed-Vertreter Goolsbee (18:30 Uhr), Barr (20:15 Uhr) und Barkin (22:00 Uhr); nachbörslich Zahlen von Intuit. Erster Handelstag von Anthropic: Schlusskurs als Stimmungstest für den KI-Sektor.",
+          "Freitag, 00:30 Uhr: Verbraucherpreise Japan (Oktober), wichtig für eine mögliche Zinserhöhung der Bank of Japan und den Yen.",
+          "Freitag, 08:00 Uhr: Deutsche Erzeugerpreise und britische Einzelhandelsumsätze (Oktober); 08:45 Uhr Geschäftsklima Frankreich.",
+          "Freitag, 09:00 Uhr: Rede von EZB-Präsidentin Lagarde beim European Banking Congress in Frankfurt (Hinweise zur Zinserhöhung im Dezember).",
+          "Freitag, 16:00 Uhr: Verbrauchervertrauen Eurozone (vorab) und finales Uni-Michigan-Verbrauchervertrauen USA mit Inflationserwartungen.",
+          "Außerdem Freitag: EU-UK-Gipfel in Brüssel, Abschluss der Klimakonferenz COP31; Nachwirkungen des Gipfels von Trump, Xi und Putin. Nächste Fed-Sitzung: 8./9. Dezember."
+        ],
+        "sources": [
+          {
+            "t": "finanzen.at: Börse Frankfurt in Rot – DAX am Donnerstagnachmittag schwächer",
+            "u": "https://www.finanzen.at/nachrichten/aktien/boerse-frankfurt-in-rot-dax-zeigt-sich-am-donnerstagnachmittag-schwacher-1036784001"
+          },
+          {
+            "t": "finanzen.net/dpa-AFX: Aktien Frankfurt – Dax träge, Rekord-IPO von Anthropic hebt nur Tech-Laune",
+            "u": "https://www.finanzen.net/nachricht/aktien/aktien-frankfurt-dax-traege-rekord-ipo-von-anthropic-hebt-nur-tech-laune-16076146"
+          },
+          {
+            "t": "finanzen.at/Dow Jones: Märkte Europa – Positive Anthropic-Stimmung ebbt ab",
+            "u": "https://www.finanzen.at/nachrichten/aktien/maerkte-europa-gut-behauptet-positive-anthropic-stimmung-ebbt-ab-1036783472"
+          },
+          {
+            "t": "finanzen.ch: Euro STOXX 50 am Nachmittag",
+            "u": "https://www.finanzen.ch/nachrichten/aktien/handel-in-europa-so-bewegt-sich-der-euro-stoxx-50-am-nachmittag-1036783979"
+          },
+          {
+            "t": "diebewertung.de: Frankfurter Börse am 19. November 2026",
+            "u": "https://www.diebewertung.de/frankfurter-boerse-am-19-november-2026-evonik-stuerzt-ab-technologiewerte-gewinnen-anleger-bleiben-nervoe/"
+          },
+          {
+            "t": "wallstreet-online: DAX-Gewinner und -Verlierer am 19.11.2026",
+            "u": "https://www.wallstreet-online.de/nachricht/21719931-top-flop-extreme-ausschlaege-dax-gewinner-verlierer-19-11-2026"
+          },
+          {
+            "t": "ARIVA/dpa-AFX: Aktien Europa – Technologiewerte gefragt",
+            "u": "https://www.ariva.de/news/aktien-europa-technologiewerte-gefragt-defensive-sektoren-12213302"
+          },
+          {
+            "t": "ARIVA/dpa-AFX: Börsentag auf einen Blick",
+            "u": "https://www.ariva.de/news/dpa-afx-boersentag-auf-einen-blick-dax-stabilisiert-nach-12212789"
+          },
+          {
+            "t": "ARIVA/dpa-AFX: Deutsche Anleihen kaum verändert",
+            "u": "https://www.ariva.de/news/deutsche-anleihen-kaum-veraendert-12213141"
+          },
+          {
+            "t": "Newsquawk: European Market Wrap 19.11.2026",
+            "u": "https://www.newsquawk.com/headlines/newsquawk-european-market-wrap---19th-november-2026"
+          },
+          {
+            "t": "Euronext/Reuters: FTSE 100 slips to six-week low",
+            "u": "https://live.euronext.com/en/financial-news/uks-ftse-100-slips-six-week-low-defensive-stocks-drag"
+          },
+          {
+            "t": "ad-hoc-news: Nikkei 225 steigt um 0,71 % auf 59.444 Punkte",
+            "u": "https://www.ad-hoc-news.de/boerse/news/marktberichte/nikkei-225-steigt-um-0-71-prozent-auf-59-444-punkte/70535819"
+          },
+          {
+            "t": "Anadolu: Global markets mixed amid hawkish Fed minutes",
+            "u": "https://www.aa.com.tr/en/economy/global-markets-mixed-amid-hawkish-fed-minutes-ai-uncertainties/4131098"
+          },
+          {
+            "t": "247wallst: Hang Seng closes down 1.9 %",
+            "u": "https://247wallst.com/cards/hong-kong-s-1-91-loss-is-seven-times-the-damage-done-in-sha-hsi-market-bell-01m7sd9qdfr9r2d7w2bzn0ggns"
+          },
+          {
+            "t": "Saxo: Market Quick Take 19.11.2026",
+            "u": "https://www.home.saxo/en-sg/content/articles/macro/market-quick-take---metals-slide-while-fed-minutes-point-to-further-hikes---19-november-2026-19112026"
+          },
+          {
+            "t": "Yahoo Finance: Stock market today 19.11.2026 (live)",
+            "u": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html"
+          },
+          {
+            "t": "Yahoo Finance: Anthropic IPO live",
+            "u": "https://finance.yahoo.com/technology/live/anthropic-ipo-live-company-said-to-price-stock-at-83-begin-trading-thursday-212656452.html"
+          },
+          {
+            "t": "AP: Wall Street rallies after Anthropic's IPO revives AI stocks",
+            "u": "https://www.union-bulletin.com/news/world/wall-street-rallies-toward-its-first-gain-in-6-days-after-anthropics-ipo-revives-ai/article_6f3352f5-6ae4-511c-80a4-4c61ef88d2a2.html"
+          },
+          {
+            "t": "Trading Economics: US-Renditen",
+            "u": "https://tradingeconomics.com/united-states/2-year-note-yield"
+          },
+          {
+            "t": "Trading Economics: Deutschland-Renditen",
+            "u": "https://tradingeconomics.com/germany/government-bond-yield"
+          },
+          {
+            "t": "Trading Economics: UK-Renditen",
+            "u": "https://tradingeconomics.com/united-kingdom/government-bond-yield"
+          },
+          {
+            "t": "finanznachrichten/dpa-AFX: Tagesvorschau Termine am 20. November 2026",
+            "u": "https://www.finanznachrichten.de/nachrichten-2026-11/70181384-tagesvorschau-termine-am-20-november-2026-016.htm"
+          }
+        ]
+      }
+    },
     {
       "date": "2026-11-18",
       "marketUpdate": {
