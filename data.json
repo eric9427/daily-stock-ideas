@@ -1,6 +1,387 @@
 {
-  "updated": "2026-11-19T17:56:08+01:00",
+  "updated": "2026-11-20T17:54:13+01:00",
   "editions": [
+    {
+      "date": "2026-11-20",
+      "marketUpdate": {
+        "summary": "Ausverkauf bei Chip- und KI-Werten weltweit: Nikkei und KOSPI verlieren je über 5 %, der DAX fällt am sechsten Tag in Folge um ca. 1,7 % unter 25.000 Punkte. Sichere Anleihen sind gefragt, die Renditen sinken deutlich; Gold und Silber fallen trotzdem kräftig.",
+        "highlights": [
+          "KI-Ausverkauf erreicht Asien: Nikkei 225 ca. −5,1 %, KOSPI ca. −5,2 %, Taiwans Taiex ca. −5,7 % (auf Kurs für die schwächste Woche seit Jahrzehnten). SoftBank ca. −14,5 %, Tokyo Electron ca. −7 %, Samsung und SK Hynix unter den größten Verlierern. Auslöser: Zweifel, ob die riesigen KI-Investitionen sich auszahlen.",
+          "Anthropic-Aktie am zweiten Handelstag deutlich schwächer: nach Schlusskurs von 97,17 $ am Donnerstag (Ausgabepreis 83 $) gegen 17 Uhr MEZ ca. −11 %. In den USA fallen Micron (ca. −11 %), AMD (ca. −10 %), Broadcom (ca. −9 %), Nvidia (ca. −7 %) und TSMC (ca. −7 %). Hinweis: Dieses Update wird von Claude erstellt, einem Modell von Anthropic.",
+          "Edelmetalle im Sog: Gold fällt zeitweise um ca. 3,7 % auf rund 3.530 $ (14-Monats-Tief), Silber um fast 8 %. Erklärung laut Marktberichten: Zwangsverkäufe, um Verluste an der Börse auszugleichen, und ein starker Dollar."
+        ],
+        "drivers": [
+          {
+            "scope": "global",
+            "text": "KI-Zweifel: Anleger fragen, ob die Milliarden-Investitionen in KI-Rechenzentren genug Gewinn bringen. Der Anthropic-Börsengang hat die Stimmung nicht gedreht. Chipwerte werden weltweit verkauft. Strategen sprechen von Panikverkäufen (BNP Paribas) und einem stark überverkauften Markt (Deutsche Bank).",
+            "markets": "Halbleiter, Nasdaq, Japan, Korea, Taiwan, Europa-Tech (ASML, Infineon, STMicro)"
+          },
+          {
+            "scope": "global",
+            "text": "Flucht in Anleihen: Wegen des Aktien-Ausverkaufs kaufen Anleger Staatsanleihen. Die Renditen fallen deutlich, obwohl Fed und EZB im Dezember die Zinsen wohl erhöhen (Wahrscheinlichkeit jeweils ca. 90 %). Der Angstindex VIX steigt vorbörslich auf ca. 31, höchster Stand seit März.",
+            "markets": "Bundesanleihen, US-Staatsanleihen, Volatilität"
+          },
+          {
+            "scope": "global",
+            "text": "USA–China-Spannungen bei Chips: Das US-Handelsministerium signalisiert strengere Exportkontrollen für KI-Chips; Kalifornien ermittelt, ob China unrechtmäßig an Nvidia-Chips gelangt ist. Dazu kommen Sorgen um Chinas Konjunktur.",
+            "markets": "China, Hongkong, Halbleiter, Taiwan-Dollar"
+          },
+          {
+            "scope": "punktuell",
+            "text": "Inflationsdruck in Deutschland: Die Erzeugerpreise (Preise ab Fabrik) steigen im Oktober um 8,1 % zum Vorjahr, mehr als erwartet. Das stützt die erwartete EZB-Zinserhöhung im Dezember.",
+            "markets": "Bundesanleihen, Euro, deutsche Industrie"
+          },
+          {
+            "scope": "punktuell",
+            "text": "Nahost und Gewinnwarnungen: Spannungen in der Region belasten; Vallourec (Stahlrohre für die Ölindustrie) fällt um ca. 12 %, weil der Gewinn wegen des Iran-Konflikts um 26 % sank. Ubisoft ca. −9 bis −11 % nach schwachen Buchungen.",
+            "markets": "Energieausrüster, Frankreich, Gaming"
+          },
+          {
+            "scope": "punktuell",
+            "text": "Wochenende und Feiertag: Vor dem Wochenende und der verkürzten US-Woche (Thanksgiving am Donnerstag) reduzieren Anleger Risiken. Am Freitag verfallen zudem monatliche Optionen auf den S&P 500, das kann Schwankungen verstärken.",
+            "markets": "US-Aktien, Volatilität"
+          }
+        ],
+        "regions": [
+          {
+            "name": "Europa",
+            "note": "Keine vollständigen Schlusskurse verfügbar. DAX: Stand ca. 17:18 Uhr (wallstreet-online). MDAX: später Nachmittag (diebewertung.de). EuroStoxx 50, CAC 40 und FTSE 100: Vormittag (Zonebourse, CAC 10:42 Uhr). Stoxx 600 um 09:05 Uhr bei 631,89 (−1 %); er steuert auf den stärksten Wochenverlust seit März zu (über −4,5 %, Reuters). SMI, FTSE MIB und IBEX 35: kein verlässlicher Stand gefunden.",
+            "indices": [
+              {
+                "n": "DAX (ca. 17:18)",
+                "v": "24.846",
+                "c": "−1,7 %"
+              },
+              {
+                "n": "MDAX (Nachmittag)",
+                "v": "ca. 29.144",
+                "c": "−1,4 %"
+              },
+              {
+                "n": "EuroStoxx 50 (Vormittag)",
+                "v": "n. v.",
+                "c": "−1,9 %"
+              },
+              {
+                "n": "CAC 40 (10:42)",
+                "v": "7.977",
+                "c": "−1,3 %"
+              },
+              {
+                "n": "FTSE 100 (Vormittag)",
+                "v": "n. v.",
+                "c": "−0,6 %"
+              },
+              {
+                "n": "SMI",
+                "v": "n. v.",
+                "c": "n. v."
+              },
+              {
+                "n": "FTSE MIB",
+                "v": "n. v.",
+                "c": "n. v."
+              },
+              {
+                "n": "IBEX 35",
+                "v": "n. v.",
+                "c": "n. v."
+              }
+            ],
+            "news": [
+              "Sechster Verlusttag in Folge: Der DAX fällt zeitweise unter 25.000 Punkte und liegt rund 8 % unter seinem Rekord von 27.001 Punkten vom 12. November. Auch MDAX und SDAX (ca. −1,8 %) verlieren deutlich.",
+              "Deutschland: Verlierer Scout24 (zeitweise ca. −6,9 %), Infineon (ca. −4 bis −5 %), Siemens Energy (ca. −3,5 %), Airbus (ca. −3 %), Siemens (knapp −3 %). Gewinner Fresenius Medical Care (ca. +2,4 %); Vonovia, Hannover Rück, Commerzbank und Telekom leicht fester.",
+              "Europa: Chipwerte unter Druck (ASML ca. −5,8 %, STMicro ca. −6,3 %, Soitec ca. −10 %), ebenso KI-Zulieferer wie Nokia, Prysmian, Schneider und Legrand. Vallourec ca. −12 %, Ubisoft ca. −9 bis −11 %."
+            ]
+          },
+          {
+            "name": "Asien",
+            "note": "Nikkei, KOSPI, Hang Seng: Schlussstände laut Upstox. Shanghai: Stand möglicherweise vom Vormittag (Upstox). Taiex nur prozentual (CNBC). CSI 300: kein Stand gefunden. MSCI Asia-Pazifik zeitweise ca. −3 %, tiefster Stand seit April; Asien steuert auf die schwächste Woche seit 2020 zu.",
+            "indices": [
+              {
+                "n": "Nikkei 225",
+                "v": "56.437",
+                "c": "−5,1 %"
+              },
+              {
+                "n": "Topix",
+                "v": "n. v.",
+                "c": "ca. −2,8 %"
+              },
+              {
+                "n": "Shanghai Composite",
+                "v": "ca. 3.534",
+                "c": "−1,2 %"
+              },
+              {
+                "n": "CSI 300",
+                "v": "n. v.",
+                "c": "n. v."
+              },
+              {
+                "n": "Hang Seng",
+                "v": "22.411",
+                "c": "−1,9 %"
+              },
+              {
+                "n": "KOSPI",
+                "v": "4.870",
+                "c": "−5,2 %"
+              },
+              {
+                "n": "Taiex",
+                "v": "n. v.",
+                "c": "−5,7 %"
+              }
+            ],
+            "news": [
+              "Japan und Korea brechen ein: SoftBank (ca. −14,5 %), Kioxia und Ibiden (je über −10 % am Vormittag), Tokyo Electron (ca. −7 %); in Seoul Samsung, SK Hynix und Samsung Electro-Mechanics unter den größten Verlierern.",
+              "Hongkong nähert sich einem Bärenmarkt (ca. 20 % unter dem Hoch vom Januar). China belasten neue US-Exportbeschränkungen für Chips und Konjunktursorgen. Der Taiwan-Dollar fällt in Richtung 10-Jahres-Tief."
+            ]
+          },
+          {
+            "name": "USA",
+            "note": "Zwischenstand: Nasdaq 100 und Dow laut Kursanzeige von wallstreet-online gegen 17:18 Uhr MEZ; S&P 500 laut CNBC gegen 17:00 Uhr MEZ (11:00 Uhr Ortszeit) ca. −1 %, ein Punktestand lag nicht vor (S&P-500-ETF SPY um 17:02 Uhr MEZ −1,5 %). Vortagesschluss (19.11.): S&P 500 7.175,83 (−2,02 %, sechster Verlusttag in Folge), Nasdaq 100 26.517,05 (−2,21 %), Dow 49.097 (−2,2 %, erstmals seit Juni unter 50.000).",
+            "indices": [
+              {
+                "n": "S&P 500 (ca. 17:00 MEZ)",
+                "v": "n. v.",
+                "c": "ca. −1 %"
+              },
+              {
+                "n": "Nasdaq 100 (ca. 17:18 MEZ)",
+                "v": "25.784",
+                "c": "−2,9 %"
+              },
+              {
+                "n": "Dow Jones (ca. 17:18 MEZ)",
+                "v": "49.111",
+                "c": "−0,1 %"
+              },
+              {
+                "n": "S&P 500 (Schluss 19.11.)",
+                "v": "7.175,83",
+                "c": "−2,02 %"
+              },
+              {
+                "n": "Nasdaq 100 (Schluss 19.11.)",
+                "v": "26.517,05",
+                "c": "−2,21 %"
+              }
+            ],
+            "news": [
+              "Chipwerte führen den Ausverkauf an: Micron ca. −11 %, AMD ca. −10 % (am Vortag schon −7,7 % nach einem Leerverkäufer-Bericht zum China-Geschäft), Broadcom ca. −9 %, Nvidia ca. −7 % auf ca. 136 $, TSMC ca. −7 %. Intuit ca. −9 % nach Zahlen. Gap steigt ca. 15 % nach starken Quartalszahlen.",
+              "Der Nasdaq-100-ETF QQQ liegt rund 8 % unter dem Stand vom 13. November. Der Dow hält sich besser, weil er weniger Technologiewerte enthält.",
+              "Daten: Verbraucherstimmung der Uni Michigan im November bei 51,5 (Oktober: 48,0); Besitzer großer Aktiendepots melden schlechtere Finanzen."
+            ]
+          }
+        ],
+        "bonds": {
+          "rows": [
+            {
+              "n": "Bund 2J",
+              "v": "3,09 %",
+              "c": "ca. −7 bp",
+              "note": "Vormittag (dpa-AFX/Trading Economics)"
+            },
+            {
+              "n": "Bund 10J",
+              "v": "3,34 %",
+              "c": "−6 bp",
+              "note": "10:30 Uhr (dpa-AFX); Bund 30J 3,72 % (ca. −5 bp)"
+            },
+            {
+              "n": "US 2J",
+              "v": "4,72 %",
+              "c": "ca. −5 bp"
+            },
+            {
+              "n": "US 10J",
+              "v": "4,99 %",
+              "c": "ca. −6 bp",
+              "note": "erstmals seit Tagen unter 5 %; andere Quelle (früher am Tag) 5,05 %"
+            },
+            {
+              "n": "US 30J",
+              "v": "5,36 %",
+              "c": "ca. −5 bp"
+            },
+            {
+              "n": "Italien-Spread (BTP–Bund)",
+              "v": "ca. 109 bp",
+              "c": "ca. +1 bp",
+              "note": "BTP 10J 4,42 % (ca. −7 bp)"
+            },
+            {
+              "n": "OAT 10J (Frankreich)",
+              "v": "4,92 %",
+              "c": "ca. −2 bp",
+              "note": "Spread zum Bund ca. 159 bp (Vortag ca. 153 bp)"
+            },
+            {
+              "n": "JGB 10J",
+              "v": "2,79 %",
+              "c": "n. v.",
+              "note": "vierter Tag in Folge gefallen"
+            },
+            {
+              "n": "UK Gilt 10J",
+              "v": "n. v.",
+              "c": "n. v."
+            }
+          ],
+          "comment": [
+            "Klassische Flucht in Sicherheit: Wegen des Aktien-Ausverkaufs fallen die Renditen auf beiden Seiten des Atlantiks um 5–7 Basispunkte (1 bp = 0,01 Prozentpunkte). Die US-Zehnjährige rutscht knapp unter 5 %.",
+            "Die Zinskurve bleibt flach: Zwischen Bund 2J und 10J liegen nur ca. 25 bp. Die Märkte preisen eine EZB-Zinserhöhung am 17. Dezember zu ca. 91 % und eine Fed-Erhöhung am 9. Dezember zu ca. 90 % ein; der Rückgang der Renditen ist also Angst, keine Lockerungshoffnung.",
+            "Italien und vor allem Frankreich profitieren weniger von der Rally: Der OAT-Abstand zum Bund weitet sich auf ca. 159 bp (Regierung ohne Mehrheit, Haushaltssorgen).",
+            "Die hohen deutschen Erzeugerpreise (+8,1 %) sprechen gegen eine schnelle Entspannung. Nächste Woche: Bund-Auktion am Mittwoch (5 Mrd. €, Laufzeit 2036)."
+          ]
+        },
+        "commodities": [
+          {
+            "n": "Brent (ca. 17:18)",
+            "v": "91,02 $",
+            "c": "−1,9 %"
+          },
+          {
+            "n": "WTI",
+            "v": "81,13 $",
+            "c": "−1,6 %"
+          },
+          {
+            "n": "Gold (ca. 17:18)",
+            "v": "3.542 $",
+            "c": "−2,3 %",
+            "note": "im Tagesverlauf ca. 3.515–3.530 $, 14-Monats-Tief"
+          },
+          {
+            "n": "Silber (05:37 MEZ)",
+            "v": "41,46 $",
+            "c": "−7,9 %"
+          },
+          {
+            "n": "Kupfer (05:37 MEZ)",
+            "v": "5,50 $/lb",
+            "c": "−2,5 %"
+          },
+          {
+            "n": "Erdgas (US, 05:37 MEZ)",
+            "v": "3,24 $",
+            "c": "−3,8 %"
+          }
+        ],
+        "fx": [
+          {
+            "n": "EUR/USD",
+            "v": "1,0981",
+            "c": "+0,1 %"
+          },
+          {
+            "n": "USD/JPY (Asien)",
+            "v": "159,77",
+            "c": "n. v."
+          },
+          {
+            "n": "USD/CNH (Asien)",
+            "v": "6,6888",
+            "c": "n. v."
+          },
+          {
+            "n": "Bitcoin",
+            "v": "ca. 61.635 $",
+            "c": "n. v."
+          }
+        ],
+        "cfNews": [
+          "Gold und Silber fallen trotz Börsenpanik: Anleger verkaufen Gewinner, um Verluste und Nachschussforderungen bei Aktien zu decken; dazu ein starker Dollar und die Aussicht auf höhere Leitzinsen. Kupfer auf dem tiefsten Stand seit März, Öl steuert auf den dritten Wochenverlust zu.",
+          "Der Euro hält sich knapp unter 1,10 $, der Yen bleibt mit ca. 160 je Dollar schwach. Bitcoin fällt unter 62.000 $ (Vortag ca. 63.000 $)."
+        ],
+        "tomorrow": [
+          "Montag, 09:15–10:30 Uhr: Einkaufsmanagerindizes (Stimmung der Einkaufsleiter in Industrie und Dienstleistung, November, vorab) für Frankreich (09:15), Deutschland (09:30), Eurozone (10:00) und Großbritannien (10:30).",
+          "Montag, 15:45 Uhr: Einkaufsmanagerindizes USA (November, vorab).",
+          "Montag, Asien: Reaktion auf den Ausverkauf der Woche; nach den Verlusten von über 5 % in Tokio, Seoul und Taipeh ist eine Gegenbewegung ebenso möglich wie weitere Verkäufe.",
+          "Ausblick Woche: Di 10:00 ifo-Geschäftsklima, 09:00 BASF-Kapitalmarkttag, 16:00 US-Verbrauchervertrauen, 22:05 Zahlen von Dell; Mi 08:00 deutsches BIP Q3, 14:30 US-BIP, Auftragseingänge langlebiger Güter und Konsumausgaben (PCE), 20:00 Fed-Konjunkturbericht (Beige Book); Do US-Feiertag (Thanksgiving), 13:30 EZB-Protokoll; Fr 09:55 deutscher Arbeitsmarkt, US-Börsen verkürzt."
+        ],
+        "sources": [
+          {
+            "t": "wallstreet-online/dpa-AFX: Aktien Frankfurt Schluss – Dax setzt Talfahrt fort",
+            "u": "https://www.wallstreet-online.de/nachricht/21725829-aktien-frankfurt-schluss-dax-talfahrt-fort-boersenbullen-werfen-wochenende-handtuch"
+          },
+          {
+            "t": "diebewertung.de: Frankfurter Börse am 20. November 2026",
+            "u": "https://www.diebewertung.de/frankfurter-boerse-am-20-november-2026-anleger-ziehen-die-reissleine-dax-mdax-und-sdax-unter-druck/"
+          },
+          {
+            "t": "Reuters via Yahoo Finance: European shares on track for steepest weekly drop since March",
+            "u": "https://finance.yahoo.com/markets/world-indices/articles/european-shares-head-steepest-weekly-082527441.html"
+          },
+          {
+            "t": "onvista/Reuters: Dax tiefer erwartet",
+            "u": "https://www.onvista.de/news/2026/11-20-dax-tiefer-erwartet-konjunktur-und-european-banking-congress-im-blick-0-20-26578647"
+          },
+          {
+            "t": "Zonebourse: Le CAC 40 repasse sous les 8 000 points",
+            "u": "https://www.zonebourse.com/actualite-bourse/le-cac-40-repasse-sous-les-8-000-points-ce785ed3d98bf621"
+          },
+          {
+            "t": "Upstox: Asian markets crash – Nikkei, KOSPI tumble",
+            "u": "https://upstox.com/news/market-news/trading/asian-markets-crash-nikkei-225-kospi-tumble-nearly-5-amid-ai-selloff-pressure-what-s-impacting-markets-today/article-203742/"
+          },
+          {
+            "t": "Kotak Neo: KOSPI falls 5%, Nikkei drops 4%; Hang Seng nears bear market",
+            "u": "https://www.kotakneo.com/news/global-markets/kospi-nikkei-fall-hang-seng-nears-bear-market-as-ai-selloff-spreads/"
+          },
+          {
+            "t": "CNBC TV18 via TradingView (20.11.2026)",
+            "u": "https://www.tradingview.com/news/cnbctv:2df025db2094b:0/"
+          },
+          {
+            "t": "StockTitan: Stock Market Today Live, November 20, 2026",
+            "u": "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026"
+          },
+          {
+            "t": "CBS News: Stocks plunge amid growing uncertainty (19.11.)",
+            "u": "https://www.cbsnews.com/news/dow-tumbles-wall-street-ai-fears/"
+          },
+          {
+            "t": "Saxo: Options Brief 20 November 2026",
+            "u": "https://www.home.saxo/content/articles/options/stocks-fall-together-as-near-term-volatility-jumps---options-brief---20-november-2026-20112026"
+          },
+          {
+            "t": "aktiencheck: Bundesanleihen – Zehnjährige fällt auf 3,34 Prozent",
+            "u": "https://aktiencheck.de/artikel/bundesanleihen-zehnjaehrige-faellt-auf-334-prozent-schatz-bei-309"
+          },
+          {
+            "t": "aktiencheck: Erzeugerpreise springen auf plus 8,1 Prozent",
+            "u": "https://aktiencheck.de/artikel/bundesanleihen-erzeugerpreise-springen-auf-plus-81-prozent-doch-die-helaba-haelt"
+          },
+          {
+            "t": "aktiencheck: US-Anleihen – Zehnjährige rutscht auf 4,99 Prozent",
+            "u": "https://aktiencheck.de/artikel/us-anleihen-zehnjaehrige-rutscht-auf-499-prozent-unter-die-fuenf-prozent-marke"
+          },
+          {
+            "t": "aktiencheck: Euro-Staatsanleihen – Italien rund 109, Frankreich rund 159 Basispunkte",
+            "u": "https://aktiencheck.de/artikel/euro-staatsanleihen-bund-rally-weitet-die-aufschlaege-italien-rund-109"
+          },
+          {
+            "t": "aktiencheck: US-Staatsanleihen im Weltvergleich",
+            "u": "https://aktiencheck.de/artikel/us-staatsanleihen-im-weltvergleich-498-prozent-in-den-usa-441-in-italien-332-in"
+          },
+          {
+            "t": "Journal Arta: Gold drops 3.71% to $3,530.75",
+            "u": "https://journalarta.com/en/2026/11/20/gold-price-today-bullion-drops-3-71-to-3530-75-in-broad-metals-and-equity-selloff/"
+          },
+          {
+            "t": "Everhint: Commodities & Futures – November 20, 2026",
+            "u": "https://www.everhint.com/commodities-futures-november-20-2026-morning-update-last-24-hours-pacific-time/"
+          },
+          {
+            "t": "aktiencheck: DAX-Wochenausblick (Termine 23.–27.11.)",
+            "u": "https://aktiencheck.de/artikel/dax-wochenausblick-ifo-einkaufsmanager-bip-und-zwei-kapitalmarkttage-welche"
+          }
+        ]
+      }
+    },
     {
       "date": "2026-11-19",
       "marketUpdate": {
