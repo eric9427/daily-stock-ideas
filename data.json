@@ -1,6 +1,468 @@
 {
-  "updated": "2026-11-20T17:54:13+01:00",
+  "updated": "2026-11-23T18:05:48+01:00",
   "editions": [
+    {
+      "date": "2026-11-23",
+      "marketUpdate": {
+        "summary": "Kräftige Erholung nach der schwächsten Woche seit Frühjahr 2025: Nvidia holt Jensen Huang als Chef zurück, die Aktie springt um rund 32 %, S&P 500 und Nasdaq steigen gegen 17:30 Uhr um ca. 5 bzw. 6,7 %. Der DAX schließt 2,15 % höher über 25.000 Punkten, gestützt von starken deutschen Einkaufsmanagerdaten; Gold erholt sich, Öl fällt.",
+        "highlights": [
+          "Nvidia setzt Jensen Huang wieder als Chef ein (Pflichtmitteilung 8-K vom 23.11., einstimmiger Beschluss). Die Aktie steigt gegen 17:32 Uhr MEZ um ca. 32 % auf 165,90 $ (Freitag ca. 125,5 $). Mitgezogen: Dell ca. +22 %, Micron ca. +19 %, Corning ca. +17 %, CoreWeave und Nebius bis zu +30 %. Offen bleiben die SEC-Prüfung und die interne Untersuchung.",
+          "Großfusion in der IT-Sicherheit: CrowdStrike will Zscaler für ca. 43,9 Mrd. $ in eigenen Aktien übernehmen. Zscaler ca. +15 %, CrowdStrike ca. −10 bis −11 %.",
+          "Deutschland überrascht positiv: Einkaufsmanagerindex (Umfrage unter Einkaufsleitern, über 50 = Wachstum) Industrie 55,0 (Vormonat 54,2), Dienstleistungen 54,0 (52,5), Gesamtwert laut Berichten höchster Stand seit Anfang 2022. DAX +2,15 % auf 25.337 Punkte; Siemens Energy, Infineon und Hochtief vorn."
+        ],
+        "drivers": [
+          {
+            "scope": "global",
+            "text": "KI-Erholung: Die Rückkehr von Nvidia-Chef Huang beruhigt den Markt nach dem Ausverkauf der Vorwoche (S&P 500 −8,6 %, Nasdaq −10 % auf Wochensicht). Der Angstindex VIX fällt von 35,9 auf ca. 27. Aber: Die SEC-Prüfung bei Nvidia und die Zweifel an den KI-Investitionen sind nicht ausgeräumt; Strategen sprechen von einer Erholung auf Bewährung.",
+            "markets": "Halbleiter, Nasdaq, Europa-Tech (ASML, Infineon), Taiwan, KI-Zulieferer"
+          },
+          {
+            "scope": "global",
+            "text": "Zinsangst bleibt: Mit der Erholung der Aktien steigen die Renditen wieder (US 2J ca. +7 bp). Der Markt rechnet laut CME FedWatch zu ca. 89–96 % mit einer Fed-Zinserhöhung am 9. Dezember und zu ca. 91 % mit einer EZB-Erhöhung am 17. Dezember. Am Abend spricht New-York-Fed-Chef Williams.",
+            "markets": "Staatsanleihen, US-Dollar, zinssensible Aktien (Immobilien, Versorger)"
+          },
+          {
+            "scope": "punktuell",
+            "text": "Konjunktur Europa gespalten: Deutschland wächst laut Einkaufsmanagern so kräftig wie seit über vier Jahren nicht, die Eurozone insgesamt bleibt bei 51,7 (erwartet 51,9), Frankreichs Privatwirtschaft schrumpft stärker. Das stützt den DAX, aber auch die Erwartung einer EZB-Erhöhung.",
+            "markets": "DAX, MDAX, Euro, Bundesanleihen, Frankreich"
+          },
+          {
+            "scope": "global",
+            "text": "Öl fällt um ca. 3–4 % wegen erwarteten Überangebots. Angriffe auf Schiffe im Golf (Iran-Konflikt, Straße von Hormus) bremsen den Rückgang. Gold erholt sich vom 14-Monats-Tief, weil die Zwangsverkäufe der Vorwoche nachlassen.",
+            "markets": "Energiewerte (Coterra ca. −9 %), Airlines, Gold, Minenwerte"
+          },
+          {
+            "scope": "punktuell",
+            "text": "Asien stützt die Märkte: China senkt ab 30. November die Sicherheitsleistung für Kredit-Aktienkäufe von 100 auf 80 % (setzt laut Xinhua ca. 60 Mrd. $ frei), Taiwan verschärft Leerverkaufsregeln, Südkorea kündigt einen Stabilisierungsfonds an.",
+            "markets": "Taiwan, China, Hongkong, Korea"
+          },
+          {
+            "scope": "punktuell",
+            "text": "Übernahmen: CrowdStrike–Zscaler (ca. 43,9 Mrd. $) bewegt die gesamte IT-Sicherheitsbranche; Anthropic (ANT) liegt am dritten Handelstag mit ca. 88–89 $ wieder nahe dem Ausgabepreis von 83 $. Hinweis: Dieses Update wird von Claude erstellt, einem Modell von Anthropic.",
+            "markets": "Software, Cybersecurity, Börsengänge"
+          }
+        ],
+        "regions": [
+          {
+            "name": "Europa",
+            "note": "DAX und MDAX: Xetra-Schluss (dpa-AFX, 17:46 Uhr). EuroStoxx 50: Kursanzeige finanzen.at ohne Uhrzeit (Spätnachmittag). CAC 40, FTSE 100, FTSE MIB, IBEX 35: nur Stände vom Vormittag (Rio Times), die Schlussstände dürften wegen der US-Rally höher liegen. Stoxx 600 um 10:33 Uhr bei 630,24 (+0,7 %, Reuters).",
+            "indices": [
+              {
+                "n": "DAX (Schluss)",
+                "v": "25.337",
+                "c": "+2,15 %"
+              },
+              {
+                "n": "MDAX (Schluss)",
+                "v": "29.296",
+                "c": "+1,93 %"
+              },
+              {
+                "n": "EuroStoxx 50 (Spätnachmittag)",
+                "v": "ca. 6.077",
+                "c": "+2,3 %"
+              },
+              {
+                "n": "CAC 40 (Vormittag)",
+                "v": "7.979",
+                "c": "+0,7 %"
+              },
+              {
+                "n": "FTSE 100 (Vormittag)",
+                "v": "10.401",
+                "c": "+0,5 %"
+              },
+              {
+                "n": "SMI",
+                "v": "n. v.",
+                "c": "n. v."
+              },
+              {
+                "n": "FTSE MIB (Vormittag)",
+                "v": "48.239",
+                "c": "−1,0 %"
+              },
+              {
+                "n": "IBEX 35 (Vormittag)",
+                "v": "19.007",
+                "c": "+0,7 %"
+              }
+            ],
+            "news": [
+              "Ende der sechstägigen Verlustserie: Der DAX springt zurück über 25.000 Punkte (Freitag 24.803). Analyst Andreas Lipkow (CMC) nennt 25.000 die wichtige Marke; nach der Korrektur seien deutsche Standardwerte teils günstiger bewertet.",
+              "Gewinner: Siemens Energy, Infineon (laut wallstreet-online am Nachmittag ca. +9 bis +10 %), Siemens, Deutsche Bank, Hochtief, Rheinmetall. Verlierer: Bayer (ca. −2 %), Deutsche Börse, VW, BMW.",
+              "Europa: Chipwerte erholt (ASML ca. +5 %, ASM International ca. +4 %). Abivax ca. +9 %. Nemetschek ca. −6,5 % (Schlusslicht im Stoxx 600), Julius Bär ca. −2,8 %."
+            ]
+          },
+          {
+            "name": "Asien",
+            "note": "Japan geschlossen (Feiertag). KOSPI-Schluss laut AP. Taiex, Hang Seng und CSI 300 nur prozentual (Al Jazeera). Shanghai Composite: kein Schlussstand gefunden.",
+            "indices": [
+              {
+                "n": "Nikkei 225",
+                "v": "geschlossen",
+                "c": "Feiertag",
+                "note": "Freitag −5,1 %"
+              },
+              {
+                "n": "Shanghai Composite",
+                "v": "n. v.",
+                "c": "n. v.",
+                "note": "07:00 Uhr MEZ: 3.537,65 (+0,1 %)"
+              },
+              {
+                "n": "CSI 300",
+                "v": "n. v.",
+                "c": "+0,1 %"
+              },
+              {
+                "n": "Hang Seng",
+                "v": "n. v.",
+                "c": "−0,1 %"
+              },
+              {
+                "n": "KOSPI",
+                "v": "4.708,54",
+                "c": "−3,3 %"
+              },
+              {
+                "n": "Taiex (Taiwan)",
+                "v": "n. v.",
+                "c": "+2,2 %"
+              },
+              {
+                "n": "ASX 200 (Australien)",
+                "v": "n. v.",
+                "c": "−0,3 %"
+              }
+            ],
+            "news": [
+              "Korea fällt weiter: KOSPI zeitweise −5,8 %, Schluss −3,3 %; Samsung ca. −3,1 %, SK Hynix ca. −2,5 %, obwohl die Chipexporte in den ersten 20 Novembertagen um 294 % zum Vorjahr stiegen.",
+              "Taiwan erholt sich nach −6,2 % am Freitag um 2,2 %. China und Hongkong drehen nach Verlusten von 1–2 % am Vormittag dank der Stützungsmaßnahmen ins Plus bzw. auf null.",
+              "Indien: Sensex ca. −1,7 %."
+            ]
+          },
+          {
+            "name": "USA",
+            "note": "Zwischenstand ca. 11:32 Uhr New York = 17:32 Uhr MEZ (Yahoo Finance). Nasdaq 100: kein Zwischenstand mit Uhrzeit gefunden, vorbörslich ca. +5,8 %. Vortagesschluss Freitag 20.11. laut Zacks.",
+            "indices": [
+              {
+                "n": "S&P 500 (17:32 MEZ)",
+                "v": "7.252",
+                "c": "+4,9 %"
+              },
+              {
+                "n": "Nasdaq Composite (17:32 MEZ)",
+                "v": "24.136",
+                "c": "+6,7 %"
+              },
+              {
+                "n": "Nasdaq 100",
+                "v": "n. v.",
+                "c": "n. v.",
+                "note": "vorbörslich ca. +5,8 %"
+              },
+              {
+                "n": "Dow Jones (17:32 MEZ)",
+                "v": "49.709",
+                "c": "+3,2 %"
+              },
+              {
+                "n": "S&P 500 Schluss Fr. 20.11.",
+                "v": "6.910",
+                "c": "−3,7 %"
+              },
+              {
+                "n": "Nasdaq Composite Schluss Fr. 20.11.",
+                "v": "22.618",
+                "c": "−5,3 %"
+              },
+              {
+                "n": "Nasdaq 100 Schluss Fr. 20.11.",
+                "v": "n. v.",
+                "c": "−5,6 %"
+              }
+            ],
+            "news": [
+              "Einer der stärksten Tagesgewinne seit Jahren: Nvidia ca. +32 %, Dell ca. +22 %, Micron ca. +19 %, Oracle ca. +5 bis +13 %, AMD ca. +5 bis +9 %. Der VIX fällt auf ca. 27 (Freitag 35,9).",
+              "Verlierer: CrowdStrike (Zscaler-Übernahme), Energiewerte wie Coterra (ca. −9 %) wegen des Ölpreises. Anthropic (ANT) etwa unverändert bei ca. 88–89 $.",
+              "Kurze Woche: Donnerstag Thanksgiving (Börse zu), Freitag Handel nur bis 19 Uhr MEZ."
+            ]
+          }
+        ],
+        "bonds": {
+          "rows": [
+            {
+              "n": "Bund 2J",
+              "v": "n. v.",
+              "c": "n. v."
+            },
+            {
+              "n": "Bund 10J",
+              "v": "3,32 %",
+              "c": "ca. ±0 bp",
+              "note": "10:39 Uhr (dpa-AFX); Bund-Future −0,16 % auf 122,54; Freitag 3,32 %"
+            },
+            {
+              "n": "US 2J",
+              "v": "4,69 %",
+              "c": "+7 bp",
+              "note": "früher US-Handel (BitPush)"
+            },
+            {
+              "n": "US 10J",
+              "v": "4,96 %",
+              "c": "+4 bp",
+              "note": "früher US-Handel; Yahoo gegen 17:30 MEZ 4,94 % (+2 bp)"
+            },
+            {
+              "n": "US 30J",
+              "v": "5,34 %",
+              "c": "+3 bp"
+            },
+            {
+              "n": "Italien-Spread (BTP–Bund)",
+              "v": "n. v.",
+              "c": "n. v.",
+              "note": "Freitag ca. 109 bp"
+            },
+            {
+              "n": "OAT 10J (Frankreich)",
+              "v": "n. v.",
+              "c": "n. v.",
+              "note": "französische Renditen fallen laut dpa-AFX gegen den Trend; Freitag 4,87 %, Spread zum Bund 155 bp"
+            },
+            {
+              "n": "JGB 10J",
+              "v": "geschlossen",
+              "c": "Feiertag",
+              "note": "Freitag 2,79 %"
+            },
+            {
+              "n": "UK Gilt 10J",
+              "v": "n. v.",
+              "c": "n. v."
+            }
+          ],
+          "comment": [
+            "Gegenbewegung zur Vorwoche: Als Aktien gefragt sind, verkaufen Anleger sichere Anleihen. Die US-Renditen steigen um 3–7 Basispunkte (1 bp = 0,01 Prozentpunkte), am stärksten bei kurzen Laufzeiten. Grund: Die Zinserhöhung im Dezember wird wieder fester eingepreist.",
+            "Die US-Kurve bleibt flach (2J zu 10J nur ca. 27 bp). Das heißt: Der Markt erwartet kurzfristig höhere Leitzinsen, glaubt aber nicht an dauerhaft viel höhere Inflation.",
+            "Bunds kaum verändert bei 3,32 %. Die starken deutschen Einkaufsmanagerdaten sprechen eher für steigende Renditen; die EZB-Erhöhung am 17.12. ist zu ca. 91 % eingepreist, laut Trading Economics sogar mindestens zwei Schritte.",
+            "Frankreich entwickelt sich besser als der Rest der Eurozone: Präsident Macron schlägt eine Schuldenregel in der Verfassung vor. Diese Woche: Bund-Auktion am Mittwoch (5 Mrd. €, Laufzeit 2036)."
+          ]
+        },
+        "commodities": [
+          {
+            "n": "Brent",
+            "v": "ca. 89,2–89,7 $",
+            "c": "ca. −3 bis −4 %",
+            "note": "07:07 MEZ 89,73 $ (−3,1 %); Nachmittag ca. 89,2 $ (−3,7 %, finanzen.at)"
+          },
+          {
+            "n": "WTI (Jan.)",
+            "v": "80,10 $",
+            "c": "−4,0 %",
+            "note": "ca. 17:30 MEZ (Yahoo)"
+          },
+          {
+            "n": "Gold",
+            "v": "3.673 $",
+            "c": "+3,8 %",
+            "note": "Nachmittag (dts); Erholung vom 14-Monats-Tief"
+          },
+          {
+            "n": "Silber (Vormittag)",
+            "v": "42,07 $",
+            "c": "+2,5 %"
+          },
+          {
+            "n": "Kupfer",
+            "v": "n. v.",
+            "c": "n. v."
+          },
+          {
+            "n": "Erdgas (US)",
+            "v": "n. v.",
+            "c": "fällt deutlich (CapitalStreetFX)"
+          }
+        ],
+        "fx": [
+          {
+            "n": "EUR/USD (Nachmittag)",
+            "v": "1,0897",
+            "c": "−0,8 %"
+          },
+          {
+            "n": "USD/JPY (früh Asien)",
+            "v": "159,01",
+            "c": "+0,3 %",
+            "note": "Yen schwächer"
+          },
+          {
+            "n": "Bitcoin (ca. 17:30 MEZ)",
+            "v": "62.526 $",
+            "c": "+2,2 %",
+            "note": "Samstag-Tief 55.149 $"
+          }
+        ],
+        "cfNews": [
+          "Der Dollar ist gefragt, weil die Fed-Erhöhung fester eingepreist wird: Der Euro fällt unter 1,09–1,10 $. Öl fällt trotz Golf-Spannungen, weil 2027 ein Überangebot erwartet wird.",
+          "Gold und Silber erholen sich nach dem Absturz der Vorwoche (Gold zeitweise unter 3.520 $); Indien meldet einen Rekordsprung bei MCX-Gold."
+        ],
+        "tomorrow": [
+          "Montagabend: Rede von New-York-Fed-Chef John Williams (Hinweise auf die Dezember-Erhöhung).",
+          "Dienstag, 10:00 Uhr: ifo-Geschäftsklima Deutschland (November). Nach den starken Einkaufsmanagerdaten ist die Erwartung hoch.",
+          "Dienstag, 16:00 Uhr: US-Verbrauchervertrauen (Conference Board); 22:05 Uhr: Zahlen von Dell (Aktie heute schon ca. +22 %).",
+          "Dienstag: Polen Einzelhandelsumsätze; Tarifrunde Privatbanken (Verdi, dritte Runde, Warnstreiks).",
+          "Ausblick Woche: Mi 08:00 deutsches BIP Q3 (endgültig), 14:30 US-BIP Q3, langlebige Güter und Konsumausgaben/PCE-Inflation, 20:00 Beige Book; Do US-Feiertag, 08:00 GfK-Konsumklima (erwartet −29,9 nach −30,8), 13:30 EZB-Protokoll; Fr 09:55 deutscher Arbeitsmarkt, US-Börsen bis 19:00 MEZ."
+        ],
+        "sources": [
+          {
+            "t": "dpa-AFX via ariva.de: Aktien Frankfurt Schluss, Anleger feiern Rückkehr des Nvidia-Chefs (23.11.)",
+            "u": "https://www.ariva.de/news/aktien-frankfurt-schluss-anleger-feiern-rueckkehr-des-12217607"
+          },
+          {
+            "t": "ad-hoc-news (dts): Dax steigt nach Huang-Rückkehr auf 25.337 Punkte",
+            "u": "https://www.ad-hoc-news.de/boerse/news/marktberichte/dax-steigt-nach-huang-rueckkehr-auf-25-337-punkte/70547373"
+          },
+          {
+            "t": "finanzen.at: Aktien Frankfurt Schluss",
+            "u": "https://finanzen.at/nachrichten/aktien/aktien-frankfurt-schluss-anleger-feiern-rueckkehr-des-nvidia-chefs-1036792641"
+          },
+          {
+            "t": "ad-hoc-news: DAX gewinnt 1,23 Prozent, PMI und Tech-Erholung stützen",
+            "u": "https://www.ad-hoc-news.de/boerse/news/marktberichte/dax-gewinnt-1-23-prozent-pmi-und-tech-erholung-stuetzen/70546593"
+          },
+          {
+            "t": "ad-hoc-news: Euro Stoxx 50 rebounds 1.06%",
+            "u": "https://www.ad-hoc-news.de/boerse/news/marktberichte/euro-stoxx-50-rebounds-1-06-prozent-as-tech-stocks-lead-europe/70546540"
+          },
+          {
+            "t": "wallstreet-online: DAX Gewinner und Verlierer 23.11.2026",
+            "u": "https://www.wallstreet-online.de/nachricht/21736120-top-flop-extreme-ausschlaege-dax-gewinner-verlierer-23-11-2026"
+          },
+          {
+            "t": "MarketScreener/Reuters: European stocks recover after steep technology-led selloff",
+            "u": "https://www.marketscreener.com/news/european-stocks-recover-after-steep-technology-led-selloff-ce7851dad98cf522"
+          },
+          {
+            "t": "onvista/Reuters: Dax höher erwartet, Konjunktur im Blick",
+            "u": "https://www.onvista.de/news/2026/11-23-dax-hoeher-erwartet-konjunktur-im-blick-0-20-26579289"
+          },
+          {
+            "t": "Rio Times: Europe Intelligence Brief, 23.11.2026",
+            "u": "https://www.riotimesonline.com/europe-intelligence-brief-monday-november-23-2026/"
+          },
+          {
+            "t": "Yahoo Finance Live: Nvidia reinstates Jensen Huang as CEO",
+            "u": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-091118583.html"
+          },
+          {
+            "t": "Nvidia 8-K / Pressemitteilung 23.11.2026 (SEC)",
+            "u": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm"
+          },
+          {
+            "t": "24/7 Wall St: Stock Market Today 23.11.2026",
+            "u": "https://247wallst.com/investing/2026/11/23/stock-market-today-dow-sp-500-and-nasdaq-surge-as-nvidia-leads-a-major-ai-rebound/"
+          },
+          {
+            "t": "Zacks via Yahoo: Stock Market News for Nov 23, 2026",
+            "u": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-23-073600160.html"
+          },
+          {
+            "t": "Al Jazeera: Asian stock markets tumble as AI bubble fears mount",
+            "u": "https://www.aljazeera.com/news/2026/11/23/south-koreas-stock-market-tumbles-as-ai-bubble-fears-mount"
+          },
+          {
+            "t": "CEO Economy/AP: US futures rebound, Kospi falls 3.3%",
+            "u": "https://ceoeconomy.com/article/us-futures-rebound-kospi-falls-nov-23"
+          },
+          {
+            "t": "TradingView/CNBC TV18: Asien am Montagmorgen",
+            "u": "https://www.tradingview.com/news/cnbctv:2cb6da1fd094b:0/"
+          },
+          {
+            "t": "dpa-AFX via ariva.de: Deutsche Anleihen, Kursverluste zum Wochenstart",
+            "u": "https://www.ariva.de/news/deutsche-anleihen-kursverluste-zum-wochenstart-12216925"
+          },
+          {
+            "t": "BitPush via KuCoin: US Treasury yields rise on Monday",
+            "u": "https://www.kucoin.com/news/flash/us-treasury-yields-rise-on-monday-10-year-hits-4-959"
+          },
+          {
+            "t": "aktiencheck: Bundesanleihen, Rendite fällt Richtung 3,3 %",
+            "u": "https://aktiencheck.de/artikel/bundesanleihen-rendite-faellt-in-richtung-33-prozent-obwohl-der-markt-die-ezb"
+          },
+          {
+            "t": "JournalArta: Gold today, spot price jumps 2.53%",
+            "u": "https://journalarta.com/en/2026/11/23/gold-today-spot-price-surges-2-53-to-3622-as-silver-rallies-and-brent-oil-slides/"
+          }
+        ]
+      },
+      "weeklyPicks": true,
+      "ideas": [],
+      "noIdeasNote": "Diese Woche schafft kein Pick die Hürde, zum zweiten Mal in Folge. Gesammelt wurden 15 Kandidaten aus der Vorwoche (Zahlen von Babcock, TJX, Amer Sports, Target, Lowe's, ZIM, Palo Alto, KE Holdings; Insiderkäufe bei HubSpot und Yum China; Übernahmethemen UniCredit; Gesundheit UnitedHealth, Novartis; Goldminen). Viele scheitern schon an den harten Ausschlüssen: offene Übernahmen (ZIM, UniCredit, Palo Alto), offene Chef-Frage (HubSpot), offene Regulierungsentscheidung (UnitedHealth) oder fehlende Primärquelle. Die übrigen scheitern an der Rechnung: Das Schlecht-Szenario muss einen Rutsch um das 1,3-Fache der Jahresschwankung abbilden, also bei typischen Aktien −30 bis −55 %. Trotzdem muss der gewichtete Erwartungswert über +15 % liegen. Das schaffen nur günstige Aktien mit Rückenwind, und die gibt es gerade nicht: Die günstigen haben keinen Trend (Babcock), die Qualitätswerte sind teuer (TJX), die Wachstumswerte schwanken zu stark (Amer Sports), und bei Target und Lowe's beruhen die Gewinnanhebungen auf Einmaleffekten. Dazu kommt das Umfeld: VIX am Freitag 35,9, heute ein +5-%-Tag, der viele Kurse verzerrt, und Zinserhöhungen von Fed und EZB im Dezember. Lieber keine Idee als eine schwache.",
+      "notPicked": [
+        "Babcock International (BAB, London): Stufe 3, Momentum. Starke Halbjahreszahlen vom 19.11. (bereinigter operativer Gewinn 227,3 Mio. £, +13 %; Free Cashflow 185,8 Mio. £; kaum Schulden; Aktienrückkauf 200 Mio. £, Primärquelle Babcock), aber der Kurs liegt seit Jahresanfang ca. 18 % im Minus und die Jahresprognose wurde nur bestätigt. Punktekarte ca. 60/100, Momentum unter 10. Mit realistischem Schlecht-Szenario (ca. −45 %) liegt der Erwartungswert nur bei ca. +13 %.",
+        "TJX Companies (TJX): Stufe 3, Bewertung. Guter Zahlenbericht und leicht angehobene Jahresprognose (Gewinn je Aktie 5,17–5,20 $), aber nach dem Kurssprung von ca. +8 % am 18.11. kostet die Aktie rund das 26-Fache des erwarteten Gewinns, mehr als ihr 5-Jahres-Schnitt (ca. 25). Kein Bewertungsabschlag, der Value-Faktor bleibt unter 10.",
+        "Amer Sports (AS): Stufe 4, Erwartungswert. Umsatz im 3. Quartal +23,5 %, Prognose angehoben, Netto-Cash 594 Mio. $ (SEC 6-K). Aber die Aktie schwankt stark (geschätzt ca. 45 % pro Jahr). Das vorgeschriebene Schlecht-Szenario liegt dann bei ca. −58 %; dafür bräuchte es in Basis und Gut im Schnitt über +23 % bei schon hoher Bewertung. Außerdem ist nicht sicher, ob der Kurssprung am 17.11. unter 10 % blieb.",
+        "Target (TGT): Stufe 3, Gewinnqualität. Die angehobene Jahresprognose (10,65–11,40 $ je Aktie) enthält ca. 2,14 $ einmalige Zollrückerstattungen (Target IR, 19.11.). Bereinigt ist das keine echte Gewinnanhebung.",
+        "Lowe's (LOW): Stufe 3, Katalysator und Gewinnqualität. Der Gewinn-Beat am 18.11. kam laut Marktberichten vor allem durch Zollrückerstattungen; der Immobilienmarkt bleibt schwach (offene Hausverkäufe −16,7 % zum Vorjahr, US-Zins 10 Jahre ca. 4,9 %, Fed-Erhöhung erwartet)."
+      ],
+      "trackRecord": {
+        "summary": "3 von 8 Picks liegen vor dem S&P 500 (Trefferquote 38 %): CVS, FUN und RDDT, aber nur, weil sie weniger verloren haben als der Markt. Durchschnitt seit Aufnahme −13,6 %, relativ zum S&P 500 −5,0 Prozentpunkte. Ehrlich: Das ist schlecht. Die vier AI-Hardware-nahen Picks (TTMI −31 %, NVDA −26 %, SANM −22 %, EME −13 %) haben im Ausverkauf gemeinsam verloren, genau der Klumpen, den das Review vom 14.11. bemängelt hat. Basis: Schlusskurse Freitag 20.11. (financialcontent, Fox Business, heygotrade; NVDA errechnet), S&P 500 Schluss 20.11. 6.910,39 gegen den Schluss am Aufnahmetag (La Nación/AP). Der heutige Erholungstag (+5 %) ist noch nicht eingerechnet; er verbessert vor allem TTMI, SANM und NVDA deutlich.",
+        "rows": [
+          {
+            "n": "TTMI (TTM Technologies), seit 02.11.",
+            "v": "−30,8 %",
+            "c": "−22,4 pp",
+            "note": "S&P 500 −8,4 %. Schluss 20.11. 58,85 $, nahe 52-Wochen-Tief (57,51 $); heute ca. 68,7 $ (+17 %). Status: beobachten."
+          },
+          {
+            "n": "EME (EMCOR Group), seit 02.11.",
+            "v": "−12,5 %",
+            "c": "−4,1 pp",
+            "note": "S&P 500 −8,4 %. Schluss 20.11. 603,32 $; heute ca. 647 $ (+7 %). Status: beobachten."
+          },
+          {
+            "n": "RDDT (Reddit), seit 03.11.",
+            "v": "−3,9 %",
+            "c": "+4,8 pp",
+            "note": "S&P 500 −8,7 %. Kurs 20.11. ca. 89,91 $ (15:59 Uhr New York). Status: beobachten."
+          },
+          {
+            "n": "IT (Gartner), seit 04.11.",
+            "v": "−14,0 %",
+            "c": "−3,9 pp",
+            "note": "S&P 500 −10,1 %. Schluss 20.11. 174,49 $. Status: beobachten."
+          },
+          {
+            "n": "CVS (CVS Health), seit 05.11.",
+            "v": "+1,2 %",
+            "c": "+7,2 pp",
+            "note": "S&P 500 −6,0 %. Schluss 20.11. 80,84 $. Status: intakt."
+          },
+          {
+            "n": "SANM (Sanmina), seit 10.11.",
+            "v": "−22,0 %",
+            "c": "−13,8 pp",
+            "note": "S&P 500 −8,1 %. Schluss 20.11. 139,76 $; heute ca. 152 $ (+9 %). Status: beobachten."
+          },
+          {
+            "n": "NVDA (NVIDIA), seit 11.11.",
+            "v": "−25,6 %",
+            "c": "−16,3 pp",
+            "note": "S&P 500 −9,3 %. Schluss 20.11. ca. 125,53 $ (aus Yahoo-Kurs und Tagesveränderung errechnet); heute ca. 165,90 $ (+32 %), damit fast wieder auf Aufnahmeniveau. Status: beobachten."
+          },
+          {
+            "n": "FUN (Six Flags), seit 12.11.",
+            "v": "−0,8 %",
+            "c": "+8,2 pp",
+            "note": "S&P 500 −9,0 %. Schluss 20.11. 11,06 $. Status: beobachten."
+          }
+        ]
+      }
+    },
     {
       "date": "2026-11-20",
       "marketUpdate": {
@@ -2841,104 +3303,104 @@
       "name": "TTM Technologies",
       "added": "2026-11-02",
       "priceAdded": 85.0,
-      "lastPrice": 69.45,
-      "lastDate": "2026-11-13",
+      "lastPrice": 58.85,
+      "lastDate": "2026-11-20",
       "currency": "USD",
       "fvLow": 120,
       "fvHigh": 135,
       "status": "beobachten",
-      "note": "Schluss 13.11. ca. 69,45 $ (Motley Fool), −18 % seit Aufnahme. Der AI-Hardware-Ausverkauf nach dem Nvidia-CEO-Rücktritt trifft Leiterplatten-Zulieferer hart, heute fällt Taiwan um 6 %. Firmenspezifisch nichts Neues; das Insider-Cluster bei ca. 62–63 $ ist die nächste Marke. Nach den neuen Regeln (Review 14.11.: keine Klumpen in einem Thema) wäre TTMI zusammen mit SANM/NVDA/EME nicht mehr aufgenommen worden."
+      "note": "Schluss 20.11. 58,85 $ (financialcontent), −31 % seit Aufnahme und damit unter der Insider-Marke von ca. 62–63 $; heute gegen 18 Uhr MEZ ca. 68,7 $ (+17 %). Neu: Am 20.11. kaufte Direktor Philip Franklin 5.000 Aktien zu 58,40 $ (Form 4); am 16.11. wurden die Sparten Commercial und Aerospace & Defense zusammengelegt. Keine Prognosesenkung. Firmenspezifisch nicht gebrochen, aber voll im AI-Hardware-Sog."
     },
     {
       "ticker": "EME",
       "name": "EMCOR Group",
       "added": "2026-11-02",
       "priceAdded": 689.32,
-      "lastPrice": 659.08,
-      "lastDate": "2026-11-13",
+      "lastPrice": 603.32,
+      "lastDate": "2026-11-20",
       "currency": "USD",
       "fvLow": 830,
       "fvHigh": 900,
       "status": "beobachten",
-      "note": "Schluss 13.11. 659,08 $ (Motley Fool, nachbörslich ca. 649 $), −4 % seit Aufnahme. Hängt am Data-Center-Ausbau, der wegen der AI-Capex-Zweifel unter Druck steht. Kein firmenspezifischer Bruch."
+      "note": "Schluss 20.11. 603,32 $ (financialcontent), −12 % seit Aufnahme; heute ca. 647 $ (+7 %). Neu: Übernahme von P1 Construction aus eigenen Mitteln (Umsatz ca. 600–650 Mio. $, Abschluss Q1 2027). Prognose 2026 unverändert (bereinigter Gewinn je Aktie 34,50–35,50 $). Kein firmenspezifischer Bruch; hängt am Rechenzentrums-Ausbau."
     },
     {
       "ticker": "RDDT",
       "name": "Reddit",
       "added": "2026-11-03",
       "priceAdded": 93.55,
-      "lastPrice": 98.46,
-      "lastDate": "2026-11-13",
+      "lastPrice": 89.91,
+      "lastDate": "2026-11-20",
       "currency": "USD",
       "fvLow": 120,
       "fvHigh": 140,
-      "status": "intakt",
-      "note": "Letzter Kurs ca. 98,46 $ (Motley Fool, Datum der Seite uneinheitlich), +5 % seit Aufnahme. Die Tech-Schwäche kostet einen Teil des Vorsprungs. These intakt."
+      "status": "beobachten",
+      "note": "Kurs 20.11. ca. 89,91 $ (15:59 Uhr New York, Fox Business), −4 % seit Aufnahme. Keine neue Firmenmeldung, aber laut Trefis (18.11.) kostet Googles KI-Suchmodus Besucher; die täglichen Nutzer könnten im 4. Quartal deutlich sinken. Status von intakt auf beobachten gesetzt."
     },
     {
       "ticker": "IT",
       "name": "Gartner",
       "added": "2026-11-04",
       "priceAdded": 202.92,
-      "lastPrice": 190.04,
-      "lastDate": "2026-11-13",
+      "lastPrice": 174.49,
+      "lastDate": "2026-11-20",
       "currency": "USD",
       "fvLow": 245,
       "fvHigh": 275,
       "status": "beobachten",
-      "note": "Schluss 13.11. 190,04 $ (Motley Fool), −6 % seit Aufnahme. Keine neuen Firmendaten; Software/Beratung leidet unter der KI-Disruptionssorge."
+      "note": "Schluss 20.11. 174,49 $ (heygotrade), −14 % seit Aufnahme. Keine neuen Firmendaten; Analysten-Konsens laut Medien inzwischen 'Reduce'. Software und Beratung leiden weiter unter der KI-Disruptionssorge."
     },
     {
       "ticker": "CVS",
       "name": "CVS Health",
       "added": "2026-11-05",
       "priceAdded": 79.9,
-      "lastPrice": 88.27,
-      "lastDate": "2026-11-13",
+      "lastPrice": 80.84,
+      "lastDate": "2026-11-20",
       "currency": "USD",
       "fvLow": 95,
       "fvHigh": 110,
       "status": "intakt",
-      "note": "Schluss 13.11. 88,27 $ (Motley Fool), +10 % seit Aufnahme und damit klar besser als der Markt. Defensive Gesundheitswerte sind gefragt. These intakt."
+      "note": "Schluss 20.11. 80,84 $ (financialcontent), +1 % seit Aufnahme und damit klar besser als der Markt (S&P 500 −6 %). Keine neuen Firmendaten. These intakt."
     },
     {
       "ticker": "SANM",
       "name": "Sanmina",
       "added": "2026-11-10",
       "priceAdded": 179.1,
-      "lastPrice": 158.31,
-      "lastDate": "2026-11-13",
+      "lastPrice": 139.76,
+      "lastDate": "2026-11-20",
       "currency": "USD",
       "fvLow": 200,
       "fvHigh": 230,
       "status": "beobachten",
-      "note": "Schluss 13.11. 158,31 $ (−3,8 %, Motley Fool), −12 % seit dem vorbörslichen Aufnahmekurs. Fundamental unverändert (FY27-EPS-Guide 15,50–17,50 $), aber voll im AI-Hardware-Sog. Bricht der Kurs nach den Nvidia-Zahlen weiter ein, wird der Status überprüft."
+      "note": "Schluss 20.11. 139,76 $ (financialcontent), −22 % seit Aufnahme; heute ca. 152 $ (+9 %). Keine Prognosesenkung (FY27-Gewinn je Aktie 15,50–17,50 $ bestätigt); am 21.11. eine Herabstufung durch Wall Street Zen. Fundamental unverändert, aber AI-Hardware-Klumpen."
     },
     {
       "ticker": "NVDA",
       "name": "NVIDIA",
       "added": "2026-11-11",
       "priceAdded": 168.8,
-      "lastPrice": 162.85,
-      "lastDate": "2026-11-13",
+      "lastPrice": 125.53,
+      "lastDate": "2026-11-20",
       "currency": "USD",
       "fvLow": 240,
       "fvHigh": 270,
       "status": "beobachten",
-      "note": "Schluss 13.11. 162,85 $ (Motley Fool), −4 % seit Aufnahme; heute im US-Handel ca. −2 %. Jensen Huang ist am 12.11. als CEO zurückgetreten, CFO Colette Kress führt kommissarisch, laut FT wird über eine Rückkehr Huangs gesprochen, das FBI ermittelt. Genau so ein offenes binäres Ereignis schließen die neuen Regeln aus. Entscheidung über den Status nach den Q3-Zahlen am 17.11. (22:20 MEZ): schwächerer Ausblick oder Kundenabwanderung = gebrochen."
+      "note": "Schluss 20.11. ca. 125,53 $ (aus Yahoo-Kurs errechnet), −26 % seit Aufnahme; heute ca. 165,90 $ (+32 %). Q3-Zahlen am 17.11. stark (Umsatz 115,8 Mrd. $, +103 %; Q4-Ausblick 130 Mrd. $), damit ist die Kill-Bedingung (schwächerer Ausblick) nicht eingetreten. Heute: Jensen Huang wieder CEO (8-K). Offen bleiben aber die SEC-Prüfung, die interne Untersuchung und staatliche Ermittlungen, also weiter ein offenes binäres Ereignis."
     },
     {
       "ticker": "FUN",
       "name": "Six Flags Entertainment",
       "added": "2026-11-12",
       "priceAdded": 11.15,
-      "lastPrice": 11.15,
-      "lastDate": "2026-11-11",
+      "lastPrice": 11.06,
+      "lastDate": "2026-11-20",
       "currency": "USD",
       "fvLow": 14,
       "fvHigh": 20,
       "status": "beobachten",
-      "note": "Nachgetragen: Der Pick vom 12.11. fehlte in der Watchlist. Aufnahmekurs 11,15 $ (Kurs vom 11.11.). Ein aktueller, sauber datierter Kurs war heute nicht verfügbar (n. v.). Hinweis: Mit ca. 1,0 Mrd. $ Marktwert (Motley Fool) und hoher Verschuldung würde FUN die neuen harten Ausschlüsse (Marktwert < 2 Mrd. $) nicht bestehen. Der Direktor Rehan Jaffer kaufte vom 6. bis 10.11. für ca. 14,9 Mio. $ Aktien."
+      "note": "Schluss 20.11. 11,06 $ (financialcontent), −1 % seit Aufnahme. Neu (13.11., Cleveland.com): Six Flags erwägt den Verkauf weiterer, auch profitabler Parks, um ca. 5 Mrd. $ Schulden abzubauen; ein Berater spricht von 'Verkauf oder Insolvenz'. Hohe Verschuldung und Marktwert unter 2 Mrd. $ verletzen die neuen Regeln. Engmaschig beobachten."
     }
   ]
 }
