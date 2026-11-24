@@ -1,6 +1,426 @@
 {
-  "updated": "2026-11-23T18:05:48+01:00",
+  "updated": "2026-11-24T17:56:53+01:00",
   "editions": [
+    {
+      "date": "2026-11-24",
+      "marketUpdate": {
+        "summary": "Die Huang-Rally verpufft: Chipwerte fallen in den USA und Europa kräftig (Nvidia ca. −8 %, Nasdaq ca. −2 %), der DAX schließt 1,26 % tiefer knapp über 25.000 Punkten. Asien holt dagegen den Montag nach (Taiex +9 %, KOSPI +6,3 %); das US-Verbrauchervertrauen springt überraschend stark, Gold und Silber fallen.",
+        "highlights": [
+          "Asien feiert mit einem Tag Verspätung: Taiwans Taiex steigt um 8,99 % auf 40.122 Punkte (größter Punktgewinn seiner Geschichte), TSMC +10 % (Tageslimit). KOSPI +6,32 % auf 5.006 (wieder über 5.000), Nikkei 225 +3,91 % auf 58.645; Kioxia ca. +10 %, SK Hynix und Samsung je ca. +6,7 %.",
+          "Gegenbewegung im Westen: Nvidia gibt nach dem Kurssprung von 31,5 % am Montag (Schluss 165,05 $) um ca. 8 % auf rund 151 $ nach (gegen 17:20 Uhr MEZ). Der Halbleiter-ETF SMH fällt gegen 17:30 Uhr MEZ um ca. 8 %. Die Anthropic-Aktie fällt unter den Ausgabepreis von 83 $ (zeitweise ca. 77 $, ca. −12 %). Hinweis: Dieses Update wird von Claude erstellt, einem Modell von Anthropic.",
+          "Europa: Aurubis bricht nach einer Gewinnwarnung um ca. 11–15 % ein (Gewinn vor Steuern 2026/27 nur 430–530 Mio. €, weil das neue US-Werk in Georgia später anläuft). Aixtron ca. −12 bis −16 % nach Abstufung durch UBS auf „Verkaufen“. Sanofi steigt um ca. 6–9 % nach der Übernahme von Insmed für ca. 41 Mrd. $ (175 $ je Aktie in bar)."
+        ],
+        "drivers": [
+          {
+            "scope": "global",
+            "text": "Gewinnmitnahmen bei KI-Werten: Nach dem Rekordtag am Montag (S&P 500 +4,73 %, Nasdaq +6,51 %) fehlen Anschlusskäufe. Anleger verkaufen Chip- und KI-Aktien wieder. Die Zweifel, ob sich die KI-Investitionen lohnen, sind mit Huangs Rückkehr nicht verschwunden; offen bleiben die SEC-Prüfung und Huangs Anhörung vor drei Ausschüssen des US-Repräsentantenhauses am 1. Dezember.",
+            "markets": "Halbleiter, Nasdaq, Europa-Tech (Infineon, STMicro, Aixtron), KI-Zulieferer"
+          },
+          {
+            "scope": "global",
+            "text": "Rotation statt Crash: Während Tech fällt, steigen Standardwerte. Der Dow liegt im Plus, Small Caps (Russell 2000) etwa unverändert. Grund: Das US-Verbrauchervertrauen (Conference Board) springt laut Investing.com im November auf 103,3 Punkte (Vormonat ca. 92, erwartet ca. 92) – höchster Stand seit Anfang 2025. Starke Verbraucher stützen Konsum- und Industriewerte.",
+            "markets": "Dow Jones, US-Konsumwerte, Banken, Small Caps"
+          },
+          {
+            "scope": "global",
+            "text": "Fed und EZB vor Zinserhöhungen: Für die Fed im Dezember ist eine Erhöhung um 0,25 Prozentpunkte zu ca. 95 % eingepreist. New-York-Fed-Chef Williams nannte die Inflation am Montagabend zu hoch. Trotzdem sinken die Renditen heute leicht, weil Aktien wieder verkauft werden.",
+            "markets": "Staatsanleihen, Dollar, Banken"
+          },
+          {
+            "scope": "punktuell",
+            "text": "Iran und Handel: US-Finanzminister Bessent kündigt neue Iran-Sanktionen an (über zwei Dutzend Wechselstuben und Tarnfirmen). Iranische Medien melden Explosionen an Öltankern durch Seeminen bei der Straße von Hormus. Dazu setzt Washington eine Alibaba-Einheit aus Singapur auf die schwarze Liste; laut WSJ werden neue breite US-Zölle vorbereitet. Öl schwankt nahe einem Drei-Monats-Tief, weil das Angebot sich erholt.",
+            "markets": "Öl, Tanker, China/Hongkong, europäische Exporteure"
+          },
+          {
+            "scope": "punktuell",
+            "text": "Deutsche Stimmung besser: Das ifo-Geschäftsklima steigt im November auf 90,6 Punkte (Vormonat 90,1, erwartet 90,5), siebter Anstieg in Folge und höchster Stand seit Frühjahr 2023. Gegenwind kommt von Tarifkonflikten (Warnstreiks bei Airbus Hamburg und VW, Metall-/Elektro-Branche).",
+            "markets": "DAX, MDAX, Euro"
+          },
+          {
+            "scope": "punktuell",
+            "text": "Metalle unter Druck: Silber fällt um ca. 5–6 %, Gold um ca. 2 %. Rohstoffwerte in Europa verlieren deutlich (Sektor Grundstoffe ca. −3,8 %; Anglo American und Antofagasta über −5 %, Aurubis Gewinnwarnung, Salzgitter ca. −9 %).",
+            "markets": "Edelmetalle, Minenwerte, Stahl"
+          }
+        ],
+        "regions": [
+          {
+            "name": "Europa",
+            "note": "DAX, MDAX und EuroStoxx 50: Xetra-/Schlussbericht dpa-AFX (17:47 Uhr). SMI: CFD-Stand 17:15 Uhr (Investing). CAC 40 und FTSE 100: nur Stände von 11:26 Uhr (Finwire/FactSet). FTSE MIB und IBEX 35: kein verlässlicher Stand gefunden. Stoxx 600 um 11:26 Uhr bei 635,50 (−0,23 %).",
+            "indices": [
+              {
+                "n": "DAX (Schluss)",
+                "v": "25.017,81",
+                "c": "−1,26 %"
+              },
+              {
+                "n": "MDAX (Schluss)",
+                "v": "28.791,63",
+                "c": "−1,72 %"
+              },
+              {
+                "n": "EuroStoxx 50 (Schluss)",
+                "v": "n. v.",
+                "c": "−1,16 %"
+              },
+              {
+                "n": "CAC 40 (11:26)",
+                "v": "8.056,68",
+                "c": "+0,15 %"
+              },
+              {
+                "n": "FTSE 100 (11:26)",
+                "v": "10.478,54",
+                "c": "−0,02 %"
+              },
+              {
+                "n": "SMI (17:15)",
+                "v": "14.730,90",
+                "c": "−0,03 %"
+              },
+              {
+                "n": "FTSE MIB",
+                "v": "n. v.",
+                "c": "n. v."
+              },
+              {
+                "n": "IBEX 35",
+                "v": "n. v.",
+                "c": "n. v."
+              }
+            ],
+            "news": [
+              "Rückschlag nach dem starken Montag: Der DAX fällt zeitweise bis 25.040 Punkte (Tagestief laut finanzen.at) und schließt knapp über der 25.000er-Marke. Laut dpa-AFX belasten fehlende Anschlusskäufe bei Tech und Sorgen vor neuen US-Zöllen; das gute ifo-Ergebnis gibt keinen Schub.",
+              "DAX: Verlierer Infineon (ca. −6 bis −10 %), Siemens Energy (ca. −4 %), Hochtief, DHL, Siemens. Gewinner Scout24, Rheinmetall, Deutsche Börse, Telekom und SAP (je ca. +1 bis +2 %, Stand 15:42 Uhr). Commerzbank beendet ihre Aktienrückkäufe.",
+              "Nebenwerte und Europa: Aurubis (Gewinnwarnung), Aixtron (UBS-Abstufung), Salzgitter (ca. −9 %), STMicro (ca. −10 %), Tomra (ca. −9 % nach gesenktem Margenziel). Gewinner: Sanofi (Insmed-Kauf), flatexDEGIRO (ca. +3 bis +5 %), Balfour Beatty (Prognose angehoben), Compass (ca. +3,7 %)."
+            ]
+          },
+          {
+            "name": "Asien",
+            "note": "Schlussstände: Nikkei (TradingKey), KOSPI (ad-hoc-news/AP), Taiex (Focus Taiwan), Shanghai und Hang Seng (AP). Topix, CSI 300 und Sensex: kein Schlussstand gefunden; ASX 200 laut AP im frühen Handel 8.718,80 (+1,7 %).",
+            "indices": [
+              {
+                "n": "Nikkei 225",
+                "v": "58.644,63",
+                "c": "+3,91 %"
+              },
+              {
+                "n": "Topix",
+                "v": "n. v.",
+                "c": "ca. +2,5 %",
+                "note": "Zwischenstand (TipRanks)"
+              },
+              {
+                "n": "Shanghai Composite",
+                "v": "3.548,37",
+                "c": "+0,3 %"
+              },
+              {
+                "n": "CSI 300",
+                "v": "n. v.",
+                "c": "n. v."
+              },
+              {
+                "n": "Hang Seng",
+                "v": "22.219,65",
+                "c": "−0,7 %"
+              },
+              {
+                "n": "KOSPI",
+                "v": "5.006,03",
+                "c": "+6,32 %"
+              },
+              {
+                "n": "Taiex (Taiwan)",
+                "v": "40.122,35",
+                "c": "+8,99 %"
+              },
+              {
+                "n": "ASX 200 (früh)",
+                "v": "8.718,80",
+                "c": "+1,7 %"
+              }
+            ],
+            "news": [
+              "Japan war am Montag geschlossen, Korea und Taiwan hatten den Huang-Effekt noch nicht voll mitgenommen: Jetzt folgt der Nachholeffekt. Taiex mit größtem Punktgewinn seiner Geschichte, TSMC +10 %. Der MSCI Asien-Pazifik steigt nach acht Verlusttagen in Folge um ca. 1,5 %.",
+              "Japan: Kioxia ca. +10 %, SoftBank ca. +4,7 %. Korea: SK Hynix ca. +6,7 %, Samsung ca. +6,7 %; 795 Gewinner gegen 94 Verlierer an der Börse Seoul.",
+              "China und Hongkong bleiben zurück: Die USA setzen eine Alibaba-Einheit auf die schwarze Liste; Hang Seng −0,7 %, Shanghai leicht im Plus."
+            ]
+          },
+          {
+            "name": "USA",
+            "note": "Zwischenstand: Nasdaq Composite, S&P 500 und Dow laut Investing.com um 11:22 Uhr New York = 17:22 Uhr MEZ. Nasdaq 100 laut Kursleiste wallstreet-online (US Tech 100) gegen 17:00 Uhr MEZ. Vortagesschluss Montag 23.11. laut Journal Arta/Weekend Spread; Nasdaq-100-Schluss nicht gefunden.",
+            "indices": [
+              {
+                "n": "S&P 500 (17:22 MEZ)",
+                "v": "7.166,54",
+                "c": "−1,0 %"
+              },
+              {
+                "n": "Nasdaq 100 (ca. 17:00 MEZ)",
+                "v": "25.961",
+                "c": "−2,9 %"
+              },
+              {
+                "n": "Nasdaq Composite (17:22 MEZ)",
+                "v": "23.548,03",
+                "c": "−2,2 %"
+              },
+              {
+                "n": "Dow Jones (17:22 MEZ)",
+                "v": "49.684,82",
+                "c": "+0,2 %"
+              },
+              {
+                "n": "S&P 500 (Schluss Mo. 23.11.)",
+                "v": "7.237,17",
+                "c": "+4,73 %"
+              },
+              {
+                "n": "Nasdaq Composite (Schluss Mo. 23.11.)",
+                "v": "24.089,56",
+                "c": "+6,51 %"
+              },
+              {
+                "n": "Dow Jones (Schluss Mo. 23.11.)",
+                "v": "49.595,31",
+                "c": "+3,01 %"
+              }
+            ],
+            "news": [
+              "Montag war der zweitgrößte Punktgewinn in der Geschichte des S&P 500 und der beste Tag seit April 2025; der Angstindex VIX fiel um ca. 25 % auf 27,05. Heute: VIX wieder ca. 27–28.",
+              "Chips und KI unter Druck: Nvidia ca. −8 % auf ca. 151 $, SMH ca. −8 %, Anthropic unter Ausgabepreis. Hewlett Packard Enterprise vorbörslich ca. −11 % trotz besserer Zahlen, Semtech ca. −8 %. Gewinner: Agilent (ca. +7 % nach angehobener Prognose), Kohl's (ca. +7 %).",
+              "Heute nach Börsenschluss: Dell (erwartet 6,55 $ Gewinn je Aktie, Umsatz 49,24 Mrd. $), HP Inc., Autodesk, Workday, Nutanix. US-Börsen am Donnerstag wegen Thanksgiving geschlossen."
+            ]
+          }
+        ],
+        "bonds": {
+          "rows": [
+            {
+              "n": "Bund 2J",
+              "v": "n. v.",
+              "c": "n. v."
+            },
+            {
+              "n": "Bund 10J",
+              "v": "3,27 %",
+              "c": "ca. −5 bp",
+              "note": "15:52 Uhr (dpa-AFX); Bund-Future +0,04 % auf 122,95. Veränderung geschätzt gegen 3,32 % vom Montag (Vormittag)"
+            },
+            {
+              "n": "US 2J",
+              "v": "4,67 %",
+              "c": "ca. −4 bp",
+              "note": "Trading Economics; Investing.com zeigt dagegen ca. ±0 bp"
+            },
+            {
+              "n": "US 10J",
+              "v": "4,89 %",
+              "c": "ca. −2 bis −6 bp",
+              "note": "Trading Economics 4,89 % (−6 bp), Investing.com 11:24 Uhr New York 4,885 % (−2 bp)"
+            },
+            {
+              "n": "US 30J",
+              "v": "5,28 %",
+              "c": "ca. −1 bis −3 bp",
+              "note": "Trading Economics/Investing.com"
+            },
+            {
+              "n": "Italien-Spread (BTP–Bund)",
+              "v": "n. v.",
+              "c": "n. v.",
+              "note": "Freitag ca. 109 bp"
+            },
+            {
+              "n": "OAT 10J (Frankreich)",
+              "v": "n. v.",
+              "c": "n. v."
+            },
+            {
+              "n": "JGB 10J",
+              "v": "n. v.",
+              "c": "n. v.",
+              "note": "Freitag 2,79 %"
+            },
+            {
+              "n": "UK Gilt 10J",
+              "v": "n. v.",
+              "c": "n. v."
+            }
+          ],
+          "comment": [
+            "Leicht sinkende Renditen (1 bp = 0,01 Prozentpunkte): Als Tech-Aktien wieder verkauft werden, greifen Anleger zu sicheren Anleihen. Die Bewegung ist aber klein; die Quellen widersprechen sich teils im Ausmaß.",
+            "Die US-Zinserhöhung im Dezember bleibt fest eingepreist (ca. 95 %). Williams warnte vor zu hoher Inflation; das hohe Verbrauchervertrauen spricht ebenfalls gegen schnelle Zinssenkungen. Die US-Kurve bleibt flach (2J zu 10J ca. 22 bp).",
+            "Bund 10J bei 3,27 %, deutlich unter den 3,34 % von vor einer Woche. Das bessere ifo bewegt die Anleihen kaum; die EZB-Erhöhung am 17.12. gilt als ausgemacht.",
+            "Heute um 19:00 Uhr MEZ: Auktion fünfjähriger US-Staatsanleihen (70 Mrd. $), Ergebnis lag bei Redaktionsschluss nicht vor. Morgen: Bund-Auktion (5 Mrd. €, Laufzeit 2036)."
+          ]
+        },
+        "commodities": [
+          {
+            "n": "Brent",
+            "v": "ca. 87,4 $",
+            "c": "ca. +0,8 %",
+            "note": "17:15 Uhr MEZ (Investing); andere Quellen melden leichte Verluste – Richtung uneinheitlich, nahe Drei-Monats-Tief"
+          },
+          {
+            "n": "WTI",
+            "v": "ca. 80,8 $",
+            "c": "ca. +0,8 %",
+            "note": "17:15 Uhr MEZ (Investing)"
+          },
+          {
+            "n": "Gold",
+            "v": "ca. 3.567–3.605 $",
+            "c": "ca. −1,3 bis −2,3 %",
+            "note": "Yahoo ca. 16:17 MEZ 3.605 $; Investing 17:24 MEZ 3.566,50 $"
+          },
+          {
+            "n": "Silber",
+            "v": "ca. 40,7 $",
+            "c": "ca. −5,6 %",
+            "note": "Future, 17:15 Uhr MEZ"
+          },
+          {
+            "n": "Kupfer",
+            "v": "n. v.",
+            "c": "n. v.",
+            "note": "Minenwerte in Europa deutlich schwächer"
+          },
+          {
+            "n": "Erdgas (US)",
+            "v": "n. v.",
+            "c": "n. v."
+          }
+        ],
+        "fx": [
+          {
+            "n": "EUR/USD (17:15 MEZ)",
+            "v": "1,0965",
+            "c": "+0,6 %"
+          },
+          {
+            "n": "USD/JPY",
+            "v": "159,23",
+            "c": "+0,1 %"
+          },
+          {
+            "n": "Dollar-Index",
+            "v": "103,8",
+            "c": "−0,4 %"
+          },
+          {
+            "n": "Bitcoin (ca. 17:30 MEZ)",
+            "v": "ca. 59.500–59.700 $",
+            "c": "ca. −3 bis −5 %",
+            "note": "fällt unter 60.000 $"
+          }
+        ],
+        "cfNews": [
+          "Der Dollar gibt nach, der Euro erholt sich auf ca. 1,097 $ (Montag 1,0905, tiefster Stand seit April 2025). Öl schwankt zwischen Hormus-Meldungen (Tanker auf Seeminen) und erwartetem Überangebot.",
+          "Edelmetalle fallen erneut deutlich: Silber ca. −5,6 %, Gold ca. −2 % unter 3.600 $. Bitcoin rutscht unter 60.000 $."
+        ],
+        "tomorrow": [
+          "Heute Abend ab ca. 22:05 Uhr: Zahlen von Dell (KI-Server; Aktie am Montag ca. +22 %), HP Inc., Autodesk und Workday.",
+          "Mittwoch, 08:00 Uhr: deutsches BIP Q3 (endgültig). Vormittag: Bund-Auktion (5 Mrd. €, Laufzeit 2036).",
+          "Mittwoch, 14:30 Uhr: US-Daten im Paket wegen Thanksgiving: BIP Q3 (zweite Schätzung), langlebige Güter, Erstanträge auf Arbeitslosenhilfe; 16:00 Uhr: Konsumausgaben und PCE-Inflation (Oktober, das bevorzugte Inflationsmaß der Fed) – Uhrzeiten laut üblichem Kalender, nicht bestätigt.",
+          "Mittwoch, 20:00 Uhr: Beige Book der Fed (Konjunkturbericht der regionalen Notenbanken). Vorbörslich: Zahlen von Deere (erwartet 4,17 $ je Aktie).",
+          "Ausblick: Do US-Börsen geschlossen (Thanksgiving), 08:00 GfK-Konsumklima, 13:30 EZB-Protokoll; Fr US-Börsen bis 19:00 MEZ; 1.12. Huang-Anhörung im US-Kongress."
+        ],
+        "sources": [
+          {
+            "t": "ARIVA/dpa-AFX: Aktien Frankfurt Schluss – Rückschlag nach Tech-Kursrally (24.11.)",
+            "u": "https://www.ariva.de/news/aktien-frankfurt-schluss-rueckschlag-nach-tech-kursrally-12219123"
+          },
+          {
+            "t": "finanzen.at: Schwacher Handel – DAX fällt am Nachmittag zurück",
+            "u": "https://www.finanzen.at/nachrichten/aktien/schwacher-handel-dax-fallt-am-nachmittag-zurueck-1036795928"
+          },
+          {
+            "t": "Investing.com/dpa-AFX: Überblick Konjunktur 24.11.2026, 17 Uhr",
+            "u": "https://de.investing.com/news/economy-news/uberblick-konjunktur-vom-24112026--1700-uhr-3784935"
+          },
+          {
+            "t": "ad-hoc-news: DAX gibt 0,98 % nach – Ifo ohne Schub",
+            "u": "https://www.ad-hoc-news.de/boerse/news/marktberichte/dax-gibt-am-dienstag-0-98-prozent-nach-ifo-ohne-schub/70549512"
+          },
+          {
+            "t": "wallstreet-online: Aktien Frankfurt Schluss – DAX konsolidiert über 25.000",
+            "u": "https://www.wallstreet-online.de/nachricht/21742075-aktien-frankfurt-schluss-dax-konsolidiert-25-000-punkten-huang-zauber-verflogen"
+          },
+          {
+            "t": "wallstreet-online: Börsen-Update Europa 24.11.",
+            "u": "https://www.wallstreet-online.de/nachricht/21741163-boersen-update-boersen-update-europa-24-11-mdax-schwach-1-14"
+          },
+          {
+            "t": "MarketScreener/Finwire: Aurubis plunges after profit warning",
+            "u": "https://www.marketscreener.com/news/european-stock-markets-mostly-lower-aurubis-plunges-after-profit-warning-ce7851dbd98cf52c"
+          },
+          {
+            "t": "MarketScreener/Reuters: Europe's STOXX 600 subdued after AI-driven rally",
+            "u": "https://www.marketscreener.com/news/europe-s-stoxx-600-subdued-after-ai-driven-rally-ce7851dad08af326"
+          },
+          {
+            "t": "finanzen.net/dpa-AFX: Deutsche Anleihen wenig verändert",
+            "u": "https://www.finanzen.net/nachricht/anleihen/deutsche-anleihen-wenig-veraendert-16083970"
+          },
+          {
+            "t": "Investing.com: Wall Street mostly lower, Nasdaq falls 2%",
+            "u": "https://ca.investing.com/news/stock-market-news/us-stock-futures-steady-after-nvidialed-wall-street-rally-4976983"
+          },
+          {
+            "t": "Yahoo Finance: Stock market today, 24.11.",
+            "u": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html"
+          },
+          {
+            "t": "BNN Bloomberg/AP: Nvidia and other AI stocks fall, rest of Wall Street rises",
+            "u": "https://www.bnnbloomberg.ca/investing/market-outlook/2026/11/24/tech-stocks-wane-a-day-after-a-huang-rally-as-anthropic-tumbles-below-its-initial-offering-price/"
+          },
+          {
+            "t": "sellthenews: Stock Market Today, 24.11.2026",
+            "u": "https://sellthenews.org/catalyx/market/2026-11-24"
+          },
+          {
+            "t": "TipRanks: Markets turn jittery even as Huang returns",
+            "u": "https://www.tipranks.com/news/stock-market-today-nov-24-markets-turn-jittery-even-as-huang-returns-to-nvidia"
+          },
+          {
+            "t": "The Weekend Spread: The Open, 24.11.2026",
+            "u": "https://theweekendspread.substack.com/p/the-open-tuesday-november-24-2026"
+          },
+          {
+            "t": "Journal Arta: S&P 500 closes 4.73% higher (23.11.)",
+            "u": "https://journalarta.com/en/2026/11/24/stock-market-today-sp-500-closes-4-73-higher-nasdaq-jumps-6-51-as-vix-plunges/"
+          },
+          {
+            "t": "Focus Taiwan: Taiex posts record single-day point gain",
+            "u": "https://focustaiwan.tw/business/202611240019"
+          },
+          {
+            "t": "ad-hoc-news: KOSPI closes 6.32% higher",
+            "u": "https://www.ad-hoc-news.de/boerse/news/marktberichte/kospi-closes-6-32-prozent-higher-as-nvidia-rally-reaches-seoul/70549609"
+          },
+          {
+            "t": "TradingKey: Kospi reclaims 5,000, Nikkei rises nearly 4%",
+            "u": "https://www.tradingkey.com/analysis/stocks/more/262319507-japan-south-korea-stocks-kospi-nikkei-softbank-sk-hynix-samsung-kioxia-tradingkey"
+          },
+          {
+            "t": "KSAT/AP: Asian stocks rally after Wall Street rebound",
+            "u": "https://www.ksat.com/business/2026/11/24/asian-stocks-rally-after-wall-street-rebound-as-jensen-huang-returns-as-nvidias-ceo/"
+          },
+          {
+            "t": "Trading Economics: US 10-Year Treasury Yield",
+            "u": "https://tradingeconomics.com/united-states/government-bond-yield"
+          },
+          {
+            "t": "Trading Economics: US 30-Year Bond Yield",
+            "u": "https://tradingeconomics.com/united-states/30-year-bond-yield"
+          },
+          {
+            "t": "NordFX: Market Pulse 24.11.2026",
+            "u": "https://nordfx.com/market-news/market-pulse-november-24-2026"
+          }
+        ]
+      }
+    },
     {
       "date": "2026-11-23",
       "marketUpdate": {
