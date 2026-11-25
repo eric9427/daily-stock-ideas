@@ -1,6 +1,415 @@
 {
-  "updated": "2026-11-24T17:56:53+01:00",
+  "updated": "2026-11-25T18:05:00+01:00",
   "editions": [
+    {
+      "date": "2026-11-25",
+      "marketUpdate": {
+        "summary": "Der KI-Ausverkauf wird zum Flächenbrand: Nasdaq ca. −4 % (Nasdaq 100 nahe Bärenmarkt, ca. −20 % vom Hoch), S&P 500 ca. −2,8 %, Angstindex VIX ca. +28 % auf 33,7. Auslöser: Inflation (Kern-PCE 3,3 %) über Erwartung, neue US-Zollpläne bis 20 % und weiter fallende Chipwerte; der DAX rutscht unter 25.000 Punkte, nur Autowerte glänzen.",
+        "highlights": [
+          "Chip-Crash in Asien und USA: KOSPI −6,2 % auf 4.697,51, Taiex ca. −4,8 %, Nikkei −2,8 %. SoftBank −14,8 %, Kioxia −14,2 %, Advantest −12,9 %, Tokyo Electron −12,5 %, SK Hynix −11,1 %, Samsung −9,9 %. In den USA fällt der Halbleiterindex SOX um über 6 %, Nvidia gegen 17:36 MEZ um 8,7 % auf 141,86 $ (zweiter Verlusttag nach +31,5 % am Montag).",
+          "Auch starke Zahlen helfen nicht: Dell übertrifft alle Erwartungen klar (Gewinn je Aktie 9,45 $ statt 6,60 $, KI-Server-Auftragsbestand 132,3 Mrd. $, Jahresprognose angehoben), die Aktie fällt vorbörslich trotzdem um ca. 5,5 %. Autodesk und Workday sinken ebenfalls trotz Prognoseanhebung; Deere vorbörslich ca. −3,5 % nach Gewinn unter Erwartung.",
+          "Gegenläufig: Autowerte im DAX gesucht – BMW ca. +4,9 %, VW Vz. ca. +4,5 % (JPMorgan-Branchenausblick 2027 positiv, Sektor kam von Sechs-Jahres-Tief). Aroundtown im MDAX ca. +6 % nach leicht angehobener Prognose. Indiens Sensex steigt gegen den Trend (ca. +1,5 bis +2,4 %, Sechs-Monats-Hoch)."
+        ],
+        "drivers": [
+          {
+            "scope": "global",
+            "text": "KI-Zweifel ohne Ende: Die Rückkehr von Jensen Huang als Nvidia-Chef beruhigt die Anleger nicht mehr. Sorgen um überhöhte, teils schuldenfinanzierte KI-Investitionen dominieren; Rechenzentrums-Werte (CoreWeave, IREN, Applied Digital, Astera Labs) fallen zur Eröffnung um 10–12 %. Trump nennt eine Begnadigung Huangs „immer eine Option“, die Anhörung im Kongress am 1.12. bleibt offen.",
+            "markets": "Halbleiter weltweit, Nasdaq, Korea/Taiwan/Japan, Europa-Tech (Infineon, STMicro)"
+          },
+          {
+            "scope": "global",
+            "text": "Neue US-Zölle: Die Regierung schlägt nach einer achtmonatigen Prüfung von Überkapazitäten Zölle von bis zu 20 % auf China, die EU und 12 weitere Handelspartner vor. Sie kämen zu bestehenden Zöllen hinzu (teils über 40 % gesamt), gelten aber frühestens ab Januar nach Anhörungen. Der Zollfrieden mit China läuft am 10. Januar aus.",
+            "markets": "Exporteure in Europa und Asien, China/Hongkong, Dollar"
+          },
+          {
+            "scope": "global",
+            "text": "Inflation bleibt hartnäckig: Die PCE-Inflation (Preisindex der privaten Konsumausgaben, das Lieblingsmaß der Fed) steigt im Oktober auf 3,8 % (erwartet 3,8 %), die Kernrate ohne Energie und Lebensmittel auf 3,3 % (erwartet 3,2 %) – höchster Gesamtwert seit 2023. Gleichzeitig wächst die US-Wirtschaft im 3. Quartal mit 4,3 % (erwartet 3,5 %), Erstanträge auf Arbeitslosenhilfe nur 189.000. Eine Fed-Zinserhöhung im Dezember gilt laut CME FedWatch zu ca. 98 % als sicher.",
+            "markets": "US-Anleihen, Wachstumsaktien, Dollar"
+          },
+          {
+            "scope": "punktuell",
+            "text": "Deutschland schwächer als gedacht: Das BIP im 3. Quartal wird auf +0,1 % zum Vorquartal gesenkt (erste Schätzung +0,2 %). Das dämpft die Hoffnung aus dem ifo-Anstieg vom Dienstag und stützt Bundesanleihen.",
+            "markets": "DAX, Bundesanleihen, Euro"
+          },
+          {
+            "scope": "punktuell",
+            "text": "Öl schwankt stark: Meldungen über Überangebot (IEA-Prognose, Wiedereröffnung der libyschen Sharara-Pipeline, Streit in der OPEC+) drücken Brent am Morgen deutlich; am Nachmittag erholt sich Öl wieder (WTI-Future gegen 17:36 MEZ +1,5 %). OPEC+ trifft sich am Sonntag, 29.11.",
+            "markets": "Öl, Energiewerte, Airlines, Inflationserwartungen"
+          },
+          {
+            "scope": "punktuell",
+            "text": "Edelmetalle weiter unter Druck: Gold fällt den dritten Tag in Folge deutlich (ca. −2,9 % auf ca. 3.490 $), weil steigende Leitzinsen zinslose Anlagen unattraktiver machen und Anleger Verluste anderswo mit Goldverkäufen ausgleichen. Minenwerte in London (Antofagasta ca. −8 %, Anglo American ca. −5,7 %) fallen.",
+            "markets": "Gold, Silber, Minenwerte"
+          }
+        ],
+        "regions": [
+          {
+            "name": "Europa",
+            "note": "Kein offizieller Schlussstand bei Redaktionsschluss. DAX: finanzen.ch-Kursleiste 17:12 Uhr. MDAX: Nachmittag (finanzen.at). EuroStoxx 50 und SMI: Kursleiste finanzen.ch ohne Uhrzeit (Spätnachmittag). CAC 40 und FTSE 100: nur Eröffnungsstände (ca. 09:40 Uhr, JournalArta) – Richtung am Nachmittag unklar. FTSE MIB, IBEX 35: nicht gefunden.",
+            "indices": [
+              {
+                "n": "DAX (17:12)",
+                "v": "24.718,38",
+                "c": "−1,20 %"
+              },
+              {
+                "n": "MDAX (Nachmittag)",
+                "v": "ca. 28.777",
+                "c": "ca. ±0 %"
+              },
+              {
+                "n": "EuroStoxx 50 (spät)",
+                "v": "5.904",
+                "c": "−1,7 %"
+              },
+              {
+                "n": "CAC 40 (Eröffnung)",
+                "v": "8.120,72",
+                "c": "+1,00 %"
+              },
+              {
+                "n": "FTSE 100 (Eröffnung)",
+                "v": "10.516,02",
+                "c": "+0,47 %"
+              },
+              {
+                "n": "SMI (17:11)",
+                "v": "14.689,50",
+                "c": "ca. −0,3 %"
+              },
+              {
+                "n": "FTSE MIB",
+                "v": "n. v.",
+                "c": "n. v."
+              },
+              {
+                "n": "IBEX 35",
+                "v": "n. v.",
+                "c": "n. v."
+              }
+            ],
+            "news": [
+              "Der DAX startet freundlich (Tageshoch 25.151 Punkte), dreht aber mit dem US-Ausverkauf und den Zollplänen ins Minus und fällt unter 25.000. Der TecDAX und der europäische Technologiesektor fallen auf den tiefsten Stand seit Mai.",
+              "DAX-Verlierer: Infineon ca. −6 % (tiefster Stand seit April), Bayer ca. −4 %, Commerzbank ca. −3,5 bis −4,9 %, Siemens Energy ca. −3 bis −4 %, Deutsche Bank ca. −2,3 %. Gewinner: BMW, VW Vz., Vonovia, Beiersdorf, Heidelberg Materials.",
+              "Europa hielt sich wegen des geringen Tech-Anteils lange besser als die USA (Bloomberg via Oninvest); am Morgen gesucht: Compass, Experian, AstraZeneca, Unilever. Hannover Rück schwächer trotz Rekord-Gewinnziel."
+            ]
+          },
+          {
+            "name": "Asien",
+            "note": "Schlussstände laut AP/Al Jazeera bzw. JournalArta. Hang Seng und Shanghai: Quellen widersprechen sich (AP −0,3 % bzw. −1,5 %, JournalArta −1,14 % bzw. −1,77 %); hier jeweils der spätere Stand. CSI 300 und Topix: nicht gefunden.",
+            "indices": [
+              {
+                "n": "Nikkei 225",
+                "v": "57.011,62",
+                "c": "−2,8 %"
+              },
+              {
+                "n": "Shanghai Composite",
+                "v": "3.476,47",
+                "c": "−1,77 %",
+                "note": "AP: 3.494,75 (−1,5 %), tiefster Stand seit über einem Jahr"
+              },
+              {
+                "n": "CSI 300",
+                "v": "n. v.",
+                "c": "n. v."
+              },
+              {
+                "n": "Hang Seng",
+                "v": "21.966,01",
+                "c": "−1,14 %"
+              },
+              {
+                "n": "KOSPI",
+                "v": "4.697,51",
+                "c": "−6,2 %"
+              },
+              {
+                "n": "Taiex (Taiwan)",
+                "v": "n. v.",
+                "c": "ca. −4,8 %",
+                "note": "zeitweise über −8 %"
+              },
+              {
+                "n": "ASX 200",
+                "v": "8.692,40",
+                "c": "−0,4 %"
+              },
+              {
+                "n": "Sensex (Indien)",
+                "v": "ca. 83.700",
+                "c": "ca. +1,5 bis +2,4 %"
+              }
+            ],
+            "news": [
+              "Der Nachholeffekt vom Dienstag kehrt sich komplett um: Nach dem Nvidia-Minus in den USA (−5,9 % am Dienstag) brechen Chip- und KI-Werte ein; in Korea wird der Handel mit Programm-Orders kurz ausgesetzt („Sidecar“).",
+              "Belastend außerdem: erwartete US-Zollerhöhungen und in Australien eine Inflation von 4,9 % (über Erwartung), die Zinserhöhungen wahrscheinlicher macht.",
+              "Indien profitiert als Ausweichmarkt: Ausländische Anleger kaufen im November Rekordbeträge (über 1,27 Billionen Rupien)."
+            ]
+          },
+          {
+            "name": "USA",
+            "note": "Zwischenstand laut Yahoo-Finance-Kursleiste um 11:36 Uhr New York = 17:36 Uhr MEZ. Nasdaq 100 laut Kursleiste 24/7 Wall St. (Uhrzeit unklar, Vormittag). Vortagesschluss Dienstag 24.11. errechnet aus Stand minus Veränderung (Yahoo), Nasdaq Composite und Dow bestätigt durch JournalArta.",
+            "indices": [
+              {
+                "n": "S&P 500 (17:36 MEZ)",
+                "v": "6.996,36",
+                "c": "−2,84 %"
+              },
+              {
+                "n": "Nasdaq 100 (Vormittag)",
+                "v": "25.110,80",
+                "c": "−4,21 %"
+              },
+              {
+                "n": "Nasdaq Composite (17:36 MEZ)",
+                "v": "22.753,73",
+                "c": "−4,13 %"
+              },
+              {
+                "n": "Dow Jones (17:36 MEZ)",
+                "v": "49.256,74",
+                "c": "−1,52 %"
+              },
+              {
+                "n": "Russell 2000 (17:36 MEZ)",
+                "v": "2.638,97",
+                "c": "−1,71 %"
+              },
+              {
+                "n": "S&P 500 (Schluss Di. 24.11.)",
+                "v": "ca. 7.201",
+                "c": "ca. −0,5 %"
+              },
+              {
+                "n": "Nasdaq Composite (Schluss Di. 24.11.)",
+                "v": "23.733,54",
+                "c": "−1,48 %"
+              },
+              {
+                "n": "Dow Jones (Schluss Di. 24.11.)",
+                "v": "50.018,70",
+                "c": "+0,85 %"
+              }
+            ],
+            "news": [
+              "Breiter Ausverkauf vor dem Feiertag: Der Nasdaq 100 liegt rund 19,5–20 % unter seinem Hoch und steuert auf einen Bärenmarkt-Schluss zu (Bärenmarkt = mehr als 20 % unter dem Höchststand). Angstindex VIX +27,6 % auf 33,65.",
+              "Verlierer: Nvidia −8,7 %, Micron und Sandisk mit den größten Chip-Verlusten, Amazon laut Schlagzeilen ca. −6 % (Warnung zu Cloud-Datenverkehr), Rechenzentrums-Werte −10 bis −12 %. Dell, Autodesk, Workday, Nutanix fallen trotz guter Zahlen. Gewinner zur Eröffnung: Sanofi-ADR +3,6 %, Toyota +2,4 %, TJX +2,2 %.",
+              "Donnerstag bleiben US-Börsen wegen Thanksgiving geschlossen, Freitag verkürzter Handel."
+            ]
+          }
+        ],
+        "bonds": {
+          "rows": [
+            {
+              "n": "Bund 2J",
+              "v": "n. v.",
+              "c": "n. v.",
+              "note": "Dienstag 3,08 % (Trading Economics)"
+            },
+            {
+              "n": "Bund 10J",
+              "v": "3,23 %",
+              "c": "ca. −4 bis −5 bp",
+              "note": "10:24 Uhr (dpa-AFX); Dienstag 3,27–3,28 %. Bund-Future +0,40 % auf 123,34"
+            },
+            {
+              "n": "US 2J",
+              "v": "ca. 4,60 %",
+              "c": "ca. −7 bp",
+              "note": "Vormittag (Blockonomi); Veränderung geschätzt gegen 4,67 % vom Dienstag"
+            },
+            {
+              "n": "US 10J",
+              "v": "4,81 %",
+              "c": "ca. −7 bis −9 bp",
+              "note": "Yahoo 17:36 MEZ 4,813 % (−9 bp); Yahoo-Text 16:32 MEZ 4,82 % (−7 bp)"
+            },
+            {
+              "n": "US 30J",
+              "v": "5,24 %",
+              "c": "ca. −4 bp",
+              "note": "Yahoo, ca. 16:30 MEZ; Veränderung geschätzt gegen 5,28 % vom Dienstag"
+            },
+            {
+              "n": "Italien-Spread (BTP–Bund)",
+              "v": "n. v.",
+              "c": "n. v."
+            },
+            {
+              "n": "OAT 10J (Frankreich)",
+              "v": "n. v.",
+              "c": "n. v."
+            },
+            {
+              "n": "JGB 10J",
+              "v": "n. v.",
+              "c": "n. v."
+            },
+            {
+              "n": "UK Gilt 10J",
+              "v": "n. v.",
+              "c": "n. v."
+            }
+          ],
+          "comment": [
+            "Flucht in sichere Anleihen: Mit dem Aktien-Ausverkauf fallen die Renditen spürbar (1 bp = 0,01 Prozentpunkte). Die US-10-Jahres-Rendite sinkt trotz höherer Kerninflation auf ca. 4,81 %.",
+            "Paradox: Die Fed-Zinserhöhung im Dezember gilt mit ca. 98 % als ausgemacht, gleichzeitig kaufen Anleger lange Anleihen als Schutz vor einem Abschwung. Die US-Kurve bleibt flach (2J zu 10J ca. 20 bp).",
+            "Bund 10J bei 3,23 % nach der Abwärtsrevision des deutschen BIP. Laut Trading Economics preist der Markt bis März 2027 noch zwei EZB-Erhöhungen um je 0,25 Prozentpunkte ein; nächste Sitzung 17.12.",
+            "Kommende Bund-Auktionen: 30.11. Bubills, 1.12. Bobl (4,5 Mrd. €), 8.12. Schatz (4 Mrd. €). Für JGB, Gilt, BTP-Spread und OAT lagen keine verlässlichen Tageswerte vor."
+          ]
+        },
+        "commodities": [
+          {
+            "n": "Brent",
+            "v": "ca. 87–90 $",
+            "c": "uneinheitlich",
+            "note": "Morgens −1,4 % (AP, 87,50 $) bzw. −4,7 % (JournalArta, 87,07 $); nachmittags laut wallstreet-online 89,82 $ (+1,4 %)"
+          },
+          {
+            "n": "WTI (Jan.-Future)",
+            "v": "83,27 $",
+            "c": "+1,49 %",
+            "note": "Yahoo, 17:36 MEZ; am Morgen noch ca. 80 $"
+          },
+          {
+            "n": "Gold",
+            "v": "3.488,40 $",
+            "c": "−2,86 %",
+            "note": "Yahoo, 17:36 MEZ"
+          },
+          {
+            "n": "Silber",
+            "v": "n. v.",
+            "c": "n. v."
+          },
+          {
+            "n": "Kupfer",
+            "v": "n. v.",
+            "c": "n. v.",
+            "note": "Minenwerte in London deutlich schwächer"
+          },
+          {
+            "n": "Erdgas (US)",
+            "v": "n. v.",
+            "c": "n. v."
+          }
+        ],
+        "fx": [
+          {
+            "n": "EUR/USD",
+            "v": "1,0943",
+            "c": "−0,2 %",
+            "note": "Nachmittag (finanzen.at/finanzen.net)"
+          },
+          {
+            "n": "USD/JPY",
+            "v": "159,42",
+            "c": "+0,1 %",
+            "note": "AP, Morgen"
+          },
+          {
+            "n": "EUR/CHF",
+            "v": "0,9106",
+            "c": "−0,6 %",
+            "note": "finanzen.ch, Spätnachmittag"
+          },
+          {
+            "n": "Dollar-Index",
+            "v": "ca. 104",
+            "c": "+0,2 %",
+            "note": "JournalArta, Morgen"
+          },
+          {
+            "n": "Bitcoin (17:36 MEZ)",
+            "v": "58.485,57 $",
+            "c": "−1,44 %",
+            "note": "zeitweise unter 57.500 $; ca. 500 Mio. $ Zwangsliquidierungen"
+          }
+        ],
+        "cfNews": [
+          "Der Dollar zieht leicht an, der Euro fällt auf ca. 1,094 $. Gold verliert erneut fast 3 % und liegt klar unter 3.500 $; Bitcoin bleibt unter 60.000 $.",
+          "Öl ist heute ein Wechselbad: morgens Überangebots-Sorgen (bis −4,7 % bei Brent), nachmittags Erholung. Am Sonntag trifft sich die OPEC+."
+        ],
+        "tomorrow": [
+          "Donnerstag: US-Börsen geschlossen (Thanksgiving) – dünner Handel in Europa, Bewegungen können dadurch übertrieben ausfallen.",
+          "02:00 Uhr: Zinsentscheid der Bank of Korea (nach dem KOSPI-Absturz besonders beachtet).",
+          "08:00 Uhr: Konsumklima Deutschland (NIM/GfK, Dezember); 08:45 Uhr: Erzeugerpreise Frankreich; 10:00 Uhr: Geldmenge M3 Eurozone.",
+          "Tagsüber: Rheinmetall Capital Markets Day (bis 27.11.), Kapitalmarktausblick 2027 von Deutscher Bank (10:00) und Dekabank (11:00), EU-Sondergipfel zu Finanzplanung und Ukraine in Brüssel (bis 27.11.). EZB-Protokoll laut Vortagesplanung um 13:30 Uhr – nicht im dpa-AFX-Kalender bestätigt.",
+          "Ausblick Freitag: 00:30 Tokio-Inflation, 08:45 Frankreich Inflation und BIP, 09:00 Spanien Inflation, 09:55 deutsche Arbeitslosenzahlen, 11:00 EU-Wirtschaftsvertrauen; US-Börsen verkürzt. Sonntag OPEC+, Dienstag 1.12. Huang-Anhörung im US-Kongress."
+        ],
+        "sources": [
+          {
+            "t": "Yahoo Finance: Stock market today, 25.11. – hot inflation, new tariffs, chip rout",
+            "u": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+          },
+          {
+            "t": "Blockonomi: Nasdaq slides 3.5% as inflation, tariffs and chip losses hit",
+            "u": "https://blockonomi.com/stock-market-today-nasdaq-slides-3-5-as-inflation-tariffs-and-chip-losses-hit/"
+          },
+          {
+            "t": "24/7 Wall St.: S&P 500 opens down 2.2% as Nasdaq drops 4.5%",
+            "u": "https://247wallst.com/cards/the-nasdaq-is-down-4-5-at-the-open-double-the-s-p-500-s-dr-gspc-market-bell-01m89kpezs92pn1vsyxfj7ktsa"
+          },
+          {
+            "t": "Newsquawk: Daily US Equity Opening News (Dell, ADSK, WDAY, Deere)",
+            "u": "https://www.newsquawk.com/headlines/daily-us-equity-opening-news-trump-could-pardon-huang-if-needed-dell-lower-despite-beat--raise-adsk-wday-fall-on-earnings"
+          },
+          {
+            "t": "Al Jazeera: Asia's markets dive as return of Nvidia's Huang fails to quell AI doubts",
+            "u": "https://www.aljazeera.com/news/2026/11/25/asias-stock-markets-dive-as-doubts-to-swirl-over-ai-boom"
+          },
+          {
+            "t": "AP via KSAT: Asian stocks mostly decline as AI shares tumble",
+            "u": "https://www.ksat.com/business/2026/11/25/asian-stocks-mostly-decline-as-ai-shares-tumble-after-a-retreat-on-wall-street/"
+          },
+          {
+            "t": "Univest: KOSPI crashes 6%, Nikkei falls",
+            "u": "https://univest.in/blogs/asian-markets-today-kospi-nikkei-crash-ai-chip-selloff"
+          },
+          {
+            "t": "JournalArta: European stocks open higher as consumer shares offset tech selloff",
+            "u": "https://journalarta.com/en/2026/11/25/european-stocks-open-higher-as-consumer-shares-offset-tech-selloff-and-oil-slide/"
+          },
+          {
+            "t": "Oninvest: Stocks in Europe rose on November 25",
+            "u": "https://en.oninvest.com/article/stocks-in-europe-rose-in-contrast-to-declines-in-the-u-s-and-asia-what-makes-them-attractive"
+          },
+          {
+            "t": "finanzen.ch: Börse Frankfurt in Rot – DAX fällt nachmittags",
+            "u": "https://www.finanzen.ch/nachrichten/aktien/boerse-frankfurt-in-rot-dax-faellt-nachmittags-1036799815"
+          },
+          {
+            "t": "finanzen.net: Börse Frankfurt – DAX nachmittags in Rot",
+            "u": "https://www.finanzen.net/nachricht/aktien/boerse-frankfurt-dax-nachmittags-in-rot-16086388"
+          },
+          {
+            "t": "finanzen.at/dpa-AFX: Weiter abwärts – Tech schwach, Autowerte gesucht",
+            "u": "https://www.finanzen.at/nachrichten/aktien/aktien-frankfurt-weiter-abwarts-tech-sektor-bleibt-schwach-autowerte-gesucht-1036799537"
+          },
+          {
+            "t": "wallstreet-online: Aktien Frankfurt Schluss – DAX rutscht unter 25.000",
+            "u": "https://www.wallstreet-online.de/nachricht/21747979-aktien-frankfurt-schluss-dax-rutscht-25-000-punkte-anlegern-kaufargumente"
+          },
+          {
+            "t": "Diebewertung: Frankfurter Börse am 25.11.2026",
+            "u": "https://www.diebewertung.de/frankfurter-boerse-am-25-november-2026-dax-faellt-unter-25-000-punkte-autowerte-legen-zu/"
+          },
+          {
+            "t": "aktiencheck: Bundesanleihen – Tech-Abverkauf treibt Bund-Future auf 123,34",
+            "u": "https://aktiencheck.de/artikel/bundesanleihen-tech-abverkauf-treibt-den-bund-future-auf-12334-ist-die-rendite"
+          },
+          {
+            "t": "aktiencheck: Bundesanleihen – Zinskurve 3,08 % bis 3,65 %",
+            "u": "https://aktiencheck.de/artikel/bundesanleihen-zinskurve-von-308-prozent-bei-zweijaehrigen-bis-365-prozent-bei"
+          },
+          {
+            "t": "ARIVA/dpa-AFX: Wochenvorschau – Termine bis 30. November 2026",
+            "u": "https://www.ariva.de/news/wochenvorschau-termine-bis-30-november-2026-12209083"
+          }
+        ]
+      }
+    },
     {
       "date": "2026-11-24",
       "marketUpdate": {
