@@ -1,6 +1,384 @@
 {
-  "updated": "2026-11-25T18:05:00+01:00",
+  "updated": "2026-11-26T17:59:57+01:00",
   "editions": [
+    {
+      "date": "2026-11-26",
+      "marketUpdate": {
+        "summary": "Durchatmen nach dem Absturz: Wall Street drehte am Mittwoch spät fast ins Plus (Nasdaq nur −0,6 % nach −4,6 % im Tief), heute folgt die Erholung in Europa und Asien – DAX +2,1 % auf 25.215, MDAX +2,3 %. US-Börsen wegen Thanksgiving geschlossen, daher dünner Handel; die Grundsorgen (KI-Bewertungen, Zinserhöhungen, Zölle) bleiben.",
+        "highlights": [
+          "Spektakuläre Wende in New York am Mittwoch: Der Nasdaq 100 lag im Tief rund 20 % unter seinem Rekord vom 6. Oktober (Bärenmarkt-Grenze), schloss aber nur −0,64 % bei 26.046,90. Der Dow machte einen Verlust von 1.105 Punkten wett und schloss +0,33 %. Nvidia −3,9 % (zeitweise −9 %), Sandisk −22 %, HP +11,5 % nach Zahlen. Angstindex VIX 28,3 statt 35 im Tageshoch.",
+          "Chip-Erholung in Asien: Kioxia +12,6 % (Partnerschaft mit Nvidia zu GPU-Speicher), SoftBank +7,3 %, SK Hynix +2,2 %, Taiex +2,5 %. KOSPI nach −6,2 % am Vortag nur +0,3 %, weil Gewinne bis Handelsende abbröckelten. Die Bank of Korea hob den Leitzins laut Trading Economics um 0,25 Prozentpunkte auf 3,25 % an (dritte Erhöhung 2026).",
+          "Europa auf breiter Front im Plus: Im DAX stiegen alle Werte außer Commerzbank (UniCredit-Übernahmefantasie wieder Thema). Gesucht: Infineon (ca. +3,6 bis +4 %), Siemens Energy (ca. +4 bis +5 %, Energie-Allianz mit Venezuela), Autowerte; Soitec ca. +7 %. In London Babcock ca. +6,5 % nach einem Auftrag über rund 8 Mrd. £ für U-Boot-Anlagen."
+        ],
+        "drivers": [
+          {
+            "scope": "global",
+            "text": "KI-Ausverkauf vorerst gebremst: Am Mittwoch drehte die Stimmung nach dem Morgen-Crash. Genannt werden dünner Vorfeiertagshandel, ein Beitrag von Investor Michael Burry (habe die meisten Nasdaq-Absicherungen verkauft) und ein WSJ-Bericht, wonach US-Behörden keine Hinweise fanden, dass ein Huang-naher Manager von China gesteuert wurde. Gleichzeitig warnt S&P Global Ratings vor einer möglichen Herabstufung von Nvidias Kreditnote. Die Kongress-Anhörung von Jensen Huang folgt nächste Woche.",
+            "markets": "Halbleiter weltweit, Nasdaq, Korea/Japan/Taiwan, Europa-Tech"
+          },
+          {
+            "scope": "global",
+            "text": "Zölle weniger schlimm als befürchtet: Nach genauerer Lektüre kommen die geplanten US-Zölle auf 14 Handelspartner (China, Japan, EU u. a.) laut Investing.com nicht zusätzlich auf die Zölle vom Juli obendrauf und dürften erst im Februar/März greifen. Stellungnahmen bis 5. Januar, Anhörungen ab 25. Januar; der Zollfrieden mit China endet am 10. Januar.",
+            "markets": "Europäische Exporteure, Autos, Asien"
+          },
+          {
+            "scope": "global",
+            "text": "Notenbanken bleiben auf Erhöhungskurs: Eine Fed-Erhöhung am 9. Dezember gilt mit ca. 98 % als sicher. Das heute veröffentlichte EZB-Protokoll der Oktobersitzung zeigt, dass viele Ratsmitglieder schon damals eine Erhöhung hätten mittragen können; für Dezember sind ca. 90 % eingepreist. Laut Diplomaten soll Pablo Hernández de Cos neuer EZB-Präsident werden (dpa-AFX).",
+            "markets": "Anleihen, Euro, Banken, Wachstumsaktien"
+          },
+          {
+            "scope": "punktuell",
+            "text": "Öl bleibt fest: Spannungen im Nahen Osten und Berichte über angegriffene Schiffe in der Straße von Hormus treiben Brent über 90 $. Teureres Öl dämpft die Erholung bei Anleihen (Inflationssorge). Am Sonntag trifft sich die OPEC+.",
+            "markets": "Öl, Energiewerte, Airlines, Inflationserwartungen"
+          },
+          {
+            "scope": "punktuell",
+            "text": "Rohstoffwerte erholt: Kupfer stieg zeitweise über 12.000 $ je Tonne; Glencore, Anglo American, Antofagasta in London je über +3 %. Gold erholt sich nach drei Verlusttagen leicht.",
+            "markets": "Minenwerte, FTSE 100, Gold"
+          }
+        ],
+        "regions": [
+          {
+            "name": "Europa",
+            "note": "DAX und MDAX: Xetra-Schluss laut dpa-AFX (finanzen.at, 17:43). EuroStoxx 50: Kursleiste finanzen.at (Uhrzeit offen), dpa: „gut 2 %“. CAC 40, FTSE MIB: nur Nachmittags-Prozentwerte (Investing.com), kein Stand. FTSE 100: 12:31 Uhr. SMI, IBEX 35: kein verlässlicher Tageswert gefunden.",
+            "indices": [
+              {
+                "n": "DAX",
+                "v": "25.215,52",
+                "c": "+2,08 %"
+              },
+              {
+                "n": "MDAX",
+                "v": "29.263,97",
+                "c": "+2,34 %"
+              },
+              {
+                "n": "EuroStoxx 50 (spät)",
+                "v": "ca. 6.019",
+                "c": "+2,1 %"
+              },
+              {
+                "n": "CAC 40 (Nachmittag)",
+                "v": "n. v.",
+                "c": "+1,63 %"
+              },
+              {
+                "n": "FTSE 100 (12:31)",
+                "v": "10.597,23",
+                "c": "+1,63 %"
+              },
+              {
+                "n": "SMI",
+                "v": "n. v.",
+                "c": "n. v."
+              },
+              {
+                "n": "FTSE MIB (Nachmittag)",
+                "v": "n. v.",
+                "c": "+2,2 %"
+              },
+              {
+                "n": "IBEX 35",
+                "v": "n. v.",
+                "c": "n. v."
+              },
+              {
+                "n": "Stoxx 600 (Mittag)",
+                "v": "634,98",
+                "c": "+1,43 %"
+              }
+            ],
+            "news": [
+              "Der DAX hatte am Mittwoch den tiefsten Stand seit Juli erreicht und holt heute die 25.000er-Marke (auch die 200-Tage-Linie, ein viel beachteter Durchschnitt der letzten 200 Handelstage) zurück. Laut dpa fehlt aber noch der entscheidende Impuls für eine Jahresendrally.",
+              "Technologie, Rohstoff- und Autowerte erholen sich am stärksten; Mailand führt (FTSE MIB ca. +2,2 %). Defensive Werte wie Unilever bleiben zurück.",
+              "Deutsche Bank sieht 2027 einen DAX-Rekord als möglich an; laut Reuters-Umfrage erwarten Analysten Rekordhochs für Europas Aktien im Jahr 2027."
+            ]
+          },
+          {
+            "name": "Asien",
+            "note": "Schlussstände laut AP (BNN Bloomberg) und TradingKey. Hang Seng, Shanghai, ASX: AP-Stand, nicht ausdrücklich als Schluss bezeichnet. CSI 300: nicht gefunden.",
+            "indices": [
+              {
+                "n": "Nikkei 225",
+                "v": "57.499,16",
+                "c": "+0,86 %"
+              },
+              {
+                "n": "Shanghai Composite",
+                "v": "3.476,88",
+                "c": "+0,1 %"
+              },
+              {
+                "n": "CSI 300",
+                "v": "n. v.",
+                "c": "n. v."
+              },
+              {
+                "n": "Hang Seng",
+                "v": "22.226,88",
+                "c": "+1,2 %"
+              },
+              {
+                "n": "KOSPI",
+                "v": "4.711,18",
+                "c": "+0,29 %"
+              },
+              {
+                "n": "Taiex",
+                "v": "n. v.",
+                "c": "+2,5 %"
+              },
+              {
+                "n": "ASX 200",
+                "v": "8.763,80",
+                "c": "+0,8 %"
+              },
+              {
+                "n": "Sensex",
+                "v": "n. v.",
+                "c": "+0,5 %"
+              }
+            ],
+            "news": [
+              "KI-Werte führen die Erholung an, doch Gewinnmitnahmen am Nachmittag halbierten die Zuwächse: Nikkei und KOSPI lagen zeitweise rund 2 % im Plus. TSMC −0,2 %.",
+              "Südkorea: Bank of Korea erhöht den Leitzins auf 3,25 % und hebt die Wachstumsprognose kräftig an; die Regierung beruft den Ausschuss des Börsen-Stabilisierungsfonds ein."
+            ]
+          },
+          {
+            "name": "USA",
+            "note": "Heute (Do., 26.11.) keine Zwischenstände: US-Börsen wegen Thanksgiving geschlossen. Angezeigt sind die Schlussstände vom Mittwoch, 25.11. (The Company Chronicle, Swingfolio, dpa-AFX). Freitag verkürzter Handel bis 19:00 MEZ. S&P-500-Future am Morgen laut AP +0,5 %.",
+            "indices": [
+              {
+                "n": "S&P 500 (Schluss Mi.)",
+                "v": "7.182,78",
+                "c": "−0,25 %"
+              },
+              {
+                "n": "Nasdaq 100 (Schluss Mi.)",
+                "v": "26.046,90",
+                "c": "−0,64 %"
+              },
+              {
+                "n": "Nasdaq Composite (Schluss Mi.)",
+                "v": "23.585,80",
+                "c": "−0,62 %"
+              },
+              {
+                "n": "Dow Jones (Schluss Mi.)",
+                "v": "50.182,95",
+                "c": "+0,33 %"
+              },
+              {
+                "n": "Russell 2000 (Schluss Mi.)",
+                "v": "2.704,06",
+                "c": "+0,71 %"
+              },
+              {
+                "n": "VIX (Schluss Mi.)",
+                "v": "28,29",
+                "c": "+7,3 %"
+              }
+            ],
+            "news": [
+              "Tagestiefs am Mittwoch: S&P 500 ca. 6.970 (−3,2 %), Nasdaq Composite −4,6 %. Am Ende stiegen 8 von 11 S&P-Sektoren; nur Technik verlor (−0,8 %).",
+              "Einzelwerte: Meta +3,4 %, Deere +4,4 % trotz schwachem Ausblick, Amazon −3,1 %, Micron −4,5 % (im Tief −13 %), Nutanix −15 % nach CEO-Abgang. Anthropic +1,1 % auf 82,79 $, weiter knapp unter dem Ausgabepreis von 83 $.",
+              "Der S&P 500 liegt im November rund 5 % im Minus (Reuters via Swingfolio); Montag ist der letzte Handelstag des Monats."
+            ]
+          }
+        ],
+        "bonds": {
+          "rows": [
+            {
+              "n": "Bund 2J",
+              "v": "n. v.",
+              "c": "n. v."
+            },
+            {
+              "n": "Bund 10J",
+              "v": "3,26 %",
+              "c": "+5 bp",
+              "note": "dpa-AFX 17:03; Mittwoch 3,21 % (tiefster Stand seit August). Bund-Future −0,11 % auf 123,01"
+            },
+            {
+              "n": "US 2J",
+              "v": "n. v.",
+              "c": "n. v.",
+              "note": "US-Anleihemarkt heute geschlossen"
+            },
+            {
+              "n": "US 10J",
+              "v": "4,85 %",
+              "c": "ca. −5 bp",
+              "note": "Schluss Mittwoch (gegen 4,90 % am Dienstag); heute kein Handel"
+            },
+            {
+              "n": "US 30J",
+              "v": "5,25 %",
+              "c": "n. v.",
+              "note": "Investing.com, Stand Mittwoch"
+            },
+            {
+              "n": "Italien-Spread (BTP–Bund)",
+              "v": "n. v.",
+              "c": "n. v."
+            },
+            {
+              "n": "JGB 10J",
+              "v": "n. v.",
+              "c": "n. v."
+            },
+            {
+              "n": "UK Gilt 10J",
+              "v": "n. v.",
+              "c": "n. v."
+            }
+          ],
+          "comment": [
+            "Gegenbewegung bei Bundesanleihen: Mit der Aktienerholung und teurerem Öl steigt die 10-jährige Rendite von 3,21 % auf 3,26 % (1 bp = 0,01 Prozentpunkte). Die Flucht in sichere Anleihen vom Mittwoch wird teilweise rückgängig gemacht.",
+            "EZB: Das Oktober-Protokoll klingt nach Zinserhöhung; Markt preist ca. 90 % für +0,25 Prozentpunkte am 17.12. ein, Dekabank erwartet zwei weitere Schritte.",
+            "USA: Kein Handel heute; die 10-jährige Rendite schloss am Mittwoch bei ca. 4,85 % nach einem 11-Wochen-Tief über Nacht. Fed-Erhöhung am 9.12. gilt zu ca. 98 % als sicher; Freitag Anleihehandel nur bis 20:00 MEZ.",
+            "Für Bund 2J, BTP-Spread, JGB und Gilt lagen heute keine verlässlichen Tageswerte vor."
+          ]
+        },
+        "commodities": [
+          {
+            "n": "Brent",
+            "v": "ca. 91 $",
+            "c": "+0,5 bis +0,7 %",
+            "note": "AP Morgen 91,09 $; Investing.com 91,23 $. Abweichende Kursleisten (95 $ bei ariva, 96 $ bei finanzen.at) beziehen sich vermutlich auf einen anderen Kontrakt"
+          },
+          {
+            "n": "WTI",
+            "v": "84,51–84,63 $",
+            "c": "+1,0 bis +1,1 %",
+            "note": "AP / Investing.com"
+          },
+          {
+            "n": "Gold (Future)",
+            "v": "3.570,90 $",
+            "c": "+0,99 %",
+            "note": "Investing.com, Uhrzeit offen; Yahoo 3.591,60 $ (+0,76 %) am Mittag. Erste Erholung nach drei Verlusttagen"
+          },
+          {
+            "n": "Silber",
+            "v": "41,36 $",
+            "c": "+3,25 %",
+            "note": "Investing.com"
+          },
+          {
+            "n": "Kupfer",
+            "v": "über 12.000 $/t",
+            "c": "n. v.",
+            "note": "zeitweise, laut Reuters via ad-hoc-news"
+          },
+          {
+            "n": "Erdgas (US)",
+            "v": "n. v.",
+            "c": "n. v."
+          }
+        ],
+        "fx": [
+          {
+            "n": "EUR/USD",
+            "v": "1,0965–1,0970",
+            "c": "−0,1 %",
+            "note": "dpa-AFX / finanzen.at"
+          },
+          {
+            "n": "USD/JPY",
+            "v": "159,12–159,30",
+            "c": "ca. ±0 %",
+            "note": "ariva bzw. AP"
+          },
+          {
+            "n": "EUR/CHF",
+            "v": "0,9152",
+            "c": "n. v.",
+            "note": "finanzen.at-Kursleiste"
+          },
+          {
+            "n": "Dollar-Index",
+            "v": "103,74",
+            "c": "+0,13 %",
+            "note": "Investing.com"
+          },
+          {
+            "n": "Bitcoin",
+            "v": "ca. 60.300 $",
+            "c": "ca. ±0 %",
+            "note": "Bitstamp via ariva, Morgen"
+          }
+        ],
+        "cfNews": [
+          "Öl bleibt wegen der Lage um die Straße von Hormus über 90 $ (Brent) – vor Kriegsbeginn Ende Februar waren es ca. 72 $. Kupfer zeitweise über 12.000 $.",
+          "Gold und vor allem Silber (+3 %) erholen sich, der Euro bleibt knapp unter 1,10 $; Bitcoin stabilisiert sich um 60.000 $."
+        ],
+        "tomorrow": [
+          "Freitag: US-Börsen nur bis 19:00 MEZ geöffnet (Anleihen bis 20:00), Black Friday – Adobe erwartet 12,9 Mrd. $ US-Online-Umsatz (+9,2 %). Dünner Handel kann Bewegungen verstärken.",
+          "00:30 Uhr: Inflation Tokio; 08:45 Uhr: Frankreich Inflation und BIP; 09:00 Uhr: Spanien Inflation; 09:55 Uhr: deutsche Arbeitsmarktdaten; 11:00 Uhr: EU-Wirtschaftsvertrauen (Termine laut Vorwochen-Kalender, heute nicht erneut bestätigt).",
+          "Rheinmetall: Kapitalmarkttag, Aktie im Fokus, weil gekappte Mittelfristziele erwartet werden (laut dpa-AFX-Schlagzeile; genauer Termin nicht bestätigt). EU-Gipfel in Brüssel endet.",
+          "Wochenende/Ausblick: Sonntag 29.11. OPEC+-Treffen; Montag 30.11. Monatsultimo; Dienstag 1.12. Anhörung von Jensen Huang im US-Kongress; 4.12. US-Arbeitsmarktbericht; 9.12. Fed-Zinsentscheid; 17.12. EZB."
+        ],
+        "sources": [
+          {
+            "t": "finanzen.at (dpa-AFX): Aktien Frankfurt Schluss – Dax erholt",
+            "u": "https://www.finanzen.at/nachrichten/aktien/aktien-frankfurt-schluss-dax-erholt-zeit-zum-durchatmen-dank-thanksgiving-1036803585"
+          },
+          {
+            "t": "ARIVA (dpa-AFX): Börsentag auf einen Blick 26.11.",
+            "u": "https://www.ariva.de/news/dpa-afx-boersentag-auf-einen-blick-dax-erholt-sich-12220891"
+          },
+          {
+            "t": "ARIVA (dpa-AFX): Deutsche Anleihen – Leichte Kursverluste",
+            "u": "https://www.ariva.de/news/deutsche-anleihen-leichte-kursverluste-12221840"
+          },
+          {
+            "t": "wallstreet-online: DAX behauptet Kursgewinne",
+            "u": "https://www.wallstreet-online.de/nachricht/21753505-aktien-frankfurt-schluss-dax-behauptet-kursgewinne-anleger-weihnachtsrally"
+          },
+          {
+            "t": "Investing.com: European shares rise as benign U.S. tariffs and Thanksgiving lull offer relief",
+            "u": "https://www.investing.com/news/stock-market-news/european-shares-as-benign-us-tariffs-and-thanksgiving-lull-offer-relief-5052089"
+          },
+          {
+            "t": "Yahoo/ADVFN: European Stocks Rally as US Tariff Concerns Ease",
+            "u": "https://uk.finance.yahoo.com/news/european-stocks-rally-us-tariff-094415881.html"
+          },
+          {
+            "t": "COINOTAG: STOXX 600 Rallies 1.43%",
+            "u": "https://en.coinotag.com/stoxx-600-tariff-relief-rally-dax"
+          },
+          {
+            "t": "ad-hoc-news: FTSE 100 Gains 1.63%",
+            "u": "https://www.ad-hoc-news.de/boerse/news/marktberichte/ftse-100-gains-1-63-prozent-as-banks-and-babcock-lead-rally/70557989"
+          },
+          {
+            "t": "BNN Bloomberg (AP): Global stocks rise and tech shares rebound",
+            "u": "https://www.bnnbloomberg.ca/markets/2026/11/26/global-stocks-rise-and-tech-shares-rebound-as-us-closes-for-thanksgiving/"
+          },
+          {
+            "t": "TradingKey: Japan, South Korea stocks pare gains",
+            "u": "https://www.tradingkey.com/analysis/stocks/more/262323392-japan-south-korea-stocks-kospi-nikkei-softbank-sk-hynix-samsung-kioxia-tradingkey"
+          },
+          {
+            "t": "Trading Economics: South Korea interest rate (News-Stream)",
+            "u": "https://tradingeconomics.com/south-korea/interest-rate/news/505302"
+          },
+          {
+            "t": "The Company Chronicle: Stocks close Nov 25, 2026",
+            "u": "https://thecompanychronicle.com/story/stocks-close-dow-erases-1100-point-loss-nasdaq-sp500-slip-november-25-2026"
+          },
+          {
+            "t": "TMoney Daily: The Nasdaq 100 Hit Bear-Market Territory",
+            "u": "https://tmoneydaily.substack.com/p/the-nasdaq-100-hit-bear-market-territory"
+          },
+          {
+            "t": "Swingfolio: US Close Nov 25, 2026",
+            "u": "https://swingfolio.com/daily/us/2026-11-25/afternoon"
+          }
+        ]
+      }
+    },
     {
       "date": "2026-11-25",
       "marketUpdate": {
