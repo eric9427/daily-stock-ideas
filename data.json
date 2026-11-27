@@ -1,6 +1,434 @@
 {
-  "updated": "2026-11-26T17:59:57+01:00",
+  "updated": "2026-11-27T17:56:24+01:00",
   "editions": [
+    {
+      "date": "2026-11-27",
+      "marketUpdate": {
+        "summary": "Versöhnlicher Wochenschluss: Die Erholung nach dem KI-Absturz vom Mittwoch geht weiter – DAX ca. +0,9 % auf rund 25.450, Asien kräftig im Plus (KOSPI +4,3 %, Shanghai +3,7 %) dank Pekings Börsen-Stützungsversprechen. Wall Street im verkürzten Black-Friday-Handel fester, aber Öl nahe 97 $ und Zinssorgen bleiben.",
+        "highlights": [
+          "China-Rally: Der Staatsrat in Peking nennt den Aktienmarkt „vital“ für die Wirtschaft und will mit staatlichen Fonds („national team“) Mechanismen zur Marktstabilisierung aufbauen. Shanghai Composite +3,7 % auf 3.606,49, ein chinesischer Halbleiter-Index laut TokenPost +17,6 %. KOSPI +4,3 % auf 4.915,68, Hang Seng ca. +2,1 %.",
+          "Chipwerte weltweit gesucht: Tokio mit Socionext +12,6 %, Lasertec +10 %, Kioxia +8,9 %, Advantest +7,1 % (Nikkei +2,1 % auf 58.711). In Europa ASML ca. +5 %, STMicro ca. +4 %, Infineon +2 bis +4 %. In den USA Micron und Sandisk vorbörslich bzw. im Handel deutlich fester.",
+          "Rheinmetall-Kapitalmarkttag: Der Konzern senkte seine Ziele für 2030 – laut Händlern aber wie erwartet – und meldete einen Lynx-Auftrag aus Rumänien über 738 Mio. €. Aktie ca. +3 % auf rund 790 €. Commerzbank dagegen −2 bis −2,7 %, weil die Übernahmefantasie durch UniCredit schwindet; UniCredit selbst ca. +4 %."
+        ],
+        "drivers": [
+          {
+            "scope": "global",
+            "text": "Erholung nach dem KI-Schock: Nach dem Einbruch vom Mittwoch (Nasdaq 100 im Tief fast −20 % unter Rekord) kaufen Anleger Chip- und KI-Werte zurück. Die US-Indizes steuern laut CNBC auf die beste Woche seit über einem Jahr zu. Die Sorgen um KI-Ausgaben und Schulden der großen Cloud-Konzerne sind aber nicht verschwunden; Jensen Huang wird ab Dienstag im Kongress befragt.",
+            "markets": "Halbleiter weltweit, Nasdaq, Korea/Japan/Taiwan, Europa-Tech"
+          },
+          {
+            "scope": "punktuell",
+            "text": "Peking stützt die Börse: Das Versprechen des Staatsrats, den Kapitalmarkt aktiv zu stabilisieren, löst die stärkste China-Rally seit Langem aus. Dazu kamen kräftig gestiegene Industriegewinne im Oktober.",
+            "markets": "China, Hongkong, Rohstoffe, Luxus- und Minenwerte in Europa"
+          },
+          {
+            "scope": "global",
+            "text": "Öl wieder teurer: Angriffe auf saudische Energieanlagen (Huthi) und die anhaltende Lage um die Straße von Hormus treiben Brent zeitweise auf fast 98 $. Brent steuert auf das erste Wochenplus seit einem Monat zu. Am Sonntag tagt die OPEC+; erwartet wird, dass die Förderziele für das 1. Quartal 2027 unverändert bleiben.",
+            "markets": "Öl, Energiewerte, Airlines, Inflationserwartungen"
+          },
+          {
+            "scope": "punktuell",
+            "text": "Inflation in Europa fällt stärker als erwartet: Frankreich 3,2 % (Vormonat 3,7 %), Spanien 4,1 % (4,7 %). Das dämpft etwas die Erwartung weiterer EZB-Erhöhungen nach Dezember. Gleichzeitig sank die Wirtschaftsstimmung in der Eurozone unerwartet auf den tiefsten Stand seit Juni.",
+            "markets": "Euro-Anleihen, Euro, Banken, Konsumwerte"
+          },
+          {
+            "scope": "global",
+            "text": "Zinsen bleiben das Grundrisiko: Die Fed dürfte am 9. Dezember erhöhen, manche Händler spekulieren sogar über 0,5 Prozentpunkte. Analysten ziehen Vergleiche mit 2018, als Zinserhöhungen die Börsen zum Jahresende belasteten. In Japan sank nach der etwas schwächeren Tokio-Inflation (Kern 2,9 % statt erwartet 3,0 %) die Wahrscheinlichkeit einer BoJ-Erhöhung im Dezember auf ca. 74 %.",
+            "markets": "Anleihen, Dollar, Yen, Wachstumsaktien"
+          },
+          {
+            "scope": "punktuell",
+            "text": "Gold und Silber springen: Gold steigt um knapp 3 % auf ca. 3.650–3.670 $ nach einem Einjahrestief, Silber um rund 6 %. Minenwerte wie Fresnillo legen über 5 % zu.",
+            "markets": "Edelmetalle, Minenwerte, FTSE 100"
+          }
+        ],
+        "regions": [
+          {
+            "name": "Europa",
+            "note": "DAX: späte Kursleiste wallstreet-online (17:38 Uhr, Schluss nicht ausdrücklich bestätigt). MDAX, CAC 40, FTSE 100, SMI: Stand 13:36 Uhr (Dow Jones via finanzen.at). EuroStoxx 50: 15:42 Uhr (finanzen.at). Stoxx 600: früher Handel (Reuters). FTSE MIB und IBEX 35: kein verlässlicher Wert gefunden.",
+            "indices": [
+              {
+                "n": "DAX (17:38)",
+                "v": "25.452,65",
+                "c": "+0,94 %"
+              },
+              {
+                "n": "MDAX (13:36)",
+                "v": "29.596,56",
+                "c": "+1,1 %"
+              },
+              {
+                "n": "EuroStoxx 50 (15:42)",
+                "v": "6.059,41",
+                "c": "+0,74 %"
+              },
+              {
+                "n": "CAC 40 (13:36)",
+                "v": "8.125,51",
+                "c": "+0,2 %"
+              },
+              {
+                "n": "FTSE 100 (13:36)",
+                "v": "10.674,96",
+                "c": "+0,6 %"
+              },
+              {
+                "n": "SMI (13:36)",
+                "v": "14.832,65",
+                "c": "+0,1 %"
+              },
+              {
+                "n": "FTSE MIB",
+                "v": "n. v.",
+                "c": "n. v."
+              },
+              {
+                "n": "IBEX 35",
+                "v": "n. v.",
+                "c": "n. v."
+              },
+              {
+                "n": "Stoxx 600 (früh)",
+                "v": "642,65",
+                "c": "+0,9 %"
+              }
+            ],
+            "news": [
+              "Der DAX baut die Erholung aus und schafft laut dpa-AFX einen „versöhnlichen Wochenschluss“; Wochenplus rund 2,5 % (Frühhandel-Angabe +2,6 %). Seit Jahresbeginn liegt er ca. +3,7 % im Plus, das Rekordhoch von 27.001 Punkten ist noch weit weg. EuroStoxx 50 seit Wochenbeginn ca. +1,6 %.",
+              "Gefragt: Technologie (Branchenindex ca. +2,2 bis +2,7 %), Rohstoffe (ca. +3,5 %) und Rüstung (Rheinmetall, Thales ca. +2 %). Schwach: defensive Werte wie Pharma (Sanofi über −2 % nach Abstufung durch Santander) und Nahrungsmittel; adidas ca. −1 % nach Abstufung.",
+              "SAP ca. −0,4 %: Medien berichten über den Abbau von mindestens 10.000 Stellen und einen IT-Sicherheitsvorfall; SAP sieht laut Dow Jones bisher keine Hinweise auf Zugriff auf Kundendaten."
+            ]
+          },
+          {
+            "name": "Asien",
+            "note": "Schlussstände laut AP (ksat.com) und NERO/Reuters. Hang Seng: AP 22.694,77 bzw. Yahoo 22.708,97. CSI 300 und Shenzhen-Schluss nicht gefunden; Shenzhen Component lag früh bei +1,5 %, später laut Edge deutlich höher (Schlusswert nicht bestätigt). Indien: kein Freitagsschluss gefunden.",
+            "indices": [
+              {
+                "n": "Nikkei 225",
+                "v": "58.711,11",
+                "c": "+2,11 %"
+              },
+              {
+                "n": "Topix",
+                "v": "3.815,20",
+                "c": "+1,73 %"
+              },
+              {
+                "n": "Shanghai Composite",
+                "v": "3.606,49",
+                "c": "+3,73 %"
+              },
+              {
+                "n": "CSI 300",
+                "v": "n. v.",
+                "c": "n. v."
+              },
+              {
+                "n": "Hang Seng",
+                "v": "22.694,77",
+                "c": "+2,1 %"
+              },
+              {
+                "n": "KOSPI",
+                "v": "4.915,68",
+                "c": "+4,34 %"
+              },
+              {
+                "n": "Taiex",
+                "v": "39.308,08",
+                "c": "+0,40 %"
+              },
+              {
+                "n": "ASX 200",
+                "v": "8.833,60",
+                "c": "+0,8 %"
+              }
+            ],
+            "news": [
+              "Peking-Versprechen zur Marktstützung und gute Industriegewinne lösen eine breite China-Rally aus; Hongkong folgt mit gut 2 %.",
+              "Japan: Chipausrüster führen den Nikkei an, die Tokio-Kerninflation von 2,9 % (erwartet 3,0 %) wird ignoriert. Japan Tobacco zeitweise über +4 % nach Berichten über ein mögliches gemeinsames Gebot mit Altria für Imperial Brands.",
+              "Korea: KOSPI holt nach −6 % am Mittwoch einen großen Teil wieder auf. Neuseeland schwächer, weil die Regierungskoalition ihre Mehrheit verloren hat."
+            ]
+          },
+          {
+            "name": "USA",
+            "note": "Verkürzter Handel bis 19:00 MEZ (13:00 Uhr ET), Anleihen bis 20:00 MEZ. Ein Zwischenstand gegen 18 Uhr MEZ lag nicht vor; aktuellste Werte gegen 15:50–16:00 MEZ (ca. 09:50–10:00 ET, CNBC via Blockonomi; finanzen.at-Kursleiste). Darunter die Schlussstände vom Mittwoch, 25.11. (Donnerstag Thanksgiving, kein Handel).",
+            "indices": [
+              {
+                "n": "S&P 500 (ca. 15:50 MEZ)",
+                "v": "n. v.",
+                "c": "+0,6 %"
+              },
+              {
+                "n": "Nasdaq 100 (ca. 16:00 MEZ)",
+                "v": "26.254",
+                "c": "+0,8 %"
+              },
+              {
+                "n": "Nasdaq Composite (ca. 15:50 MEZ)",
+                "v": "n. v.",
+                "c": "+0,7 %"
+              },
+              {
+                "n": "Dow Jones (ca. 16:00 MEZ)",
+                "v": "50.494",
+                "c": "+0,6 %"
+              },
+              {
+                "n": "S&P 500 (Schluss Mi.)",
+                "v": "7.182,78",
+                "c": "−0,25 %"
+              },
+              {
+                "n": "Nasdaq 100 (Schluss Mi.)",
+                "v": "26.046,90",
+                "c": "−0,64 %"
+              },
+              {
+                "n": "Dow Jones (Schluss Mi.)",
+                "v": "50.182,95",
+                "c": "+0,33 %"
+              },
+              {
+                "n": "VIX (früh)",
+                "v": "25,57",
+                "c": "−4,6 %",
+                "note": "Yahoo, ohne genaue Uhrzeit"
+              }
+            ],
+            "news": [
+              "Wochenbilanz vor Handelsbeginn laut CNBC: Dow ca. +5 %, S&P 500 ca. +4,6 %, Nasdaq ca. +5 % – der Dow steuert auf die beste Woche seit April 2025 zu. Im November liegen die Indizes trotzdem klar im Minus (QQQ ca. −9 %, SPY ca. −5 % über einen Monat).",
+              "Einzelwerte: Meta, Amazon je über +2 %, Broadcom knapp +2 %, Anthropic über +4 % (noch unter dem Ausgabepreis von 83 $), Micron ca. +5 bis +7 %, Sandisk ca. +8,5 %. Verlierer: Vertex ca. −6 bis −9 %, Palo Alto knapp −3 % (Klage eines Ex-Managers wegen angeblicher Bilanzfälschung).",
+              "Black Friday: NRF erwartet Feiertagsumsätze über 1 Billion $ (+4,2 %), Mastercard +5,5 % für 1.11.–24.12. Dünner Feiertagshandel kann Bewegungen verstärken."
+            ]
+          }
+        ],
+        "bonds": {
+          "rows": [
+            {
+              "n": "Bund 2J",
+              "v": "3,09 %",
+              "c": "+1 bp",
+              "note": "Trading Economics via aktiencheck, Vormittag"
+            },
+            {
+              "n": "Bund 10J",
+              "v": "3,26 %",
+              "c": "n. v.",
+              "note": "dpa-AFX 17:24 Uhr („stieg auf 3,26 %“); vormittags 3,28 % (+3 bp). Bund-Future −0,11 % auf 123,06"
+            },
+            {
+              "n": "Bund 30J",
+              "v": "3,68 %",
+              "c": "+4 bp",
+              "note": "aktiencheck, Vormittag"
+            },
+            {
+              "n": "US 2J",
+              "v": "4,66 %",
+              "c": "+2 bp",
+              "note": "Eurasia Business News, Vormittag ET"
+            },
+            {
+              "n": "US 10J",
+              "v": "4,85–4,89 %",
+              "c": "ca. 0 bis +3 bp",
+              "note": "Quellen uneinheitlich (Yahoo/JournalArta 4,84–4,85 %, Eurasia 4,89 %); Mittwochsschluss ca. 4,85 %"
+            },
+            {
+              "n": "US 30J",
+              "v": "5,24–5,29 %",
+              "c": "ca. 0 bis +4 bp",
+              "note": "JournalArta 5,235 %, Eurasia 5,29 %"
+            },
+            {
+              "n": "Italien-Spread (BTP–Bund)",
+              "v": "n. v.",
+              "c": "n. v."
+            },
+            {
+              "n": "JGB 10J",
+              "v": "2,70 %",
+              "c": "−1 bp",
+              "note": "Stand 26.11. (Finanzministerium Japan via NERO), Vortag 2,71 %"
+            },
+            {
+              "n": "UK Gilt 10J",
+              "v": "n. v.",
+              "c": "n. v."
+            }
+          ],
+          "comment": [
+            "Leicht steigende Renditen in Europa (1 bp = 0,01 Prozentpunkte): Anleger schichten aus sicheren Anleihen zurück in Aktien, teureres Öl schürt Inflationssorgen. Die überraschend niedrige Inflation in Frankreich und Spanien bremst den Anstieg.",
+            "Kurve: Zwischen 2- und 10-jährigen Bunds liegen nur rund 0,2 Prozentpunkte – der Markt erwartet weitere EZB-Erhöhungen auf kurze Sicht. Für den 17.12. gilt eine Erhöhung um 0,25 Prozentpunkte als sehr wahrscheinlich; wichtig wird die Eurozone-Inflation am Dienstag.",
+            "USA: Renditen etwas höher; die Fed-Erhöhung am 9.12. ist weitgehend eingepreist, Spekulation auf 0,5 Prozentpunkte. Anleihehandel heute nur bis 20:00 MEZ.",
+            "Japan: Nach der etwas schwächeren Tokio-Inflation sinkt die Wahrscheinlichkeit einer BoJ-Erhöhung im Dezember auf ca. 74 %. Für BTP-Spread und Gilt lagen keine verlässlichen Tageswerte vor."
+          ]
+        },
+        "commodities": [
+          {
+            "n": "Brent",
+            "v": "ca. 96,5–97,6 $",
+            "c": "−0,1 bis +1,1 %",
+            "note": "Dow Jones 96,51 $ (−0,1 %), AP 97,62 $ (+1,1 %), Trading Economics 96,94 $ (+0,6 %); zeitweise fast 98 $"
+          },
+          {
+            "n": "WTI",
+            "v": "ca. 85,2–86,1 $",
+            "c": "+1,8 bis +2,8 %",
+            "note": "Dow Jones 85,22 $, AP 86,05 $"
+          },
+          {
+            "n": "Gold",
+            "v": "ca. 3.650–3.670 $",
+            "c": "+2,4 bis +2,9 %",
+            "note": "Kitco/JournalArta/Dow Jones, Vormittag"
+          },
+          {
+            "n": "Silber",
+            "v": "ca. 43,7–44,2 $",
+            "c": "+5,4 bis +6,5 %",
+            "note": "Reuters/Dow Jones"
+          },
+          {
+            "n": "Platin",
+            "v": "1.358,83 $",
+            "c": "+5,3 %",
+            "note": "Dow Jones via marketscreener"
+          },
+          {
+            "n": "Kupfer",
+            "v": "n. v.",
+            "c": "n. v.",
+            "note": "Rohstoffwerte laut Reuters wegen höherer Kupferpreise gesucht"
+          },
+          {
+            "n": "Erdgas (US)",
+            "v": "n. v.",
+            "c": "n. v."
+          }
+        ],
+        "fx": [
+          {
+            "n": "EUR/USD",
+            "v": "ca. 1,094–1,097",
+            "c": "−0,1 bis −0,3 %",
+            "note": "AP 1,0967; wallstreet-online-Kursleiste 1,0939 (spät)"
+          },
+          {
+            "n": "USD/JPY",
+            "v": "159,36–159,43",
+            "c": "+0,1 %",
+            "note": "AP / NERO"
+          },
+          {
+            "n": "Dollar-Index",
+            "v": "103,92",
+            "c": "+0,25 %",
+            "note": "JournalArta, 15:41 MEZ"
+          },
+          {
+            "n": "EUR/CHF",
+            "v": "n. v.",
+            "c": "n. v."
+          },
+          {
+            "n": "Bitcoin",
+            "v": "ca. 60.200–62.000 $",
+            "c": "ca. −0,5 bis +2 %",
+            "note": "Quellen uneinheitlich (JournalArta, Yahoo, Eurasia)"
+          }
+        ],
+        "cfNews": [
+          "Öl steuert auf das erste Wochenplus seit einem Monat zu: Angriffe auf saudische Anlagen und die Hormus-Lage treiben Brent bis knapp 98 $, obwohl die US-Lagerbestände drei Wochen in Folge stiegen. Sonntag entscheidet die OPEC+.",
+          "Edelmetalle mit kräftigem Sprung (Gold knapp +3 %, Silber ca. +6 %) nach dem Einjahrestief; der Dollar leicht fester, der Euro knapp unter 1,10 $, der Yen bleibt schwach bei über 159 je Dollar."
+        ],
+        "tomorrow": [
+          "Wochenende: Sonntag 29.11. OPEC+-Treffen (erwartet: unveränderte Förderziele für Q1 2027) – wichtig für den Ölpreis zum Wochenstart.",
+          "Montag 30.11. (Monatsultimo): 00:50 Japan Einzelhandel und Industrieproduktion; 02:30 China Einkaufsmanagerindizes (PMI) November; 08:00 Deutschland Einzelhandelsumsatz Oktober; 09:00 Schweiz BIP Q3 und KOF-Index; 10:00 Inflation deutscher Bundesländer; 11:00 Italien Inflation; 14:00 Deutschland Inflation November (vorläufig); 15:45 USA Chicago-Einkaufsmanagerindex; 16:30 Dallas-Fed-Index.",
+          "Unternehmen Montag: MTU Aero Engines Kapitalmarkttag (10:30); Standard Life Kapitalmarkttag. Monatsende-Umschichtungen großer Fonds können für Bewegung sorgen.",
+          "Weitere Woche: Di 1.12. 11:00 Eurozone-Inflation, 16:00 ISM Industrie USA, Huang-Anhörung im Kongress (auch 3.12.), abends CrowdStrike, Marvell, MongoDB; Mi 2.12. 14:15 ADP, 22:00 Salesforce; Do 3.12. 16:00 ISM Dienste, 22:05 DAX-Index-Überprüfung; Fr 4.12. 14:30 US-Arbeitsmarktbericht. Danach 9.12. Fed (20:00), 10.12. SNB und US-Inflation, 17.12. EZB (14:15)."
+        ],
+        "sources": [
+          {
+            "t": "wallstreet-online/dpa-AFX: Aktien Frankfurt Schluss – DAX mit versöhnlichem Wochenschluss",
+            "u": "https://www.wallstreet-online.de/nachricht/21758728-aktien-frankfurt-schluss-dax-versoehnlichem-wochenschluss-tech-autos-gesucht"
+          },
+          {
+            "t": "finanzen.at/Dow Jones: DAX setzt Erholung fort – Commerzbank fällt erneut",
+            "u": "https://www.finanzen.at/nachrichten/aktien/maerkte-europa-dax-setzt-erholung-fort-commerzbank-aktie-fallt-erneut-1036805319"
+          },
+          {
+            "t": "finanzen.at: Euro STOXX 50 am Nachmittag",
+            "u": "https://www.finanzen.at/nachrichten/aktien/zuversicht-in-europa-so-performt-der-euro-stoxx-50-am-nachmittag-1036805567"
+          },
+          {
+            "t": "marketscreener/Dow Jones: DAX und Co weiter auf Erholungskurs",
+            "u": "https://de.marketscreener.com/boerse-nachrichten/dax-und-co-weiter-auf-erholungskurs-ce7851d9dd8bf622"
+          },
+          {
+            "t": "ariva/dpa-AFX: Aktien Europa – Erholung setzt sich fort",
+            "u": "https://ariva.de/news/aktien-europa-erholung-setzt-sich-fort-rohstoff-und-12222687"
+          },
+          {
+            "t": "aktiencheck: DAX-Wochenausblick",
+            "u": "https://aktiencheck.de/artikel/dax-wochenausblick-erholung-um-26-prozent-nach-dem-absturz-welche-politik"
+          },
+          {
+            "t": "Reuters via WHBL: European stocks extend recovery",
+            "u": "https://whbl.com/2026/11/27/european-stocks-extend-recovery-as-tech-miners-advance/"
+          },
+          {
+            "t": "AP via KSAT: Global shares mostly rise ahead of Wall Street's reopening",
+            "u": "https://www.ksat.com/business/2026/11/27/asian-shares-mostly-rise-ahead-of-wall-streets-reopening-after-thanksgiving/"
+          },
+          {
+            "t": "NERO Signal: Tokyo bought the chips",
+            "u": "https://nerosignal.substack.com/p/tokyo-bought-the-chips-and-ignored"
+          },
+          {
+            "t": "Al Jazeera: Asian stock markets rise after earlier tech rout",
+            "u": "https://www.aljazeera.com/economy/2026/11/27/asian-stock-markets-rise-after-earlier-tech-rout"
+          },
+          {
+            "t": "Yahoo Finance Live: Stock market today, Black Friday",
+            "u": "https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html"
+          },
+          {
+            "t": "Blockonomi: Wall Street's best week in 19 months",
+            "u": "https://blockonomi.com/stock-market-today-wall-streets-best-week-in-19-months-rests-on-one-day/"
+          },
+          {
+            "t": "TokenPost: US stock futures point higher",
+            "u": "https://www.tokenpost.com/news/investing/63678"
+          },
+          {
+            "t": "Eurasia Business News: U.S. Stock Market Today, 27.11.2026",
+            "u": "https://eurasiabusinessnews.com/2026/11/27/u-s-stock-market-today-november-27-2026-tech-rebounds-in-shortened-black-friday-session/"
+          },
+          {
+            "t": "JournalArta: S&P 500, Nasdaq and Dow open higher",
+            "u": "https://journalarta.com/en/2026/11/27/sp-500-nasdaq-and-dow-open-higher-on-black-friday-as-tech-and-china-rally-lift-mood/"
+          },
+          {
+            "t": "finanzen.net/dpa-AFX: Deutsche Anleihen – leichte Kursverluste",
+            "u": "https://www.finanzen.net/nachricht/anleihen/deutsche-anleihen-leichte-kursverluste-16090850"
+          },
+          {
+            "t": "aktiencheck: Bundesanleihen – Zehnjährige bei 3,28 %, Brent bei 97 $",
+            "u": "https://aktiencheck.de/artikel/bundesanleihen-zehnjaehrige-bei-328-prozent-brent-bei-97-dollar-wie-viel"
+          },
+          {
+            "t": "ad-hoc-news/dpa-AFX: Tagesvorschau Termine am 30. November 2026",
+            "u": "https://www.ad-hoc-news.de/boerse/news/corporate-news/tagesvorschau-termine-am-30-november-2026/70562715"
+          },
+          {
+            "t": "onvista/dpa-AFX: Wochenvorschau Termine bis 11. Dezember 2026",
+            "u": "https://www.onvista.de/news/2026/11-27-wochenvorschau-termine-bis-11-dezember-2026-0-10-26581585"
+          }
+        ]
+      }
+    },
     {
       "date": "2026-11-26",
       "marketUpdate": {
